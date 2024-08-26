@@ -1,0 +1,1164 @@
+{
+  "image_scanned": "newrelic/newrelic-prometheus-configurator:1.16.2",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            " pkg:golang/stdlib@1.21.6"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.9"
+        },
+        {
+          "cve_id": "CVE-2023-45289",
+          "package": [
+            " pkg:golang/stdlib@1.21.6"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8"
+        },
+        {
+          "cve_id": "CVE-2023-45290",
+          "package": [
+            " pkg:golang/stdlib@1.21.6"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8"
+        },
+        {
+          "cve_id": "CVE-2024-24783",
+          "package": [
+            " pkg:golang/stdlib@1.21.6"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8"
+        },
+        {
+          "cve_id": "CVE-2024-24784",
+          "package": [
+            " pkg:golang/stdlib@1.21.6"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8"
+        },
+        {
+          "cve_id": "CVE-2024-24785",
+          "package": [
+            " pkg:golang/stdlib@1.21.6"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8"
+        },
+        {
+          "cve_id": "CVE-2024-24789",
+          "package": [
+            " pkg:golang/stdlib@1.21.6"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.11"
+        },
+        {
+          "cve_id": "CVE-2024-24790",
+          "package": [
+            " pkg:golang/stdlib@1.21.6"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.11"
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            " pkg:apk/alpine/openssl@3.3.0-r2?os_name=alpine\u0026os_version=3.20"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.3.0-r3"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r28?os_name=alpine\u0026os_version=3.20"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r30"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r28?os_name=alpine\u0026os_version=3.20"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r30"
+        }
+      ],
+      "num_cves": 11,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.9166667
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "busybox/busybox@1.36.1-r28"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r29"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "busybox/busybox@1.36.1-r28"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r29"
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "openssl/libcrypto3@3.3.0-r2"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto3@3.3.0-r3"
+        }
+      ],
+      "num_cves": 3,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.25
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "3.20:busybox_1.36.1-r28",
+            "3.20:busybox-binsh_1.36.1-r28",
+            "3.20:ssl_client_1.36.1-r28"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "3.20:ssl_client_1.36.1-r28",
+            "3.20:busybox_1.36.1-r28",
+            "3.20:busybox-binsh_1.36.1-r28"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            "github.com/golang/go_1.21.6"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        }
+      ],
+      "num_cves": 3,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42364",
+        "CVE-2023-42365"
+      ],
+      "relative_efficiency": 0.25
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-45289",
+          "package": [
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-45290",
+          "package": [
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24783",
+          "package": [
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24784",
+          "package": [
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24785",
+          "package": [
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "libcrypto3",
+            "libssl3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.3.0-r3"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r29"
+        },
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24789",
+          "package": [
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24790",
+          "package": [
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r29"
+        },
+        {
+          "cve_id": "CVE-2024-24787",
+          "package": [
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 12,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42364",
+        "CVE-2023-42365",
+        "CVE-2024-4741"
+      ],
+      "relative_efficiency": 1
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "newrelic/newrelic-prometheus-configurator: busybox@1.36.1-r28",
+            "newrelic/newrelic-prometheus-configurator: busybox-binsh@1.36.1-r28",
+            "newrelic/newrelic-prometheus-configurator: ssl_client@1.36.1-r28"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r29"
+        },
+        {
+          "cve_id": "CVE-2023-45289",
+          "package": [
+            "prometheus-configurator: stdlib@1.21.6"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8, 1.22.1"
+        },
+        {
+          "cve_id": "CVE-2023-45290",
+          "package": [
+            "prometheus-configurator: stdlib@1.21.6"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8, 1.22.1"
+        },
+        {
+          "cve_id": "CVE-2024-24784",
+          "package": [
+            "prometheus-configurator: stdlib@1.21.6"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8, 1.22.1"
+        },
+        {
+          "cve_id": "CVE-2024-24785",
+          "package": [
+            "prometheus-configurator: stdlib@1.21.6"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8, 1.22.1"
+        },
+        {
+          "cve_id": "CVE-2024-24790",
+          "package": [
+            "prometheus-configurator: stdlib@1.21.6"
+          ],
+          "cvssv3_score": "",
+          "severity": "UNKNOWN",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.11, 1.22.4"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "newrelic/newrelic-prometheus-configurator: busybox@1.36.1-r28",
+            "newrelic/newrelic-prometheus-configurator: busybox-binsh@1.36.1-r28",
+            "newrelic/newrelic-prometheus-configurator: ssl_client@1.36.1-r28"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r29"
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "newrelic/newrelic-prometheus-configurator: libcrypto3@3.3.0-r2",
+            "newrelic/newrelic-prometheus-configurator: libssl3@3.3.0-r2"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.3.0-r3"
+        },
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            "prometheus-configurator: stdlib@1.21.6"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.9, 1.22.2"
+        },
+        {
+          "cve_id": "CVE-2024-24783",
+          "package": [
+            "prometheus-configurator: stdlib@1.21.6"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8, 1.22.1"
+        },
+        {
+          "cve_id": "CVE-2024-24789",
+          "package": [
+            "prometheus-configurator: stdlib@1.21.6"
+          ],
+          "cvssv3_score": "",
+          "severity": "UNKNOWN",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.11, 1.22.4"
+        }
+      ],
+      "num_cves": 11,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42364",
+        "CVE-2023-42365",
+        "CVE-2024-4741"
+      ],
+      "relative_efficiency": 0.9166667
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2023-45288",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              " pkg:golang/stdlib@1.21.6"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.9"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              "github.com/golang/go_1.21.6"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              "prometheus-configurator: stdlib@1.21.6"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.9, 1.22.2"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-45289",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-45289",
+            "package": [
+              " pkg:golang/stdlib@1.21.6"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-45289",
+            "package": [
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-45289",
+            "package": [
+              "prometheus-configurator: stdlib@1.21.6"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8, 1.22.1"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-24784",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24784",
+            "package": [
+              " pkg:golang/stdlib@1.21.6"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24784",
+            "package": [
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24784",
+            "package": [
+              "prometheus-configurator: stdlib@1.21.6"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8, 1.22.1"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-24785",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24785",
+            "package": [
+              " pkg:golang/stdlib@1.21.6"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24785",
+            "package": [
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24785",
+            "package": [
+              "prometheus-configurator: stdlib@1.21.6"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8, 1.22.1"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-24789",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24789",
+            "package": [
+              " pkg:golang/stdlib@1.21.6"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.11"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24789",
+            "package": [
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24789",
+            "package": [
+              "prometheus-configurator: stdlib@1.21.6"
+            ],
+            "cvssv3_score": "",
+            "severity": "UNKNOWN",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.11, 1.22.4"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-24790",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24790",
+            "package": [
+              " pkg:golang/stdlib@1.21.6"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.11"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24790",
+            "package": [
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24790",
+            "package": [
+              "prometheus-configurator: stdlib@1.21.6"
+            ],
+            "cvssv3_score": "",
+            "severity": "UNKNOWN",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.11, 1.22.4"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-45290",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-45290",
+            "package": [
+              " pkg:golang/stdlib@1.21.6"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-45290",
+            "package": [
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-45290",
+            "package": [
+              "prometheus-configurator: stdlib@1.21.6"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8, 1.22.1"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-24783",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24783",
+            "package": [
+              " pkg:golang/stdlib@1.21.6"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24783",
+            "package": [
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24783",
+            "package": [
+              "prometheus-configurator: stdlib@1.21.6"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8, 1.22.1"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-4741",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              " pkg:apk/alpine/openssl@3.3.0-r2?os_name=alpine\u0026os_version=3.20"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.3.0-r3"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "openssl/libcrypto3@3.3.0-r2"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto3@3.3.0-r3"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "libcrypto3",
+              "libssl3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.3.0-r3"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "newrelic/newrelic-prometheus-configurator: libcrypto3@3.3.0-r2",
+              "newrelic/newrelic-prometheus-configurator: libssl3@3.3.0-r2"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.3.0-r3"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-42364",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r28?os_name=alpine\u0026os_version=3.20"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r30"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "busybox/busybox@1.36.1-r28"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r29"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "3.20:busybox_1.36.1-r28",
+              "3.20:busybox-binsh_1.36.1-r28",
+              "3.20:ssl_client_1.36.1-r28"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r29"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "newrelic/newrelic-prometheus-configurator: busybox@1.36.1-r28",
+              "newrelic/newrelic-prometheus-configurator: busybox-binsh@1.36.1-r28",
+              "newrelic/newrelic-prometheus-configurator: ssl_client@1.36.1-r28"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r29"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2023-42365",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r28?os_name=alpine\u0026os_version=3.20"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r30"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "busybox/busybox@1.36.1-r28"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r29"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "3.20:ssl_client_1.36.1-r28",
+              "3.20:busybox_1.36.1-r28",
+              "3.20:busybox-binsh_1.36.1-r28"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r29"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "newrelic/newrelic-prometheus-configurator: busybox@1.36.1-r28",
+              "newrelic/newrelic-prometheus-configurator: busybox-binsh@1.36.1-r28",
+              "newrelic/newrelic-prometheus-configurator: ssl_client@1.36.1-r28"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r29"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2024-24787",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24787",
+            "package": [
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 12
+}

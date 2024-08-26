@@ -1,0 +1,80 @@
+{
+  "image_scanned": "fedora:rawhide",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "Snyk",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "DockerScout",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2018-20225",
+          "package": [
+            "pip_24.0"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 1,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 1
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2018-20225",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-20225",
+            "package": [
+              "pip_24.0"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 1
+}

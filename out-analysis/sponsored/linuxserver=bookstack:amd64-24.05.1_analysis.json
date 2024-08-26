@@ -1,0 +1,1053 @@
+{
+  "image_scanned": "linuxserver/bookstack:amd64-24.05.1",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "busybox/busybox@1.36.1-r28"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r29"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "busybox/busybox@1.36.1-r28"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r29"
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "openssl/openssl@3.3.0-r2"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/openssl@3.3.0-r3"
+        }
+      ],
+      "num_cves": 3,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.2
+    },
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            " pkg:apk/alpine/openssl@3.3.0-r2?os_name=alpine\u0026os_version=3.20"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.3.0-r3"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r28?os_name=alpine\u0026os_version=3.20"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r30"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r28?os_name=alpine\u0026os_version=3.20"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r30"
+        }
+      ],
+      "num_cves": 3,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.2
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "linuxserver/bookstack: busybox@1.36.1-r28",
+            "linuxserver/bookstack: busybox-binsh@1.36.1-r28",
+            "linuxserver/bookstack: ssl_client@1.36.1-r28"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r29"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "linuxserver/bookstack: busybox@1.36.1-r28",
+            "linuxserver/bookstack: busybox-binsh@1.36.1-r28",
+            "linuxserver/bookstack: ssl_client@1.36.1-r28"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r29"
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "linuxserver/bookstack: libcrypto3@3.3.0-r2",
+            "linuxserver/bookstack: libssl3@3.3.0-r2",
+            "linuxserver/bookstack: openssl@3.3.0-r2"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.3.0-r3"
+        }
+      ],
+      "num_cves": 3,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42364",
+        "CVE-2023-42365",
+        "CVE-2024-4741"
+      ],
+      "relative_efficiency": 0.2
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2022-4900",
+          "package": [
+            "php83"
+          ],
+          "cvssv3_score": "6.2",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "libcrypto3",
+            "libssl3",
+            "openssl"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.3.0-r3"
+        },
+        {
+          "cve_id": "CVE-2024-5458",
+          "package": [
+            "php83"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2007-2728",
+          "package": [
+            "php83"
+          ],
+          "cvssv3_score": "5.0",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2015-3211",
+          "package": [
+            "php83-fpm"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-2781",
+          "package": [
+            "coreutils",
+            "coreutils-env",
+            "coreutils-fmt",
+            "coreutils-sha512sum"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-35242",
+          "package": [
+            "composer"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4577",
+          "package": [
+            "php83"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2007-3205",
+          "package": [
+            "php83"
+          ],
+          "cvssv3_score": "5.0",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2007-4596",
+          "package": [
+            "php83"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r29"
+        },
+        {
+          "cve_id": "CVE-2024-2408",
+          "package": [
+            "php83"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r29"
+        },
+        {
+          "cve_id": "CVE-2024-35241",
+          "package": [
+            "composer"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-5585",
+          "package": [
+            "php83"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 15,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2016-2781",
+        "CVE-2023-42364",
+        "CVE-2023-42365",
+        "CVE-2024-4741"
+      ],
+      "relative_efficiency": 1
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-4577",
+          "package": [
+            "3.20:php83-dom_8.3.7-r0",
+            "3.20:php83-xml_8.3.7-r0",
+            "3.20:php83-openssl_8.3.7-r0",
+            "3.20:php83-common_8.3.7-r0",
+            "3.20:php83-pdo_8.3.7-r0",
+            "3.20:php83-sockets_8.3.7-r0",
+            "3.20:php83-fileinfo_8.3.7-r0",
+            "3.20:php83-simplexml_8.3.7-r0",
+            "3.20:php83-gd_8.3.7-r0",
+            "3.20:php83-curl_8.3.7-r0",
+            "3.20:php83-iconv_8.3.7-r0",
+            "3.20:php83-ctype_8.3.7-r0",
+            "3.20:php83-zip_8.3.7-r0",
+            "3.20:php83-tokenizer_8.3.7-r0",
+            "3.20:php83-xmlwriter_8.3.7-r0",
+            "3.20:php83_8.3.7-r0",
+            "3.20:php83-pdo_mysql_8.3.7-r0",
+            "3.20:php83-mysqlnd_8.3.7-r0",
+            "3.20:php83-fpm_8.3.7-r0",
+            "3.20:php83-session_8.3.7-r0",
+            "3.20:php83-mbstring_8.3.7-r0",
+            "3.20:php83-phar_8.3.7-r0",
+            "3.20:php83-ldap_8.3.7-r0"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2024-5585",
+          "package": [
+            "3.20:php83-ctype_8.3.7-r0",
+            "3.20:php83-pdo_mysql_8.3.7-r0",
+            "3.20:php83-common_8.3.7-r0",
+            "3.20:php83-simplexml_8.3.7-r0",
+            "3.20:php83-pdo_8.3.7-r0",
+            "3.20:php83-fpm_8.3.7-r0",
+            "3.20:php83-mysqlnd_8.3.7-r0",
+            "3.20:php83-zip_8.3.7-r0",
+            "3.20:php83-openssl_8.3.7-r0",
+            "3.20:php83-mbstring_8.3.7-r0",
+            "3.20:php83-curl_8.3.7-r0",
+            "3.20:php83-phar_8.3.7-r0",
+            "3.20:php83-xmlwriter_8.3.7-r0",
+            "3.20:php83-gd_8.3.7-r0",
+            "3.20:php83-sockets_8.3.7-r0",
+            "3.20:php83-ldap_8.3.7-r0",
+            "3.20:php83-session_8.3.7-r0",
+            "3.20:php83-xml_8.3.7-r0",
+            "3.20:php83-iconv_8.3.7-r0",
+            "3.20:php83-fileinfo_8.3.7-r0",
+            "3.20:php83-tokenizer_8.3.7-r0",
+            "3.20:php83-dom_8.3.7-r0",
+            "3.20:php83_8.3.7-r0"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "8.8"
+        },
+        {
+          "cve_id": "CVE-2024-5458",
+          "package": [
+            "3.20:php83-sockets_8.3.7-r0",
+            "3.20:php83-dom_8.3.7-r0",
+            "3.20:php83-curl_8.3.7-r0",
+            "3.20:php83-xmlwriter_8.3.7-r0",
+            "3.20:php83-mysqlnd_8.3.7-r0",
+            "3.20:php83-ctype_8.3.7-r0",
+            "3.20:php83-phar_8.3.7-r0",
+            "3.20:php83-xml_8.3.7-r0",
+            "3.20:php83-iconv_8.3.7-r0",
+            "3.20:php83-common_8.3.7-r0",
+            "3.20:php83-gd_8.3.7-r0",
+            "3.20:php83-simplexml_8.3.7-r0",
+            "3.20:php83-zip_8.3.7-r0",
+            "3.20:php83_8.3.7-r0",
+            "3.20:php83-pdo_mysql_8.3.7-r0",
+            "3.20:php83-tokenizer_8.3.7-r0",
+            "3.20:php83-fpm_8.3.7-r0",
+            "3.20:php83-ldap_8.3.7-r0",
+            "3.20:php83-pdo_8.3.7-r0",
+            "3.20:php83-openssl_8.3.7-r0",
+            "3.20:php83-session_8.3.7-r0",
+            "3.20:php83-fileinfo_8.3.7-r0",
+            "3.20:php83-mbstring_8.3.7-r0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "3.20:busybox-binsh_1.36.1-r28",
+            "3.20:ssl_client_1.36.1-r28",
+            "3.20:busybox_1.36.1-r28"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "3.20:busybox-binsh_1.36.1-r28",
+            "3.20:busybox_1.36.1-r28",
+            "3.20:ssl_client_1.36.1-r28"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        }
+      ],
+      "num_cves": 5,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-4577",
+        "CVE-2024-5585",
+        "CVE-2024-5458",
+        "CVE-2023-42364",
+        "CVE-2023-42365"
+      ],
+      "relative_efficiency": 0.33333334
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2015-3211",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2015-3211",
+            "package": [
+              "php83-fpm"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-35242",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-35242",
+            "package": [
+              "composer"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-5585",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-5585",
+            "package": [
+              "php83"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-5585",
+            "package": [
+              "3.20:php83-ctype_8.3.7-r0",
+              "3.20:php83-pdo_mysql_8.3.7-r0",
+              "3.20:php83-common_8.3.7-r0",
+              "3.20:php83-simplexml_8.3.7-r0",
+              "3.20:php83-pdo_8.3.7-r0",
+              "3.20:php83-fpm_8.3.7-r0",
+              "3.20:php83-mysqlnd_8.3.7-r0",
+              "3.20:php83-zip_8.3.7-r0",
+              "3.20:php83-openssl_8.3.7-r0",
+              "3.20:php83-mbstring_8.3.7-r0",
+              "3.20:php83-curl_8.3.7-r0",
+              "3.20:php83-phar_8.3.7-r0",
+              "3.20:php83-xmlwriter_8.3.7-r0",
+              "3.20:php83-gd_8.3.7-r0",
+              "3.20:php83-sockets_8.3.7-r0",
+              "3.20:php83-ldap_8.3.7-r0",
+              "3.20:php83-session_8.3.7-r0",
+              "3.20:php83-xml_8.3.7-r0",
+              "3.20:php83-iconv_8.3.7-r0",
+              "3.20:php83-fileinfo_8.3.7-r0",
+              "3.20:php83-tokenizer_8.3.7-r0",
+              "3.20:php83-dom_8.3.7-r0",
+              "3.20:php83_8.3.7-r0"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "8.8"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-42364",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "busybox/busybox@1.36.1-r28"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r29"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r28?os_name=alpine\u0026os_version=3.20"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r30"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "linuxserver/bookstack: busybox@1.36.1-r28",
+              "linuxserver/bookstack: busybox-binsh@1.36.1-r28",
+              "linuxserver/bookstack: ssl_client@1.36.1-r28"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r29"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r29"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "3.20:busybox-binsh_1.36.1-r28",
+              "3.20:ssl_client_1.36.1-r28",
+              "3.20:busybox_1.36.1-r28"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2022-4900",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-4900",
+            "package": [
+              "php83"
+            ],
+            "cvssv3_score": "6.2",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2007-2728",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2007-2728",
+            "package": [
+              "php83"
+            ],
+            "cvssv3_score": "5.0",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-35241",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-35241",
+            "package": [
+              "composer"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-4741",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "openssl/openssl@3.3.0-r2"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/openssl@3.3.0-r3"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              " pkg:apk/alpine/openssl@3.3.0-r2?os_name=alpine\u0026os_version=3.20"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.3.0-r3"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "linuxserver/bookstack: libcrypto3@3.3.0-r2",
+              "linuxserver/bookstack: libssl3@3.3.0-r2",
+              "linuxserver/bookstack: openssl@3.3.0-r2"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.3.0-r3"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "libcrypto3",
+              "libssl3",
+              "openssl"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.3.0-r3"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-4577",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-4577",
+            "package": [
+              "php83"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-4577",
+            "package": [
+              "3.20:php83-dom_8.3.7-r0",
+              "3.20:php83-xml_8.3.7-r0",
+              "3.20:php83-openssl_8.3.7-r0",
+              "3.20:php83-common_8.3.7-r0",
+              "3.20:php83-pdo_8.3.7-r0",
+              "3.20:php83-sockets_8.3.7-r0",
+              "3.20:php83-fileinfo_8.3.7-r0",
+              "3.20:php83-simplexml_8.3.7-r0",
+              "3.20:php83-gd_8.3.7-r0",
+              "3.20:php83-curl_8.3.7-r0",
+              "3.20:php83-iconv_8.3.7-r0",
+              "3.20:php83-ctype_8.3.7-r0",
+              "3.20:php83-zip_8.3.7-r0",
+              "3.20:php83-tokenizer_8.3.7-r0",
+              "3.20:php83-xmlwriter_8.3.7-r0",
+              "3.20:php83_8.3.7-r0",
+              "3.20:php83-pdo_mysql_8.3.7-r0",
+              "3.20:php83-mysqlnd_8.3.7-r0",
+              "3.20:php83-fpm_8.3.7-r0",
+              "3.20:php83-session_8.3.7-r0",
+              "3.20:php83-mbstring_8.3.7-r0",
+              "3.20:php83-phar_8.3.7-r0",
+              "3.20:php83-ldap_8.3.7-r0"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2007-3205",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2007-3205",
+            "package": [
+              "php83"
+            ],
+            "cvssv3_score": "5.0",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2408",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2408",
+            "package": [
+              "php83"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42365",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "busybox/busybox@1.36.1-r28"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r29"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r28?os_name=alpine\u0026os_version=3.20"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r30"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "linuxserver/bookstack: busybox@1.36.1-r28",
+              "linuxserver/bookstack: busybox-binsh@1.36.1-r28",
+              "linuxserver/bookstack: ssl_client@1.36.1-r28"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r29"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r29"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "3.20:busybox-binsh_1.36.1-r28",
+              "3.20:busybox_1.36.1-r28",
+              "3.20:ssl_client_1.36.1-r28"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2024-5458",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-5458",
+            "package": [
+              "php83"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-5458",
+            "package": [
+              "3.20:php83-sockets_8.3.7-r0",
+              "3.20:php83-dom_8.3.7-r0",
+              "3.20:php83-curl_8.3.7-r0",
+              "3.20:php83-xmlwriter_8.3.7-r0",
+              "3.20:php83-mysqlnd_8.3.7-r0",
+              "3.20:php83-ctype_8.3.7-r0",
+              "3.20:php83-phar_8.3.7-r0",
+              "3.20:php83-xml_8.3.7-r0",
+              "3.20:php83-iconv_8.3.7-r0",
+              "3.20:php83-common_8.3.7-r0",
+              "3.20:php83-gd_8.3.7-r0",
+              "3.20:php83-simplexml_8.3.7-r0",
+              "3.20:php83-zip_8.3.7-r0",
+              "3.20:php83_8.3.7-r0",
+              "3.20:php83-pdo_mysql_8.3.7-r0",
+              "3.20:php83-tokenizer_8.3.7-r0",
+              "3.20:php83-fpm_8.3.7-r0",
+              "3.20:php83-ldap_8.3.7-r0",
+              "3.20:php83-pdo_8.3.7-r0",
+              "3.20:php83-openssl_8.3.7-r0",
+              "3.20:php83-session_8.3.7-r0",
+              "3.20:php83-fileinfo_8.3.7-r0",
+              "3.20:php83-mbstring_8.3.7-r0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2016-2781",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-2781",
+            "package": [
+              "coreutils",
+              "coreutils-env",
+              "coreutils-fmt",
+              "coreutils-sha512sum"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2007-4596",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2007-4596",
+            "package": [
+              "php83"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 15
+}

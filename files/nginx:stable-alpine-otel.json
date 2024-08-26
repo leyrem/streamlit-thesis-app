@@ -1,0 +1,140 @@
+{
+
+    "image_name": "nginx:stable-alpine-otel",
+    "category": "official",
+    "unique_cves": [
+        {
+            "cve_id": "CVE-2023-42366",
+            "detected_scanners": "DockerScout, Trivy, Snyk, JFrog, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-42363",
+            "detected_scanners": "DockerScout, Trivy, Snyk, JFrog, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-42365",
+            "detected_scanners": "DockerScout, Snyk, JFrog, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-42364",
+            "detected_scanners": "DockerScout, Snyk, JFrog, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-0853",
+            "detected_scanners": "DockerScout, JFrog, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-2004",
+            "detected_scanners": "JFrog, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-2398",
+            "detected_scanners": "JFrog, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-2466",
+            "detected_scanners": "JFrog, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-52356",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-6228",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2012-5373",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "package not installed",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2023-52071",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "CVE rejected",
+            "reason_keyword": "cve-rejected"
+        },
+        {
+            "cve_id": "CVE-2021-4214",
+            "detected_scanners": "JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2015-7313",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-28182",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-6277",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-28085",
+            "detected_scanners": "JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-2379",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "version mismatch",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2012-2739",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "package not installed",
+            "reason_keyword": "pkg-not-found"
+        }
+    ]
+}

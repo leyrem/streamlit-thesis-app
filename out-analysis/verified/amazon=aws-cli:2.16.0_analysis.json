@@ -1,0 +1,267 @@
+{
+  "image_scanned": "amazon/aws-cli:2.16.0",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "Snyk",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "DockerScout",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2018-20225",
+          "package": [
+            "pip_19.2.3"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-40897",
+          "package": [
+            "setuptools_41.2.0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[65.5.1]"
+        },
+        {
+          "cve_id": "CVE-2021-3572",
+          "package": [
+            "pip_19.2.3"
+          ],
+          "cvssv3_score": "5.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[21.1]"
+        },
+        {
+          "cve_id": "CVE-2023-5752",
+          "package": [
+            "pip_19.2.3"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[23.3]"
+        }
+      ],
+      "num_cves": 4,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.5714286
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-6597",
+          "package": [
+            "python"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-0450",
+          "package": [
+            "python"
+          ],
+          "cvssv3_score": "6.2",
+          "severity": "medium",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4030",
+          "package": [
+            "python"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 3,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.42857143
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2022-40897",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-40897",
+            "package": [
+              "setuptools_41.2.0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[65.5.1]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-3572",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-3572",
+            "package": [
+              "pip_19.2.3"
+            ],
+            "cvssv3_score": "5.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[21.1]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-5752",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-5752",
+            "package": [
+              "pip_19.2.3"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[23.3]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-6597",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-6597",
+            "package": [
+              "python"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-0450",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-0450",
+            "package": [
+              "python"
+            ],
+            "cvssv3_score": "6.2",
+            "severity": "medium",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-4030",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-4030",
+            "package": [
+              "python"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-20225",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-20225",
+            "package": [
+              "pip_19.2.3"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 7
+}

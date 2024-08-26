@@ -1,0 +1,217 @@
+{
+
+    "image_name": "ubuntu:18.10",
+    "category": "official",
+    "unique_cves": [
+        {
+            "cve_id": "CVE-2019-3844",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2017-7245",
+            "detected_scanners": "Grype",
+            "outcome": "False Positive",
+            "reason": "version mismatch",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2018-16869",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2016-10739",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2017-8283",
+            "detected_scanners": "Grype",
+            "outcome": "False Positive",
+            "reason": "version mismatch",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2019-1010023",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2018-20839",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2018-1000654",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2019-6488",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2013-4235",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2019-7309",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2017-11164",
+            "detected_scanners": "Grype",
+            "outcome": "False Positive",
+            "reason": "version mismatch",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2019-9192",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2019-12904",
+            "detected_scanners": "Grype",
+            "outcome": "False Positive",
+            "reason": "version mismatch",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2018-7169",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2017-7246",
+            "detected_scanners": "Grype",
+            "outcome": "False Positive",
+            "reason": "version mismatch",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2018-20796",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2019-1010025",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2016-2781",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2017-18018",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2018-16868",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2019-1010024",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2018-12886",
+            "detected_scanners": "Grype",
+            "outcome": "False Positive",
+            "reason": "version mismatch",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2018-19591",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2019-3843",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2018-20482",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2019-9923",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2016-10228",
+            "detected_scanners": "Grype",
+            "outcome": "False Positive",
+            "reason": "version mismatch",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2017-16231",
+            "detected_scanners": "Grype",
+            "outcome": "False Positive",
+            "reason": "version mismatch",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2019-9169",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        }
+    ]
+}

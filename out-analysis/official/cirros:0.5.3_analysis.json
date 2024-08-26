@@ -1,0 +1,514 @@
+{
+  "image_scanned": "cirros:0.5.3",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "DockerScout",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2018-1000500",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-20679",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-5747",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-42374",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-42376",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-42378",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-42379",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-42380",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-42381",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-42382",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-42384",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-42385",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-42386",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-28391",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-48174",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 15,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 1
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2019-5747",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-5747",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-42376",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42376",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-42379",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42379",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-42382",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42382",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-42384",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42384",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-20679",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2018-20679",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-42374",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42374",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-42381",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42381",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-42385",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42385",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-28391",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-28391",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-1000500",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2018-1000500",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-42378",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42378",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-42380",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42380",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-42386",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42386",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-48174",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-48174",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 15
+}

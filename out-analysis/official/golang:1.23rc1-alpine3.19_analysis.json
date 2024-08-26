@@ -1,0 +1,47 @@
+{
+  "image_scanned": "golang:1.23rc1-alpine3.19",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "DockerScout",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    }
+  ],
+  "unique_cves": [],
+  "num_unique_cves": 0
+}

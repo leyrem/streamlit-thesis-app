@@ -1,0 +1,1821 @@
+{
+  "image_scanned": "neurodebian:nd20.04-non-free",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2016-2781",
+          "package": [
+            "coreutils@8.30-3ubuntu2"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-33574",
+          "package": [
+            "glibc/libc-bin@2.31-0ubuntu9.16"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-20013",
+          "package": [
+            "glibc/libc-bin@2.31-0ubuntu9.16"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-3219",
+          "package": [
+            "gnupg2/gpgv@2.2.19-3ubuntu2.2"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2236",
+          "package": [
+            "libgcrypt20@1.8.5-5ubuntu1.1"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-50495",
+          "package": [
+            "ncurses/libtinfo6@6.2-0ubuntu2.1"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-45918",
+          "package": [
+            "ncurses/libtinfo6@6.2-0ubuntu2.1"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-11164",
+          "package": [
+            "pcre3/libpcre3@2:8.39-12ubuntu0.1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-29383",
+          "package": [
+            "shadow/passwd@1:4.8.1-1ubuntu5.20.04.5"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2013-4235",
+          "package": [
+            "shadow/passwd@1:4.8.1-1ubuntu5.20.04.5"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-26604",
+          "package": [
+            "systemd/libsystemd0@245.4-4ubuntu3.23"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-7008",
+          "package": [
+            "systemd/libsystemd0@245.4-4ubuntu3.23"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-22916",
+          "package": [
+            "xz-utils/liblzma5@5.2.4-1ubuntu1.1"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 13,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 1
+    },
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-45918",
+          "package": [
+            " pkg:deb/ubuntu/ncurses@6.2-0ubuntu2.1?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-3219",
+          "package": [
+            " pkg:deb/ubuntu/gnupg2@2.2.19-3ubuntu2.2?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+          ],
+          "cvssv3_score": "3.300000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-29383",
+          "package": [
+            " pkg:deb/ubuntu/shadow@1:4.8.1-1ubuntu5.20.04.5?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+          ],
+          "cvssv3_score": "3.300000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2013-4235",
+          "package": [
+            " pkg:deb/ubuntu/shadow@1:4.8.1-1ubuntu5.20.04.5?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+          ],
+          "cvssv3_score": "4.700000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-7008",
+          "package": [
+            " pkg:deb/ubuntu/systemd@245.4-4ubuntu3.23?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+          ],
+          "cvssv3_score": "5.900000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-2781",
+          "package": [
+            " pkg:deb/ubuntu/coreutils@8.30-3ubuntu2?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+          ],
+          "cvssv3_score": "6.500000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-50495",
+          "package": [
+            " pkg:deb/ubuntu/ncurses@6.2-0ubuntu2.1?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+          ],
+          "cvssv3_score": "6.500000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-20013",
+          "package": [
+            " pkg:deb/ubuntu/glibc@2.31-0ubuntu9.16?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+          ],
+          "cvssv3_score": "7.500000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-11164",
+          "package": [
+            " pkg:deb/ubuntu/pcre3@2:8.39-12ubuntu0.1?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+          ],
+          "cvssv3_score": "7.500000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-26604",
+          "package": [
+            " pkg:deb/ubuntu/systemd@245.4-4ubuntu3.23?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+          ],
+          "cvssv3_score": "7.800000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2236",
+          "package": [
+            " pkg:deb/ubuntu/libgcrypt20@1.8.5-5ubuntu1.1?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-22916",
+          "package": [
+            " pkg:deb/ubuntu/xz-utils@5.2.4-1ubuntu1.1?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+          ],
+          "cvssv3_score": "5.500000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 12,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.9230769
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-45918",
+          "package": [
+            "library/neurodebian: libncurses6@6.2-0ubuntu2.1",
+            "library/neurodebian: libncursesw6@6.2-0ubuntu2.1",
+            "library/neurodebian: libtinfo6@6.2-0ubuntu2.1",
+            "library/neurodebian: ncurses-base@6.2-0ubuntu2.1",
+            "library/neurodebian: ncurses-bin@6.2-0ubuntu2.1"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-26604",
+          "package": [
+            "library/neurodebian: libsystemd0@245.4-4ubuntu3.23",
+            "library/neurodebian: libudev1@245.4-4ubuntu3.23"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2013-4235",
+          "package": [
+            "library/neurodebian: login@1:4.8.1-1ubuntu5.20.04.5",
+            "library/neurodebian: passwd@1:4.8.1-1ubuntu5.20.04.5"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-50495",
+          "package": [
+            "library/neurodebian: libncurses6@6.2-0ubuntu2.1",
+            "library/neurodebian: libncursesw6@6.2-0ubuntu2.1",
+            "library/neurodebian: libtinfo6@6.2-0ubuntu2.1",
+            "library/neurodebian: ncurses-base@6.2-0ubuntu2.1",
+            "library/neurodebian: ncurses-bin@6.2-0ubuntu2.1"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-11164",
+          "package": [
+            "library/neurodebian: libpcre3@2:8.39-12ubuntu0.1"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-7008",
+          "package": [
+            "library/neurodebian: libsystemd0@245.4-4ubuntu3.23",
+            "library/neurodebian: libudev1@245.4-4ubuntu3.23"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-2781",
+          "package": [
+            "library/neurodebian: coreutils@8.30-3ubuntu2"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-3219",
+          "package": [
+            "library/neurodebian: dirmngr@2.2.19-3ubuntu2.2",
+            "library/neurodebian: gnupg@2.2.19-3ubuntu2.2",
+            "library/neurodebian: gnupg-l10n@2.2.19-3ubuntu2.2",
+            "library/neurodebian: gnupg-utils@2.2.19-3ubuntu2.2",
+            "library/neurodebian: gpg@2.2.19-3ubuntu2.2",
+            "library/neurodebian: gpg-agent@2.2.19-3ubuntu2.2",
+            "library/neurodebian: gpg-wks-client@2.2.19-3ubuntu2.2",
+            "library/neurodebian: gpg-wks-server@2.2.19-3ubuntu2.2",
+            "library/neurodebian: gpgconf@2.2.19-3ubuntu2.2",
+            "library/neurodebian: gpgsm@2.2.19-3ubuntu2.2",
+            "library/neurodebian: gpgv@2.2.19-3ubuntu2.2"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-20013",
+          "package": [
+            "library/neurodebian: libc-bin@2.31-0ubuntu9.16",
+            "library/neurodebian: libc6@2.31-0ubuntu9.16"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2236",
+          "package": [
+            "library/neurodebian: libgcrypt20@1.8.5-5ubuntu1.1"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-22916",
+          "package": [
+            "library/neurodebian: liblzma5@5.2.4-1ubuntu1.1"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-29383",
+          "package": [
+            "library/neurodebian: login@1:4.8.1-1ubuntu5.20.04.5",
+            "library/neurodebian: passwd@1:4.8.1-1ubuntu5.20.04.5"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 12,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2022-3219",
+        "CVE-2016-20013",
+        "CVE-2023-45918",
+        "CVE-2023-50495",
+        "CVE-2023-26604",
+        "CVE-2023-7008",
+        "CVE-2013-4235",
+        "CVE-2023-29383"
+      ],
+      "relative_efficiency": 0.9230769
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-7008",
+          "package": [
+            "ubuntu:focal:libsystemd0_245.4-4ubuntu3.23",
+            "ubuntu:focal:libudev1_245.4-4ubuntu3.23"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2016-2781",
+          "package": [
+            "ubuntu:focal:coreutils_8.30-3ubuntu2"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2024-2236",
+          "package": [
+            "ubuntu:focal:libgcrypt20_1.8.5-5ubuntu1.1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2017-11164",
+          "package": [
+            "ubuntu:focal:libpcre3:2_8.39-12ubuntu0.1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-50495",
+          "package": [
+            "ubuntu:focal:libtinfo6_6.2-0ubuntu2.1",
+            "ubuntu:focal:libncurses6_6.2-0ubuntu2.1",
+            "ubuntu:focal:ncurses-bin_6.2-0ubuntu2.1",
+            "ubuntu:focal:ncurses-base_6.2-0ubuntu2.1",
+            "ubuntu:focal:libncursesw6_6.2-0ubuntu2.1"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2023-45918",
+          "package": [
+            "ubuntu:focal:libncursesw6_6.2-0ubuntu2.1",
+            "ubuntu:focal:libtinfo6_6.2-0ubuntu2.1",
+            "ubuntu:focal:ncurses-base_6.2-0ubuntu2.1",
+            "ubuntu:focal:libncurses6_6.2-0ubuntu2.1",
+            "ubuntu:focal:ncurses-bin_6.2-0ubuntu2.1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2022-3219",
+          "package": [
+            "ubuntu:focal:gpgsm_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gpgv_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gpg-wks-server_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:dirmngr_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gnupg-utils_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gnupg_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gnupg-l10n_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gpg-agent_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gpg_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gpg-wks-client_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gpgconf_2.2.19-3ubuntu2.2"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "3.3"
+        },
+        {
+          "cve_id": "CVE-2023-29383",
+          "package": [
+            "ubuntu:focal:login:1_4.8.1-1ubuntu5.20.04.5",
+            "ubuntu:focal:passwd:1_4.8.1-1ubuntu5.20.04.5"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "3.3"
+        },
+        {
+          "cve_id": "CVE-2013-4235",
+          "package": [
+            "ubuntu:focal:passwd:1_4.8.1-1ubuntu5.20.04.5",
+            "ubuntu:focal:login:1_4.8.1-1ubuntu5.20.04.5"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.7"
+        },
+        {
+          "cve_id": "CVE-2023-26604",
+          "package": [
+            "ubuntu:focal:libsystemd0_245.4-4ubuntu3.23",
+            "ubuntu:focal:libudev1_245.4-4ubuntu3.23"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.8"
+        },
+        {
+          "cve_id": "CVE-2020-22916",
+          "package": [
+            "ubuntu:focal:liblzma5_5.2.4-1ubuntu1.1"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2016-20013",
+          "package": [
+            "ubuntu:focal:libc-bin_2.31-0ubuntu9.16",
+            "ubuntu:focal:libc6_2.31-0ubuntu9.16"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        }
+      ],
+      "num_cves": 12,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-45918",
+        "CVE-2022-3219",
+        "CVE-2023-50495",
+        "CVE-2016-20013",
+        "CVE-2023-7008",
+        "CVE-2013-4235",
+        "CVE-2023-29383",
+        "CVE-2023-26604"
+      ],
+      "relative_efficiency": 0.9230769
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-7008",
+          "package": [
+            "libsystemd0",
+            "libudev1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2236",
+          "package": [
+            "libgcrypt20"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2013-4235",
+          "package": [
+            "login",
+            "passwd"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-2781",
+          "package": [
+            "coreutils"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-11164",
+          "package": [
+            "libpcre3"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-22916",
+          "package": [
+            "liblzma5"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-29383",
+          "package": [
+            "login",
+            "passwd"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-50495",
+          "package": [
+            "libncurses6",
+            "libncursesw6",
+            "libtinfo6",
+            "ncurses-base",
+            "ncurses-bin"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-20013",
+          "package": [
+            "libc-bin",
+            "libc6"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-3219",
+          "package": [
+            "dirmngr",
+            "gnupg",
+            "gnupg-l10n",
+            "gnupg-utils",
+            "gpg",
+            "gpg-agent",
+            "gpg-wks-client",
+            "gpg-wks-server",
+            "gpgconf",
+            "gpgsm",
+            "gpgv"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-26604",
+          "package": [
+            "libsystemd0",
+            "libudev1"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-45918",
+          "package": [
+            "libncurses6",
+            "libncursesw6",
+            "libtinfo6",
+            "ncurses-base",
+            "ncurses-bin"
+          ],
+          "cvssv3_score": "1.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 12,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2013-4235",
+        "CVE-2016-20013",
+        "CVE-2022-3219",
+        "CVE-2023-26604",
+        "CVE-2023-29383",
+        "CVE-2023-45918",
+        "CVE-2023-50495",
+        "CVE-2023-7008"
+      ],
+      "relative_efficiency": 0.9230769
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2023-7008",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-7008",
+            "package": [
+              "systemd/libsystemd0@245.4-4ubuntu3.23"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-7008",
+            "package": [
+              " pkg:deb/ubuntu/systemd@245.4-4ubuntu3.23?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+            ],
+            "cvssv3_score": "5.900000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-7008",
+            "package": [
+              "library/neurodebian: libsystemd0@245.4-4ubuntu3.23",
+              "library/neurodebian: libudev1@245.4-4ubuntu3.23"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-7008",
+            "package": [
+              "ubuntu:focal:libsystemd0_245.4-4ubuntu3.23",
+              "ubuntu:focal:libudev1_245.4-4ubuntu3.23"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-7008",
+            "package": [
+              "libsystemd0",
+              "libudev1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2023-50495",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-50495",
+            "package": [
+              "ncurses/libtinfo6@6.2-0ubuntu2.1"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-50495",
+            "package": [
+              " pkg:deb/ubuntu/ncurses@6.2-0ubuntu2.1?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+            ],
+            "cvssv3_score": "6.500000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-50495",
+            "package": [
+              "library/neurodebian: libncurses6@6.2-0ubuntu2.1",
+              "library/neurodebian: libncursesw6@6.2-0ubuntu2.1",
+              "library/neurodebian: libtinfo6@6.2-0ubuntu2.1",
+              "library/neurodebian: ncurses-base@6.2-0ubuntu2.1",
+              "library/neurodebian: ncurses-bin@6.2-0ubuntu2.1"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-50495",
+            "package": [
+              "ubuntu:focal:libtinfo6_6.2-0ubuntu2.1",
+              "ubuntu:focal:libncurses6_6.2-0ubuntu2.1",
+              "ubuntu:focal:ncurses-bin_6.2-0ubuntu2.1",
+              "ubuntu:focal:ncurses-base_6.2-0ubuntu2.1",
+              "ubuntu:focal:libncursesw6_6.2-0ubuntu2.1"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-50495",
+            "package": [
+              "libncurses6",
+              "libncursesw6",
+              "libtinfo6",
+              "ncurses-base",
+              "ncurses-bin"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2017-11164",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2017-11164",
+            "package": [
+              "pcre3/libpcre3@2:8.39-12ubuntu0.1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2017-11164",
+            "package": [
+              " pkg:deb/ubuntu/pcre3@2:8.39-12ubuntu0.1?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+            ],
+            "cvssv3_score": "7.500000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2017-11164",
+            "package": [
+              "library/neurodebian: libpcre3@2:8.39-12ubuntu0.1"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2017-11164",
+            "package": [
+              "ubuntu:focal:libpcre3:2_8.39-12ubuntu0.1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2017-11164",
+            "package": [
+              "libpcre3"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2016-20013",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2016-20013",
+            "package": [
+              "glibc/libc-bin@2.31-0ubuntu9.16"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2016-20013",
+            "package": [
+              " pkg:deb/ubuntu/glibc@2.31-0ubuntu9.16?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+            ],
+            "cvssv3_score": "7.500000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2016-20013",
+            "package": [
+              "library/neurodebian: libc-bin@2.31-0ubuntu9.16",
+              "library/neurodebian: libc6@2.31-0ubuntu9.16"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2016-20013",
+            "package": [
+              "ubuntu:focal:libc-bin_2.31-0ubuntu9.16",
+              "ubuntu:focal:libc6_2.31-0ubuntu9.16"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-20013",
+            "package": [
+              "libc-bin",
+              "libc6"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2022-3219",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-3219",
+            "package": [
+              "gnupg2/gpgv@2.2.19-3ubuntu2.2"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-3219",
+            "package": [
+              " pkg:deb/ubuntu/gnupg2@2.2.19-3ubuntu2.2?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+            ],
+            "cvssv3_score": "3.300000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-3219",
+            "package": [
+              "library/neurodebian: dirmngr@2.2.19-3ubuntu2.2",
+              "library/neurodebian: gnupg@2.2.19-3ubuntu2.2",
+              "library/neurodebian: gnupg-l10n@2.2.19-3ubuntu2.2",
+              "library/neurodebian: gnupg-utils@2.2.19-3ubuntu2.2",
+              "library/neurodebian: gpg@2.2.19-3ubuntu2.2",
+              "library/neurodebian: gpg-agent@2.2.19-3ubuntu2.2",
+              "library/neurodebian: gpg-wks-client@2.2.19-3ubuntu2.2",
+              "library/neurodebian: gpg-wks-server@2.2.19-3ubuntu2.2",
+              "library/neurodebian: gpgconf@2.2.19-3ubuntu2.2",
+              "library/neurodebian: gpgsm@2.2.19-3ubuntu2.2",
+              "library/neurodebian: gpgv@2.2.19-3ubuntu2.2"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-3219",
+            "package": [
+              "ubuntu:focal:gpgsm_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gpgv_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gpg-wks-server_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:dirmngr_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gnupg-utils_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gnupg_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gnupg-l10n_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gpg-agent_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gpg_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gpg-wks-client_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gpgconf_2.2.19-3ubuntu2.2"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "3.3"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-3219",
+            "package": [
+              "dirmngr",
+              "gnupg",
+              "gnupg-l10n",
+              "gnupg-utils",
+              "gpg",
+              "gpg-agent",
+              "gpg-wks-client",
+              "gpg-wks-server",
+              "gpgconf",
+              "gpgsm",
+              "gpgv"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2024-2236",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-2236",
+            "package": [
+              "libgcrypt20@1.8.5-5ubuntu1.1"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-2236",
+            "package": [
+              " pkg:deb/ubuntu/libgcrypt20@1.8.5-5ubuntu1.1?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-2236",
+            "package": [
+              "library/neurodebian: libgcrypt20@1.8.5-5ubuntu1.1"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2236",
+            "package": [
+              "ubuntu:focal:libgcrypt20_1.8.5-5ubuntu1.1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2236",
+            "package": [
+              "libgcrypt20"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2023-45918",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-45918",
+            "package": [
+              "ncurses/libtinfo6@6.2-0ubuntu2.1"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-45918",
+            "package": [
+              " pkg:deb/ubuntu/ncurses@6.2-0ubuntu2.1?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-45918",
+            "package": [
+              "library/neurodebian: libncurses6@6.2-0ubuntu2.1",
+              "library/neurodebian: libncursesw6@6.2-0ubuntu2.1",
+              "library/neurodebian: libtinfo6@6.2-0ubuntu2.1",
+              "library/neurodebian: ncurses-base@6.2-0ubuntu2.1",
+              "library/neurodebian: ncurses-bin@6.2-0ubuntu2.1"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-45918",
+            "package": [
+              "ubuntu:focal:libncursesw6_6.2-0ubuntu2.1",
+              "ubuntu:focal:libtinfo6_6.2-0ubuntu2.1",
+              "ubuntu:focal:ncurses-base_6.2-0ubuntu2.1",
+              "ubuntu:focal:libncurses6_6.2-0ubuntu2.1",
+              "ubuntu:focal:ncurses-bin_6.2-0ubuntu2.1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-45918",
+            "package": [
+              "libncurses6",
+              "libncursesw6",
+              "libtinfo6",
+              "ncurses-base",
+              "ncurses-bin"
+            ],
+            "cvssv3_score": "1.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2023-29383",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-29383",
+            "package": [
+              "shadow/passwd@1:4.8.1-1ubuntu5.20.04.5"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-29383",
+            "package": [
+              " pkg:deb/ubuntu/shadow@1:4.8.1-1ubuntu5.20.04.5?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+            ],
+            "cvssv3_score": "3.300000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-29383",
+            "package": [
+              "library/neurodebian: login@1:4.8.1-1ubuntu5.20.04.5",
+              "library/neurodebian: passwd@1:4.8.1-1ubuntu5.20.04.5"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-29383",
+            "package": [
+              "ubuntu:focal:login:1_4.8.1-1ubuntu5.20.04.5",
+              "ubuntu:focal:passwd:1_4.8.1-1ubuntu5.20.04.5"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "3.3"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-29383",
+            "package": [
+              "login",
+              "passwd"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2013-4235",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2013-4235",
+            "package": [
+              "shadow/passwd@1:4.8.1-1ubuntu5.20.04.5"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2013-4235",
+            "package": [
+              " pkg:deb/ubuntu/shadow@1:4.8.1-1ubuntu5.20.04.5?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+            ],
+            "cvssv3_score": "4.700000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2013-4235",
+            "package": [
+              "library/neurodebian: login@1:4.8.1-1ubuntu5.20.04.5",
+              "library/neurodebian: passwd@1:4.8.1-1ubuntu5.20.04.5"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2013-4235",
+            "package": [
+              "ubuntu:focal:passwd:1_4.8.1-1ubuntu5.20.04.5",
+              "ubuntu:focal:login:1_4.8.1-1ubuntu5.20.04.5"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.7"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2013-4235",
+            "package": [
+              "login",
+              "passwd"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2016-2781",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2016-2781",
+            "package": [
+              "coreutils@8.30-3ubuntu2"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2016-2781",
+            "package": [
+              " pkg:deb/ubuntu/coreutils@8.30-3ubuntu2?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+            ],
+            "cvssv3_score": "6.500000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2016-2781",
+            "package": [
+              "library/neurodebian: coreutils@8.30-3ubuntu2"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2016-2781",
+            "package": [
+              "ubuntu:focal:coreutils_8.30-3ubuntu2"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-2781",
+            "package": [
+              "coreutils"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2021-33574",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-33574",
+            "package": [
+              "glibc/libc-bin@2.31-0ubuntu9.16"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-26604",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-26604",
+            "package": [
+              "systemd/libsystemd0@245.4-4ubuntu3.23"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-26604",
+            "package": [
+              " pkg:deb/ubuntu/systemd@245.4-4ubuntu3.23?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+            ],
+            "cvssv3_score": "7.800000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-26604",
+            "package": [
+              "library/neurodebian: libsystemd0@245.4-4ubuntu3.23",
+              "library/neurodebian: libudev1@245.4-4ubuntu3.23"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-26604",
+            "package": [
+              "ubuntu:focal:libsystemd0_245.4-4ubuntu3.23",
+              "ubuntu:focal:libudev1_245.4-4ubuntu3.23"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.8"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-26604",
+            "package": [
+              "libsystemd0",
+              "libudev1"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2020-22916",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-22916",
+            "package": [
+              "xz-utils/liblzma5@5.2.4-1ubuntu1.1"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2020-22916",
+            "package": [
+              " pkg:deb/ubuntu/xz-utils@5.2.4-1ubuntu1.1?os_distro=focal\u0026os_name=ubuntu\u0026os_version=20.04"
+            ],
+            "cvssv3_score": "5.500000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2020-22916",
+            "package": [
+              "library/neurodebian: liblzma5@5.2.4-1ubuntu1.1"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-22916",
+            "package": [
+              "ubuntu:focal:liblzma5_5.2.4-1ubuntu1.1"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-22916",
+            "package": [
+              "liblzma5"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 5
+    }
+  ],
+  "num_unique_cves": 13
+}

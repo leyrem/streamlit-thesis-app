@@ -1,0 +1,1999 @@
+{
+  "image_scanned": "linuxserver/tvheadend:73a6bd00-ls215",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "busybox/busybox@1.36.1-r18"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r19"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "busybox/busybox@1.36.1-r18"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r19"
+        }
+      ],
+      "num_cves": 2,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.051282052
+    },
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-0853",
+          "package": [
+            " pkg:apk/alpine/curl@8.5.0-r0?os_name=alpine\u0026os_version=3.19"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r18?os_name=alpine\u0026os_version=3.19"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r19"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r18?os_name=alpine\u0026os_version=3.19"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r19"
+        },
+        {
+          "cve_id": "CVE-2024-35195",
+          "package": [
+            " pkg:pypi/requests@2.31.0"
+          ],
+          "cvssv3_score": "5.600000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.32.0"
+        },
+        {
+          "cve_id": "GHSA-c827-hfw6-qwvm",
+          "package": [
+            " pkg:cargo/rustix@0.37.19"
+          ],
+          "cvssv3_score": "6.500000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "0.37.25"
+        }
+      ],
+      "num_cves": 5,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.12820514
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "linuxserver/tvheadend: busybox@1.36.1-r18",
+            "linuxserver/tvheadend: busybox-binsh@1.36.1-r18",
+            "linuxserver/tvheadend: ssl_client@1.36.1-r18"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r19"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "linuxserver/tvheadend: busybox@1.36.1-r18",
+            "linuxserver/tvheadend: busybox-binsh@1.36.1-r18",
+            "linuxserver/tvheadend: ssl_client@1.36.1-r18"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r19"
+        },
+        {
+          "cve_id": "GHSA-c827-hfw6-qwvm",
+          "package": [
+            "usr/lib/librav1e.so.0.6.6: rustix@0.37.19"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "0.35.15, 0.36.16, 0.37.25, 0.38.19"
+        }
+      ],
+      "num_cves": 3,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42364",
+        "CVE-2023-42365"
+      ],
+      "relative_efficiency": 0.07692308
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-0853",
+          "package": [
+            "curl"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-28182",
+          "package": [
+            "nghttp2-libs"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-c827-hfw6",
+          "package": [
+            "qwvm-rustix"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "rust-crate",
+          "is_fixed": true,
+          "fixed_version": "0.37.25"
+        },
+        {
+          "cve_id": "CVE-2022-48434",
+          "package": [
+            "ffmpeg4"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r19"
+        },
+        {
+          "cve_id": "CVE-2023-46407",
+          "package": [
+            "ffmpeg4"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-47470",
+          "package": [
+            "ffmpeg4"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2004",
+          "package": [
+            "curl"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-22861",
+          "package": [
+            "ffmpeg4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2466",
+          "package": [
+            "curl"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4030",
+          "package": [
+            "python3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-2781",
+          "package": [
+            "coreutils",
+            "coreutils-env",
+            "coreutils-fmt",
+            "coreutils-sha512sum"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-3109",
+          "package": [
+            "ffmpeg4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-3341",
+          "package": [
+            "ffmpeg4"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-9wx4-h78v",
+          "package": [
+            "vm56-requests"
+          ],
+          "cvssv3_score": "5.6",
+          "severity": "medium",
+          "type": "python",
+          "is_fixed": true,
+          "fixed_version": "2.32.0"
+        },
+        {
+          "cve_id": "CVE-2024-22862",
+          "package": [
+            "ffmpeg4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r19"
+        },
+        {
+          "cve_id": "CVE-2024-22365",
+          "package": [
+            "linux-pam"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-22860",
+          "package": [
+            "ffmpeg4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2398",
+          "package": [
+            "curl"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 20,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2016-2781",
+        "CVE-2023-42364",
+        "CVE-2023-42365"
+      ],
+      "relative_efficiency": 0.51282054
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2022-3109",
+          "package": [
+            "3.19:ffmpeg4-libswresample_4.4.4-r5",
+            "3.19:ffmpeg4-libavfilter_4.4.4-r5",
+            "3.19:ffmpeg4_4.4.4-r5",
+            "3.19:ffmpeg4-libavutil_4.4.4-r5",
+            "3.19:ffmpeg4-libpostproc_4.4.4-r5",
+            "3.19:ffmpeg4-libswscale_4.4.4-r5",
+            "3.19:ffmpeg4-libavcodec_4.4.4-r5",
+            "3.19:ffmpeg4-libavdevice_4.4.4-r5",
+            "3.19:ffmpeg4-libavformat_4.4.4-r5"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-0853",
+          "package": [
+            "3.19:curl_8.5.0-r0",
+            "3.19:libcurl_8.5.0-r0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2009-3720",
+          "package": [
+            "3.19:pyc_3.11.9-r0",
+            "3.19:python3-pyc_3.11.9-r0",
+            "3.19:python3_3.11.9-r0",
+            "3.19:python3-pycache-pyc0_3.11.9-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-28085",
+          "package": [
+            "3.19:libblkid_2.39.3-r0",
+            "3.19:libmount_2.39.3-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2022-40897",
+          "package": [
+            "setuptools_65.5.0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2021-43666",
+          "package": [
+            "3.19:mbedtls_2.28.8-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-22365",
+          "package": [
+            "3.19:linux-pam_1.5.3-r7"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "3.19:ssl_client_1.36.1-r18",
+            "3.19:busybox_1.36.1-r18",
+            "3.19:busybox-binsh_1.36.1-r18"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2024-2466",
+          "package": [
+            "3.19:libcurl_8.5.0-r0",
+            "3.19:curl_8.5.0-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-52071",
+          "package": [
+            "3.19:curl_8.5.0-r0",
+            "3.19:libcurl_8.5.0-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-22862",
+          "package": [
+            "3.19:ffmpeg4-libavformat_4.4.4-r5",
+            "3.19:ffmpeg4-libavutil_4.4.4-r5",
+            "3.19:ffmpeg4-libswscale_4.4.4-r5",
+            "3.19:ffmpeg4-libavfilter_4.4.4-r5",
+            "3.19:ffmpeg4-libavcodec_4.4.4-r5",
+            "3.19:ffmpeg4-libswresample_4.4.4-r5",
+            "3.19:ffmpeg4_4.4.4-r5",
+            "3.19:ffmpeg4-libpostproc_4.4.4-r5",
+            "3.19:ffmpeg4-libavdevice_4.4.4-r5"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2024-37891",
+          "package": [
+            "urllib3_1.26.18",
+            "3.19:py3-urllib3-pyc_1.26.18-r0",
+            "3.19:py3-urllib3_1.26.18-r0"
+          ],
+          "cvssv3_score": "4.4",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.4"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "3.19:ssl_client_1.36.1-r18",
+            "3.19:busybox-binsh_1.36.1-r18",
+            "3.19:busybox_1.36.1-r18"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2018-20225",
+          "package": [
+            "pip_24.0"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.8"
+        },
+        {
+          "cve_id": "CVE-2021-36647",
+          "package": [
+            "3.19:mbedtls_2.28.8-r0"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.7"
+        },
+        {
+          "cve_id": "CVE-2012-5373",
+          "package": [
+            "3.19:libxslt_1.1.39-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-2379",
+          "package": [
+            "3.19:libcurl_8.5.0-r0",
+            "3.19:curl_8.5.0-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-2398",
+          "package": [
+            "3.19:curl_8.5.0-r0",
+            "3.19:libcurl_8.5.0-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-22861",
+          "package": [
+            "3.19:ffmpeg4-libavutil_4.4.4-r5",
+            "3.19:ffmpeg4-libswresample_4.4.4-r5",
+            "3.19:ffmpeg4-libpostproc_4.4.4-r5",
+            "3.19:ffmpeg4-libavformat_4.4.4-r5",
+            "3.19:ffmpeg4_4.4.4-r5",
+            "3.19:ffmpeg4-libavfilter_4.4.4-r5",
+            "3.19:ffmpeg4-libavdevice_4.4.4-r5",
+            "3.19:ffmpeg4-libswscale_4.4.4-r5",
+            "3.19:ffmpeg4-libavcodec_4.4.4-r5"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-22860",
+          "package": [
+            "3.19:ffmpeg4-libavdevice_4.4.4-r5",
+            "3.19:ffmpeg4-libavformat_4.4.4-r5",
+            "3.19:ffmpeg4_4.4.4-r5",
+            "3.19:ffmpeg4-libpostproc_4.4.4-r5",
+            "3.19:ffmpeg4-libavutil_4.4.4-r5",
+            "3.19:ffmpeg4-libavfilter_4.4.4-r5",
+            "3.19:ffmpeg4-libswscale_4.4.4-r5",
+            "3.19:ffmpeg4-libswresample_4.4.4-r5",
+            "3.19:ffmpeg4-libavcodec_4.4.4-r5"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2009-2940",
+          "package": [
+            "3.19:python3-pycache-pyc0_3.11.9-r0",
+            "3.19:pyc_3.11.9-r0",
+            "3.19:python3-pyc_3.11.9-r0",
+            "3.19:python3_3.11.9-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-52353",
+          "package": [
+            "3.19:mbedtls_2.28.8-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-35195",
+          "package": [
+            "requests_2.31.0",
+            "3.19:py3-requests_2.31.0-r1",
+            "3.19:py3-requests-pyc_2.31.0-r1"
+          ],
+          "cvssv3_score": "5.6",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.6"
+        },
+        {
+          "cve_id": "CVE-2024-23744",
+          "package": [
+            "3.19:mbedtls_2.28.8-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-3341",
+          "package": [
+            "3.19:ffmpeg4-libavdevice_4.4.4-r5",
+            "3.19:ffmpeg4-libavcodec_4.4.4-r5",
+            "3.19:ffmpeg4-libavformat_4.4.4-r5",
+            "3.19:ffmpeg4-libswresample_4.4.4-r5",
+            "3.19:ffmpeg4-libavfilter_4.4.4-r5",
+            "3.19:ffmpeg4-libpostproc_4.4.4-r5",
+            "3.19:ffmpeg4_4.4.4-r5",
+            "3.19:ffmpeg4-libswscale_4.4.4-r5",
+            "3.19:ffmpeg4-libavutil_4.4.4-r5"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2021-4214",
+          "package": [
+            "3.19:libpng_1.6.40-r0"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2012-2739",
+          "package": [
+            "3.19:libxslt_1.1.39-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-5197",
+          "package": [
+            "3.19:libvpx_1.13.1-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2022-48434",
+          "package": [
+            "3.19:ffmpeg4-libavfilter_4.4.4-r5",
+            "3.19:ffmpeg4_4.4.4-r5",
+            "3.19:ffmpeg4-libpostproc_4.4.4-r5",
+            "3.19:ffmpeg4-libswresample_4.4.4-r5",
+            "3.19:ffmpeg4-libswscale_4.4.4-r5",
+            "3.19:ffmpeg4-libavcodec_4.4.4-r5",
+            "3.19:ffmpeg4-libavdevice_4.4.4-r5",
+            "3.19:ffmpeg4-libavformat_4.4.4-r5",
+            "3.19:ffmpeg4-libavutil_4.4.4-r5"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "8.1"
+        },
+        {
+          "cve_id": "CVE-2021-45451",
+          "package": [
+            "3.19:mbedtls_2.28.8-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-2004",
+          "package": [
+            "3.19:curl_8.5.0-r0",
+            "3.19:libcurl_8.5.0-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        }
+      ],
+      "num_cves": 31,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-22860",
+        "CVE-2024-22862",
+        "CVE-2009-2940",
+        "CVE-2024-22861",
+        "CVE-2022-48434",
+        "CVE-2022-3109",
+        "CVE-2023-42365",
+        "CVE-2023-42364",
+        "CVE-2024-0853",
+        "CVE-2009-3720",
+        "CVE-2022-3341",
+        "CVE-2024-2379",
+        "CVE-2024-2466",
+        "CVE-2024-28085",
+        "CVE-2024-2004",
+        "CVE-2024-2398",
+        "CVE-2024-35195",
+        "CVE-2023-52071",
+        "CVE-2024-37891"
+      ],
+      "relative_efficiency": 0.7948718
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2024-22861",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-22861",
+            "package": [
+              "ffmpeg4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-22861",
+            "package": [
+              "3.19:ffmpeg4-libavutil_4.4.4-r5",
+              "3.19:ffmpeg4-libswresample_4.4.4-r5",
+              "3.19:ffmpeg4-libpostproc_4.4.4-r5",
+              "3.19:ffmpeg4-libavformat_4.4.4-r5",
+              "3.19:ffmpeg4_4.4.4-r5",
+              "3.19:ffmpeg4-libavfilter_4.4.4-r5",
+              "3.19:ffmpeg4-libavdevice_4.4.4-r5",
+              "3.19:ffmpeg4-libswscale_4.4.4-r5",
+              "3.19:ffmpeg4-libavcodec_4.4.4-r5"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2024-2466",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2466",
+            "package": [
+              "curl"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2466",
+            "package": [
+              "3.19:libcurl_8.5.0-r0",
+              "3.19:curl_8.5.0-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-52071",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-52071",
+            "package": [
+              "3.19:curl_8.5.0-r0",
+              "3.19:libcurl_8.5.0-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2379",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2379",
+            "package": [
+              "3.19:libcurl_8.5.0-r0",
+              "3.19:curl_8.5.0-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-35195",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-35195",
+            "package": [
+              " pkg:pypi/requests@2.31.0"
+            ],
+            "cvssv3_score": "5.600000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.32.0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-35195",
+            "package": [
+              "requests_2.31.0",
+              "3.19:py3-requests_2.31.0-r1",
+              "3.19:py3-requests-pyc_2.31.0-r1"
+            ],
+            "cvssv3_score": "5.6",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.6"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2022-48434",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-48434",
+            "package": [
+              "ffmpeg4"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-48434",
+            "package": [
+              "3.19:ffmpeg4-libavfilter_4.4.4-r5",
+              "3.19:ffmpeg4_4.4.4-r5",
+              "3.19:ffmpeg4-libpostproc_4.4.4-r5",
+              "3.19:ffmpeg4-libswresample_4.4.4-r5",
+              "3.19:ffmpeg4-libswscale_4.4.4-r5",
+              "3.19:ffmpeg4-libavcodec_4.4.4-r5",
+              "3.19:ffmpeg4-libavdevice_4.4.4-r5",
+              "3.19:ffmpeg4-libavformat_4.4.4-r5",
+              "3.19:ffmpeg4-libavutil_4.4.4-r5"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "8.1"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-46407",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-46407",
+            "package": [
+              "ffmpeg4"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-22365",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-22365",
+            "package": [
+              "linux-pam"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-22365",
+            "package": [
+              "3.19:linux-pam_1.5.3-r7"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2009-3720",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2009-3720",
+            "package": [
+              "3.19:pyc_3.11.9-r0",
+              "3.19:python3-pyc_3.11.9-r0",
+              "3.19:python3_3.11.9-r0",
+              "3.19:python3-pycache-pyc0_3.11.9-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2012-5373",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2012-5373",
+            "package": [
+              "3.19:libxslt_1.1.39-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-52353",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-52353",
+            "package": [
+              "3.19:mbedtls_2.28.8-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-23744",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-23744",
+            "package": [
+              "3.19:mbedtls_2.28.8-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42364",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "busybox/busybox@1.36.1-r18"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r19"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r18?os_name=alpine\u0026os_version=3.19"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r19"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "linuxserver/tvheadend: busybox@1.36.1-r18",
+              "linuxserver/tvheadend: busybox-binsh@1.36.1-r18",
+              "linuxserver/tvheadend: ssl_client@1.36.1-r18"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r19"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r19"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "3.19:ssl_client_1.36.1-r18",
+              "3.19:busybox-binsh_1.36.1-r18",
+              "3.19:busybox_1.36.1-r18"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2024-28182",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-28182",
+            "package": [
+              "nghttp2-libs"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2004",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2004",
+            "package": [
+              "curl"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2004",
+            "package": [
+              "3.19:curl_8.5.0-r0",
+              "3.19:libcurl_8.5.0-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2016-2781",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-2781",
+            "package": [
+              "coreutils",
+              "coreutils-env",
+              "coreutils-fmt",
+              "coreutils-sha512sum"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-3109",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-3109",
+            "package": [
+              "ffmpeg4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-3109",
+            "package": [
+              "3.19:ffmpeg4-libswresample_4.4.4-r5",
+              "3.19:ffmpeg4-libavfilter_4.4.4-r5",
+              "3.19:ffmpeg4_4.4.4-r5",
+              "3.19:ffmpeg4-libavutil_4.4.4-r5",
+              "3.19:ffmpeg4-libpostproc_4.4.4-r5",
+              "3.19:ffmpeg4-libswscale_4.4.4-r5",
+              "3.19:ffmpeg4-libavcodec_4.4.4-r5",
+              "3.19:ffmpeg4-libavdevice_4.4.4-r5",
+              "3.19:ffmpeg4-libavformat_4.4.4-r5"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2024-28085",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-28085",
+            "package": [
+              "3.19:libblkid_2.39.3-r0",
+              "3.19:libmount_2.39.3-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-37891",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-37891",
+            "package": [
+              "urllib3_1.26.18",
+              "3.19:py3-urllib3-pyc_1.26.18-r0",
+              "3.19:py3-urllib3_1.26.18-r0"
+            ],
+            "cvssv3_score": "4.4",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.4"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-4214",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-4214",
+            "package": [
+              "3.19:libpng_1.6.40-r0"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42365",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "busybox/busybox@1.36.1-r18"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r19"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r18?os_name=alpine\u0026os_version=3.19"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r19"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "linuxserver/tvheadend: busybox@1.36.1-r18",
+              "linuxserver/tvheadend: busybox-binsh@1.36.1-r18",
+              "linuxserver/tvheadend: ssl_client@1.36.1-r18"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r19"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r19"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "3.19:ssl_client_1.36.1-r18",
+              "3.19:busybox_1.36.1-r18",
+              "3.19:busybox-binsh_1.36.1-r18"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2024-4030",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-4030",
+            "package": [
+              "python3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-22862",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-22862",
+            "package": [
+              "ffmpeg4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-22862",
+            "package": [
+              "3.19:ffmpeg4-libavformat_4.4.4-r5",
+              "3.19:ffmpeg4-libavutil_4.4.4-r5",
+              "3.19:ffmpeg4-libswscale_4.4.4-r5",
+              "3.19:ffmpeg4-libavfilter_4.4.4-r5",
+              "3.19:ffmpeg4-libavcodec_4.4.4-r5",
+              "3.19:ffmpeg4-libswresample_4.4.4-r5",
+              "3.19:ffmpeg4_4.4.4-r5",
+              "3.19:ffmpeg4-libpostproc_4.4.4-r5",
+              "3.19:ffmpeg4-libavdevice_4.4.4-r5"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-43666",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-43666",
+            "package": [
+              "3.19:mbedtls_2.28.8-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-5197",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-5197",
+            "package": [
+              "3.19:libvpx_1.13.1-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-c827-hfw6-qwvm",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "GHSA-c827-hfw6-qwvm",
+            "package": [
+              " pkg:cargo/rustix@0.37.19"
+            ],
+            "cvssv3_score": "6.500000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "0.37.25"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "GHSA-c827-hfw6-qwvm",
+            "package": [
+              "usr/lib/librav1e.so.0.6.6: rustix@0.37.19"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "0.35.15, 0.36.16, 0.37.25, 0.38.19"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-47470",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-47470",
+            "package": [
+              "ffmpeg4"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-9wx4-h78v",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-9wx4-h78v",
+            "package": [
+              "vm56-requests"
+            ],
+            "cvssv3_score": "5.6",
+            "severity": "medium",
+            "type": "python",
+            "is_fixed": true,
+            "fixed_version": "2.32.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2398",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2398",
+            "package": [
+              "curl"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2398",
+            "package": [
+              "3.19:curl_8.5.0-r0",
+              "3.19:libcurl_8.5.0-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-36647",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-36647",
+            "package": [
+              "3.19:mbedtls_2.28.8-r0"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2009-2940",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2009-2940",
+            "package": [
+              "3.19:python3-pycache-pyc0_3.11.9-r0",
+              "3.19:pyc_3.11.9-r0",
+              "3.19:python3-pyc_3.11.9-r0",
+              "3.19:python3_3.11.9-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2012-2739",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2012-2739",
+            "package": [
+              "3.19:libxslt_1.1.39-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-0853",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-0853",
+            "package": [
+              " pkg:apk/alpine/curl@8.5.0-r0?os_name=alpine\u0026os_version=3.19"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-0853",
+            "package": [
+              "curl"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-0853",
+            "package": [
+              "3.19:curl_8.5.0-r0",
+              "3.19:libcurl_8.5.0-r0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2022-3341",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-3341",
+            "package": [
+              "ffmpeg4"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-3341",
+            "package": [
+              "3.19:ffmpeg4-libavdevice_4.4.4-r5",
+              "3.19:ffmpeg4-libavcodec_4.4.4-r5",
+              "3.19:ffmpeg4-libavformat_4.4.4-r5",
+              "3.19:ffmpeg4-libswresample_4.4.4-r5",
+              "3.19:ffmpeg4-libavfilter_4.4.4-r5",
+              "3.19:ffmpeg4-libpostproc_4.4.4-r5",
+              "3.19:ffmpeg4_4.4.4-r5",
+              "3.19:ffmpeg4-libswscale_4.4.4-r5",
+              "3.19:ffmpeg4-libavutil_4.4.4-r5"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2024-22860",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-22860",
+            "package": [
+              "ffmpeg4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-22860",
+            "package": [
+              "3.19:ffmpeg4-libavdevice_4.4.4-r5",
+              "3.19:ffmpeg4-libavformat_4.4.4-r5",
+              "3.19:ffmpeg4_4.4.4-r5",
+              "3.19:ffmpeg4-libpostproc_4.4.4-r5",
+              "3.19:ffmpeg4-libavutil_4.4.4-r5",
+              "3.19:ffmpeg4-libavfilter_4.4.4-r5",
+              "3.19:ffmpeg4-libswscale_4.4.4-r5",
+              "3.19:ffmpeg4-libswresample_4.4.4-r5",
+              "3.19:ffmpeg4-libavcodec_4.4.4-r5"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2022-40897",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-40897",
+            "package": [
+              "setuptools_65.5.0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-c827-hfw6",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-c827-hfw6",
+            "package": [
+              "qwvm-rustix"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "rust-crate",
+            "is_fixed": true,
+            "fixed_version": "0.37.25"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-45451",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-45451",
+            "package": [
+              "3.19:mbedtls_2.28.8-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-20225",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-20225",
+            "package": [
+              "pip_24.0"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 39
+}

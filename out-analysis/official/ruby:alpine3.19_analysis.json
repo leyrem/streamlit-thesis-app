@@ -1,0 +1,735 @@
+{
+  "image_scanned": "ruby:alpine3.19",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-35176",
+          "package": [
+            " pkg:gem/rexml@3.2.6"
+          ],
+          "cvssv3_score": "5.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.2.7"
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r15?os_name=alpine\u0026os_version=3.19"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r17"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r15?os_name=alpine\u0026os_version=3.19"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r17"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r15?os_name=alpine\u0026os_version=3.19"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r17"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r15?os_name=alpine\u0026os_version=3.19"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r16"
+        }
+      ],
+      "num_cves": 5,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.625
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "busybox/busybox@1.36.1-r15"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r16"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "busybox/busybox@1.36.1-r15"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r17"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "busybox/busybox@1.36.1-r15"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r17"
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "busybox/busybox@1.36.1-r15"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r17"
+        }
+      ],
+      "num_cves": 4,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.5
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r17"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r16"
+        },
+        {
+          "cve_id": "GHSA-vg3r-rm7w",
+          "package": [
+            "2xgh-rexml"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "gem",
+          "is_fixed": true,
+          "fixed_version": "3.2.7"
+        }
+      ],
+      "num_cves": 5,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42363",
+        "CVE-2023-42364",
+        "CVE-2023-42365",
+        "CVE-2023-42366"
+      ],
+      "relative_efficiency": 0.625
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "library/ruby: busybox@1.36.1-r15",
+            "library/ruby: busybox-binsh@1.36.1-r15",
+            "library/ruby: ssl_client@1.36.1-r15"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r17"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "library/ruby: busybox@1.36.1-r15",
+            "library/ruby: busybox-binsh@1.36.1-r15",
+            "library/ruby: ssl_client@1.36.1-r15"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r16"
+        },
+        {
+          "cve_id": "CVE-2024-35176",
+          "package": [
+            "usr/local/lib/ruby/gems/3.3.0/specifications/rexml-3.2.6.gemspec: rexml@3.2.6"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "\u003e= 3.2.7"
+        }
+      ],
+      "num_cves": 3,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42363",
+        "CVE-2023-42366"
+      ],
+      "relative_efficiency": 0.375
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2019-11254",
+          "package": [
+            "3.19:yaml-dev_0.2.5-r2",
+            "3.19:yaml_0.2.5-r2"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "3.19:busybox_1.36.1-r15",
+            "3.19:busybox-binsh_1.36.1-r15",
+            "3.19:ssl_client_1.36.1-r15"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "3.19:ssl_client_1.36.1-r15",
+            "3.19:busybox-binsh_1.36.1-r15",
+            "3.19:busybox_1.36.1-r15"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "3.19:busybox-binsh_1.36.1-r15",
+            "3.19:busybox_1.36.1-r15",
+            "3.19:ssl_client_1.36.1-r15"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "3.19:busybox_1.36.1-r15",
+            "3.19:ssl_client_1.36.1-r15",
+            "3.19:busybox-binsh_1.36.1-r15"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2021-4235",
+          "package": [
+            "3.19:yaml_0.2.5-r2",
+            "3.19:yaml-dev_0.2.5-r2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        }
+      ],
+      "num_cves": 6,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42365",
+        "CVE-2023-42364",
+        "CVE-2023-42366",
+        "CVE-2023-42363",
+        "CVE-2021-4235",
+        "CVE-2019-11254"
+      ],
+      "relative_efficiency": 0.75
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "GHSA-vg3r-rm7w",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-vg3r-rm7w",
+            "package": [
+              "2xgh-rexml"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "gem",
+            "is_fixed": true,
+            "fixed_version": "3.2.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-11254",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-11254",
+            "package": [
+              "3.19:yaml-dev_0.2.5-r2",
+              "3.19:yaml_0.2.5-r2"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-4235",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-4235",
+            "package": [
+              "3.19:yaml_0.2.5-r2",
+              "3.19:yaml-dev_0.2.5-r2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-35176",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-35176",
+            "package": [
+              " pkg:gem/rexml@3.2.6"
+            ],
+            "cvssv3_score": "5.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.2.7"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-35176",
+            "package": [
+              "usr/local/lib/ruby/gems/3.3.0/specifications/rexml-3.2.6.gemspec: rexml@3.2.6"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "\u003e= 3.2.7"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-42363",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r15?os_name=alpine\u0026os_version=3.19"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r17"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "busybox/busybox@1.36.1-r15"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r17"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r17"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "library/ruby: busybox@1.36.1-r15",
+              "library/ruby: busybox-binsh@1.36.1-r15",
+              "library/ruby: ssl_client@1.36.1-r15"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r17"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "3.19:busybox_1.36.1-r15",
+              "3.19:busybox-binsh_1.36.1-r15",
+              "3.19:ssl_client_1.36.1-r15"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2023-42364",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r15?os_name=alpine\u0026os_version=3.19"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r17"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "busybox/busybox@1.36.1-r15"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r17"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "3.19:busybox_1.36.1-r15",
+              "3.19:ssl_client_1.36.1-r15",
+              "3.19:busybox-binsh_1.36.1-r15"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-42365",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r15?os_name=alpine\u0026os_version=3.19"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r17"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "busybox/busybox@1.36.1-r15"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r17"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "3.19:ssl_client_1.36.1-r15",
+              "3.19:busybox-binsh_1.36.1-r15",
+              "3.19:busybox_1.36.1-r15"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-42366",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r15?os_name=alpine\u0026os_version=3.19"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r16"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "busybox/busybox@1.36.1-r15"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r16"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r16"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "library/ruby: busybox@1.36.1-r15",
+              "library/ruby: busybox-binsh@1.36.1-r15",
+              "library/ruby: ssl_client@1.36.1-r15"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r16"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "3.19:busybox-binsh_1.36.1-r15",
+              "3.19:busybox_1.36.1-r15",
+              "3.19:ssl_client_1.36.1-r15"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 5
+    }
+  ],
+  "num_unique_cves": 8
+}

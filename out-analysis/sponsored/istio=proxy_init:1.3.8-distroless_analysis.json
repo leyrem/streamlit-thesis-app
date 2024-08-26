@@ -1,0 +1,7114 @@
+{
+  "image_scanned": "istio/proxy_init:1.3.8-distroless",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "DockerScout",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2022-1292",
+          "package": [
+            "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+            "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "CRITICAL",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.0l-1~deb9u6"
+        },
+        {
+          "cve_id": "CVE-2021-23840",
+          "package": [
+            "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+            "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.0l-1~deb9u3"
+        },
+        {
+          "cve_id": "CVE-2020-1971",
+          "package": [
+            "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+            "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.0l-1~deb9u2"
+        },
+        {
+          "cve_id": "DLA-3051-1",
+          "package": [
+            "istio/proxy_init: tzdata@2019b-0+deb9u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "UNKNOWN",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2021a-0+deb9u4"
+        },
+        {
+          "cve_id": "DLA-2542-1",
+          "package": [
+            "istio/proxy_init: tzdata@2019b-0+deb9u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "UNKNOWN",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2021a-0+deb9u1"
+        },
+        {
+          "cve_id": "DLA-2797-1",
+          "package": [
+            "istio/proxy_init: tzdata@2019b-0+deb9u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "UNKNOWN",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2021a-0+deb9u2"
+        },
+        {
+          "cve_id": "CVE-2018-12886",
+          "package": [
+            "istio/proxy_init: libgcc1@1:6.3.0-18+deb9u1",
+            "istio/proxy_init: libgomp1@6.3.0-18+deb9u1",
+            "istio/proxy_init: libstdc++6@6.3.0-18+deb9u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-3712",
+          "package": [
+            "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+            "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.0l-1~deb9u4"
+        },
+        {
+          "cve_id": "CVE-2022-0778",
+          "package": [
+            "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+            "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.0l-1~deb9u5"
+        },
+        {
+          "cve_id": "CVE-2021-4160",
+          "package": [
+            "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+            "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "DLA-2509-1",
+          "package": [
+            "istio/proxy_init: tzdata@2019b-0+deb9u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "UNKNOWN",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2020e-0+deb9u1"
+        },
+        {
+          "cve_id": "DLA-2963-1",
+          "package": [
+            "istio/proxy_init: tzdata@2019b-0+deb9u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "UNKNOWN",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2021a-0+deb9u3"
+        },
+        {
+          "cve_id": "CVE-2019-1551",
+          "package": [
+            "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+            "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.0l-1~deb9u5"
+        },
+        {
+          "cve_id": "CVE-2021-23841",
+          "package": [
+            "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+            "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.0l-1~deb9u3"
+        },
+        {
+          "cve_id": "DLA-2424-1",
+          "package": [
+            "istio/proxy_init: tzdata@2019b-0+deb9u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "UNKNOWN",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2020d-0+deb9u1"
+        }
+      ],
+      "num_cves": 15,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2018-12886",
+        "CVE-2022-1292",
+        "CVE-2021-23840",
+        "CVE-2021-3712",
+        "CVE-2022-0778",
+        "CVE-2019-1551",
+        "CVE-2020-1971",
+        "CVE-2021-23841",
+        "CVE-2021-4160"
+      ],
+      "relative_efficiency": 0.10204082
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2018-12886",
+          "package": [
+            "gcc-6/libgcc1@1:6.3.0-18+deb9u1"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-27618",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-25013",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-3326",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-27645",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "2.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-33574",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-35942",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.1",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-3999",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-23219",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-23218",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-9192",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2009-5155",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-9169",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-20796",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-7309",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-10228",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2015-8985",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-12132",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-6485",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-6488",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-10739",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2010-4756",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "4.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-1000001",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-6551",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010023",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010022",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010025",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010024",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-19126",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-10029",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-1751",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-1752",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-6096",
+          "package": [
+            "glibc/libc6@2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-1971",
+          "package": [
+            "openssl/libssl1.1@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libssl1.1@1.1.0l-1~deb9u2"
+        },
+        {
+          "cve_id": "CVE-2021-23840",
+          "package": [
+            "openssl/libssl1.1@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libssl1.1@1.1.0l-1~deb9u3"
+        },
+        {
+          "cve_id": "CVE-2021-23841",
+          "package": [
+            "openssl/libssl1.1@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libssl1.1@1.1.0l-1~deb9u3"
+        },
+        {
+          "cve_id": "CVE-2021-3712",
+          "package": [
+            "openssl/libssl1.1@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libssl1.1@1.1.0l-1~deb9u4"
+        },
+        {
+          "cve_id": "CVE-2021-4160",
+          "package": [
+            "openssl/libssl1.1@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-0778",
+          "package": [
+            "openssl/libssl1.1@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libssl1.1@1.1.0l-1~deb9u5"
+        },
+        {
+          "cve_id": "CVE-2022-1292",
+          "package": [
+            "openssl/libssl1.1@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Critical",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libssl1.1@1.1.0l-1~deb9u6"
+        },
+        {
+          "cve_id": "CVE-2022-2068",
+          "package": [
+            "openssl/libssl1.1@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Critical",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-2274",
+          "package": [
+            "openssl/libssl1.1@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Critical",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2007-6755",
+          "package": [
+            "openssl/libssl1.1@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.4",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2010-0928",
+          "package": [
+            "openssl/libssl1.1@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.1",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1551",
+          "package": [
+            "openssl/libssl1.1@1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libssl1.1@1.1.0l-1~deb9u5"
+        }
+      ],
+      "num_cves": 45,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.30612245
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2015-8985",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010024",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-9192",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-10029",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-27645",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "2.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2009-5155",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2010-0928",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2010-4756",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-3326",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-23218",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010022",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010025",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-27618",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-23841",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "1.1.0l-1~deb9u3"
+        },
+        {
+          "cve_id": "CVE-2022-1292",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "10.0",
+          "severity": "critical",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "1.1.0l-1~deb9u6"
+        },
+        {
+          "cve_id": "CVE-2018-12886",
+          "package": [
+            "libgcc1",
+            "libgomp1",
+            "libstdc++6"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "high",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-20796",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-6551",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-23219",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-25013",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "7.1",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-6488",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-33574",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-4160",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-9169",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-6096",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-35942",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "9.1",
+          "severity": "critical",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-3999",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-6485",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010023",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-7309",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-23840",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "1.1.0l-1~deb9u3"
+        },
+        {
+          "cve_id": "CVE-2021-3712",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "high",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "1.1.0l-1~deb9u4"
+        },
+        {
+          "cve_id": "CVE-2018-1000001",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1551",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "1.1.0l-1~deb9u5"
+        },
+        {
+          "cve_id": "CVE-2019-19126",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-1752",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "7.0",
+          "severity": "high",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-1971",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "1.1.0l-1~deb9u2"
+        },
+        {
+          "cve_id": "CVE-2022-0778",
+          "package": [
+            "libssl1.1",
+            "openssl",
+            "openssl"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "1.1.0l-1~deb9u5"
+        },
+        {
+          "cve_id": "CVE-2022-2068",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "10.0",
+          "severity": "critical",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-10228",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-10739",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-1751",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "7.0",
+          "severity": "high",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2007-6755",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "5.8",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-12132",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-2274",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "10.0",
+          "severity": "critical",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 45,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2007-6755",
+        "CVE-2010-0928",
+        "CVE-2018-12886",
+        "CVE-2019-1551",
+        "CVE-2020-1971",
+        "CVE-2021-23840",
+        "CVE-2021-23841",
+        "CVE-2021-3712",
+        "CVE-2021-4160",
+        "CVE-2022-0778",
+        "CVE-2022-1292",
+        "CVE-2022-2068",
+        "CVE-2022-2274"
+      ],
+      "relative_efficiency": 0.30612245
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2020-28367",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2021-34558",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2023-29402",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2021-3712",
+          "package": [
+            "debian:stretch:openssl_1.1.0l-1~deb9u1",
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.4"
+        },
+        {
+          "cve_id": "CVE-2021-33197",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2020-10029",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2020-15586",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2022-30629",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "3.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "3.1"
+        },
+        {
+          "cve_id": "CVE-2020-0601",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "8.1"
+        },
+        {
+          "cve_id": "CVE-2023-45287",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-33599",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-39319",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "6.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.1"
+        },
+        {
+          "cve_id": "CVE-2015-8985",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2023-0286",
+          "package": [
+            "debian:stretch:openssl_1.1.0l-1~deb9u1",
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.4"
+        },
+        {
+          "cve_id": "CVE-2021-41772",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2020-27618",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-29405",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2022-28131",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-41720",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-30634",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-29406",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2018-1000001",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.8"
+        },
+        {
+          "cve_id": "CVE-2022-23772",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2019-1010024",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2022-30630",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-24539",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.3"
+        },
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2023-4806",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2017-12132",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2023-24532",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2022-24921",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2016-10739",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2022-41715",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-33601",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2022-28327",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-39323",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "8.1"
+        },
+        {
+          "cve_id": "CVE-2021-3999",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.8"
+        },
+        {
+          "cve_id": "CVE-2019-1010023",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "8.8"
+        },
+        {
+          "cve_id": "CVE-2021-39293",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-30633",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-41724",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-4813",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2023-3446",
+          "package": [
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+            "debian:stretch:openssl_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2021-3114",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2010-4756",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2021-33574",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2023-3817",
+          "package": [
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+            "debian:stretch:openssl_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2023-0215",
+          "package": [
+            "debian:stretch:openssl_1.1.0l-1~deb9u1",
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2021-33195",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.3"
+        },
+        {
+          "cve_id": "CVE-2023-45283",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-2879",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2021-44717",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "4.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.8"
+        },
+        {
+          "cve_id": "CVE-2012-2131",
+          "package": [
+            "debian:stretch:openssl_1.1.0l-1~deb9u1",
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-39326",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2019-1010022",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2022-41716",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-29400",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.3"
+        },
+        {
+          "cve_id": "CVE-2022-2880",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2018-12886",
+          "package": [
+            "debian:stretch:libgcc1:1_6.3.0-18+deb9u1",
+            "debian:stretch:libstdc++6_6.3.0-18+deb9u1",
+            "debian:stretch:libgomp1_6.3.0-18+deb9u1"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "8.1"
+        },
+        {
+          "cve_id": "CVE-2022-1962",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2016-10228",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2018-20796",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-24540",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2022-29804",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-23773",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2020-1751",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.0"
+        },
+        {
+          "cve_id": "CVE-2021-3326",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2009-5155",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2020-29511",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "5.6",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.6"
+        },
+        {
+          "cve_id": "CVE-2023-29404",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2021-41771",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2019-25013",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2022-1705",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2021-38297",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2023-24537",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-29409",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2020-14039",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2020-24553",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "6.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.1"
+        },
+        {
+          "cve_id": "CVE-2021-35942",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.1"
+        },
+        {
+          "cve_id": "CVE-2020-29510",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "5.6",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.6"
+        },
+        {
+          "cve_id": "CVE-2023-24534",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-39318",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "6.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.1"
+        },
+        {
+          "cve_id": "CVE-2020-1971",
+          "package": [
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+            "debian:stretch:openssl_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2022-4304",
+          "package": [
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+            "debian:stretch:openssl_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2023-0464",
+          "package": [
+            "debian:stretch:openssl_1.1.0l-1~deb9u1",
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-30631",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-0466",
+          "package": [
+            "debian:stretch:openssl_1.1.0l-1~deb9u1",
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2021-23840",
+          "package": [
+            "debian:stretch:openssl_1.1.0l-1~deb9u1",
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2021-4160",
+          "package": [
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+            "debian:stretch:openssl_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2019-6488",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.8"
+        },
+        {
+          "cve_id": "CVE-2022-4450",
+          "package": [
+            "debian:stretch:openssl_1.1.0l-1~deb9u1",
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-23806",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "9.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.1"
+        },
+        {
+          "cve_id": "CVE-2021-27918",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-30635",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-0465",
+          "package": [
+            "debian:stretch:openssl_1.1.0l-1~deb9u1",
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2020-28366",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2019-9192",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2019-7309",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2022-30580",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.8"
+        },
+        {
+          "cve_id": "CVE-2022-32189",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-24536",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-2961",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2022-2068",
+          "package": [
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+            "debian:stretch:openssl_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2022-23218",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2021-33196",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-30632",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-41725",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-2097",
+          "package": [
+            "debian:stretch:openssl_1.1.0l-1~deb9u1",
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2024-33600",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2022-0778",
+          "package": [
+            "debian:stretch:openssl_1.1.0l-1~deb9u1",
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+            "debian:stretch:openssl_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2023-45284",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2021-27645",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "2.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "2.5"
+        },
+        {
+          "cve_id": "CVE-2022-23219",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2024-33602",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2022-32148",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2020-1752",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "7.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.0"
+        },
+        {
+          "cve_id": "CVE-2021-33198",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2021-36221",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2022-1292",
+          "package": [
+            "debian:stretch:openssl_1.1.0l-1~deb9u1",
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2023-45285",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2019-9169",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2021-23841",
+          "package": [
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+            "debian:stretch:openssl_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+            "debian:stretch:openssl_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+            "debian:stretch:openssl_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2021-3115",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-24675",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "debian:stretch:openssl_1.1.0l-1~deb9u1",
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2018-6485",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2019-1551",
+          "package": [
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+            "debian:stretch:openssl_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2023-29403",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.8"
+        },
+        {
+          "cve_id": "CVE-2023-2650",
+          "package": [
+            "debian:stretch:openssl_1.1.0l-1~deb9u1",
+            "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2018-6551",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2019-1010025",
+          "package": [
+            "debian:stretch:libc6_2.24-11+deb9u4"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2023-24538",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2022-41722",
+          "package": [
+            "github.com/golang/go_1.12.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        }
+      ],
+      "num_cves": 136,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2021-23840",
+        "CVE-2022-0778",
+        "CVE-2012-2131",
+        "CVE-2021-4160",
+        "CVE-2020-1971",
+        "CVE-2021-23841",
+        "CVE-2022-4304",
+        "CVE-2023-3446",
+        "CVE-2024-0727",
+        "CVE-2023-3817",
+        "CVE-2023-5678",
+        "CVE-2019-1551",
+        "CVE-2024-2511",
+        "CVE-2022-1292",
+        "CVE-2022-2068",
+        "CVE-2021-3712",
+        "CVE-2023-0464",
+        "CVE-2018-12886",
+        "CVE-2022-4450",
+        "CVE-2023-0286",
+        "CVE-2023-0215",
+        "CVE-2023-0465",
+        "CVE-2023-2650",
+        "CVE-2022-2097",
+        "CVE-2023-0466",
+        "CVE-2024-4741"
+      ],
+      "relative_efficiency": 0.92517006
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2019-7309",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-7309",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-7309",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-7309",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2020-1752",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-1752",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-1752",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "7.0",
+            "severity": "high",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-1752",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.0"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2020-0601",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-0601",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "8.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-28131",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-28131",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-0466",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0466",
+            "package": [
+              "debian:stretch:openssl_1.1.0l-1~deb9u1",
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-25013",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-25013",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-25013",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "7.1",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-25013",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2019-9192",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-9192",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-9192",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-9192",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2019-19126",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-19126",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-19126",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2018-12886",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2018-12886",
+            "package": [
+              "istio/proxy_init: libgcc1@1:6.3.0-18+deb9u1",
+              "istio/proxy_init: libgomp1@6.3.0-18+deb9u1",
+              "istio/proxy_init: libstdc++6@6.3.0-18+deb9u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2018-12886",
+            "package": [
+              "gcc-6/libgcc1@1:6.3.0-18+deb9u1"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2018-12886",
+            "package": [
+              "libgcc1",
+              "libgomp1",
+              "libstdc++6"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "high",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-12886",
+            "package": [
+              "debian:stretch:libgcc1:1_6.3.0-18+deb9u1",
+              "debian:stretch:libstdc++6_6.3.0-18+deb9u1",
+              "debian:stretch:libgomp1_6.3.0-18+deb9u1"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "8.1"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2021-33574",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-33574",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-33574",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-33574",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2018-6485",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2018-6485",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2018-6485",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-6485",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2022-2274",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-2274",
+            "package": [
+              "openssl/libssl1.1@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Critical",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-2274",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "10.0",
+            "severity": "critical",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2024-33601",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-33601",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-3817",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-3817",
+            "package": [
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+              "debian:stretch:openssl_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-24553",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-24553",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "6.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-0464",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0464",
+            "package": [
+              "debian:stretch:openssl_1.1.0l-1~deb9u1",
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-2650",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-2650",
+            "package": [
+              "debian:stretch:openssl_1.1.0l-1~deb9u1",
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-30629",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-30629",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "3.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-3114",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-3114",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-29511",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-29511",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "5.6",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.6"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-29510",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-29510",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "5.6",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.6"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-23806",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-23806",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "9.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-10739",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2016-10739",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-10739",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2016-10739",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2020-1751",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-1751",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-1751",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "7.0",
+            "severity": "high",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-1751",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.0"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2022-41716",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-41716",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-29400",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-29400",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-35942",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-35942",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.1",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-35942",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "9.1",
+            "severity": "critical",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-35942",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.1"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-39323",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-39323",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "8.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-27618",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-27618",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-27618",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-27618",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2021-41772",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-41772",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-24539",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-24539",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-4813",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-4813",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-33195",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-33195",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-41722",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-41722",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-1000001",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2018-1000001",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2018-1000001",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-1000001",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.8"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2022-2880",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-2880",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "DLA-2797-1",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "DLA-2797-1",
+            "package": [
+              "istio/proxy_init: tzdata@2019b-0+deb9u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "UNKNOWN",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2021a-0+deb9u2"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-29402",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-29402",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-28327",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-28327",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-29404",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-29404",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2961",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2961",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-0727",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+              "debian:stretch:openssl_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-24538",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-24538",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2015-8985",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2015-8985",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2015-8985",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2015-8985",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2017-12132",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2017-12132",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2017-12132",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2017-12132",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2020-15586",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-15586",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-0286",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0286",
+            "package": [
+              "debian:stretch:openssl_1.1.0l-1~deb9u1",
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.4"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-0465",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0465",
+            "package": [
+              "debian:stretch:openssl_1.1.0l-1~deb9u1",
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-2097",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-2097",
+            "package": [
+              "debian:stretch:openssl_1.1.0l-1~deb9u1",
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-23841",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2021-23841",
+            "package": [
+              "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+              "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.0l-1~deb9u3"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-23841",
+            "package": [
+              "openssl/libssl1.1@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libssl1.1@1.1.0l-1~deb9u3"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-23841",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "1.1.0l-1~deb9u3"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-23841",
+            "package": [
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+              "debian:stretch:openssl_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2022-23218",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-23218",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-23218",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-23218",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2007-6755",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2007-6755",
+            "package": [
+              "openssl/libssl1.1@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.4",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2007-6755",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "5.8",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2022-23773",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-23773",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "DLA-2963-1",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "DLA-2963-1",
+            "package": [
+              "istio/proxy_init: tzdata@2019b-0+deb9u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "UNKNOWN",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2021a-0+deb9u3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-27645",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-27645",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "2.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-27645",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "2.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-27645",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "2.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "2.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2022-32189",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-32189",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-41715",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-41715",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-33198",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-33198",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-20796",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2018-20796",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2018-20796",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-20796",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2018-6551",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2018-6551",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2018-6551",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-6551",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2022-41725",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-41725",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "DLA-2424-1",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "DLA-2424-1",
+            "package": [
+              "istio/proxy_init: tzdata@2019b-0+deb9u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "UNKNOWN",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2020d-0+deb9u1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-3326",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-3326",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-3326",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-3326",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2020-28367",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-28367",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-33599",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-33599",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-24532",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-24532",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-30580",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-30580",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-1292",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-1292",
+            "package": [
+              "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+              "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "CRITICAL",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.0l-1~deb9u6"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-1292",
+            "package": [
+              "openssl/libssl1.1@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Critical",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libssl1.1@1.1.0l-1~deb9u6"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-1292",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "10.0",
+            "severity": "critical",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "1.1.0l-1~deb9u6"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-1292",
+            "package": [
+              "debian:stretch:openssl_1.1.0l-1~deb9u1",
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2019-9169",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-9169",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-9169",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-9169",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2016-10228",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2016-10228",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-10228",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2016-10228",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2019-1010024",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010024",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010024",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010024",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2022-2068",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-2068",
+            "package": [
+              "openssl/libssl1.1@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Critical",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-2068",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "10.0",
+            "severity": "critical",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-2068",
+            "package": [
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+              "debian:stretch:openssl_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-39319",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-39319",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "6.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-29405",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-29405",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-29406",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-29406",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-32148",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-32148",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-3115",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-3115",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-4741",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "debian:stretch:openssl_1.1.0l-1~deb9u1",
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-29403",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-29403",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "DLA-2542-1",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "DLA-2542-1",
+            "package": [
+              "istio/proxy_init: tzdata@2019b-0+deb9u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "UNKNOWN",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2021a-0+deb9u1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2009-5155",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2009-5155",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2009-5155",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2009-5155",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2022-23772",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-23772",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-33600",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-33600",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-45284",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-45284",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-30634",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-30634",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-24537",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-24537",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-28366",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-28366",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-24675",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-24675",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-1971",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2020-1971",
+            "package": [
+              "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+              "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.0l-1~deb9u2"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-1971",
+            "package": [
+              "openssl/libssl1.1@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libssl1.1@1.1.0l-1~deb9u2"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-1971",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "1.1.0l-1~deb9u2"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-1971",
+            "package": [
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+              "debian:stretch:openssl_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2022-0778",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-0778",
+            "package": [
+              "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+              "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.0l-1~deb9u5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-0778",
+            "package": [
+              "openssl/libssl1.1@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libssl1.1@1.1.0l-1~deb9u5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-0778",
+            "package": [
+              "libssl1.1",
+              "openssl",
+              "openssl"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "1.1.0l-1~deb9u5"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-0778",
+            "package": [
+              "debian:stretch:openssl_1.1.0l-1~deb9u1",
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2022-29804",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-29804",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-27918",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-27918",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-30632",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-30632",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-36221",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-36221",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-34558",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-34558",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-39326",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-39326",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-1962",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-1962",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-45285",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-45285",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-39293",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-39293",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-30633",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-30633",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-3712",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2021-3712",
+            "package": [
+              "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+              "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.0l-1~deb9u4"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-3712",
+            "package": [
+              "openssl/libssl1.1@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libssl1.1@1.1.0l-1~deb9u4"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-3712",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "high",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "1.1.0l-1~deb9u4"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-3712",
+            "package": [
+              "debian:stretch:openssl_1.1.0l-1~deb9u1",
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.4"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2021-4160",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2021-4160",
+            "package": [
+              "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+              "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-4160",
+            "package": [
+              "openssl/libssl1.1@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-4160",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-4160",
+            "package": [
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+              "debian:stretch:openssl_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2021-3999",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-3999",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-3999",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-3999",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.8"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2020-10029",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-10029",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-10029",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-10029",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-45288",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-24540",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-24540",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-29409",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-29409",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-1551",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2019-1551",
+            "package": [
+              "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+              "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.0l-1~deb9u5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-1551",
+            "package": [
+              "openssl/libssl1.1@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libssl1.1@1.1.0l-1~deb9u5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-1551",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "1.1.0l-1~deb9u5"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-1551",
+            "package": [
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+              "debian:stretch:openssl_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2021-44717",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-44717",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "4.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-41771",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-41771",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-24534",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-24534",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-33602",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-33602",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-1010022",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010022",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010022",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010022",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2022-4450",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-4450",
+            "package": [
+              "debian:stretch:openssl_1.1.0l-1~deb9u1",
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-5678",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+              "debian:stretch:openssl_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2511",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+              "debian:stretch:openssl_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-1010023",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010023",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010023",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010023",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "8.8"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2020-6096",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-6096",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-6096",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2022-24921",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-24921",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-41724",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-41724",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-24536",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-24536",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-33196",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-33196",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "DLA-2509-1",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "DLA-2509-1",
+            "package": [
+              "istio/proxy_init: tzdata@2019b-0+deb9u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "UNKNOWN",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2020e-0+deb9u1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-45287",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-45287",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-41720",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-41720",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-45283",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-45283",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-2879",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-2879",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-39318",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-39318",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "6.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "DLA-3051-1",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "DLA-3051-1",
+            "package": [
+              "istio/proxy_init: tzdata@2019b-0+deb9u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "UNKNOWN",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2021a-0+deb9u4"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-3446",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-3446",
+            "package": [
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+              "debian:stretch:openssl_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-0215",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0215",
+            "package": [
+              "debian:stretch:openssl_1.1.0l-1~deb9u1",
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-1705",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-1705",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-38297",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-38297",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-14039",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-14039",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-30630",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-30630",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-30631",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-30631",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-30635",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-30635",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-23219",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-23219",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-23219",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-23219",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2019-6488",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-6488",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-6488",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-6488",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.8"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2010-4756",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2010-4756",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "4.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2010-4756",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2010-4756",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2010-0928",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2010-0928",
+            "package": [
+              "openssl/libssl1.1@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.1",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2010-0928",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-33197",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-33197",
+            "package": [
+              "github.com/golang/go_1.12.12"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2012-2131",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2012-2131",
+            "package": [
+              "debian:stretch:openssl_1.1.0l-1~deb9u1",
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-23840",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2021-23840",
+            "package": [
+              "istio/proxy_init: libssl1.1@1.1.0l-1~deb9u1",
+              "istio/proxy_init: openssl@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.0l-1~deb9u3"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-23840",
+            "package": [
+              "openssl/libssl1.1@1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libssl1.1@1.1.0l-1~deb9u3"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-23840",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "1.1.0l-1~deb9u3"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-23840",
+            "package": [
+              "debian:stretch:openssl_1.1.0l-1~deb9u1",
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2019-1010025",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010025",
+            "package": [
+              "glibc/libc6@2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010025",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010025",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-4806",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-4806",
+            "package": [
+              "debian:stretch:libc6_2.24-11+deb9u4"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-4304",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-4304",
+            "package": [
+              "debian:stretch:libssl1.1_1.1.0l-1~deb9u1",
+              "debian:stretch:openssl_1.1.0l-1~deb9u1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 147
+}

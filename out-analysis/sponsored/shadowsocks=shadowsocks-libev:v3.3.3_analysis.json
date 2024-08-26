@@ -1,0 +1,6373 @@
+{
+  "image_scanned": "shadowsocks/shadowsocks-libev:v3.3.3",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2021-23839",
+          "package": [
+            " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1j-r0"
+        },
+        {
+          "cve_id": "CVE-2019-18222",
+          "package": [
+            " pkg:apk/alpine/mbedtls@2.16.1-r1?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.16.4-r0"
+        },
+        {
+          "cve_id": "CVE-2020-10932",
+          "package": [
+            " pkg:apk/alpine/mbedtls@2.16.1-r1?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.16.6-r0"
+        },
+        {
+          "cve_id": "CVE-2019-1551",
+          "package": [
+            " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1d-r2"
+        },
+        {
+          "cve_id": "CVE-2019-16910",
+          "package": [
+            " pkg:apk/alpine/mbedtls@2.16.1-r1?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.16.3-r0"
+        },
+        {
+          "cve_id": "CVE-2020-14155",
+          "package": [
+            " pkg:apk/alpine/pcre@8.43-r0?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "8.43-r1"
+        },
+        {
+          "cve_id": "CVE-2020-16150",
+          "package": [
+            " pkg:apk/alpine/mbedtls@2.16.1-r1?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.16.8-r0"
+        },
+        {
+          "cve_id": "CVE-2020-28928",
+          "package": [
+            " pkg:apk/alpine/musl@1.1.22-r3?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.22-r4"
+        },
+        {
+          "cve_id": "CVE-2020-1971",
+          "package": [
+            " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1i-r0"
+        },
+        {
+          "cve_id": "CVE-2021-23841",
+          "package": [
+            " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1j-r0"
+        },
+        {
+          "cve_id": "CVE-2021-3449",
+          "package": [
+            " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1k-r0"
+        },
+        {
+          "cve_id": "CVE-2021-3450",
+          "package": [
+            " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1k-r0"
+        },
+        {
+          "cve_id": "CVE-2020-1967",
+          "package": [
+            " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1g-r0"
+        },
+        {
+          "cve_id": "CVE-2021-23840",
+          "package": [
+            " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1j-r0"
+        },
+        {
+          "cve_id": "CVE-2021-28831",
+          "package": [
+            " pkg:apk/alpine/busybox@1.30.1-r2?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.30.1-r5"
+        },
+        {
+          "cve_id": "CVE-2021-30139",
+          "package": [
+            " pkg:apk/alpine/apk-tools@2.10.4-r2?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.10.6-r0"
+        },
+        {
+          "cve_id": "CVE-2021-36159",
+          "package": [
+            " pkg:apk/alpine/apk-tools@2.10.4-r2?os_name=alpine\u0026os_version=3.10"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "CRITICAL",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.10.7-r0"
+        }
+      ],
+      "num_cves": 17,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.15454546
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2021-30139",
+          "package": [
+            "apk-tools/apk-tools@2.10.4-r2"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to apk-tools/apk-tools@2.10.6-r0"
+        },
+        {
+          "cve_id": "CVE-2021-36159",
+          "package": [
+            "apk-tools/apk-tools@2.10.4-r2"
+          ],
+          "cvssv3_score": "9.1",
+          "severity": "Critical",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to apk-tools/apk-tools@2.10.7-r0"
+        },
+        {
+          "cve_id": "CVE-2021-28831",
+          "package": [
+            "busybox/busybox@1.30.1-r2"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.30.1-r5"
+        },
+        {
+          "cve_id": "CVE-2020-16150",
+          "package": [
+            "mbedtls/mbedtls@2.16.1-r1"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to mbedtls/mbedtls@2.16.8-r0"
+        },
+        {
+          "cve_id": "CVE-2020-10932",
+          "package": [
+            "mbedtls/mbedtls@2.16.1-r1"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to mbedtls/mbedtls@2.16.6-r0"
+        },
+        {
+          "cve_id": "CVE-2019-18222",
+          "package": [
+            "mbedtls/mbedtls@2.16.1-r1"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to mbedtls/mbedtls@2.16.4-r0"
+        },
+        {
+          "cve_id": "CVE-2019-16910",
+          "package": [
+            "mbedtls/mbedtls@2.16.1-r1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to mbedtls/mbedtls@2.16.3-r0"
+        },
+        {
+          "cve_id": "CVE-2020-28928",
+          "package": [
+            "musl/musl@1.1.22-r3"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to musl/musl@1.1.22-r4"
+        },
+        {
+          "cve_id": "CVE-2020-1971",
+          "package": [
+            "openssl/libcrypto1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1i-r0"
+        },
+        {
+          "cve_id": "CVE-2021-23841",
+          "package": [
+            "openssl/libcrypto1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1j-r0"
+        },
+        {
+          "cve_id": "CVE-2021-23840",
+          "package": [
+            "openssl/libcrypto1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1j-r0"
+        },
+        {
+          "cve_id": "CVE-2021-23839",
+          "package": [
+            "openssl/libcrypto1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1j-r0"
+        },
+        {
+          "cve_id": "CVE-2021-3449",
+          "package": [
+            "openssl/libcrypto1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1k-r0"
+        },
+        {
+          "cve_id": "CVE-2021-3450",
+          "package": [
+            "openssl/libcrypto1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1k-r0"
+        },
+        {
+          "cve_id": "CVE-2020-1967",
+          "package": [
+            "openssl/libcrypto1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1g-r0"
+        },
+        {
+          "cve_id": "CVE-2019-1551",
+          "package": [
+            "openssl/libcrypto1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1d-r2"
+        },
+        {
+          "cve_id": "CVE-2020-14155",
+          "package": [
+            "pcre/pcre@8.43-r0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to pcre/pcre@8.43-r1"
+        }
+      ],
+      "num_cves": 17,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.15454546
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2021-30139",
+          "package": [
+            "shadowsocks/shadowsocks-libev: apk-tools@2.10.4-r2"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.10.6-r0"
+        },
+        {
+          "cve_id": "CVE-2021-28831",
+          "package": [
+            "shadowsocks/shadowsocks-libev: busybox@1.30.1-r2",
+            "shadowsocks/shadowsocks-libev: ssl_client@1.30.1-r2"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.30.1-r5"
+        },
+        {
+          "cve_id": "CVE-2020-1967",
+          "package": [
+            "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+            "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1g-r0"
+        },
+        {
+          "cve_id": "CVE-2021-23841",
+          "package": [
+            "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+            "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1j-r0"
+        },
+        {
+          "cve_id": "CVE-2019-18222",
+          "package": [
+            "shadowsocks/shadowsocks-libev: mbedtls@2.16.1-r1"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.16.4-r0"
+        },
+        {
+          "cve_id": "CVE-2020-10932",
+          "package": [
+            "shadowsocks/shadowsocks-libev: mbedtls@2.16.1-r1"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.16.6-r0"
+        },
+        {
+          "cve_id": "CVE-2020-1971",
+          "package": [
+            "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+            "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1i-r0"
+        },
+        {
+          "cve_id": "CVE-2021-3449",
+          "package": [
+            "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+            "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1k-r0"
+        },
+        {
+          "cve_id": "CVE-2019-16910",
+          "package": [
+            "shadowsocks/shadowsocks-libev: mbedtls@2.16.1-r1"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.16.3-r0"
+        },
+        {
+          "cve_id": "CVE-2020-16150",
+          "package": [
+            "shadowsocks/shadowsocks-libev: mbedtls@2.16.1-r1"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.16.8-r0"
+        },
+        {
+          "cve_id": "CVE-2021-3450",
+          "package": [
+            "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+            "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1k-r0"
+        },
+        {
+          "cve_id": "CVE-2021-23839",
+          "package": [
+            "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+            "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1j-r0"
+        },
+        {
+          "cve_id": "CVE-2020-28928",
+          "package": [
+            "shadowsocks/shadowsocks-libev: musl@1.1.22-r3",
+            "shadowsocks/shadowsocks-libev: musl-utils@1.1.22-r3"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.22-r4"
+        },
+        {
+          "cve_id": "CVE-2020-14155",
+          "package": [
+            "shadowsocks/shadowsocks-libev: pcre@8.43-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "8.43-r1"
+        },
+        {
+          "cve_id": "CVE-2021-36159",
+          "package": [
+            "shadowsocks/shadowsocks-libev: apk-tools@2.10.4-r2"
+          ],
+          "cvssv3_score": "",
+          "severity": "CRITICAL",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.10.7-r0"
+        },
+        {
+          "cve_id": "CVE-2021-23840",
+          "package": [
+            "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+            "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1j-r0"
+        },
+        {
+          "cve_id": "CVE-2019-1551",
+          "package": [
+            "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+            "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1d-r2"
+        }
+      ],
+      "num_cves": 17,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2020-1967",
+        "CVE-2021-23840",
+        "CVE-2021-3450",
+        "CVE-2019-1551",
+        "CVE-2020-1971",
+        "CVE-2021-23841",
+        "CVE-2021-3449",
+        "CVE-2021-23839",
+        "CVE-2020-28928",
+        "CVE-2021-28831"
+      ],
+      "relative_efficiency": 0.15454546
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2021-4160",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-4450",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-0465",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-25032",
+          "package": [
+            "zlib"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-4304",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-3711",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-0778",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-1967",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.1.1g-r0"
+        },
+        {
+          "cve_id": "CVE-2021-3712",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-1292",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "10.0",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-28391",
+          "package": [
+            "busybox",
+            "ssl_client"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-0215",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-2650",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-3817",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-3450",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.1.1k-r0"
+        },
+        {
+          "cve_id": "CVE-2021-42378",
+          "package": [
+            "busybox",
+            "ssl_client"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-37434",
+          "package": [
+            "zlib"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1551",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.1.1d-r2"
+        },
+        {
+          "cve_id": "CVE-2021-23840",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.1.1j-r0"
+        },
+        {
+          "cve_id": "CVE-2021-3449",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.1.1k-r0"
+        },
+        {
+          "cve_id": "CVE-2021-42374",
+          "package": [
+            "busybox",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-2097",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-28928",
+          "package": [
+            "musl",
+            "musl-utils"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.1.22-r4"
+        },
+        {
+          "cve_id": "CVE-2019-16910",
+          "package": [
+            "mbedtls"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "2.16.3-r0"
+        },
+        {
+          "cve_id": "CVE-2019-18222",
+          "package": [
+            "mbedtls"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "2.16.4-r0"
+        },
+        {
+          "cve_id": "CVE-2021-42386",
+          "package": [
+            "busybox",
+            "ssl_client"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-16150",
+          "package": [
+            "mbedtls"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "2.16.8-r0"
+        },
+        {
+          "cve_id": "CVE-2021-36159",
+          "package": [
+            "apk-tools"
+          ],
+          "cvssv3_score": "9.1",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "2.10.7-r0"
+        },
+        {
+          "cve_id": "CVE-2022-48174",
+          "package": [
+            "busybox",
+            "ssl_client"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-0464",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-10932",
+          "package": [
+            "mbedtls"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "2.16.6-r0"
+        },
+        {
+          "cve_id": "CVE-2020-1971",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.1.1i-r0"
+        },
+        {
+          "cve_id": "CVE-2021-42384",
+          "package": [
+            "busybox",
+            "ssl_client"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-2068",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "10.0",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-0466",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-23839",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "4.3",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.1.1j-r0"
+        },
+        {
+          "cve_id": "CVE-2021-42381",
+          "package": [
+            "busybox",
+            "ssl_client"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-45853",
+          "package": [
+            "zlib"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-25629",
+          "package": [
+            "c-ares"
+          ],
+          "cvssv3_score": "4.4",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-28831",
+          "package": [
+            "busybox",
+            "ssl_client"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.30.1-r5"
+        },
+        {
+          "cve_id": "CVE-2021-42380",
+          "package": [
+            "busybox",
+            "ssl_client"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-23841",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.1.1j-r0"
+        },
+        {
+          "cve_id": "CVE-2021-42382",
+          "package": [
+            "busybox",
+            "ssl_client"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-42385",
+          "package": [
+            "busybox",
+            "ssl_client"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-14155",
+          "package": [
+            "pcre"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "8.43-r1"
+        },
+        {
+          "cve_id": "CVE-2021-30139",
+          "package": [
+            "apk-tools"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "2.10.6-r0"
+        },
+        {
+          "cve_id": "CVE-2021-42376",
+          "package": [
+            "busybox",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-42379",
+          "package": [
+            "busybox",
+            "ssl_client"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-4807",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-0286",
+          "package": [
+            "libcrypto1.1",
+            "libssl1.1"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-39810",
+          "package": [
+            "busybox",
+            "ssl_client"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 54,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2019-1551",
+        "CVE-2020-1967",
+        "CVE-2020-1971",
+        "CVE-2020-28928",
+        "CVE-2021-23839",
+        "CVE-2021-23840",
+        "CVE-2021-23841",
+        "CVE-2021-28831",
+        "CVE-2021-3449",
+        "CVE-2021-3450",
+        "CVE-2021-3711",
+        "CVE-2021-3712",
+        "CVE-2021-4160",
+        "CVE-2021-42374",
+        "CVE-2021-42376",
+        "CVE-2021-42378",
+        "CVE-2021-42379",
+        "CVE-2021-42380",
+        "CVE-2021-42381",
+        "CVE-2021-42382",
+        "CVE-2021-42384",
+        "CVE-2021-42385",
+        "CVE-2021-42386",
+        "CVE-2022-0778",
+        "CVE-2022-1292",
+        "CVE-2022-2068",
+        "CVE-2022-2097",
+        "CVE-2022-28391",
+        "CVE-2022-4304",
+        "CVE-2022-4450",
+        "CVE-2022-48174",
+        "CVE-2023-0215",
+        "CVE-2023-0286",
+        "CVE-2023-0464",
+        "CVE-2023-0465",
+        "CVE-2023-0466",
+        "CVE-2023-2650",
+        "CVE-2023-3817",
+        "CVE-2023-39810",
+        "CVE-2023-4807",
+        "CVE-2023-5678",
+        "CVE-2024-0727",
+        "CVE-2024-2511"
+      ],
+      "relative_efficiency": 0.4909091
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2022-3602",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-4203",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "4.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.9"
+        },
+        {
+          "cve_id": "CVE-2024-25629",
+          "package": [
+            "3.10:c-ares_1.15.0-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2020-36422",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2020-36423",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-3817",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2022-46392",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2024-1394",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2020-36424",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.7"
+        },
+        {
+          "cve_id": "CVE-2020-10932",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.7"
+        },
+        {
+          "cve_id": "CVE-2021-3672",
+          "package": [
+            "3.10:c-ares_1.15.0-r0"
+          ],
+          "cvssv3_score": "5.6",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.6"
+        },
+        {
+          "cve_id": "CVE-2009-3767",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2018-25032",
+          "package": [
+            "3.10:zlib_1.2.11-r1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "3.10:ssl_client_1.30.1-r2",
+            "3.10:busybox_1.30.1-r2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2021-42378",
+          "package": [
+            "3.10:ssl_client_1.30.1-r2",
+            "3.10:busybox_1.30.1-r2"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.2"
+        },
+        {
+          "cve_id": "CVE-2020-36475",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2021-36647",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.7"
+        },
+        {
+          "cve_id": "CVE-2023-31147",
+          "package": [
+            "3.10:c-ares_1.15.0-r0"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2021-3711",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2023-31130",
+          "package": [
+            "3.10:c-ares_1.15.0-r0"
+          ],
+          "cvssv3_score": "6.4",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.4"
+        },
+        {
+          "cve_id": "CVE-2023-43615",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-4304",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2023-1255",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2020-1967",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2020-36426",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-4450",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2021-28831",
+          "package": [
+            "3.10:busybox_1.30.1-r2",
+            "3.10:ssl_client_1.30.1-r2"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2021-3450",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.4"
+        },
+        {
+          "cve_id": "CVE-2021-42384",
+          "package": [
+            "3.10:ssl_client_1.30.1-r2",
+            "3.10:busybox_1.30.1-r2"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.2"
+        },
+        {
+          "cve_id": "CVE-2021-42374",
+          "package": [
+            "3.10:ssl_client_1.30.1-r2",
+            "3.10:busybox_1.30.1-r2"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2021-23839",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "3.7"
+        },
+        {
+          "cve_id": "CVE-2020-1971",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2021-42382",
+          "package": [
+            "3.10:ssl_client_1.30.1-r2",
+            "3.10:busybox_1.30.1-r2"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.2"
+        },
+        {
+          "cve_id": "CVE-2021-42383",
+          "package": [
+            "3.10:busybox_1.30.1-r2",
+            "3.10:ssl_client_1.30.1-r2"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.2"
+        },
+        {
+          "cve_id": "CVE-2023-49210",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2021-36159",
+          "package": [
+            "3.10:apk-tools_2.10.4-r2"
+          ],
+          "cvssv3_score": "9.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.1"
+        },
+        {
+          "cve_id": "CVE-2022-28391",
+          "package": [
+            "3.10:ssl_client_1.30.1-r2",
+            "3.10:busybox_1.30.1-r2"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "8.8"
+        },
+        {
+          "cve_id": "CVE-2021-43666",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-32067",
+          "package": [
+            "3.10:c-ares_1.15.0-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-30065",
+          "package": [
+            "3.10:ssl_client_1.30.1-r2",
+            "3.10:busybox_1.30.1-r2"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.8"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "3.10:busybox_1.30.1-r2",
+            "3.10:ssl_client_1.30.1-r2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2021-42385",
+          "package": [
+            "3.10:busybox_1.30.1-r2",
+            "3.10:ssl_client_1.30.1-r2"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.2"
+        },
+        {
+          "cve_id": "CVE-2022-0778",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-2975",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2021-4160",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2020-36477",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2020-16150",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2021-24119",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "4.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.9"
+        },
+        {
+          "cve_id": "CVE-2019-16910",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2021-42376",
+          "package": [
+            "3.10:ssl_client_1.30.1-r2",
+            "3.10:busybox_1.30.1-r2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2022-48174",
+          "package": [
+            "3.10:ssl_client_1.30.1-r2",
+            "3.10:busybox_1.30.1-r2"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2021-44732",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2020-36478",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "3.10:busybox_1.30.1-r2",
+            "3.10:ssl_client_1.30.1-r2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-0216",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-0401",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-2650",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2022-1292",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2021-42380",
+          "package": [
+            "3.10:busybox_1.30.1-r2",
+            "3.10:ssl_client_1.30.1-r2"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.2"
+        },
+        {
+          "cve_id": "CVE-2021-23840",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2021-42375",
+          "package": [
+            "3.10:busybox_1.30.1-r2",
+            "3.10:ssl_client_1.30.1-r2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2019-1551",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "3.10:busybox_1.30.1-r2",
+            "3.10:ssl_client_1.30.1-r2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-0215",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-0466",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2023-52353",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2021-42386",
+          "package": [
+            "3.10:ssl_client_1.30.1-r2",
+            "3.10:busybox_1.30.1-r2"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.2"
+        },
+        {
+          "cve_id": "CVE-2021-30139",
+          "package": [
+            "3.10:apk-tools_2.10.4-r2"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-6129",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2021-3712",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.4"
+        },
+        {
+          "cve_id": "CVE-2022-2097",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2021-45451",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-3446",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2022-37434",
+          "package": [
+            "3.10:zlib_1.2.11-r1"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2022-35409",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "9.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.1"
+        },
+        {
+          "cve_id": "CVE-2022-4904",
+          "package": [
+            "3.10:c-ares_1.15.0-r0"
+          ],
+          "cvssv3_score": "8.6",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "8.6"
+        },
+        {
+          "cve_id": "CVE-2020-36476",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2020-36421",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2024-23170",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2021-3449",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2020-28928",
+          "package": [
+            "3.10:musl_1.1.22-r3",
+            "3.10:musl-utils_1.1.22-r3"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2020-14155",
+          "package": [
+            "3.10:pcre_8.43-r0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2023-5363",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-0217",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2020-36425",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2024-28960",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2016-7798",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-0465",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2024-23744",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2019-18222",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.7"
+        },
+        {
+          "cve_id": "CVE-2022-46393",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2021-23841",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2022-2068",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2021-42379",
+          "package": [
+            "3.10:ssl_client_1.30.1-r2",
+            "3.10:busybox_1.30.1-r2"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.2"
+        },
+        {
+          "cve_id": "CVE-2020-10941",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2023-0286",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.4"
+        },
+        {
+          "cve_id": "CVE-2000-1254",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2022-3786",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2021-42381",
+          "package": [
+            "3.10:ssl_client_1.30.1-r2",
+            "3.10:busybox_1.30.1-r2"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.2"
+        },
+        {
+          "cve_id": "CVE-2024-23775",
+          "package": [
+            "3.10:mbedtls_2.16.1-r1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-31124",
+          "package": [
+            "3.10:c-ares_1.15.0-r0"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "3.7"
+        },
+        {
+          "cve_id": "CVE-2023-6237",
+          "package": [
+            "3.10:libcrypto1.1_1.1.1d-r0",
+            "3.10:libssl1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-0464",
+          "package": [
+            "3.10:libssl1.1_1.1.1d-r0",
+            "3.10:libcrypto1.1_1.1.1d-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        }
+      ],
+      "num_cves": 107,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2022-2068",
+        "CVE-2022-1292",
+        "CVE-2022-48174",
+        "CVE-2022-3786",
+        "CVE-2022-3602",
+        "CVE-2000-1254",
+        "CVE-2021-42382",
+        "CVE-2021-42381",
+        "CVE-2021-42380",
+        "CVE-2021-42379",
+        "CVE-2022-28391",
+        "CVE-2021-42386",
+        "CVE-2021-23840",
+        "CVE-2021-3450",
+        "CVE-2021-42378",
+        "CVE-2021-42385",
+        "CVE-2021-28831",
+        "CVE-2022-30065",
+        "CVE-2021-42384",
+        "CVE-2020-1967",
+        "CVE-2021-42383",
+        "CVE-2022-0778",
+        "CVE-2019-1551",
+        "CVE-2023-3817",
+        "CVE-2023-6129",
+        "CVE-2023-42364",
+        "CVE-2023-3446",
+        "CVE-2023-42363",
+        "CVE-2024-0727",
+        "CVE-2020-1971",
+        "CVE-2022-4304",
+        "CVE-2023-5678",
+        "CVE-2023-2975",
+        "CVE-2021-42375",
+        "CVE-2023-42365",
+        "CVE-2021-23841",
+        "CVE-2023-42366",
+        "CVE-2022-4203",
+        "CVE-2020-28928",
+        "CVE-2023-1255",
+        "CVE-2021-42374",
+        "CVE-2021-4160",
+        "CVE-2021-42376",
+        "CVE-2009-3767",
+        "CVE-2021-23839",
+        "CVE-2024-4603",
+        "CVE-2023-6237",
+        "CVE-2024-2511",
+        "CVE-2024-1394",
+        "CVE-2021-3711",
+        "CVE-2023-49210",
+        "CVE-2023-0215",
+        "CVE-2023-5363",
+        "CVE-2021-3712",
+        "CVE-2023-0216",
+        "CVE-2023-0286",
+        "CVE-2023-0464",
+        "CVE-2023-0401",
+        "CVE-2022-4450",
+        "CVE-2023-0217",
+        "CVE-2016-7798",
+        "CVE-2023-2650",
+        "CVE-2021-3449",
+        "CVE-2022-2097",
+        "CVE-2023-0466",
+        "CVE-2023-0465"
+      ],
+      "relative_efficiency": 0.9727273
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2021-4160",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-4160",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-4160",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-3446",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-3446",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-4904",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-4904",
+            "package": [
+              "3.10:c-ares_1.15.0-r0"
+            ],
+            "cvssv3_score": "8.6",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "8.6"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-23744",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-23744",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-4603",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-31124",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-31124",
+            "package": [
+              "3.10:c-ares_1.15.0-r0"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "3.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42364",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "3.10:busybox_1.30.1-r2",
+              "3.10:ssl_client_1.30.1-r2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-0215",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-0215",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0215",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-2650",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-2650",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-2650",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2022-2068",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-2068",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "10.0",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-2068",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2024-23775",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-23775",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-43615",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-43615",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-0401",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0401",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-35409",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-35409",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "9.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-36421",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-36421",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-0217",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0217",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7798",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2016-7798",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-4450",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-4450",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-4450",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-4807",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-4807",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-36422",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-36422",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-31130",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-31130",
+            "package": [
+              "3.10:c-ares_1.15.0-r0"
+            ],
+            "cvssv3_score": "6.4",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.4"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-3450",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2021-3450",
+            "package": [
+              " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1k-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-3450",
+            "package": [
+              "openssl/libcrypto1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1k-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2021-3450",
+            "package": [
+              "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+              "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1k-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-3450",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.1.1k-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-3450",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.4"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2022-3602",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-3602",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-32067",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-32067",
+            "package": [
+              "3.10:c-ares_1.15.0-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-45451",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-45451",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-36647",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-36647",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-49210",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-49210",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-0216",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0216",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-3786",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-3786",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-36424",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-36424",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-36478",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-36478",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-4304",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-4304",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-4304",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-3712",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-3712",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-3712",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.4"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-42378",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42378",
+            "package": [
+              "busybox",
+              "ssl_client"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-42378",
+            "package": [
+              "3.10:ssl_client_1.30.1-r2",
+              "3.10:busybox_1.30.1-r2"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.2"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2000-1254",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2000-1254",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-3449",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2021-3449",
+            "package": [
+              " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1k-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-3449",
+            "package": [
+              "openssl/libcrypto1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1k-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2021-3449",
+            "package": [
+              "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+              "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1k-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-3449",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.1.1k-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-3449",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2022-0778",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-0778",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-0778",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2022-28391",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-28391",
+            "package": [
+              "busybox",
+              "ssl_client"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-28391",
+            "package": [
+              "3.10:ssl_client_1.30.1-r2",
+              "3.10:busybox_1.30.1-r2"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "8.8"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-43666",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-43666",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-52353",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-52353",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2511",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-42379",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42379",
+            "package": [
+              "busybox",
+              "ssl_client"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-42379",
+            "package": [
+              "3.10:ssl_client_1.30.1-r2",
+              "3.10:busybox_1.30.1-r2"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.2"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-42374",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42374",
+            "package": [
+              "busybox",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-42374",
+            "package": [
+              "3.10:ssl_client_1.30.1-r2",
+              "3.10:busybox_1.30.1-r2"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-42385",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42385",
+            "package": [
+              "busybox",
+              "ssl_client"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-42385",
+            "package": [
+              "3.10:busybox_1.30.1-r2",
+              "3.10:ssl_client_1.30.1-r2"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.2"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2020-36475",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-36475",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-23839",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2021-23839",
+            "package": [
+              " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1j-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-23839",
+            "package": [
+              "openssl/libcrypto1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1j-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2021-23839",
+            "package": [
+              "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+              "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1j-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-23839",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "4.3",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.1.1j-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-23839",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "3.7"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2019-16910",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2019-16910",
+            "package": [
+              " pkg:apk/alpine/mbedtls@2.16.1-r1?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.16.3-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-16910",
+            "package": [
+              "mbedtls/mbedtls@2.16.1-r1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to mbedtls/mbedtls@2.16.3-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2019-16910",
+            "package": [
+              "shadowsocks/shadowsocks-libev: mbedtls@2.16.1-r1"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.16.3-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-16910",
+            "package": [
+              "mbedtls"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "2.16.3-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-16910",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2021-42380",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42380",
+            "package": [
+              "busybox",
+              "ssl_client"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-42380",
+            "package": [
+              "3.10:busybox_1.30.1-r2",
+              "3.10:ssl_client_1.30.1-r2"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.2"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2020-36476",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-36476",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-10941",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-10941",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-1292",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-1292",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "10.0",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-1292",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-3817",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-3817",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-3817",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-5678",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-24119",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-24119",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "4.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-44732",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-44732",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-42375",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-42375",
+            "package": [
+              "3.10:busybox_1.30.1-r2",
+              "3.10:ssl_client_1.30.1-r2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-46393",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-46393",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-0465",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-0465",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0465",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-42382",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42382",
+            "package": [
+              "busybox",
+              "ssl_client"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-42382",
+            "package": [
+              "3.10:ssl_client_1.30.1-r2",
+              "3.10:busybox_1.30.1-r2"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.2"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-23840",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2021-23840",
+            "package": [
+              " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1j-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-23840",
+            "package": [
+              "openssl/libcrypto1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1j-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2021-23840",
+            "package": [
+              "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+              "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1j-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-23840",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.1.1j-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-23840",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2023-0286",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-0286",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0286",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.4"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-42365",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "3.10:busybox_1.30.1-r2",
+              "3.10:ssl_client_1.30.1-r2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-30065",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-30065",
+            "package": [
+              "3.10:ssl_client_1.30.1-r2",
+              "3.10:busybox_1.30.1-r2"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-14155",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2020-14155",
+            "package": [
+              " pkg:apk/alpine/pcre@8.43-r0?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "8.43-r1"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-14155",
+            "package": [
+              "pcre/pcre@8.43-r0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to pcre/pcre@8.43-r1"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2020-14155",
+            "package": [
+              "shadowsocks/shadowsocks-libev: pcre@8.43-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "8.43-r1"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-14155",
+            "package": [
+              "pcre"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "8.43-r1"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-14155",
+            "package": [
+              "3.10:pcre_8.43-r0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2021-28831",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2021-28831",
+            "package": [
+              " pkg:apk/alpine/busybox@1.30.1-r2?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.30.1-r5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-28831",
+            "package": [
+              "busybox/busybox@1.30.1-r2"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.30.1-r5"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2021-28831",
+            "package": [
+              "shadowsocks/shadowsocks-libev: busybox@1.30.1-r2",
+              "shadowsocks/shadowsocks-libev: ssl_client@1.30.1-r2"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.30.1-r5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-28831",
+            "package": [
+              "busybox",
+              "ssl_client"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.30.1-r5"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-28831",
+            "package": [
+              "3.10:busybox_1.30.1-r2",
+              "3.10:ssl_client_1.30.1-r2"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2023-0466",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-0466",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0466",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-42383",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-42383",
+            "package": [
+              "3.10:busybox_1.30.1-r2",
+              "3.10:ssl_client_1.30.1-r2"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.2"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-1971",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2020-1971",
+            "package": [
+              " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1i-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-1971",
+            "package": [
+              "openssl/libcrypto1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1i-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2020-1971",
+            "package": [
+              "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+              "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1i-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-1971",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.1.1i-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-1971",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2018-25032",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2018-25032",
+            "package": [
+              "zlib"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-25032",
+            "package": [
+              "3.10:zlib_1.2.11-r1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-42386",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42386",
+            "package": [
+              "busybox",
+              "ssl_client"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-42386",
+            "package": [
+              "3.10:ssl_client_1.30.1-r2",
+              "3.10:busybox_1.30.1-r2"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.2"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-45853",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-45853",
+            "package": [
+              "zlib"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-1255",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-1255",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-5363",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-5363",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-18222",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2019-18222",
+            "package": [
+              " pkg:apk/alpine/mbedtls@2.16.1-r1?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.16.4-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-18222",
+            "package": [
+              "mbedtls/mbedtls@2.16.1-r1"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to mbedtls/mbedtls@2.16.4-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2019-18222",
+            "package": [
+              "shadowsocks/shadowsocks-libev: mbedtls@2.16.1-r1"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.16.4-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-18222",
+            "package": [
+              "mbedtls"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "2.16.4-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-18222",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.7"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2019-1551",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2019-1551",
+            "package": [
+              " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1d-r2"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-1551",
+            "package": [
+              "openssl/libcrypto1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1d-r2"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2019-1551",
+            "package": [
+              "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+              "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1d-r2"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-1551",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.1.1d-r2"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-1551",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2022-37434",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-37434",
+            "package": [
+              "zlib"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-37434",
+            "package": [
+              "3.10:zlib_1.2.11-r1"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2024-0727",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-42381",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42381",
+            "package": [
+              "busybox",
+              "ssl_client"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-42381",
+            "package": [
+              "3.10:ssl_client_1.30.1-r2",
+              "3.10:busybox_1.30.1-r2"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.2"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-39810",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-39810",
+            "package": [
+              "busybox",
+              "ssl_client"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-31147",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-31147",
+            "package": [
+              "3.10:c-ares_1.15.0-r0"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-36477",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-36477",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-6129",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-6129",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-23170",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-23170",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-46392",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-46392",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42363",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "3.10:busybox_1.30.1-r2",
+              "3.10:ssl_client_1.30.1-r2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-16150",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2020-16150",
+            "package": [
+              " pkg:apk/alpine/mbedtls@2.16.1-r1?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.16.8-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-16150",
+            "package": [
+              "mbedtls/mbedtls@2.16.1-r1"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to mbedtls/mbedtls@2.16.8-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2020-16150",
+            "package": [
+              "shadowsocks/shadowsocks-libev: mbedtls@2.16.1-r1"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.16.8-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-16150",
+            "package": [
+              "mbedtls"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "2.16.8-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-16150",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2021-23841",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2021-23841",
+            "package": [
+              " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1j-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-23841",
+            "package": [
+              "openssl/libcrypto1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1j-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2021-23841",
+            "package": [
+              "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+              "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1j-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-23841",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.1.1j-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-23841",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2021-3711",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-3711",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-3711",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2024-25629",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-25629",
+            "package": [
+              "c-ares"
+            ],
+            "cvssv3_score": "4.4",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-25629",
+            "package": [
+              "3.10:c-ares_1.15.0-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2022-4203",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-4203",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "4.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42366",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "3.10:ssl_client_1.30.1-r2",
+              "3.10:busybox_1.30.1-r2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-36423",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-36423",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-28928",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2020-28928",
+            "package": [
+              " pkg:apk/alpine/musl@1.1.22-r3?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.22-r4"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-28928",
+            "package": [
+              "musl/musl@1.1.22-r3"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to musl/musl@1.1.22-r4"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2020-28928",
+            "package": [
+              "shadowsocks/shadowsocks-libev: musl@1.1.22-r3",
+              "shadowsocks/shadowsocks-libev: musl-utils@1.1.22-r3"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.22-r4"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-28928",
+            "package": [
+              "musl",
+              "musl-utils"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.1.22-r4"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-28928",
+            "package": [
+              "3.10:musl_1.1.22-r3",
+              "3.10:musl-utils_1.1.22-r3"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2022-2097",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-2097",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-2097",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-2975",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-2975",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-36425",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-36425",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-28960",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-28960",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-10932",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2020-10932",
+            "package": [
+              " pkg:apk/alpine/mbedtls@2.16.1-r1?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.16.6-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-10932",
+            "package": [
+              "mbedtls/mbedtls@2.16.1-r1"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to mbedtls/mbedtls@2.16.6-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2020-10932",
+            "package": [
+              "shadowsocks/shadowsocks-libev: mbedtls@2.16.1-r1"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.16.6-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-10932",
+            "package": [
+              "mbedtls"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "2.16.6-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-10932",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.7"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2021-36159",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2021-36159",
+            "package": [
+              " pkg:apk/alpine/apk-tools@2.10.4-r2?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "CRITICAL",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.10.7-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-36159",
+            "package": [
+              "apk-tools/apk-tools@2.10.4-r2"
+            ],
+            "cvssv3_score": "9.1",
+            "severity": "Critical",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to apk-tools/apk-tools@2.10.7-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2021-36159",
+            "package": [
+              "shadowsocks/shadowsocks-libev: apk-tools@2.10.4-r2"
+            ],
+            "cvssv3_score": "",
+            "severity": "CRITICAL",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.10.7-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-36159",
+            "package": [
+              "apk-tools"
+            ],
+            "cvssv3_score": "9.1",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "2.10.7-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-36159",
+            "package": [
+              "3.10:apk-tools_2.10.4-r2"
+            ],
+            "cvssv3_score": "9.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.1"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2022-48174",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-48174",
+            "package": [
+              "busybox",
+              "ssl_client"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-48174",
+            "package": [
+              "3.10:ssl_client_1.30.1-r2",
+              "3.10:busybox_1.30.1-r2"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-42384",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42384",
+            "package": [
+              "busybox",
+              "ssl_client"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-42384",
+            "package": [
+              "3.10:ssl_client_1.30.1-r2",
+              "3.10:busybox_1.30.1-r2"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.2"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2024-1394",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-1394",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-36426",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-36426",
+            "package": [
+              "3.10:mbedtls_2.16.1-r1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-42376",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-42376",
+            "package": [
+              "busybox",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-42376",
+            "package": [
+              "3.10:ssl_client_1.30.1-r2",
+              "3.10:busybox_1.30.1-r2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2009-3767",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2009-3767",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-6237",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-6237",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-1967",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2020-1967",
+            "package": [
+              " pkg:apk/alpine/openssl@1.1.1d-r0?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1g-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-1967",
+            "package": [
+              "openssl/libcrypto1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto1.1@1.1.1g-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2020-1967",
+            "package": [
+              "shadowsocks/shadowsocks-libev: libcrypto1.1@1.1.1d-r0",
+              "shadowsocks/shadowsocks-libev: libssl1.1@1.1.1d-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1g-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-1967",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.1.1g-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-1967",
+            "package": [
+              "3.10:libcrypto1.1_1.1.1d-r0",
+              "3.10:libssl1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2023-0464",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-0464",
+            "package": [
+              "libcrypto1.1",
+              "libssl1.1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0464",
+            "package": [
+              "3.10:libssl1.1_1.1.1d-r0",
+              "3.10:libcrypto1.1_1.1.1d-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-30139",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2021-30139",
+            "package": [
+              " pkg:apk/alpine/apk-tools@2.10.4-r2?os_name=alpine\u0026os_version=3.10"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.10.6-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-30139",
+            "package": [
+              "apk-tools/apk-tools@2.10.4-r2"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to apk-tools/apk-tools@2.10.6-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2021-30139",
+            "package": [
+              "shadowsocks/shadowsocks-libev: apk-tools@2.10.4-r2"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.10.6-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-30139",
+            "package": [
+              "apk-tools"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "2.10.6-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-30139",
+            "package": [
+              "3.10:apk-tools_2.10.4-r2"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2021-3672",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-3672",
+            "package": [
+              "3.10:c-ares_1.15.0-r0"
+            ],
+            "cvssv3_score": "5.6",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.6"
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 110
+}

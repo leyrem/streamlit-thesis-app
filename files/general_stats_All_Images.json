@@ -1,0 +1,13 @@
+{
+    "executing_script": "get_dataframes.py",
+    "images_analysed_type": "All Images",
+    "number_images_analysed": 2103,
+    "len_num_cves_list": 2103,
+    "average_cves_per_image": 239.37232524964335,
+    "median_cves_per_image": 71.0,
+    "variance_cves_per_image": 192927.06635077522,
+    "std_dev_cves_per_image": 439.23463701167196,
+    "min_value_cves_per_images": 0,
+    "max_value_cves_per_image": 3618,
+    "range_value_cves_per_image": 3618
+}

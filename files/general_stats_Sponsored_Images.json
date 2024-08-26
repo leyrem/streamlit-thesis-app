@@ -1,0 +1,13 @@
+{
+    "executing_script": "get_dataframes.py",
+    "images_analysed_type": "Sponsored Images",
+    "number_images_analysed": 712,
+    "len_num_cves_list": 712,
+    "average_cves_per_image": 241.47050561797752,
+    "median_cves_per_image": 84.0,
+    "variance_cves_per_image": 206624.7445578312,
+    "std_dev_cves_per_image": 454.5599460553374,
+    "min_value_cves_per_images": 0,
+    "max_value_cves_per_image": 3618,
+    "range_value_cves_per_image": 3618
+}

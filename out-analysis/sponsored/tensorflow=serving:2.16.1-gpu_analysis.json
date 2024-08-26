@@ -1,0 +1,6022 @@
+{
+  "image_scanned": "tensorflow/serving:2.16.1-gpu",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2016-1585",
+          "package": [
+            "apparmor/libapparmor1@2.13.3-7ubuntu5.3"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-13716",
+          "package": [
+            "binutils/binutils-common@2.34-6ubuntu1.9"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010204",
+          "package": [
+            "binutils/binutils-common@2.34-6ubuntu1.9"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-48064",
+          "package": [
+            "binutils/binutils-common@2.34-6ubuntu1.9"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-20657",
+          "package": [
+            "binutils/binutils-common@2.34-6ubuntu1.9"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-2781",
+          "package": [
+            "coreutils@8.30-3ubuntu2"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-34969",
+          "package": [
+            "dbus/libdbus-1-3@1.12.16-2ubuntu2.3"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-13844",
+          "package": [
+            "gcc-defaults/cpp@4:9.3.0-1ubuntu2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-34397",
+          "package": [
+            "glib2.0/libglib2.0-0@2.64.6-1~ubuntu20.04.6"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to glib2.0/libglib2.0-0@2.64.6-1~ubuntu20.04.7"
+        },
+        {
+          "cve_id": "CVE-2021-33574",
+          "package": [
+            "glibc/libc6-dev@2.31-0ubuntu9.14"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-20013",
+          "package": [
+            "glibc/libc6-dev@2.31-0ubuntu9.14"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2961",
+          "package": [
+            "glibc/libc6-dev@2.31-0ubuntu9.14"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-33600",
+          "package": [
+            "glibc/libc6-dev@2.31-0ubuntu9.14"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-33599",
+          "package": [
+            "glibc/libc6-dev@2.31-0ubuntu9.14"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-33601",
+          "package": [
+            "glibc/libc6-dev@2.31-0ubuntu9.14"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-33602",
+          "package": [
+            "glibc/libc6-dev@2.31-0ubuntu9.14"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-4813",
+          "package": [
+            "glibc/libc-bin@2.31-0ubuntu9.12"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to glibc/libc-bin@2.31-0ubuntu9.14"
+        },
+        {
+          "cve_id": "CVE-2023-4806",
+          "package": [
+            "glibc/libc-bin@2.31-0ubuntu9.12"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to glibc/libc-bin@2.31-0ubuntu9.14"
+        },
+        {
+          "cve_id": "CVE-2022-3219",
+          "package": [
+            "gnupg2/gpgv@2.2.19-3ubuntu2.2"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-5981",
+          "package": [
+            "gnutls28/libgnutls30@3.6.13-2ubuntu1.8"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to gnutls28/libgnutls30@3.6.13-2ubuntu1.9"
+        },
+        {
+          "cve_id": "CVE-2024-0553",
+          "package": [
+            "gnutls28/libgnutls30@3.6.13-2ubuntu1.8"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to gnutls28/libgnutls30@3.6.13-2ubuntu1.10"
+        },
+        {
+          "cve_id": "CVE-2024-28834",
+          "package": [
+            "gnutls28/libgnutls30@3.6.13-2ubuntu1.8"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to gnutls28/libgnutls30@3.6.13-2ubuntu1.11"
+        },
+        {
+          "cve_id": "CVE-2018-5709",
+          "package": [
+            "krb5/libkrb5support0@1.17-6ubuntu4.4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-26461",
+          "package": [
+            "krb5/libkrb5support0@1.17-6ubuntu4.4"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-26462",
+          "package": [
+            "krb5/libkrb5support0@1.17-6ubuntu4.4"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-26458",
+          "package": [
+            "krb5/libkrb5support0@1.17-6ubuntu4.4"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2236",
+          "package": [
+            "libgcrypt20@1.8.5-5ubuntu1.1"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-3857",
+          "package": [
+            "libpng1.6/libpng16-16@1.6.37-2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-35329",
+          "package": [
+            "libyaml/libyaml-0-2@0.2.2-1"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-35328",
+          "package": [
+            "libyaml/libyaml-0-2@0.2.2-1"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-35325",
+          "package": [
+            "libyaml/libyaml-0-2@0.2.2-1"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-35326",
+          "package": [
+            "libyaml/libyaml-0-2@0.2.2-1"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-50495",
+          "package": [
+            "ncurses/libncursesw6@6.2-0ubuntu2.1"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-45918",
+          "package": [
+            "ncurses/libncursesw6@6.2-0ubuntu2.1"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-28182",
+          "package": [
+            "nghttp2/libnghttp2-14@1.40.0-1ubuntu0.2"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-2953",
+          "package": [
+            "openldap/libldap-common@2.4.49+dfsg-2ubuntu1.9"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            "openssl@1.1.1f-1ubuntu2.20"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            "openssl@1.1.1f-1ubuntu2.20"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "openssl@1.1.1f-1ubuntu2.20"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "openssl@1.1.1f-1ubuntu2.20"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-22365",
+          "package": [
+            "pam/libpam-modules@1.3.1-5ubuntu4.6"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to pam/libpam-modules@1.3.1-5ubuntu4.7"
+        },
+        {
+          "cve_id": "CVE-2021-45261",
+          "package": [
+            "patch@2.7.6-6"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-6952",
+          "package": [
+            "patch@2.7.6-6"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-11164",
+          "package": [
+            "pcre3/libpcre3@2:8.39-12ubuntu0.1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-2568",
+          "package": [
+            "policykit-1/libpolkit-gobject-1-0@0.105-26ubuntu1.3"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-4016",
+          "package": [
+            "procps/libprocps8@2:3.3.16-1ubuntu2.3"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to procps/libprocps8@2:3.3.16-1ubuntu2.4"
+        },
+        {
+          "cve_id": "CVE-2023-27043",
+          "package": [
+            "python3.8/libpython3.8-stdlib@3.8.10-0ubuntu1~20.04.9"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-3651",
+          "package": [
+            "python-idna/python3-idna@2.8-1"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-35195",
+          "package": [
+            "requests/python3-requests@2.22.0-2ubuntu1.1"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-29383",
+          "package": [
+            "shadow/login@1:4.8.1-1ubuntu5.20.04.4"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2013-4235",
+          "package": [
+            "shadow/login@1:4.8.1-1ubuntu5.20.04.4"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-4641",
+          "package": [
+            "shadow/login@1:4.8.1-1ubuntu5.20.04.4"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to shadow/login@1:4.8.1-1ubuntu5.20.04.5"
+        },
+        {
+          "cve_id": "CVE-2023-7104",
+          "package": [
+            "sqlite3/libsqlite3-0@3.31.1-4ubuntu0.5"
+          ],
+          "cvssv3_score": "7.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-26604",
+          "package": [
+            "systemd@245.4-4ubuntu3.23"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-7008",
+          "package": [
+            "systemd@245.4-4ubuntu3.23"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-39804",
+          "package": [
+            "tar@1.30+dfsg-7ubuntu0.20.04.3"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to tar@1.30+dfsg-7ubuntu0.20.04.4"
+        },
+        {
+          "cve_id": "CVE-2024-28085",
+          "package": [
+            "util-linux/mount@2.34-0.1ubuntu9.4"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to util-linux/mount@2.34-0.1ubuntu9.5"
+        },
+        {
+          "cve_id": "CVE-2020-22916",
+          "package": [
+            "xz-utils@5.2.4-1ubuntu1.1"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 58,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.70731705
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-28834",
+          "package": [
+            "ubuntu:focal:libgnutls30_3.6.13-2ubuntu1.8"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-34397",
+          "package": [
+            "ubuntu:focal:libglib2.0-0_2.64.6-1~ubuntu20.04.6",
+            "ubuntu:focal:libglib2.0-bin_2.64.6-1~ubuntu20.04.6"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "ubuntu:focal:libssl1.1_1.1.1f-1ubuntu2.20",
+            "ubuntu:focal:openssl_1.1.1f-1ubuntu2.20"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-22365",
+          "package": [
+            "ubuntu:focal:libpam-modules_1.3.1-5ubuntu4.6",
+            "ubuntu:focal:libpam-runtime_1.3.1-5ubuntu4.6",
+            "ubuntu:focal:libpam0g_1.3.1-5ubuntu4.6",
+            "ubuntu:focal:libpam-modules-bin_1.3.1-5ubuntu4.6"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-34969",
+          "package": [
+            "ubuntu:focal:dbus-user-session_1.12.16-2ubuntu2.3",
+            "ubuntu:focal:dbus_1.12.16-2ubuntu2.3",
+            "ubuntu:focal:libdbus-1-3_1.12.16-2ubuntu2.3"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2023-4016",
+          "package": [
+            "ubuntu:focal:libprocps8:2_3.3.16-1ubuntu2.3",
+            "ubuntu:focal:procps:2_3.3.16-1ubuntu2.3"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "3.3"
+        },
+        {
+          "cve_id": "CVE-2024-33600",
+          "package": [
+            "ubuntu:focal:libc-dev-bin_2.31-0ubuntu9.14",
+            "ubuntu:focal:libc6_2.31-0ubuntu9.14",
+            "ubuntu:focal:libc-bin_2.31-0ubuntu9.12"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-0553",
+          "package": [
+            "ubuntu:focal:libgnutls30_3.6.13-2ubuntu1.8"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-28182",
+          "package": [
+            "ubuntu:focal:libnghttp2-14_1.40.0-1ubuntu0.2"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-35328",
+          "package": [
+            "ubuntu:focal:libyaml-0-2_0.2.2-1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-35325",
+          "package": [
+            "ubuntu:focal:libyaml-0-2_0.2.2-1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-33599",
+          "package": [
+            "ubuntu:focal:libc6_2.31-0ubuntu9.14",
+            "ubuntu:focal:libc-bin_2.31-0ubuntu9.12",
+            "ubuntu:focal:libc-dev-bin_2.31-0ubuntu9.14"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-33602",
+          "package": [
+            "ubuntu:focal:libc-dev-bin_2.31-0ubuntu9.14",
+            "ubuntu:focal:libc6_2.31-0ubuntu9.14",
+            "ubuntu:focal:libc-bin_2.31-0ubuntu9.12"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-5981",
+          "package": [
+            "ubuntu:focal:libgnutls30_3.6.13-2ubuntu1.8"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2024-2236",
+          "package": [
+            "ubuntu:focal:libgcrypt20_1.8.5-5ubuntu1.1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2022-48064",
+          "package": [
+            "ubuntu:focal:binutils_2.34-6ubuntu1.9",
+            "ubuntu:focal:libbinutils_2.34-6ubuntu1.9",
+            "ubuntu:focal:libctf-nobfd0_2.34-6ubuntu1.9",
+            "ubuntu:focal:binutils-common_2.34-6ubuntu1.9",
+            "ubuntu:focal:libctf0_2.34-6ubuntu1.9",
+            "ubuntu:focal:binutils-x86-64-linux-gnu_2.34-6ubuntu1.9"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-4806",
+          "package": [
+            "ubuntu:focal:libc-bin_2.31-0ubuntu9.12"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2022-3857",
+          "package": [
+            "ubuntu:focal:libpng16-16_1.6.37-2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2022-23491",
+          "package": [
+            "certifi_2019.11.28"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-33601",
+          "package": [
+            "ubuntu:focal:libc-dev-bin_2.31-0ubuntu9.14",
+            "ubuntu:focal:libc6_2.31-0ubuntu9.14",
+            "ubuntu:focal:libc-bin_2.31-0ubuntu9.12"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            "ubuntu:focal:openssl_1.1.1f-1ubuntu2.20",
+            "ubuntu:focal:libssl1.1_1.1.1f-1ubuntu2.20"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2016-20013",
+          "package": [
+            "ubuntu:focal:libc-bin_2.31-0ubuntu9.12",
+            "ubuntu:focal:libc6_2.31-0ubuntu9.14",
+            "ubuntu:focal:libc-dev-bin_2.31-0ubuntu9.14"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            "ubuntu:focal:openssl_1.1.1f-1ubuntu2.20",
+            "ubuntu:focal:libssl1.1_1.1.1f-1ubuntu2.20"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-43804",
+          "package": [
+            "urllib3_1.25.8"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "8.1"
+        },
+        {
+          "cve_id": "CVE-2018-6952",
+          "package": [
+            "ubuntu:focal:patch_2.7.6-6"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2021-33503",
+          "package": [
+            "urllib3_1.25.8"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-32681",
+          "package": [
+            "requests_2.22.0"
+          ],
+          "cvssv3_score": "6.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.1"
+        },
+        {
+          "cve_id": "CVE-2020-22916",
+          "package": [
+            "ubuntu:focal:xz-utils_5.2.4-1ubuntu1.1",
+            "ubuntu:focal:liblzma5_5.2.4-1ubuntu1.1"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-7008",
+          "package": [
+            "ubuntu:focal:libudev1_245.4-4ubuntu3.22",
+            "ubuntu:focal:libpam-systemd_245.4-4ubuntu3.23",
+            "ubuntu:focal:libsystemd0_245.4-4ubuntu3.23",
+            "ubuntu:focal:systemd-timesyncd_245.4-4ubuntu3.23",
+            "ubuntu:focal:systemd-sysv_245.4-4ubuntu3.23",
+            "ubuntu:focal:systemd_245.4-4ubuntu3.23"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2019-1010204",
+          "package": [
+            "ubuntu:focal:libctf-nobfd0_2.34-6ubuntu1.9",
+            "ubuntu:focal:binutils_2.34-6ubuntu1.9",
+            "ubuntu:focal:libctf0_2.34-6ubuntu1.9",
+            "ubuntu:focal:libbinutils_2.34-6ubuntu1.9",
+            "ubuntu:focal:binutils-x86-64-linux-gnu_2.34-6ubuntu1.9",
+            "ubuntu:focal:binutils-common_2.34-6ubuntu1.9"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2016-2568",
+          "package": [
+            "ubuntu:focal:libpolkit-agent-1-0_0.105-26ubuntu1.3",
+            "ubuntu:focal:policykit-1_0.105-26ubuntu1.3",
+            "ubuntu:focal:libpolkit-gobject-1-0_0.105-26ubuntu1.3"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.8"
+        },
+        {
+          "cve_id": "CVE-2023-2953",
+          "package": [
+            "ubuntu:focal:libldap-2.4-2_2.4.49+dfsg-2ubuntu1.9",
+            "ubuntu:focal:libldap-common_2.4.49+dfsg-2ubuntu1.9"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2018-5709",
+          "package": [
+            "ubuntu:focal:libgssapi-krb5-2_1.17-6ubuntu4.4",
+            "ubuntu:focal:libkrb5-3_1.17-6ubuntu4.4",
+            "ubuntu:focal:libkrb5support0_1.17-6ubuntu4.4",
+            "ubuntu:focal:libk5crypto3_1.17-6ubuntu4.4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2020-26137",
+          "package": [
+            "urllib3_1.25.8"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2020-13844",
+          "package": [
+            "ubuntu:focal:g++:4_9.3.0-1ubuntu2",
+            "ubuntu:focal:cpp:4_9.3.0-1ubuntu2",
+            "ubuntu:focal:gcc:4_9.3.0-1ubuntu2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-27043",
+          "package": [
+            "ubuntu:focal:libpython3.8-stdlib_3.8.10-0ubuntu1~20.04.9",
+            "ubuntu:focal:python3.8_3.8.10-0ubuntu1~20.04.9",
+            "ubuntu:focal:python3.8-minimal_3.8.10-0ubuntu1~20.04.9",
+            "ubuntu:focal:libpython3.8-minimal_3.8.10-0ubuntu1~20.04.9"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2018-20657",
+          "package": [
+            "ubuntu:focal:libctf0_2.34-6ubuntu1.9",
+            "ubuntu:focal:binutils_2.34-6ubuntu1.9",
+            "ubuntu:focal:binutils-x86-64-linux-gnu_2.34-6ubuntu1.9",
+            "ubuntu:focal:libbinutils_2.34-6ubuntu1.9",
+            "ubuntu:focal:libctf-nobfd0_2.34-6ubuntu1.9",
+            "ubuntu:focal:binutils-common_2.34-6ubuntu1.9"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-45918",
+          "package": [
+            "ubuntu:focal:ncurses-bin_6.2-0ubuntu2.1",
+            "ubuntu:focal:libncurses6_6.2-0ubuntu2.1",
+            "ubuntu:focal:libtinfo6_6.2-0ubuntu2.1",
+            "ubuntu:focal:libncursesw6_6.2-0ubuntu2.1",
+            "ubuntu:focal:ncurses-base_6.2-0ubuntu2.1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-7104",
+          "package": [
+            "ubuntu:focal:libsqlite3-0_3.31.1-4ubuntu0.5"
+          ],
+          "cvssv3_score": "7.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.3"
+        },
+        {
+          "cve_id": "CVE-2024-26462",
+          "package": [
+            "ubuntu:focal:libkrb5support0_1.17-6ubuntu4.4",
+            "ubuntu:focal:libk5crypto3_1.17-6ubuntu4.4",
+            "ubuntu:focal:libgssapi-krb5-2_1.17-6ubuntu4.4",
+            "ubuntu:focal:libkrb5-3_1.17-6ubuntu4.4"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-45803",
+          "package": [
+            "urllib3_1.25.8"
+          ],
+          "cvssv3_score": "4.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.2"
+        },
+        {
+          "cve_id": "CVE-2024-3651",
+          "package": [
+            "ubuntu:focal:python3-idna_2.8-1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2017-11164",
+          "package": [
+            "ubuntu:focal:libpcre3:2_8.39-12ubuntu0.1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2016-2781",
+          "package": [
+            "ubuntu:focal:coreutils_8.30-3ubuntu2"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2016-1585",
+          "package": [
+            "ubuntu:focal:libapparmor1_2.13.3-7ubuntu5.3"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2017-13716",
+          "package": [
+            "ubuntu:focal:libctf-nobfd0_2.34-6ubuntu1.9",
+            "ubuntu:focal:libbinutils_2.34-6ubuntu1.9",
+            "ubuntu:focal:binutils_2.34-6ubuntu1.9",
+            "ubuntu:focal:libctf0_2.34-6ubuntu1.9",
+            "ubuntu:focal:binutils-x86-64-linux-gnu_2.34-6ubuntu1.9",
+            "ubuntu:focal:binutils-common_2.34-6ubuntu1.9"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-29383",
+          "package": [
+            "ubuntu:focal:login:1_4.8.1-1ubuntu5.20.04.4",
+            "ubuntu:focal:passwd:1_4.8.1-1ubuntu5.20.04.4"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "3.3"
+        },
+        {
+          "cve_id": "CVE-2023-4641",
+          "package": [
+            "ubuntu:focal:passwd:1_4.8.1-1ubuntu5.20.04.4",
+            "ubuntu:focal:login:1_4.8.1-1ubuntu5.20.04.4"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-4813",
+          "package": [
+            "ubuntu:focal:libc-bin_2.31-0ubuntu9.12"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2024-37891",
+          "package": [
+            "urllib3_1.25.8"
+          ],
+          "cvssv3_score": "4.4",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.4"
+        },
+        {
+          "cve_id": "CVE-2024-35329",
+          "package": [
+            "ubuntu:focal:libyaml-0-2_0.2.2-1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-35326",
+          "package": [
+            "ubuntu:focal:libyaml-0-2_0.2.2-1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "ubuntu:focal:libssl1.1_1.1.1f-1ubuntu2.20",
+            "ubuntu:focal:openssl_1.1.1f-1ubuntu2.20"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-28085",
+          "package": [
+            "ubuntu:focal:libblkid1_2.34-0.1ubuntu9.4",
+            "ubuntu:focal:fdisk_2.34-0.1ubuntu9.4",
+            "ubuntu:focal:util-linux_2.34-0.1ubuntu9.4",
+            "ubuntu:focal:bsdutils:1_2.34-0.1ubuntu9.4",
+            "ubuntu:focal:libmount1_2.34-0.1ubuntu9.4",
+            "ubuntu:focal:mount_2.34-0.1ubuntu9.4",
+            "ubuntu:focal:libfdisk1_2.34-0.1ubuntu9.4",
+            "ubuntu:focal:libuuid1_2.34-0.1ubuntu9.4",
+            "ubuntu:focal:libsmartcols1_2.34-0.1ubuntu9.4"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2022-3219",
+          "package": [
+            "ubuntu:focal:gpg_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gnupg2_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gpg-wks-server_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gpgconf_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gnupg_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gnupg-l10n_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gpgsm_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gpg-agent_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gpgv_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:dirmngr_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gnupg-utils_2.2.19-3ubuntu2.2",
+            "ubuntu:focal:gpg-wks-client_2.2.19-3ubuntu2.2"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "3.3"
+        },
+        {
+          "cve_id": "CVE-2023-50495",
+          "package": [
+            "ubuntu:focal:libncursesw6_6.2-0ubuntu2.1",
+            "ubuntu:focal:ncurses-base_6.2-0ubuntu2.1",
+            "ubuntu:focal:libncurses6_6.2-0ubuntu2.1",
+            "ubuntu:focal:ncurses-bin_6.2-0ubuntu2.1",
+            "ubuntu:focal:libtinfo6_6.2-0ubuntu2.1"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2024-26461",
+          "package": [
+            "ubuntu:focal:libk5crypto3_1.17-6ubuntu4.4",
+            "ubuntu:focal:libgssapi-krb5-2_1.17-6ubuntu4.4",
+            "ubuntu:focal:libkrb5support0_1.17-6ubuntu4.4",
+            "ubuntu:focal:libkrb5-3_1.17-6ubuntu4.4"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-2961",
+          "package": [
+            "ubuntu:focal:libc-bin_2.31-0ubuntu9.12",
+            "ubuntu:focal:libc-dev-bin_2.31-0ubuntu9.14",
+            "ubuntu:focal:libc6_2.31-0ubuntu9.14"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-26458",
+          "package": [
+            "ubuntu:focal:libgssapi-krb5-2_1.17-6ubuntu4.4",
+            "ubuntu:focal:libk5crypto3_1.17-6ubuntu4.4",
+            "ubuntu:focal:libkrb5support0_1.17-6ubuntu4.4",
+            "ubuntu:focal:libkrb5-3_1.17-6ubuntu4.4"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2021-45261",
+          "package": [
+            "ubuntu:focal:patch_2.7.6-6"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-37920",
+          "package": [
+            "certifi_2019.11.28"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2023-26604",
+          "package": [
+            "ubuntu:focal:libpam-systemd_245.4-4ubuntu3.23",
+            "ubuntu:focal:systemd-timesyncd_245.4-4ubuntu3.23",
+            "ubuntu:focal:libudev1_245.4-4ubuntu3.22",
+            "ubuntu:focal:systemd-sysv_245.4-4ubuntu3.23",
+            "ubuntu:focal:libsystemd0_245.4-4ubuntu3.23",
+            "ubuntu:focal:systemd_245.4-4ubuntu3.23"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.8"
+        },
+        {
+          "cve_id": "CVE-2024-35195",
+          "package": [
+            "requests_2.22.0",
+            "ubuntu:focal:python3-requests_2.22.0-2ubuntu1.1"
+          ],
+          "cvssv3_score": "5.6",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.6"
+        },
+        {
+          "cve_id": "CVE-2023-39804",
+          "package": [
+            "ubuntu:focal:tar_1.30+dfsg-7ubuntu0.20.04.3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2013-4235",
+          "package": [
+            "ubuntu:focal:passwd:1_4.8.1-1ubuntu5.20.04.4",
+            "ubuntu:focal:login:1_4.8.1-1ubuntu5.20.04.4"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.7"
+        }
+      ],
+      "num_cves": 65,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-26462",
+        "CVE-2024-33602",
+        "CVE-2024-35195",
+        "CVE-2023-27043",
+        "CVE-2024-28085",
+        "CVE-2020-22916",
+        "CVE-2020-13844",
+        "CVE-2024-33601",
+        "CVE-2024-34397",
+        "CVE-2024-22365",
+        "CVE-2022-3219",
+        "CVE-2023-34969",
+        "CVE-2017-13716",
+        "CVE-2022-48064",
+        "CVE-2023-50495",
+        "CVE-2024-26461",
+        "CVE-2023-7008",
+        "CVE-2024-26458",
+        "CVE-2018-20657",
+        "CVE-2016-2568",
+        "CVE-2023-4641",
+        "CVE-2019-1010204",
+        "CVE-2023-45918",
+        "CVE-2023-29383",
+        "CVE-2023-5678",
+        "CVE-2016-20013",
+        "CVE-2024-0727",
+        "CVE-2013-4235",
+        "CVE-2023-4016",
+        "CVE-2024-2511",
+        "CVE-2024-2961",
+        "CVE-2024-33600",
+        "CVE-2024-33599",
+        "CVE-2023-26604",
+        "CVE-2024-4741",
+        "CVE-2018-5709",
+        "CVE-2023-2953"
+      ],
+      "relative_efficiency": 0.79268295
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2022-41409",
+          "package": [
+            "libpcre2-8-0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "1.1.1f-1ubuntu2.21"
+        },
+        {
+          "cve_id": "CVE-2024-33600",
+          "package": [
+            "libc-bin",
+            "libc-dev-bin",
+            "libc6",
+            "libc6-dev"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "2.31-0ubuntu9.16"
+        },
+        {
+          "cve_id": "CVE-2024-4032",
+          "package": [
+            "libpython3.8-minimal",
+            "libpython3.8-stdlib",
+            "python3.8",
+            "python3.8-minimal"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-15847",
+          "package": [
+            "cpp",
+            "g++",
+            "gcc"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-4806",
+          "package": [
+            "libc-bin"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "2.31-0ubuntu9.14"
+        },
+        {
+          "cve_id": "CVE-2023-50495",
+          "package": [
+            "libncurses6",
+            "libncursesw6",
+            "libtinfo6",
+            "ncurses-base",
+            "ncurses-bin"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-0450",
+          "package": [
+            "libpython3.8-minimal",
+            "libpython3.8-stdlib",
+            "python3.8",
+            "python3.8-minimal"
+          ],
+          "cvssv3_score": "6.2",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2236",
+          "package": [
+            "libgcrypt20"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-22365",
+          "package": [
+            "libpam-modules",
+            "libpam-modules-bin",
+            "libpam-runtime",
+            "libpam0g"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "1.3.1-5ubuntu4.7"
+        },
+        {
+          "cve_id": "CVE-2024-25260",
+          "package": [
+            "libelf1"
+          ],
+          "cvssv3_score": "1.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-26461",
+          "package": [
+            "libgssapi-krb5-2",
+            "libk5crypto3",
+            "libkrb5-3",
+            "libkrb5support0"
+          ],
+          "cvssv3_score": "1.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-46848",
+          "package": [
+            "libtasn1-6"
+          ],
+          "cvssv3_score": "9.1",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-0987",
+          "package": [
+            "gir1.2-packagekitglib-1.0",
+            "libpackagekit-glib2-18",
+            "packagekit"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-4016",
+          "package": [
+            "libprocps8",
+            "procps"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "2:3.3.16-1ubuntu2.4"
+        },
+        {
+          "cve_id": "CVE-2024-0397",
+          "package": [
+            "libpython3.8-minimal",
+            "libpython3.8-stdlib",
+            "python3.8",
+            "python3.8-minimal"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-26462",
+          "package": [
+            "libgssapi-krb5-2",
+            "libk5crypto3",
+            "libkrb5-3",
+            "libkrb5support0"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2961",
+          "package": [
+            "libc-bin",
+            "libc-dev-bin",
+            "libc6",
+            "libc6-dev"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "2.31-0ubuntu9.15"
+        },
+        {
+          "cve_id": "CVE-2024-35326",
+          "package": [
+            "libyaml-0-2"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-37891",
+          "package": [
+            "python3-urllib3"
+          ],
+          "cvssv3_score": "4.4",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2013-4235",
+          "package": [
+            "login",
+            "passwd"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-2953",
+          "package": [
+            "libldap-2.4-2",
+            "libldap-common"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "2.4.49+dfsg-2ubuntu1.10"
+        },
+        {
+          "cve_id": "CVE-2024-33601",
+          "package": [
+            "libc-bin",
+            "libc-dev-bin",
+            "libc6",
+            "libc6-dev"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "2.31-0ubuntu9.16"
+        },
+        {
+          "cve_id": "CVE-2024-35329",
+          "package": [
+            "libyaml-0-2"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-35325",
+          "package": [
+            "libyaml-0-2"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-0347",
+          "package": [
+            "libip4tc2"
+          ],
+          "cvssv3_score": "6.7",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-48064",
+          "package": [
+            "binutils",
+            "binutils-common",
+            "binutils-x86-64-linux-gnu",
+            "libbinutils",
+            "libctf-nobfd0",
+            "libctf0"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-34459",
+          "package": [
+            "libxml2"
+          ],
+          "cvssv3_score": "1.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "1.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-35328",
+          "package": [
+            "libyaml-0-2"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-20657",
+          "package": [
+            "binutils",
+            "binutils-common",
+            "binutils-x86-64-linux-gnu",
+            "libbinutils",
+            "libctf-nobfd0",
+            "libctf0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-4039",
+          "package": [
+            "cpp",
+            "cpp-9",
+            "g++",
+            "g++-9",
+            "gcc",
+            "gcc-10-base",
+            "gcc-9",
+            "gcc-9-base",
+            "libasan5",
+            "libatomic1",
+            "libcc1-0",
+            "libgcc-9-dev",
+            "libgcc-s1",
+            "libgomp1",
+            "libitm1",
+            "liblsan0",
+            "libquadmath0",
+            "libstdc++-9-dev",
+            "libstdc++6",
+            "libtsan0",
+            "libubsan1"
+          ],
+          "cvssv3_score": "4.8",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-4641",
+          "package": [
+            "login",
+            "passwd"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "1:4.8.1-1ubuntu5.20.04.5"
+        },
+        {
+          "cve_id": "CVE-2024-28085",
+          "package": [
+            "bsdutils",
+            "fdisk",
+            "libblkid1",
+            "libfdisk1",
+            "libmount1",
+            "libsmartcols1",
+            "libuuid1",
+            "mount",
+            "util-linux"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "2.34-0.1ubuntu9.5"
+        },
+        {
+          "cve_id": "CVE-2024-0553",
+          "package": [
+            "libgnutls30"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "3.6.13-2ubuntu1.10"
+        },
+        {
+          "cve_id": "CVE-2024-33599",
+          "package": [
+            "libc-bin",
+            "libc-dev-bin",
+            "libc6",
+            "libc6-dev"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "2.31-0ubuntu9.16"
+        },
+        {
+          "cve_id": "CVE-2024-3651",
+          "package": [
+            "python3-idna"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "2.8-1ubuntu0.1"
+        },
+        {
+          "cve_id": "CVE-2017-11164",
+          "package": [
+            "libpcre3"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-13716",
+          "package": [
+            "binutils",
+            "binutils-common",
+            "binutils-x86-64-linux-gnu",
+            "libbinutils",
+            "libctf-nobfd0",
+            "libctf0"
+          ],
+          "cvssv3_score": "7.1",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-27943",
+          "package": [
+            "cpp",
+            "g++",
+            "gcc"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-45918",
+          "package": [
+            "libncurses6",
+            "libncursesw6",
+            "libtinfo6",
+            "ncurses-base",
+            "ncurses-bin"
+          ],
+          "cvssv3_score": "1.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-39804",
+          "package": [
+            "tar"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "1.30+dfsg-7ubuntu0.20.04.4"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "1.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-34397",
+          "package": [
+            "libglib2.0-0",
+            "libglib2.0-bin",
+            "libglib2.0-data"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "2.64.6-1~ubuntu20.04.7"
+        },
+        {
+          "cve_id": "CVE-2016-20013",
+          "package": [
+            "libc-bin",
+            "libc-dev-bin",
+            "libc6",
+            "libc6-dev"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-2568",
+          "package": [
+            "libpolkit-agent-1-0",
+            "libpolkit-gobject-1-0",
+            "policykit-1"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-5981",
+          "package": [
+            "libgnutls30"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "3.6.13-2ubuntu1.9"
+        },
+        {
+          "cve_id": "CVE-2023-7008",
+          "package": [
+            "libpam-systemd",
+            "libsystemd0",
+            "libudev1",
+            "systemd",
+            "systemd-sysv",
+            "systemd-timesyncd"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-35195",
+          "package": [
+            "python3-requests"
+          ],
+          "cvssv3_score": "5.6",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-5535",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "1.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-1585",
+          "package": [
+            "libapparmor1"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-29383",
+          "package": [
+            "login",
+            "passwd"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            "libssl1.1",
+            "openssl"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "1.1.1f-1ubuntu2.21"
+        },
+        {
+          "cve_id": "CVE-2023-6597",
+          "package": [
+            "libpython3.8-minimal",
+            "libpython3.8-stdlib",
+            "python3.8",
+            "python3.8-minimal"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-34969",
+          "package": [
+            "dbus",
+            "dbus-user-session",
+            "libdbus-1-3"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-7104",
+          "package": [
+            "libsqlite3-0"
+          ],
+          "cvssv3_score": "7.3",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "3.31.1-4ubuntu0.6"
+        },
+        {
+          "cve_id": "CVE-2024-26458",
+          "package": [
+            "libgssapi-krb5-2",
+            "libk5crypto3",
+            "libkrb5-3",
+            "libkrb5support0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-6952",
+          "package": [
+            "patch"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-20633",
+          "package": [
+            "patch"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-4813",
+          "package": [
+            "libc-bin"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "2.31-0ubuntu9.14"
+        },
+        {
+          "cve_id": "CVE-2024-28182",
+          "package": [
+            "libnghttp2-14"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "1.40.0-1ubuntu0.3"
+        },
+        {
+          "cve_id": "CVE-2024-33602",
+          "package": [
+            "libc-bin",
+            "libc-dev-bin",
+            "libc6",
+            "libc6-dev"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "2.31-0ubuntu9.16"
+        },
+        {
+          "cve_id": "CVE-2020-22916",
+          "package": [
+            "liblzma5",
+            "xz-utils"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-45261",
+          "package": [
+            "patch"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-27043",
+          "package": [
+            "libpython3.8-minimal",
+            "libpython3.8-stdlib",
+            "python3.8",
+            "python3.8-minimal"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-0217",
+          "package": [
+            "gir1.2-packagekitglib-1.0",
+            "libpackagekit-glib2-18",
+            "packagekit"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-3857",
+          "package": [
+            "libpng-dev",
+            "libpng16-16"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-26604",
+          "package": [
+            "libpam-systemd",
+            "libsystemd0",
+            "libudev1",
+            "systemd",
+            "systemd-sysv",
+            "systemd-timesyncd"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-28834",
+          "package": [
+            "libgnutls30"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": true,
+          "fixed_version": "3.6.13-2ubuntu1.11"
+        },
+        {
+          "cve_id": "CVE-2016-2781",
+          "package": [
+            "coreutils"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010204",
+          "package": [
+            "binutils",
+            "binutils-common",
+            "binutils-x86-64-linux-gnu",
+            "libbinutils",
+            "libctf-nobfd0",
+            "libctf0"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-13844",
+          "package": [
+            "cpp",
+            "g++",
+            "gcc"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-3219",
+          "package": [
+            "dirmngr",
+            "gnupg",
+            "gnupg-l10n",
+            "gnupg-utils",
+            "gnupg2",
+            "gpg",
+            "gpg-agent",
+            "gpg-wks-client",
+            "gpg-wks-server",
+            "gpgconf",
+            "gpgsm",
+            "gpgv"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 73,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2013-4235",
+        "CVE-2016-20013",
+        "CVE-2016-2568",
+        "CVE-2017-13716",
+        "CVE-2018-20657",
+        "CVE-2019-1010204",
+        "CVE-2019-15847",
+        "CVE-2020-13844",
+        "CVE-2020-22916",
+        "CVE-2022-0987",
+        "CVE-2022-27943",
+        "CVE-2022-3219",
+        "CVE-2022-3857",
+        "CVE-2022-48064",
+        "CVE-2023-26604",
+        "CVE-2023-27043",
+        "CVE-2023-29383",
+        "CVE-2023-2953",
+        "CVE-2023-34969",
+        "CVE-2023-4016",
+        "CVE-2023-4039",
+        "CVE-2023-45918",
+        "CVE-2023-4641",
+        "CVE-2023-50495",
+        "CVE-2023-5678",
+        "CVE-2023-6597",
+        "CVE-2023-7008",
+        "CVE-2024-0217",
+        "CVE-2024-0397",
+        "CVE-2024-0450",
+        "CVE-2024-0727",
+        "CVE-2024-22365",
+        "CVE-2024-2511",
+        "CVE-2024-26458",
+        "CVE-2024-26461",
+        "CVE-2024-26462",
+        "CVE-2024-28085",
+        "CVE-2024-2961",
+        "CVE-2024-33599",
+        "CVE-2024-33600",
+        "CVE-2024-33601",
+        "CVE-2024-33602",
+        "CVE-2024-34397",
+        "CVE-2024-4032",
+        "CVE-2024-4741",
+        "CVE-2024-5535"
+      ],
+      "relative_efficiency": 0.8902439
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2024-4741",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "openssl@1.1.1f-1ubuntu2.20"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "ubuntu:focal:libssl1.1_1.1.1f-1ubuntu2.20",
+              "ubuntu:focal:openssl_1.1.1f-1ubuntu2.20"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "1.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2016-2568",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2016-2568",
+            "package": [
+              "policykit-1/libpolkit-gobject-1-0@0.105-26ubuntu1.3"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2016-2568",
+            "package": [
+              "ubuntu:focal:libpolkit-agent-1-0_0.105-26ubuntu1.3",
+              "ubuntu:focal:policykit-1_0.105-26ubuntu1.3",
+              "ubuntu:focal:libpolkit-gobject-1-0_0.105-26ubuntu1.3"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.8"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-2568",
+            "package": [
+              "libpolkit-agent-1-0",
+              "libpolkit-gobject-1-0",
+              "policykit-1"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-43804",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-43804",
+            "package": [
+              "urllib3_1.25.8"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "8.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-41409",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-41409",
+            "package": [
+              "libpcre2-8-0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-20657",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2018-20657",
+            "package": [
+              "binutils/binutils-common@2.34-6ubuntu1.9"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-20657",
+            "package": [
+              "ubuntu:focal:libctf0_2.34-6ubuntu1.9",
+              "ubuntu:focal:binutils_2.34-6ubuntu1.9",
+              "ubuntu:focal:binutils-x86-64-linux-gnu_2.34-6ubuntu1.9",
+              "ubuntu:focal:libbinutils_2.34-6ubuntu1.9",
+              "ubuntu:focal:libctf-nobfd0_2.34-6ubuntu1.9",
+              "ubuntu:focal:binutils-common_2.34-6ubuntu1.9"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2018-20657",
+            "package": [
+              "binutils",
+              "binutils-common",
+              "binutils-x86-64-linux-gnu",
+              "libbinutils",
+              "libctf-nobfd0",
+              "libctf0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-33599",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-33599",
+            "package": [
+              "glibc/libc6-dev@2.31-0ubuntu9.14"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-33599",
+            "package": [
+              "ubuntu:focal:libc6_2.31-0ubuntu9.14",
+              "ubuntu:focal:libc-bin_2.31-0ubuntu9.12",
+              "ubuntu:focal:libc-dev-bin_2.31-0ubuntu9.14"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-33599",
+            "package": [
+              "libc-bin",
+              "libc-dev-bin",
+              "libc6",
+              "libc6-dev"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "2.31-0ubuntu9.16"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-28834",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-28834",
+            "package": [
+              "gnutls28/libgnutls30@3.6.13-2ubuntu1.8"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to gnutls28/libgnutls30@3.6.13-2ubuntu1.11"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-28834",
+            "package": [
+              "ubuntu:focal:libgnutls30_3.6.13-2ubuntu1.8"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-28834",
+            "package": [
+              "libgnutls30"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "3.6.13-2ubuntu1.11"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2018-6952",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2018-6952",
+            "package": [
+              "patch@2.7.6-6"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-6952",
+            "package": [
+              "ubuntu:focal:patch_2.7.6-6"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2018-6952",
+            "package": [
+              "patch"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-29383",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-29383",
+            "package": [
+              "shadow/login@1:4.8.1-1ubuntu5.20.04.4"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-29383",
+            "package": [
+              "ubuntu:focal:login:1_4.8.1-1ubuntu5.20.04.4",
+              "ubuntu:focal:passwd:1_4.8.1-1ubuntu5.20.04.4"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "3.3"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-29383",
+            "package": [
+              "login",
+              "passwd"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-7008",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-7008",
+            "package": [
+              "systemd@245.4-4ubuntu3.23"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-7008",
+            "package": [
+              "ubuntu:focal:libudev1_245.4-4ubuntu3.22",
+              "ubuntu:focal:libpam-systemd_245.4-4ubuntu3.23",
+              "ubuntu:focal:libsystemd0_245.4-4ubuntu3.23",
+              "ubuntu:focal:systemd-timesyncd_245.4-4ubuntu3.23",
+              "ubuntu:focal:systemd-sysv_245.4-4ubuntu3.23",
+              "ubuntu:focal:systemd_245.4-4ubuntu3.23"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-7008",
+            "package": [
+              "libpam-systemd",
+              "libsystemd0",
+              "libudev1",
+              "systemd",
+              "systemd-sysv",
+              "systemd-timesyncd"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-2961",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-2961",
+            "package": [
+              "glibc/libc6-dev@2.31-0ubuntu9.14"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2961",
+            "package": [
+              "ubuntu:focal:libc-bin_2.31-0ubuntu9.12",
+              "ubuntu:focal:libc-dev-bin_2.31-0ubuntu9.14",
+              "ubuntu:focal:libc6_2.31-0ubuntu9.14"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2961",
+            "package": [
+              "libc-bin",
+              "libc-dev-bin",
+              "libc6",
+              "libc6-dev"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "2.31-0ubuntu9.15"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-35328",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-35328",
+            "package": [
+              "libyaml/libyaml-0-2@0.2.2-1"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-35328",
+            "package": [
+              "ubuntu:focal:libyaml-0-2_0.2.2-1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-35328",
+            "package": [
+              "libyaml-0-2"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-6597",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-6597",
+            "package": [
+              "libpython3.8-minimal",
+              "libpython3.8-stdlib",
+              "python3.8",
+              "python3.8-minimal"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-2781",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2016-2781",
+            "package": [
+              "coreutils@8.30-3ubuntu2"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2016-2781",
+            "package": [
+              "ubuntu:focal:coreutils_8.30-3ubuntu2"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-2781",
+            "package": [
+              "coreutils"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-0553",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-0553",
+            "package": [
+              "gnutls28/libgnutls30@3.6.13-2ubuntu1.8"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to gnutls28/libgnutls30@3.6.13-2ubuntu1.10"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-0553",
+            "package": [
+              "ubuntu:focal:libgnutls30_3.6.13-2ubuntu1.8"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-0553",
+            "package": [
+              "libgnutls30"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "3.6.13-2ubuntu1.10"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2020-22916",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-22916",
+            "package": [
+              "xz-utils@5.2.4-1ubuntu1.1"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-22916",
+            "package": [
+              "ubuntu:focal:xz-utils_5.2.4-1ubuntu1.1",
+              "ubuntu:focal:liblzma5_5.2.4-1ubuntu1.1"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-22916",
+            "package": [
+              "liblzma5",
+              "xz-utils"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-26462",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-26462",
+            "package": [
+              "krb5/libkrb5support0@1.17-6ubuntu4.4"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-26462",
+            "package": [
+              "ubuntu:focal:libkrb5support0_1.17-6ubuntu4.4",
+              "ubuntu:focal:libk5crypto3_1.17-6ubuntu4.4",
+              "ubuntu:focal:libgssapi-krb5-2_1.17-6ubuntu4.4",
+              "ubuntu:focal:libkrb5-3_1.17-6ubuntu4.4"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-26462",
+            "package": [
+              "libgssapi-krb5-2",
+              "libk5crypto3",
+              "libkrb5-3",
+              "libkrb5support0"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2021-33503",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-33503",
+            "package": [
+              "urllib3_1.25.8"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-0450",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-0450",
+            "package": [
+              "libpython3.8-minimal",
+              "libpython3.8-stdlib",
+              "python3.8",
+              "python3.8-minimal"
+            ],
+            "cvssv3_score": "6.2",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-25260",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-25260",
+            "package": [
+              "libelf1"
+            ],
+            "cvssv3_score": "1.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-0397",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-0397",
+            "package": [
+              "libpython3.8-minimal",
+              "libpython3.8-stdlib",
+              "python3.8",
+              "python3.8-minimal"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-34397",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-34397",
+            "package": [
+              "glib2.0/libglib2.0-0@2.64.6-1~ubuntu20.04.6"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to glib2.0/libglib2.0-0@2.64.6-1~ubuntu20.04.7"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-34397",
+            "package": [
+              "ubuntu:focal:libglib2.0-0_2.64.6-1~ubuntu20.04.6",
+              "ubuntu:focal:libglib2.0-bin_2.64.6-1~ubuntu20.04.6"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-34397",
+            "package": [
+              "libglib2.0-0",
+              "libglib2.0-bin",
+              "libglib2.0-data"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "2.64.6-1~ubuntu20.04.7"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2016-20013",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2016-20013",
+            "package": [
+              "glibc/libc6-dev@2.31-0ubuntu9.14"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2016-20013",
+            "package": [
+              "ubuntu:focal:libc-bin_2.31-0ubuntu9.12",
+              "ubuntu:focal:libc6_2.31-0ubuntu9.14",
+              "ubuntu:focal:libc-dev-bin_2.31-0ubuntu9.14"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-20013",
+            "package": [
+              "libc-bin",
+              "libc-dev-bin",
+              "libc6",
+              "libc6-dev"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-5981",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-5981",
+            "package": [
+              "gnutls28/libgnutls30@3.6.13-2ubuntu1.8"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to gnutls28/libgnutls30@3.6.13-2ubuntu1.9"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-5981",
+            "package": [
+              "ubuntu:focal:libgnutls30_3.6.13-2ubuntu1.8"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-5981",
+            "package": [
+              "libgnutls30"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "3.6.13-2ubuntu1.9"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-0217",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-0217",
+            "package": [
+              "gir1.2-packagekitglib-1.0",
+              "libpackagekit-glib2-18",
+              "packagekit"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-22365",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-22365",
+            "package": [
+              "pam/libpam-modules@1.3.1-5ubuntu4.6"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to pam/libpam-modules@1.3.1-5ubuntu4.7"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-22365",
+            "package": [
+              "ubuntu:focal:libpam-modules_1.3.1-5ubuntu4.6",
+              "ubuntu:focal:libpam-runtime_1.3.1-5ubuntu4.6",
+              "ubuntu:focal:libpam0g_1.3.1-5ubuntu4.6",
+              "ubuntu:focal:libpam-modules-bin_1.3.1-5ubuntu4.6"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-22365",
+            "package": [
+              "libpam-modules",
+              "libpam-modules-bin",
+              "libpam-runtime",
+              "libpam0g"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "1.3.1-5ubuntu4.7"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-7104",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-7104",
+            "package": [
+              "sqlite3/libsqlite3-0@3.31.1-4ubuntu0.5"
+            ],
+            "cvssv3_score": "7.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-7104",
+            "package": [
+              "ubuntu:focal:libsqlite3-0_3.31.1-4ubuntu0.5"
+            ],
+            "cvssv3_score": "7.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.3"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-7104",
+            "package": [
+              "libsqlite3-0"
+            ],
+            "cvssv3_score": "7.3",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "3.31.1-4ubuntu0.6"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-37920",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-37920",
+            "package": [
+              "certifi_2019.11.28"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-4039",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-4039",
+            "package": [
+              "cpp",
+              "cpp-9",
+              "g++",
+              "g++-9",
+              "gcc",
+              "gcc-10-base",
+              "gcc-9",
+              "gcc-9-base",
+              "libasan5",
+              "libatomic1",
+              "libcc1-0",
+              "libgcc-9-dev",
+              "libgcc-s1",
+              "libgomp1",
+              "libitm1",
+              "liblsan0",
+              "libquadmath0",
+              "libstdc++-9-dev",
+              "libstdc++6",
+              "libtsan0",
+              "libubsan1"
+            ],
+            "cvssv3_score": "4.8",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-48064",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-48064",
+            "package": [
+              "binutils/binutils-common@2.34-6ubuntu1.9"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-48064",
+            "package": [
+              "ubuntu:focal:binutils_2.34-6ubuntu1.9",
+              "ubuntu:focal:libbinutils_2.34-6ubuntu1.9",
+              "ubuntu:focal:libctf-nobfd0_2.34-6ubuntu1.9",
+              "ubuntu:focal:binutils-common_2.34-6ubuntu1.9",
+              "ubuntu:focal:libctf0_2.34-6ubuntu1.9",
+              "ubuntu:focal:binutils-x86-64-linux-gnu_2.34-6ubuntu1.9"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-48064",
+            "package": [
+              "binutils",
+              "binutils-common",
+              "binutils-x86-64-linux-gnu",
+              "libbinutils",
+              "libctf-nobfd0",
+              "libctf0"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-4806",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-4806",
+            "package": [
+              "glibc/libc-bin@2.31-0ubuntu9.12"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to glibc/libc-bin@2.31-0ubuntu9.14"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-4806",
+            "package": [
+              "ubuntu:focal:libc-bin_2.31-0ubuntu9.12"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-4806",
+            "package": [
+              "libc-bin"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "2.31-0ubuntu9.14"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-5678",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              "openssl@1.1.1f-1ubuntu2.20"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              "ubuntu:focal:openssl_1.1.1f-1ubuntu2.20",
+              "ubuntu:focal:libssl1.1_1.1.1f-1ubuntu2.20"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "1.1.1f-1ubuntu2.21"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-2236",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-2236",
+            "package": [
+              "libgcrypt20@1.8.5-5ubuntu1.1"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2236",
+            "package": [
+              "ubuntu:focal:libgcrypt20_1.8.5-5ubuntu1.1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2236",
+            "package": [
+              "libgcrypt20"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-2511",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "openssl@1.1.1f-1ubuntu2.20"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "ubuntu:focal:libssl1.1_1.1.1f-1ubuntu2.20",
+              "ubuntu:focal:openssl_1.1.1f-1ubuntu2.20"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "1.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2022-23491",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-23491",
+            "package": [
+              "certifi_2019.11.28"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-45803",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-45803",
+            "package": [
+              "urllib3_1.25.8"
+            ],
+            "cvssv3_score": "4.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.2"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-27943",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-27943",
+            "package": [
+              "cpp",
+              "g++",
+              "gcc"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-26461",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-26461",
+            "package": [
+              "krb5/libkrb5support0@1.17-6ubuntu4.4"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-26461",
+            "package": [
+              "ubuntu:focal:libk5crypto3_1.17-6ubuntu4.4",
+              "ubuntu:focal:libgssapi-krb5-2_1.17-6ubuntu4.4",
+              "ubuntu:focal:libkrb5support0_1.17-6ubuntu4.4",
+              "ubuntu:focal:libkrb5-3_1.17-6ubuntu4.4"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-26461",
+            "package": [
+              "libgssapi-krb5-2",
+              "libk5crypto3",
+              "libkrb5-3",
+              "libkrb5support0"
+            ],
+            "cvssv3_score": "1.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-45918",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-45918",
+            "package": [
+              "ncurses/libncursesw6@6.2-0ubuntu2.1"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-45918",
+            "package": [
+              "ubuntu:focal:ncurses-bin_6.2-0ubuntu2.1",
+              "ubuntu:focal:libncurses6_6.2-0ubuntu2.1",
+              "ubuntu:focal:libtinfo6_6.2-0ubuntu2.1",
+              "ubuntu:focal:libncursesw6_6.2-0ubuntu2.1",
+              "ubuntu:focal:ncurses-base_6.2-0ubuntu2.1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-45918",
+            "package": [
+              "libncurses6",
+              "libncursesw6",
+              "libtinfo6",
+              "ncurses-base",
+              "ncurses-bin"
+            ],
+            "cvssv3_score": "1.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-28182",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-28182",
+            "package": [
+              "nghttp2/libnghttp2-14@1.40.0-1ubuntu0.2"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-28182",
+            "package": [
+              "ubuntu:focal:libnghttp2-14_1.40.0-1ubuntu0.2"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-28182",
+            "package": [
+              "libnghttp2-14"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "1.40.0-1ubuntu0.3"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2020-26137",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-26137",
+            "package": [
+              "urllib3_1.25.8"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-0347",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-0347",
+            "package": [
+              "libip4tc2"
+            ],
+            "cvssv3_score": "6.7",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-5535",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-5535",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "1.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-13844",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-13844",
+            "package": [
+              "gcc-defaults/cpp@4:9.3.0-1ubuntu2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-13844",
+            "package": [
+              "ubuntu:focal:g++:4_9.3.0-1ubuntu2",
+              "ubuntu:focal:cpp:4_9.3.0-1ubuntu2",
+              "ubuntu:focal:gcc:4_9.3.0-1ubuntu2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-13844",
+            "package": [
+              "cpp",
+              "g++",
+              "gcc"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2018-5709",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2018-5709",
+            "package": [
+              "krb5/libkrb5support0@1.17-6ubuntu4.4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-5709",
+            "package": [
+              "ubuntu:focal:libgssapi-krb5-2_1.17-6ubuntu4.4",
+              "ubuntu:focal:libkrb5-3_1.17-6ubuntu4.4",
+              "ubuntu:focal:libkrb5support0_1.17-6ubuntu4.4",
+              "ubuntu:focal:libk5crypto3_1.17-6ubuntu4.4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-2953",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-2953",
+            "package": [
+              "openldap/libldap-common@2.4.49+dfsg-2ubuntu1.9"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-2953",
+            "package": [
+              "ubuntu:focal:libldap-2.4-2_2.4.49+dfsg-2ubuntu1.9",
+              "ubuntu:focal:libldap-common_2.4.49+dfsg-2ubuntu1.9"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-2953",
+            "package": [
+              "libldap-2.4-2",
+              "libldap-common"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "2.4.49+dfsg-2ubuntu1.10"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-35195",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-35195",
+            "package": [
+              "requests/python3-requests@2.22.0-2ubuntu1.1"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-35195",
+            "package": [
+              "requests_2.22.0",
+              "ubuntu:focal:python3-requests_2.22.0-2ubuntu1.1"
+            ],
+            "cvssv3_score": "5.6",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.6"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-35195",
+            "package": [
+              "python3-requests"
+            ],
+            "cvssv3_score": "5.6",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-37891",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-37891",
+            "package": [
+              "urllib3_1.25.8"
+            ],
+            "cvssv3_score": "4.4",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.4"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-37891",
+            "package": [
+              "python3-urllib3"
+            ],
+            "cvssv3_score": "4.4",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-34969",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-34969",
+            "package": [
+              "dbus/libdbus-1-3@1.12.16-2ubuntu2.3"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-34969",
+            "package": [
+              "ubuntu:focal:dbus-user-session_1.12.16-2ubuntu2.3",
+              "ubuntu:focal:dbus_1.12.16-2ubuntu2.3",
+              "ubuntu:focal:libdbus-1-3_1.12.16-2ubuntu2.3"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-34969",
+            "package": [
+              "dbus",
+              "dbus-user-session",
+              "libdbus-1-3"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2021-33574",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-33574",
+            "package": [
+              "glibc/libc6-dev@2.31-0ubuntu9.14"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-26458",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-26458",
+            "package": [
+              "krb5/libkrb5support0@1.17-6ubuntu4.4"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-26458",
+            "package": [
+              "ubuntu:focal:libgssapi-krb5-2_1.17-6ubuntu4.4",
+              "ubuntu:focal:libk5crypto3_1.17-6ubuntu4.4",
+              "ubuntu:focal:libkrb5support0_1.17-6ubuntu4.4",
+              "ubuntu:focal:libkrb5-3_1.17-6ubuntu4.4"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-26458",
+            "package": [
+              "libgssapi-krb5-2",
+              "libk5crypto3",
+              "libkrb5-3",
+              "libkrb5support0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2013-4235",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2013-4235",
+            "package": [
+              "shadow/login@1:4.8.1-1ubuntu5.20.04.4"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2013-4235",
+            "package": [
+              "ubuntu:focal:passwd:1_4.8.1-1ubuntu5.20.04.4",
+              "ubuntu:focal:login:1_4.8.1-1ubuntu5.20.04.4"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.7"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2013-4235",
+            "package": [
+              "login",
+              "passwd"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-4032",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-4032",
+            "package": [
+              "libpython3.8-minimal",
+              "libpython3.8-stdlib",
+              "python3.8",
+              "python3.8-minimal"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-15847",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-15847",
+            "package": [
+              "cpp",
+              "g++",
+              "gcc"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-0987",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-0987",
+            "package": [
+              "gir1.2-packagekitglib-1.0",
+              "libpackagekit-glib2-18",
+              "packagekit"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-3219",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-3219",
+            "package": [
+              "gnupg2/gpgv@2.2.19-3ubuntu2.2"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-3219",
+            "package": [
+              "ubuntu:focal:gpg_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gnupg2_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gpg-wks-server_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gpgconf_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gnupg_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gnupg-l10n_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gpgsm_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gpg-agent_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gpgv_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:dirmngr_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gnupg-utils_2.2.19-3ubuntu2.2",
+              "ubuntu:focal:gpg-wks-client_2.2.19-3ubuntu2.2"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "3.3"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-3219",
+            "package": [
+              "dirmngr",
+              "gnupg",
+              "gnupg-l10n",
+              "gnupg-utils",
+              "gnupg2",
+              "gpg",
+              "gpg-agent",
+              "gpg-wks-client",
+              "gpg-wks-server",
+              "gpgconf",
+              "gpgsm",
+              "gpgv"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-0727",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              "openssl@1.1.1f-1ubuntu2.20"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              "ubuntu:focal:openssl_1.1.1f-1ubuntu2.20",
+              "ubuntu:focal:libssl1.1_1.1.1f-1ubuntu2.20"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              "libssl1.1",
+              "openssl"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "1.1.1f-1ubuntu2.21"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-4016",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-4016",
+            "package": [
+              "procps/libprocps8@2:3.3.16-1ubuntu2.3"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to procps/libprocps8@2:3.3.16-1ubuntu2.4"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-4016",
+            "package": [
+              "ubuntu:focal:libprocps8:2_3.3.16-1ubuntu2.3",
+              "ubuntu:focal:procps:2_3.3.16-1ubuntu2.3"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "3.3"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-4016",
+            "package": [
+              "libprocps8",
+              "procps"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "2:3.3.16-1ubuntu2.4"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-35329",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-35329",
+            "package": [
+              "libyaml/libyaml-0-2@0.2.2-1"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-35329",
+            "package": [
+              "ubuntu:focal:libyaml-0-2_0.2.2-1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-35329",
+            "package": [
+              "libyaml-0-2"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-35325",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-35325",
+            "package": [
+              "libyaml/libyaml-0-2@0.2.2-1"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-35325",
+            "package": [
+              "ubuntu:focal:libyaml-0-2_0.2.2-1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-35325",
+            "package": [
+              "libyaml-0-2"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-50495",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-50495",
+            "package": [
+              "ncurses/libncursesw6@6.2-0ubuntu2.1"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-50495",
+            "package": [
+              "ubuntu:focal:libncursesw6_6.2-0ubuntu2.1",
+              "ubuntu:focal:ncurses-base_6.2-0ubuntu2.1",
+              "ubuntu:focal:libncurses6_6.2-0ubuntu2.1",
+              "ubuntu:focal:ncurses-bin_6.2-0ubuntu2.1",
+              "ubuntu:focal:libtinfo6_6.2-0ubuntu2.1"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-50495",
+            "package": [
+              "libncurses6",
+              "libncursesw6",
+              "libtinfo6",
+              "ncurses-base",
+              "ncurses-bin"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-4813",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-4813",
+            "package": [
+              "glibc/libc-bin@2.31-0ubuntu9.12"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to glibc/libc-bin@2.31-0ubuntu9.14"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-4813",
+            "package": [
+              "ubuntu:focal:libc-bin_2.31-0ubuntu9.12"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-4813",
+            "package": [
+              "libc-bin"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "2.31-0ubuntu9.14"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-28085",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-28085",
+            "package": [
+              "util-linux/mount@2.34-0.1ubuntu9.4"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to util-linux/mount@2.34-0.1ubuntu9.5"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-28085",
+            "package": [
+              "ubuntu:focal:libblkid1_2.34-0.1ubuntu9.4",
+              "ubuntu:focal:fdisk_2.34-0.1ubuntu9.4",
+              "ubuntu:focal:util-linux_2.34-0.1ubuntu9.4",
+              "ubuntu:focal:bsdutils:1_2.34-0.1ubuntu9.4",
+              "ubuntu:focal:libmount1_2.34-0.1ubuntu9.4",
+              "ubuntu:focal:mount_2.34-0.1ubuntu9.4",
+              "ubuntu:focal:libfdisk1_2.34-0.1ubuntu9.4",
+              "ubuntu:focal:libuuid1_2.34-0.1ubuntu9.4",
+              "ubuntu:focal:libsmartcols1_2.34-0.1ubuntu9.4"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-28085",
+            "package": [
+              "bsdutils",
+              "fdisk",
+              "libblkid1",
+              "libfdisk1",
+              "libmount1",
+              "libsmartcols1",
+              "libuuid1",
+              "mount",
+              "util-linux"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "2.34-0.1ubuntu9.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-32681",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-32681",
+            "package": [
+              "requests_2.22.0"
+            ],
+            "cvssv3_score": "6.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-20633",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-20633",
+            "package": [
+              "patch"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-1585",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2016-1585",
+            "package": [
+              "apparmor/libapparmor1@2.13.3-7ubuntu5.3"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2016-1585",
+            "package": [
+              "ubuntu:focal:libapparmor1_2.13.3-7ubuntu5.3"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-1585",
+            "package": [
+              "libapparmor1"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-33600",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-33600",
+            "package": [
+              "glibc/libc6-dev@2.31-0ubuntu9.14"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-33600",
+            "package": [
+              "ubuntu:focal:libc-dev-bin_2.31-0ubuntu9.14",
+              "ubuntu:focal:libc6_2.31-0ubuntu9.14",
+              "ubuntu:focal:libc-bin_2.31-0ubuntu9.12"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-33600",
+            "package": [
+              "libc-bin",
+              "libc-dev-bin",
+              "libc6",
+              "libc6-dev"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "2.31-0ubuntu9.16"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-33602",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-33602",
+            "package": [
+              "glibc/libc6-dev@2.31-0ubuntu9.14"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-33602",
+            "package": [
+              "ubuntu:focal:libc-dev-bin_2.31-0ubuntu9.14",
+              "ubuntu:focal:libc6_2.31-0ubuntu9.14",
+              "ubuntu:focal:libc-bin_2.31-0ubuntu9.12"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-33602",
+            "package": [
+              "libc-bin",
+              "libc-dev-bin",
+              "libc6",
+              "libc6-dev"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "2.31-0ubuntu9.16"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-34459",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-34459",
+            "package": [
+              "libxml2"
+            ],
+            "cvssv3_score": "1.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-3857",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-3857",
+            "package": [
+              "libpng1.6/libpng16-16@1.6.37-2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-3857",
+            "package": [
+              "ubuntu:focal:libpng16-16_1.6.37-2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-3857",
+            "package": [
+              "libpng-dev",
+              "libpng16-16"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2021-45261",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-45261",
+            "package": [
+              "patch@2.7.6-6"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-45261",
+            "package": [
+              "ubuntu:focal:patch_2.7.6-6"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-45261",
+            "package": [
+              "patch"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-27043",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-27043",
+            "package": [
+              "python3.8/libpython3.8-stdlib@3.8.10-0ubuntu1~20.04.9"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-27043",
+            "package": [
+              "ubuntu:focal:libpython3.8-stdlib_3.8.10-0ubuntu1~20.04.9",
+              "ubuntu:focal:python3.8_3.8.10-0ubuntu1~20.04.9",
+              "ubuntu:focal:python3.8-minimal_3.8.10-0ubuntu1~20.04.9",
+              "ubuntu:focal:libpython3.8-minimal_3.8.10-0ubuntu1~20.04.9"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-27043",
+            "package": [
+              "libpython3.8-minimal",
+              "libpython3.8-stdlib",
+              "python3.8",
+              "python3.8-minimal"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2017-11164",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2017-11164",
+            "package": [
+              "pcre3/libpcre3@2:8.39-12ubuntu0.1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2017-11164",
+            "package": [
+              "ubuntu:focal:libpcre3:2_8.39-12ubuntu0.1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2017-11164",
+            "package": [
+              "libpcre3"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-26604",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-26604",
+            "package": [
+              "systemd@245.4-4ubuntu3.23"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-26604",
+            "package": [
+              "ubuntu:focal:libpam-systemd_245.4-4ubuntu3.23",
+              "ubuntu:focal:systemd-timesyncd_245.4-4ubuntu3.23",
+              "ubuntu:focal:libudev1_245.4-4ubuntu3.22",
+              "ubuntu:focal:systemd-sysv_245.4-4ubuntu3.23",
+              "ubuntu:focal:libsystemd0_245.4-4ubuntu3.23",
+              "ubuntu:focal:systemd_245.4-4ubuntu3.23"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.8"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-26604",
+            "package": [
+              "libpam-systemd",
+              "libsystemd0",
+              "libudev1",
+              "systemd",
+              "systemd-sysv",
+              "systemd-timesyncd"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2019-1010204",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010204",
+            "package": [
+              "binutils/binutils-common@2.34-6ubuntu1.9"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010204",
+            "package": [
+              "ubuntu:focal:libctf-nobfd0_2.34-6ubuntu1.9",
+              "ubuntu:focal:binutils_2.34-6ubuntu1.9",
+              "ubuntu:focal:libctf0_2.34-6ubuntu1.9",
+              "ubuntu:focal:libbinutils_2.34-6ubuntu1.9",
+              "ubuntu:focal:binutils-x86-64-linux-gnu_2.34-6ubuntu1.9",
+              "ubuntu:focal:binutils-common_2.34-6ubuntu1.9"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010204",
+            "package": [
+              "binutils",
+              "binutils-common",
+              "binutils-x86-64-linux-gnu",
+              "libbinutils",
+              "libctf-nobfd0",
+              "libctf0"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-33601",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-33601",
+            "package": [
+              "glibc/libc6-dev@2.31-0ubuntu9.14"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-33601",
+            "package": [
+              "ubuntu:focal:libc-dev-bin_2.31-0ubuntu9.14",
+              "ubuntu:focal:libc6_2.31-0ubuntu9.14",
+              "ubuntu:focal:libc-bin_2.31-0ubuntu9.12"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-33601",
+            "package": [
+              "libc-bin",
+              "libc-dev-bin",
+              "libc6",
+              "libc6-dev"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "2.31-0ubuntu9.16"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-35326",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-35326",
+            "package": [
+              "libyaml/libyaml-0-2@0.2.2-1"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-35326",
+            "package": [
+              "ubuntu:focal:libyaml-0-2_0.2.2-1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-35326",
+            "package": [
+              "libyaml-0-2"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-39804",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-39804",
+            "package": [
+              "tar@1.30+dfsg-7ubuntu0.20.04.3"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to tar@1.30+dfsg-7ubuntu0.20.04.4"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-39804",
+            "package": [
+              "ubuntu:focal:tar_1.30+dfsg-7ubuntu0.20.04.3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-39804",
+            "package": [
+              "tar"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "1.30+dfsg-7ubuntu0.20.04.4"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2021-46848",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-46848",
+            "package": [
+              "libtasn1-6"
+            ],
+            "cvssv3_score": "9.1",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2017-13716",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2017-13716",
+            "package": [
+              "binutils/binutils-common@2.34-6ubuntu1.9"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2017-13716",
+            "package": [
+              "ubuntu:focal:libctf-nobfd0_2.34-6ubuntu1.9",
+              "ubuntu:focal:libbinutils_2.34-6ubuntu1.9",
+              "ubuntu:focal:binutils_2.34-6ubuntu1.9",
+              "ubuntu:focal:libctf0_2.34-6ubuntu1.9",
+              "ubuntu:focal:binutils-x86-64-linux-gnu_2.34-6ubuntu1.9",
+              "ubuntu:focal:binutils-common_2.34-6ubuntu1.9"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2017-13716",
+            "package": [
+              "binutils",
+              "binutils-common",
+              "binutils-x86-64-linux-gnu",
+              "libbinutils",
+              "libctf-nobfd0",
+              "libctf0"
+            ],
+            "cvssv3_score": "7.1",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-3651",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-3651",
+            "package": [
+              "python-idna/python3-idna@2.8-1"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-3651",
+            "package": [
+              "ubuntu:focal:python3-idna_2.8-1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-3651",
+            "package": [
+              "python3-idna"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "2.8-1ubuntu0.1"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-4641",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-4641",
+            "package": [
+              "shadow/login@1:4.8.1-1ubuntu5.20.04.4"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to shadow/login@1:4.8.1-1ubuntu5.20.04.5"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-4641",
+            "package": [
+              "ubuntu:focal:passwd:1_4.8.1-1ubuntu5.20.04.4",
+              "ubuntu:focal:login:1_4.8.1-1ubuntu5.20.04.4"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-4641",
+            "package": [
+              "login",
+              "passwd"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": true,
+            "fixed_version": "1:4.8.1-1ubuntu5.20.04.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    }
+  ],
+  "num_unique_cves": 82
+}

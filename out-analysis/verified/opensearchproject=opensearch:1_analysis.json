@@ -1,0 +1,1107 @@
+{
+  "image_scanned": "opensearchproject/opensearch:1",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2022-41917",
+          "package": [
+            "org.opensearch.plugin:analysis-common_1.3.17"
+          ],
+          "cvssv3_score": "4.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[2.4.0]"
+        },
+        {
+          "cve_id": "CVE-2024-30172",
+          "package": [
+            "org.bouncycastle:bcpkix-jdk15to18_1.74",
+            "org.bouncycastle:bcprov-jdk15to18_1.75",
+            "org.bouncycastle:bcprov-jdk15to18_1.74"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[1.78]"
+        },
+        {
+          "cve_id": "CVE-2021-3572",
+          "package": [
+            "pip_19.2.3"
+          ],
+          "cvssv3_score": "5.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[21.1]"
+        },
+        {
+          "cve_id": "CVE-2023-35116",
+          "package": [
+            "com.fasterxml.jackson.core:jackson-databind_2.14.1",
+            "com.fasterxml.jackson.core:jackson-databind_2.14.2"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-20225",
+          "package": [
+            "pip_19.2.3"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "XRAY-125253_",
+          "package": [
+            "commons-io:commons-io_2.7"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[2.8.0-RC1]"
+        },
+        {
+          "cve_id": "CVE-2024-30171",
+          "package": [
+            "org.bouncycastle:bcprov-jdk15to18_1.75",
+            "org.bouncycastle:bcprov-jdk15to18_1.74",
+            "org.bouncycastle:bcpkix-jdk15to18_1.74"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[1.78]"
+        },
+        {
+          "cve_id": "CVE-2022-40897",
+          "package": [
+            "setuptools_41.2.0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[65.5.1]"
+        },
+        {
+          "cve_id": "CVE-2024-34447",
+          "package": [
+            "org.bouncycastle:bcprov-jdk15to18_1.74",
+            "org.bouncycastle:bcprov-jdk15to18_1.75"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[1.78]"
+        },
+        {
+          "cve_id": "CVE-2024-28752",
+          "package": [
+            "org.apache.cxf:cxf-core_3.5.5"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[3.5.8], [3.6.3], [4.0.4]"
+        },
+        {
+          "cve_id": "CVE-2024-29857",
+          "package": [
+            "org.bouncycastle:bcpkix-jdk15to18_1.74",
+            "org.bouncycastle:bc-fips_1.0.2.4",
+            "org.bouncycastle:bcprov-jdk15to18_1.75",
+            "org.bouncycastle:bcprov-jdk15to18_1.74"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[1.78]"
+        },
+        {
+          "cve_id": "CVE-2023-5752",
+          "package": [
+            "pip_19.2.3"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[23.3]"
+        }
+      ],
+      "num_cves": 12,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-30171",
+        "CVE-2024-29857",
+        "CVE-2024-30172",
+        "CVE-2023-35116",
+        "CVE-2024-34447"
+      ],
+      "relative_efficiency": 0.6315789
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "GHSA-4h8f-2wvx",
+          "package": [
+            "gg5w-bcprov-jdk15to18",
+            "gg5w-bcprov-jdk15to18",
+            "gg5w-bcprov-jdk15to18"
+          ],
+          "cvssv3_score": "1.0",
+          "severity": "low",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "GHSA-8xfc-gm6g",
+          "package": [
+            "vgpv-bc-fips",
+            "vgpv-bcpkix-jdk15to18",
+            "vgpv-bcpkix-jdk15to18",
+            "vgpv-bcprov-jdk15to18",
+            "vgpv-bcprov-jdk15to18",
+            "vgpv-bcprov-jdk15to18"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.0.2.5"
+        },
+        {
+          "cve_id": "GHSA-m44j-cfrm",
+          "package": [
+            "g8qc-bcpkix-jdk15to18",
+            "g8qc-bcpkix-jdk15to18",
+            "g8qc-bcprov-jdk15to18",
+            "g8qc-bcprov-jdk15to18",
+            "g8qc-bcprov-jdk15to18"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "GHSA-qmgx-j96g",
+          "package": [
+            "4428-cxf-core"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "3.5.8"
+        },
+        {
+          "cve_id": "GHSA-v435-xc8x",
+          "package": [
+            "wvr9-bcpkix-jdk15to18",
+            "wvr9-bcpkix-jdk15to18",
+            "wvr9-bcprov-jdk15to18",
+            "wvr9-bcprov-jdk15to18",
+            "wvr9-bcprov-jdk15to18"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        }
+      ],
+      "num_cves": 5,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "GHSA-4h8f-2wvx",
+        "GHSA-8xfc-gm6g",
+        "GHSA-m44j-cfrm",
+        "GHSA-v435-xc8x"
+      ],
+      "relative_efficiency": 0.2631579
+    },
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-34447",
+          "package": [
+            " pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+            " pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "CVE-2024-28752",
+          "package": [
+            " pkg:maven/org.apache.cxf/cxf-core@3.5.5"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.5.8"
+        },
+        {
+          "cve_id": "CVE-2024-29857",
+          "package": [
+            " pkg:maven/org.bouncycastle/bc-fips@1.0.2.4 pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+            " pkg:maven/org.bouncycastle/bc-fips@1.0.2.4 pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+            " pkg:maven/org.bouncycastle/bc-fips@1.0.2.4 pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+            " pkg:maven/org.bouncycastle/bc-fips@1.0.2.4 pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75"
+          ],
+          "cvssv3_score": "5.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "CVE-2024-30172",
+          "package": [
+            " pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+            " pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+            " pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75"
+          ],
+          "cvssv3_score": "5.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "CVE-2024-30171",
+          "package": [
+            " pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+            " pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+            " pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75"
+          ],
+          "cvssv3_score": "5.900000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        }
+      ],
+      "num_cves": 5,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-34447",
+        "CVE-2024-29857",
+        "CVE-2024-30172",
+        "CVE-2024-30171"
+      ],
+      "relative_efficiency": 0.2631579
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-30171",
+          "package": [
+            "usr/share/opensearch/performance-analyzer-rca/lib/bcpkix-jdk15to18-1.74.jar: org.bouncycastle:bcpkix-jdk15to18@1.74",
+            "usr/share/opensearch/plugins/opensearch-performance-analyzer/bcpkix-jdk15to18-1.74.jar: org.bouncycastle:bcpkix-jdk15to18@1.74",
+            "usr/share/opensearch/performance-analyzer-rca/lib/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+            "usr/share/opensearch/plugins/opensearch-performance-analyzer/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+            "usr/share/opensearch/plugins/opensearch-security/bcprov-jdk15to18-1.75.jar: org.bouncycastle:bcprov-jdk15to18@1.75"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "CVE-2024-30172",
+          "package": [
+            "usr/share/opensearch/performance-analyzer-rca/lib/bcpkix-jdk15to18-1.74.jar: org.bouncycastle:bcpkix-jdk15to18@1.74",
+            "usr/share/opensearch/plugins/opensearch-performance-analyzer/bcpkix-jdk15to18-1.74.jar: org.bouncycastle:bcpkix-jdk15to18@1.74",
+            "usr/share/opensearch/performance-analyzer-rca/lib/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+            "usr/share/opensearch/plugins/opensearch-performance-analyzer/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+            "usr/share/opensearch/plugins/opensearch-security/bcprov-jdk15to18-1.75.jar: org.bouncycastle:bcprov-jdk15to18@1.75"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "CVE-2024-34447",
+          "package": [
+            "usr/share/opensearch/performance-analyzer-rca/lib/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+            "usr/share/opensearch/plugins/opensearch-performance-analyzer/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+            "usr/share/opensearch/plugins/opensearch-security/bcprov-jdk15to18-1.75.jar: org.bouncycastle:bcprov-jdk15to18@1.75"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "CVE-2024-28752",
+          "package": [
+            "usr/share/opensearch/plugins/opensearch-security/cxf-core-3.5.5.jar: org.apache.cxf:cxf-core@3.5.5"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.5.8, 3.6.3, 4.0.4"
+        },
+        {
+          "cve_id": "CVE-2024-29857",
+          "package": [
+            "usr/share/opensearch/lib/tools/plugin-cli/bc-fips-1.0.2.4.jar: org.bouncycastle:bc-fips@1.0.2.4",
+            "usr/share/opensearch/performance-analyzer-rca/lib/bcpkix-jdk15to18-1.74.jar: org.bouncycastle:bcpkix-jdk15to18@1.74",
+            "usr/share/opensearch/plugins/opensearch-performance-analyzer/bcpkix-jdk15to18-1.74.jar: org.bouncycastle:bcpkix-jdk15to18@1.74",
+            "usr/share/opensearch/performance-analyzer-rca/lib/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+            "usr/share/opensearch/plugins/opensearch-performance-analyzer/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+            "usr/share/opensearch/plugins/opensearch-security/bcprov-jdk15to18-1.75.jar: org.bouncycastle:bcprov-jdk15to18@1.75"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        }
+      ],
+      "num_cves": 5,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-29857",
+        "CVE-2024-30171",
+        "CVE-2024-30172",
+        "CVE-2024-34447"
+      ],
+      "relative_efficiency": 0.2631579
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-30172",
+          "package": [
+            "org.bouncycastle:bcprov-jdk15to18@1.74",
+            "org.bouncycastle:bcprov-jdk15to18@1.74",
+            "org.bouncycastle:bcprov-jdk15to18@1.75"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.bouncycastle:bcprov-jdk15to18@1.78"
+        },
+        {
+          "cve_id": "CVE-2024-30171",
+          "package": [
+            "org.bouncycastle:bcprov-jdk15to18@1.74",
+            "org.bouncycastle:bcprov-jdk15to18@1.74",
+            "org.bouncycastle:bcprov-jdk15to18@1.75"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.bouncycastle:bcprov-jdk15to18@1.78"
+        },
+        {
+          "cve_id": "CVE-2024-29857",
+          "package": [
+            "org.bouncycastle:bcprov-jdk15to18@1.74",
+            "org.bouncycastle:bcprov-jdk15to18@1.74",
+            "org.bouncycastle:bcprov-jdk15to18@1.75"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.bouncycastle:bcprov-jdk15to18@1.78"
+        },
+        {
+          "cve_id": "CVE-2021-28170",
+          "package": [
+            "org.glassfish:javax.el@3.0.0"
+          ],
+          "cvssv3_score": "7.3",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-29582",
+          "package": [
+            "org.jetbrains.kotlin:kotlin-stdlib@1.6.10",
+            "org.jetbrains.kotlin:kotlin-stdlib@1.6.0",
+            "org.jetbrains.kotlin:kotlin-stdlib@1.6.10",
+            "org.jetbrains.kotlin:kotlin-stdlib@1.6.0",
+            "org.jetbrains.kotlin:kotlin-stdlib@1.6.0"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 5,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2020-29582",
+        "CVE-2024-30172",
+        "CVE-2024-30171",
+        "CVE-2024-29857"
+      ],
+      "relative_efficiency": 0.2631579
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2022-41917",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-41917",
+            "package": [
+              "org.opensearch.plugin:analysis-common_1.3.17"
+            ],
+            "cvssv3_score": "4.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[2.4.0]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-28752",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-28752",
+            "package": [
+              "org.apache.cxf:cxf-core_3.5.5"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[3.5.8], [3.6.3], [4.0.4]"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-28752",
+            "package": [
+              " pkg:maven/org.apache.cxf/cxf-core@3.5.5"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.5.8"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-28752",
+            "package": [
+              "usr/share/opensearch/plugins/opensearch-security/cxf-core-3.5.5.jar: org.apache.cxf:cxf-core@3.5.5"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.5.8, 3.6.3, 4.0.4"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-5752",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-5752",
+            "package": [
+              "pip_19.2.3"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[23.3]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "XRAY-125253_",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "XRAY-125253_",
+            "package": [
+              "commons-io:commons-io_2.7"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[2.8.0-RC1]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-30171",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-30171",
+            "package": [
+              "org.bouncycastle:bcprov-jdk15to18_1.75",
+              "org.bouncycastle:bcprov-jdk15to18_1.74",
+              "org.bouncycastle:bcpkix-jdk15to18_1.74"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[1.78]"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-30171",
+            "package": [
+              " pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+              " pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+              " pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75"
+            ],
+            "cvssv3_score": "5.900000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-30171",
+            "package": [
+              "usr/share/opensearch/performance-analyzer-rca/lib/bcpkix-jdk15to18-1.74.jar: org.bouncycastle:bcpkix-jdk15to18@1.74",
+              "usr/share/opensearch/plugins/opensearch-performance-analyzer/bcpkix-jdk15to18-1.74.jar: org.bouncycastle:bcpkix-jdk15to18@1.74",
+              "usr/share/opensearch/performance-analyzer-rca/lib/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+              "usr/share/opensearch/plugins/opensearch-performance-analyzer/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+              "usr/share/opensearch/plugins/opensearch-security/bcprov-jdk15to18-1.75.jar: org.bouncycastle:bcprov-jdk15to18@1.75"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-30171",
+            "package": [
+              "org.bouncycastle:bcprov-jdk15to18@1.74",
+              "org.bouncycastle:bcprov-jdk15to18@1.74",
+              "org.bouncycastle:bcprov-jdk15to18@1.75"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.bouncycastle:bcprov-jdk15to18@1.78"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "GHSA-4h8f-2wvx",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-4h8f-2wvx",
+            "package": [
+              "gg5w-bcprov-jdk15to18",
+              "gg5w-bcprov-jdk15to18",
+              "gg5w-bcprov-jdk15to18"
+            ],
+            "cvssv3_score": "1.0",
+            "severity": "low",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-qmgx-j96g",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-qmgx-j96g",
+            "package": [
+              "4428-cxf-core"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "3.5.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-v435-xc8x",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-v435-xc8x",
+            "package": [
+              "wvr9-bcpkix-jdk15to18",
+              "wvr9-bcpkix-jdk15to18",
+              "wvr9-bcprov-jdk15to18",
+              "wvr9-bcprov-jdk15to18",
+              "wvr9-bcprov-jdk15to18"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-28170",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-28170",
+            "package": [
+              "org.glassfish:javax.el@3.0.0"
+            ],
+            "cvssv3_score": "7.3",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-29582",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-29582",
+            "package": [
+              "org.jetbrains.kotlin:kotlin-stdlib@1.6.10",
+              "org.jetbrains.kotlin:kotlin-stdlib@1.6.0",
+              "org.jetbrains.kotlin:kotlin-stdlib@1.6.10",
+              "org.jetbrains.kotlin:kotlin-stdlib@1.6.0",
+              "org.jetbrains.kotlin:kotlin-stdlib@1.6.0"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-3572",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-3572",
+            "package": [
+              "pip_19.2.3"
+            ],
+            "cvssv3_score": "5.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[21.1]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-40897",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-40897",
+            "package": [
+              "setuptools_41.2.0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[65.5.1]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-29857",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-29857",
+            "package": [
+              "org.bouncycastle:bcpkix-jdk15to18_1.74",
+              "org.bouncycastle:bc-fips_1.0.2.4",
+              "org.bouncycastle:bcprov-jdk15to18_1.75",
+              "org.bouncycastle:bcprov-jdk15to18_1.74"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[1.78]"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-29857",
+            "package": [
+              " pkg:maven/org.bouncycastle/bc-fips@1.0.2.4 pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+              " pkg:maven/org.bouncycastle/bc-fips@1.0.2.4 pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+              " pkg:maven/org.bouncycastle/bc-fips@1.0.2.4 pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+              " pkg:maven/org.bouncycastle/bc-fips@1.0.2.4 pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75"
+            ],
+            "cvssv3_score": "5.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-29857",
+            "package": [
+              "usr/share/opensearch/lib/tools/plugin-cli/bc-fips-1.0.2.4.jar: org.bouncycastle:bc-fips@1.0.2.4",
+              "usr/share/opensearch/performance-analyzer-rca/lib/bcpkix-jdk15to18-1.74.jar: org.bouncycastle:bcpkix-jdk15to18@1.74",
+              "usr/share/opensearch/plugins/opensearch-performance-analyzer/bcpkix-jdk15to18-1.74.jar: org.bouncycastle:bcpkix-jdk15to18@1.74",
+              "usr/share/opensearch/performance-analyzer-rca/lib/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+              "usr/share/opensearch/plugins/opensearch-performance-analyzer/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+              "usr/share/opensearch/plugins/opensearch-security/bcprov-jdk15to18-1.75.jar: org.bouncycastle:bcprov-jdk15to18@1.75"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-29857",
+            "package": [
+              "org.bouncycastle:bcprov-jdk15to18@1.74",
+              "org.bouncycastle:bcprov-jdk15to18@1.74",
+              "org.bouncycastle:bcprov-jdk15to18@1.75"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.bouncycastle:bcprov-jdk15to18@1.78"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "GHSA-8xfc-gm6g",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-8xfc-gm6g",
+            "package": [
+              "vgpv-bc-fips",
+              "vgpv-bcpkix-jdk15to18",
+              "vgpv-bcpkix-jdk15to18",
+              "vgpv-bcprov-jdk15to18",
+              "vgpv-bcprov-jdk15to18",
+              "vgpv-bcprov-jdk15to18"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.0.2.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-m44j-cfrm",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-m44j-cfrm",
+            "package": [
+              "g8qc-bcpkix-jdk15to18",
+              "g8qc-bcpkix-jdk15to18",
+              "g8qc-bcprov-jdk15to18",
+              "g8qc-bcprov-jdk15to18",
+              "g8qc-bcprov-jdk15to18"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-30172",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-30172",
+            "package": [
+              "org.bouncycastle:bcpkix-jdk15to18_1.74",
+              "org.bouncycastle:bcprov-jdk15to18_1.75",
+              "org.bouncycastle:bcprov-jdk15to18_1.74"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[1.78]"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-30172",
+            "package": [
+              " pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+              " pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+              " pkg:maven/org.bouncycastle/bcpkix-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75"
+            ],
+            "cvssv3_score": "5.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-30172",
+            "package": [
+              "usr/share/opensearch/performance-analyzer-rca/lib/bcpkix-jdk15to18-1.74.jar: org.bouncycastle:bcpkix-jdk15to18@1.74",
+              "usr/share/opensearch/plugins/opensearch-performance-analyzer/bcpkix-jdk15to18-1.74.jar: org.bouncycastle:bcpkix-jdk15to18@1.74",
+              "usr/share/opensearch/performance-analyzer-rca/lib/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+              "usr/share/opensearch/plugins/opensearch-performance-analyzer/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+              "usr/share/opensearch/plugins/opensearch-security/bcprov-jdk15to18-1.75.jar: org.bouncycastle:bcprov-jdk15to18@1.75"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-30172",
+            "package": [
+              "org.bouncycastle:bcprov-jdk15to18@1.74",
+              "org.bouncycastle:bcprov-jdk15to18@1.74",
+              "org.bouncycastle:bcprov-jdk15to18@1.75"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.bouncycastle:bcprov-jdk15to18@1.78"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-35116",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-35116",
+            "package": [
+              "com.fasterxml.jackson.core:jackson-databind_2.14.1",
+              "com.fasterxml.jackson.core:jackson-databind_2.14.2"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-20225",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-20225",
+            "package": [
+              "pip_19.2.3"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-34447",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-34447",
+            "package": [
+              "org.bouncycastle:bcprov-jdk15to18_1.74",
+              "org.bouncycastle:bcprov-jdk15to18_1.75"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[1.78]"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-34447",
+            "package": [
+              " pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75",
+              " pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.74 pkg:maven/org.bouncycastle/bcprov-jdk15to18@1.75"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-34447",
+            "package": [
+              "usr/share/opensearch/performance-analyzer-rca/lib/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+              "usr/share/opensearch/plugins/opensearch-performance-analyzer/bcprov-jdk15to18-1.74.jar: org.bouncycastle:bcprov-jdk15to18@1.74",
+              "usr/share/opensearch/plugins/opensearch-security/bcprov-jdk15to18-1.75.jar: org.bouncycastle:bcprov-jdk15to18@1.75"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        }
+      ],
+      "detection_rate": 3
+    }
+  ],
+  "num_unique_cves": 19
+}

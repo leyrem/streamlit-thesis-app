@@ -1,0 +1,91 @@
+{
+
+    "image_name": "newrelic/infrastructure:1.53.0",
+    "category": "verified",
+    "unique_cves": [
+        {
+            "cve_id": "CVE-2024-24786",
+            "detected_scanners": "DockerScout, JFrog, Trivy",
+            "outcome": "False Positive",
+            "reason": "golang not installed",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2023-45288",
+            "detected_scanners": "DockerScout, JFrog, Trivy",
+            "outcome": "False Positive",
+            "reason": "golang not installed",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2024-24789",
+            "detected_scanners": "DockerScout, Grype, Trivy",
+            "outcome": "False Positive",
+            "reason": "golang not installed",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2024-24790",
+            "detected_scanners": "DockerScout, Grype, Trivy",
+            "outcome": "False Positive",
+            "reason": "golang not installed",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2020-8912",
+            "detected_scanners": "DockerScout",
+            "outcome": "False Positive",
+            "reason": "golang not installed",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2020-8911",
+            "detected_scanners": "DockerScout",
+            "outcome": "False Positive",
+            "reason": "golang not installed",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2024-4032",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "GHSA-4v7x-pqxf",
+            "detected_scanners": "Grype",
+            "outcome": "False Positive",
+            "reason": "golang not installed",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2024-4030",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2018-20225",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "pip not installed",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2022-29583",
+            "detected_scanners": "DockerScout",
+            "outcome": "False Positive",
+            "reason": "",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "GHSA-8r3f-844c",
+            "detected_scanners": "DockerScout",
+            "outcome": "False Positive",
+            "reason": "golang not installed",
+            "reason_keyword": "pkg-not-found"
+        }
+    ]
+}

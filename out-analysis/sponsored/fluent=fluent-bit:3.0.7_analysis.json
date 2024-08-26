@@ -1,0 +1,4209 @@
+{
+  "image_scanned": "fluent/fluent-bit:3.0.7",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "DockerScout",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2022-27943",
+          "package": [
+            "gcc-12/libatomic1@12.2.0-14"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-4039",
+          "package": [
+            "gcc-12/libatomic1@12.2.0-14"
+          ],
+          "cvssv3_score": "4.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010024",
+          "package": [
+            "glibc/libc6@2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-20796",
+          "package": [
+            "glibc/libc6@2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-9192",
+          "package": [
+            "glibc/libc6@2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010025",
+          "package": [
+            "glibc/libc6@2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010022",
+          "package": [
+            "glibc/libc6@2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2010-4756",
+          "package": [
+            "glibc/libc6@2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "4.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010023",
+          "package": [
+            "glibc/libc6@2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2011-3389",
+          "package": [
+            "gnutls28/libgnutls30@3.7.9-2+deb12u2"
+          ],
+          "cvssv3_score": "4.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-28835",
+          "package": [
+            "gnutls28/libgnutls30@3.7.9-2+deb12u2"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-28834",
+          "package": [
+            "gnutls28/libgnutls30@3.7.9-2+deb12u2"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-5709",
+          "package": [
+            "krb5/libkrb5support0@1.20.1-2+deb12u1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-26461",
+          "package": [
+            "krb5/libkrb5support0@1.20.1-2+deb12u1"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-26458",
+          "package": [
+            "krb5/libkrb5support0@1.20.1-2+deb12u1"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-26462",
+          "package": [
+            "krb5/libkrb5support0@1.20.1-2+deb12u1"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-6829",
+          "package": [
+            "libgcrypt20@1.10.1-3"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2236",
+          "package": [
+            "libgcrypt20@1.10.1-3"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-14159",
+          "package": [
+            "openldap/libldap-2.5-0@2.5.13+dfsg-5"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-17740",
+          "package": [
+            "openldap/libldap-2.5-0@2.5.13+dfsg-5"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-15719",
+          "package": [
+            "openldap/libldap-2.5-0@2.5.13+dfsg-5"
+          ],
+          "cvssv3_score": "4.2",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2015-3276",
+          "package": [
+            "openldap/libldap-2.5-0@2.5.13+dfsg-5"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-2953",
+          "package": [
+            "openldap/libldap-2.5-0@2.5.13+dfsg-5"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            "openssl/libssl3@3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-6129",
+          "package": [
+            "openssl/libssl3@3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-6237",
+          "package": [
+            "openssl/libssl3@3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            "openssl/libssl3@3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "openssl/libssl3@3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "openssl/libssl3@3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "openssl/libssl3@3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4317",
+          "package": [
+            "postgresql-15/libpq5@15.6-0+deb12u1"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2013-4392",
+          "package": [
+            "systemd/libsystemd0@254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "4.4",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-31437",
+          "package": [
+            "systemd/libsystemd0@254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-31438",
+          "package": [
+            "systemd/libsystemd0@254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-31439",
+          "package": [
+            "systemd/libsystemd0@254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-50387",
+          "package": [
+            "systemd/libsystemd0@254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-50868",
+          "package": [
+            "systemd/libsystemd0@254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-45853",
+          "package": [
+            "zlib/zlib1g@1:1.2.13.dfsg-1"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Critical",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 38,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 1
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "fluent/fluent-bit: libssl3@3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-31437",
+          "package": [
+            "fluent/fluent-bit: libsystemd0@254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-6829",
+          "package": [
+            "fluent/fluent-bit: libgcrypt20@1.10.1-3"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-28835",
+          "package": [
+            "fluent/fluent-bit: libgnutls30@3.7.9-2+deb12u2"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010024",
+          "package": [
+            "fluent/fluent-bit: libc6@2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010025",
+          "package": [
+            "fluent/fluent-bit: libc6@2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2011-3389",
+          "package": [
+            "fluent/fluent-bit: libgnutls30@3.7.9-2+deb12u2"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            "fluent/fluent-bit: libssl3@3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-50868",
+          "package": [
+            "fluent/fluent-bit: libsystemd0@254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-20796",
+          "package": [
+            "fluent/fluent-bit: libc6@2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010022",
+          "package": [
+            "fluent/fluent-bit: libc6@2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-26461",
+          "package": [
+            "fluent/fluent-bit: libgssapi-krb5-2@1.20.1-2+deb12u1",
+            "fluent/fluent-bit: libk5crypto3@1.20.1-2+deb12u1",
+            "fluent/fluent-bit: libkrb5-3@1.20.1-2+deb12u1",
+            "fluent/fluent-bit: libkrb5support0@1.20.1-2+deb12u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2236",
+          "package": [
+            "fluent/fluent-bit: libgcrypt20@1.10.1-3"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-28834",
+          "package": [
+            "fluent/fluent-bit: libgnutls30@3.7.9-2+deb12u2"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            "fluent/fluent-bit: libssl3@3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-50387",
+          "package": [
+            "fluent/fluent-bit: libsystemd0@254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-9192",
+          "package": [
+            "fluent/fluent-bit: libc6@2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-2953",
+          "package": [
+            "fluent/fluent-bit: libldap-2.5-0@2.5.13+dfsg-5"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-26458",
+          "package": [
+            "fluent/fluent-bit: libgssapi-krb5-2@1.20.1-2+deb12u1",
+            "fluent/fluent-bit: libk5crypto3@1.20.1-2+deb12u1",
+            "fluent/fluent-bit: libkrb5-3@1.20.1-2+deb12u1",
+            "fluent/fluent-bit: libkrb5support0@1.20.1-2+deb12u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-6237",
+          "package": [
+            "fluent/fluent-bit: libssl3@3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-27943",
+          "package": [
+            "fluent/fluent-bit: libatomic1@12.2.0-14",
+            "fluent/fluent-bit: libgcc-s1@12.2.0-14",
+            "fluent/fluent-bit: libgomp1@12.2.0-14",
+            "fluent/fluent-bit: libstdc++6@12.2.0-14"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-26462",
+          "package": [
+            "fluent/fluent-bit: libgssapi-krb5-2@1.20.1-2+deb12u1",
+            "fluent/fluent-bit: libk5crypto3@1.20.1-2+deb12u1",
+            "fluent/fluent-bit: libkrb5-3@1.20.1-2+deb12u1",
+            "fluent/fluent-bit: libkrb5support0@1.20.1-2+deb12u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010023",
+          "package": [
+            "fluent/fluent-bit: libc6@2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "fluent/fluent-bit: libssl3@3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-14159",
+          "package": [
+            "fluent/fluent-bit: libldap-2.5-0@2.5.13+dfsg-5"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-15719",
+          "package": [
+            "fluent/fluent-bit: libldap-2.5-0@2.5.13+dfsg-5"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-6129",
+          "package": [
+            "fluent/fluent-bit: libssl3@3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2013-4392",
+          "package": [
+            "fluent/fluent-bit: libsystemd0@254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-31438",
+          "package": [
+            "fluent/fluent-bit: libsystemd0@254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2010-4756",
+          "package": [
+            "fluent/fluent-bit: libc6@2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2015-3276",
+          "package": [
+            "fluent/fluent-bit: libldap-2.5-0@2.5.13+dfsg-5"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-17740",
+          "package": [
+            "fluent/fluent-bit: libldap-2.5-0@2.5.13+dfsg-5"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4317",
+          "package": [
+            "fluent/fluent-bit: libpq5@15.6-0+deb12u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "fluent/fluent-bit: libssl3@3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-31439",
+          "package": [
+            "fluent/fluent-bit: libsystemd0@254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-45853",
+          "package": [
+            "fluent/fluent-bit: zlib1g@1:1.2.13.dfsg-1"
+          ],
+          "cvssv3_score": "",
+          "severity": "CRITICAL",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-4039",
+          "package": [
+            "fluent/fluent-bit: libatomic1@12.2.0-14",
+            "fluent/fluent-bit: libgcc-s1@12.2.0-14",
+            "fluent/fluent-bit: libgomp1@12.2.0-14",
+            "fluent/fluent-bit: libstdc++6@12.2.0-14"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-5709",
+          "package": [
+            "fluent/fluent-bit: libgssapi-krb5-2@1.20.1-2+deb12u1",
+            "fluent/fluent-bit: libk5crypto3@1.20.1-2+deb12u1",
+            "fluent/fluent-bit: libkrb5-3@1.20.1-2+deb12u1",
+            "fluent/fluent-bit: libkrb5support0@1.20.1-2+deb12u1"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 38,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-4039",
+        "CVE-2022-27943",
+        "CVE-2024-26462",
+        "CVE-2024-26458",
+        "CVE-2024-26461",
+        "CVE-2018-5709"
+      ],
+      "relative_efficiency": 1
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-31438",
+          "package": [
+            "libsystemd0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010025",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-2953",
+          "package": [
+            "libldap-2.5-0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-26458",
+          "package": [
+            "libgssapi-krb5-2",
+            "libk5crypto3",
+            "libkrb5-3",
+            "libkrb5support0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2011-3389",
+          "package": [
+            "libgnutls30"
+          ],
+          "cvssv3_score": "4.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-5709",
+          "package": [
+            "libgssapi-krb5-2",
+            "libk5crypto3",
+            "libkrb5-3",
+            "libkrb5support0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010022",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-31439",
+          "package": [
+            "libsystemd0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-50387",
+          "package": [
+            "libsystemd0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-6237",
+          "package": [
+            "libssl3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-26462",
+          "package": [
+            "libgssapi-krb5-2",
+            "libk5crypto3",
+            "libkrb5-3",
+            "libkrb5support0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "libssl3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2010-4756",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-17740",
+          "package": [
+            "libldap-2.5-0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            "libssl3"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2013-4392",
+          "package": [
+            "libsystemd0"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-15719",
+          "package": [
+            "libldap-2.5-0"
+          ],
+          "cvssv3_score": "4.2",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-26461",
+          "package": [
+            "libgssapi-krb5-2",
+            "libk5crypto3",
+            "libkrb5-3",
+            "libkrb5support0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "libssl3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-4039",
+          "package": [
+            "libatomic1",
+            "libgcc-s1",
+            "libgomp1",
+            "libstdc++6"
+          ],
+          "cvssv3_score": "4.8",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-6129",
+          "package": [
+            "libssl3"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-31437",
+          "package": [
+            "libsystemd0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-45853",
+          "package": [
+            "zlib1g"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-50868",
+          "package": [
+            "libsystemd0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-28834",
+          "package": [
+            "libgnutls30"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4317",
+          "package": [
+            "libpq5"
+          ],
+          "cvssv3_score": "3.1",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010023",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-27943",
+          "package": [
+            "libatomic1",
+            "libgcc-s1",
+            "libgomp1",
+            "libstdc++6"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-20796",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-1010024",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2236",
+          "package": [
+            "libgcrypt20"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "libssl3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2015-3276",
+          "package": [
+            "libldap-2.5-0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-14159",
+          "package": [
+            "libldap-2.5-0"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            "libssl3"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-28835",
+          "package": [
+            "libgnutls30"
+          ],
+          "cvssv3_score": "5.0",
+          "severity": "medium",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-6829",
+          "package": [
+            "libgcrypt20"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-9192",
+          "package": [
+            "libc6"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "low",
+          "type": "deb",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 38,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2018-5709",
+        "CVE-2022-27943",
+        "CVE-2023-4039",
+        "CVE-2024-26458",
+        "CVE-2024-26461",
+        "CVE-2024-26462"
+      ],
+      "relative_efficiency": 1
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2019-1010025",
+          "package": [
+            "debian:bookworm:libc6_2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2024-26462",
+          "package": [
+            "debian:bookworm:libkrb5-3_1.20.1-2+deb12u1",
+            "debian:bookworm:libkrb5support0_1.20.1-2+deb12u1",
+            "debian:bookworm:libk5crypto3_1.20.1-2+deb12u1",
+            "debian:bookworm:libgssapi-krb5-2_1.20.1-2+deb12u1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-28835",
+          "package": [
+            "debian:bookworm:libgnutls30_3.7.9-2+deb12u2"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2013-4392",
+          "package": [
+            "debian:bookworm:libsystemd0_254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2019-1010022",
+          "package": [
+            "debian:bookworm:libc6_2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2024-28834",
+          "package": [
+            "debian:bookworm:libgnutls30_3.7.9-2+deb12u2"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-26458",
+          "package": [
+            "debian:bookworm:libk5crypto3_1.20.1-2+deb12u1",
+            "debian:bookworm:libkrb5-3_1.20.1-2+deb12u1",
+            "debian:bookworm:libkrb5support0_1.20.1-2+deb12u1",
+            "debian:bookworm:libgssapi-krb5-2_1.20.1-2+deb12u1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "debian:bookworm:libssl3_3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2010-4756",
+          "package": [
+            "debian:bookworm:libc6_2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-26461",
+          "package": [
+            "debian:bookworm:libkrb5-3_1.20.1-2+deb12u1",
+            "debian:bookworm:libkrb5support0_1.20.1-2+deb12u1",
+            "debian:bookworm:libgssapi-krb5-2_1.20.1-2+deb12u1",
+            "debian:bookworm:libk5crypto3_1.20.1-2+deb12u1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-4317",
+          "package": [
+            "debian:bookworm:libpq5_15.6-0+deb12u1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2018-5709",
+          "package": [
+            "debian:bookworm:libgssapi-krb5-2_1.20.1-2+deb12u1",
+            "debian:bookworm:libkrb5support0_1.20.1-2+deb12u1",
+            "debian:bookworm:libkrb5-3_1.20.1-2+deb12u1",
+            "debian:bookworm:libk5crypto3_1.20.1-2+deb12u1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "debian:bookworm:libssl3_3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2020-15719",
+          "package": [
+            "debian:bookworm:libldap-2.5-0_2.5.13+dfsg-5"
+          ],
+          "cvssv3_score": "4.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.2"
+        },
+        {
+          "cve_id": "CVE-2015-3276",
+          "package": [
+            "debian:bookworm:libldap-2.5-0_2.5.13+dfsg-5"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-50868",
+          "package": [
+            "debian:bookworm:libsystemd0_254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-6129",
+          "package": [
+            "debian:bookworm:libssl3_3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2017-14159",
+          "package": [
+            "debian:bookworm:libldap-2.5-0_2.5.13+dfsg-5"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.7"
+        },
+        {
+          "cve_id": "CVE-2023-6237",
+          "package": [
+            "debian:bookworm:libssl3_3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-4039",
+          "package": [
+            "debian:bookworm:libgcc-s1_12.2.0-14",
+            "debian:bookworm:libatomic1_12.2.0-14",
+            "debian:bookworm:libgomp1_12.2.0-14",
+            "debian:bookworm:libstdc++6_12.2.0-14"
+          ],
+          "cvssv3_score": "4.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.8"
+        },
+        {
+          "cve_id": "CVE-2023-31439",
+          "package": [
+            "debian:bookworm:libsystemd0_254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "debian:bookworm:libssl3_3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            "debian:bookworm:libssl3_3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2023-31437",
+          "package": [
+            "debian:bookworm:libsystemd0_254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2018-20796",
+          "package": [
+            "debian:bookworm:libc6_2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-27943",
+          "package": [
+            "debian:bookworm:libstdc++6_12.2.0-14",
+            "debian:bookworm:libgcc-s1_12.2.0-14",
+            "debian:bookworm:libgomp1_12.2.0-14",
+            "debian:bookworm:libatomic1_12.2.0-14"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2019-1010024",
+          "package": [
+            "debian:bookworm:libc6_2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2023-45853",
+          "package": [
+            "debian:bookworm:zlib1g:1_1.2.13.dfsg-1"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            "debian:bookworm:libssl3_3.0.11-1~deb12u2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-31438",
+          "package": [
+            "debian:bookworm:libsystemd0_254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2019-1010023",
+          "package": [
+            "debian:bookworm:libc6_2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "8.8"
+        },
+        {
+          "cve_id": "CVE-2017-17740",
+          "package": [
+            "debian:bookworm:libldap-2.5-0_2.5.13+dfsg-5"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2019-9192",
+          "package": [
+            "debian:bookworm:libc6_2.36-9+deb12u7"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2018-6829",
+          "package": [
+            "debian:bookworm:libgcrypt20_1.10.1-3"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2011-3389",
+          "package": [
+            "debian:bookworm:libgnutls30_3.7.9-2+deb12u2"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-2236",
+          "package": [
+            "debian:bookworm:libgcrypt20_1.10.1-3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-50387",
+          "package": [
+            "debian:bookworm:libsystemd0_254.5-1~bpo12+3"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-2953",
+          "package": [
+            "debian:bookworm:libldap-2.5-0_2.5.13+dfsg-5"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        }
+      ],
+      "num_cves": 38,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-4039",
+        "CVE-2022-27943",
+        "CVE-2024-26462",
+        "CVE-2024-26461",
+        "CVE-2024-26458",
+        "CVE-2018-5709"
+      ],
+      "relative_efficiency": 1
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2019-9192",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-9192",
+            "package": [
+              "glibc/libc6@2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2019-9192",
+            "package": [
+              "fluent/fluent-bit: libc6@2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-9192",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-9192",
+            "package": [
+              "debian:bookworm:libc6_2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2019-1010023",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010023",
+            "package": [
+              "glibc/libc6@2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010023",
+            "package": [
+              "fluent/fluent-bit: libc6@2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010023",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010023",
+            "package": [
+              "debian:bookworm:libc6_2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "8.8"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2018-6829",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2018-6829",
+            "package": [
+              "libgcrypt20@1.10.1-3"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2018-6829",
+            "package": [
+              "fluent/fluent-bit: libgcrypt20@1.10.1-3"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2018-6829",
+            "package": [
+              "libgcrypt20"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-6829",
+            "package": [
+              "debian:bookworm:libgcrypt20_1.10.1-3"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-2236",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-2236",
+            "package": [
+              "libgcrypt20@1.10.1-3"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-2236",
+            "package": [
+              "fluent/fluent-bit: libgcrypt20@1.10.1-3"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2236",
+            "package": [
+              "libgcrypt20"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2236",
+            "package": [
+              "debian:bookworm:libgcrypt20_1.10.1-3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2017-14159",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2017-14159",
+            "package": [
+              "openldap/libldap-2.5-0@2.5.13+dfsg-5"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2017-14159",
+            "package": [
+              "fluent/fluent-bit: libldap-2.5-0@2.5.13+dfsg-5"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2017-14159",
+            "package": [
+              "libldap-2.5-0"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2017-14159",
+            "package": [
+              "debian:bookworm:libldap-2.5-0_2.5.13+dfsg-5"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.7"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2015-3276",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2015-3276",
+            "package": [
+              "openldap/libldap-2.5-0@2.5.13+dfsg-5"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2015-3276",
+            "package": [
+              "fluent/fluent-bit: libldap-2.5-0@2.5.13+dfsg-5"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2015-3276",
+            "package": [
+              "libldap-2.5-0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2015-3276",
+            "package": [
+              "debian:bookworm:libldap-2.5-0_2.5.13+dfsg-5"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2019-1010024",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010024",
+            "package": [
+              "glibc/libc6@2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010024",
+            "package": [
+              "fluent/fluent-bit: libc6@2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010024",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010024",
+            "package": [
+              "debian:bookworm:libc6_2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2018-20796",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2018-20796",
+            "package": [
+              "glibc/libc6@2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2018-20796",
+            "package": [
+              "fluent/fluent-bit: libc6@2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2018-20796",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-20796",
+            "package": [
+              "debian:bookworm:libc6_2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-31437",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-31437",
+            "package": [
+              "systemd/libsystemd0@254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-31437",
+            "package": [
+              "fluent/fluent-bit: libsystemd0@254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-31437",
+            "package": [
+              "libsystemd0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-31437",
+            "package": [
+              "debian:bookworm:libsystemd0_254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-5678",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              "openssl/libssl3@3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              "fluent/fluent-bit: libssl3@3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              "libssl3"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              "debian:bookworm:libssl3_3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-4603",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "openssl/libssl3@3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "fluent/fluent-bit: libssl3@3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "libssl3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "debian:bookworm:libssl3_3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-4039",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-4039",
+            "package": [
+              "gcc-12/libatomic1@12.2.0-14"
+            ],
+            "cvssv3_score": "4.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-4039",
+            "package": [
+              "fluent/fluent-bit: libatomic1@12.2.0-14",
+              "fluent/fluent-bit: libgcc-s1@12.2.0-14",
+              "fluent/fluent-bit: libgomp1@12.2.0-14",
+              "fluent/fluent-bit: libstdc++6@12.2.0-14"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-4039",
+            "package": [
+              "libatomic1",
+              "libgcc-s1",
+              "libgomp1",
+              "libstdc++6"
+            ],
+            "cvssv3_score": "4.8",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-4039",
+            "package": [
+              "debian:bookworm:libgcc-s1_12.2.0-14",
+              "debian:bookworm:libatomic1_12.2.0-14",
+              "debian:bookworm:libgomp1_12.2.0-14",
+              "debian:bookworm:libstdc++6_12.2.0-14"
+            ],
+            "cvssv3_score": "4.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.8"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2020-15719",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2020-15719",
+            "package": [
+              "openldap/libldap-2.5-0@2.5.13+dfsg-5"
+            ],
+            "cvssv3_score": "4.2",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2020-15719",
+            "package": [
+              "fluent/fluent-bit: libldap-2.5-0@2.5.13+dfsg-5"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2020-15719",
+            "package": [
+              "libldap-2.5-0"
+            ],
+            "cvssv3_score": "4.2",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-15719",
+            "package": [
+              "debian:bookworm:libldap-2.5-0_2.5.13+dfsg-5"
+            ],
+            "cvssv3_score": "4.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.2"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-2953",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-2953",
+            "package": [
+              "openldap/libldap-2.5-0@2.5.13+dfsg-5"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-2953",
+            "package": [
+              "fluent/fluent-bit: libldap-2.5-0@2.5.13+dfsg-5"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-2953",
+            "package": [
+              "libldap-2.5-0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-2953",
+            "package": [
+              "debian:bookworm:libldap-2.5-0_2.5.13+dfsg-5"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-0727",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              "openssl/libssl3@3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              "fluent/fluent-bit: libssl3@3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              "libssl3"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              "debian:bookworm:libssl3_3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2010-4756",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2010-4756",
+            "package": [
+              "glibc/libc6@2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "4.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2010-4756",
+            "package": [
+              "fluent/fluent-bit: libc6@2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2010-4756",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2010-4756",
+            "package": [
+              "debian:bookworm:libc6_2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-28834",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-28834",
+            "package": [
+              "gnutls28/libgnutls30@3.7.9-2+deb12u2"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-28834",
+            "package": [
+              "fluent/fluent-bit: libgnutls30@3.7.9-2+deb12u2"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-28834",
+            "package": [
+              "libgnutls30"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-28834",
+            "package": [
+              "debian:bookworm:libgnutls30_3.7.9-2+deb12u2"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-28835",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-28835",
+            "package": [
+              "gnutls28/libgnutls30@3.7.9-2+deb12u2"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-28835",
+            "package": [
+              "fluent/fluent-bit: libgnutls30@3.7.9-2+deb12u2"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-28835",
+            "package": [
+              "libgnutls30"
+            ],
+            "cvssv3_score": "5.0",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-28835",
+            "package": [
+              "debian:bookworm:libgnutls30_3.7.9-2+deb12u2"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2017-17740",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2017-17740",
+            "package": [
+              "openldap/libldap-2.5-0@2.5.13+dfsg-5"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2017-17740",
+            "package": [
+              "fluent/fluent-bit: libldap-2.5-0@2.5.13+dfsg-5"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2017-17740",
+            "package": [
+              "libldap-2.5-0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2017-17740",
+            "package": [
+              "debian:bookworm:libldap-2.5-0_2.5.13+dfsg-5"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-4741",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "openssl/libssl3@3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "fluent/fluent-bit: libssl3@3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "libssl3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "debian:bookworm:libssl3_3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-4317",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-4317",
+            "package": [
+              "postgresql-15/libpq5@15.6-0+deb12u1"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-4317",
+            "package": [
+              "fluent/fluent-bit: libpq5@15.6-0+deb12u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-4317",
+            "package": [
+              "libpq5"
+            ],
+            "cvssv3_score": "3.1",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-4317",
+            "package": [
+              "debian:bookworm:libpq5_15.6-0+deb12u1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2022-27943",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-27943",
+            "package": [
+              "gcc-12/libatomic1@12.2.0-14"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-27943",
+            "package": [
+              "fluent/fluent-bit: libatomic1@12.2.0-14",
+              "fluent/fluent-bit: libgcc-s1@12.2.0-14",
+              "fluent/fluent-bit: libgomp1@12.2.0-14",
+              "fluent/fluent-bit: libstdc++6@12.2.0-14"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-27943",
+            "package": [
+              "libatomic1",
+              "libgcc-s1",
+              "libgomp1",
+              "libstdc++6"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-27943",
+            "package": [
+              "debian:bookworm:libstdc++6_12.2.0-14",
+              "debian:bookworm:libgcc-s1_12.2.0-14",
+              "debian:bookworm:libgomp1_12.2.0-14",
+              "debian:bookworm:libatomic1_12.2.0-14"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2019-1010025",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010025",
+            "package": [
+              "glibc/libc6@2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010025",
+            "package": [
+              "fluent/fluent-bit: libc6@2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010025",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010025",
+            "package": [
+              "debian:bookworm:libc6_2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2013-4392",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2013-4392",
+            "package": [
+              "systemd/libsystemd0@254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "4.4",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2013-4392",
+            "package": [
+              "fluent/fluent-bit: libsystemd0@254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2013-4392",
+            "package": [
+              "libsystemd0"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2013-4392",
+            "package": [
+              "debian:bookworm:libsystemd0_254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-31438",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-31438",
+            "package": [
+              "systemd/libsystemd0@254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-31438",
+            "package": [
+              "fluent/fluent-bit: libsystemd0@254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-31438",
+            "package": [
+              "libsystemd0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-31438",
+            "package": [
+              "debian:bookworm:libsystemd0_254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-50868",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-50868",
+            "package": [
+              "systemd/libsystemd0@254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-50868",
+            "package": [
+              "fluent/fluent-bit: libsystemd0@254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-50868",
+            "package": [
+              "libsystemd0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-50868",
+            "package": [
+              "debian:bookworm:libsystemd0_254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2019-1010022",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010022",
+            "package": [
+              "glibc/libc6@2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010022",
+            "package": [
+              "fluent/fluent-bit: libc6@2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010022",
+            "package": [
+              "libc6"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-1010022",
+            "package": [
+              "debian:bookworm:libc6_2.36-9+deb12u7"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-2511",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "openssl/libssl3@3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "fluent/fluent-bit: libssl3@3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "libssl3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "debian:bookworm:libssl3_3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-31439",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-31439",
+            "package": [
+              "systemd/libsystemd0@254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-31439",
+            "package": [
+              "fluent/fluent-bit: libsystemd0@254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-31439",
+            "package": [
+              "libsystemd0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-31439",
+            "package": [
+              "debian:bookworm:libsystemd0_254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-45853",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-45853",
+            "package": [
+              "zlib/zlib1g@1:1.2.13.dfsg-1"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Critical",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-45853",
+            "package": [
+              "fluent/fluent-bit: zlib1g@1:1.2.13.dfsg-1"
+            ],
+            "cvssv3_score": "",
+            "severity": "CRITICAL",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-45853",
+            "package": [
+              "zlib1g"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-45853",
+            "package": [
+              "debian:bookworm:zlib1g:1_1.2.13.dfsg-1"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-6129",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-6129",
+            "package": [
+              "openssl/libssl3@3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-6129",
+            "package": [
+              "fluent/fluent-bit: libssl3@3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-6129",
+            "package": [
+              "libssl3"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-6129",
+            "package": [
+              "debian:bookworm:libssl3_3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-6237",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-6237",
+            "package": [
+              "openssl/libssl3@3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-6237",
+            "package": [
+              "fluent/fluent-bit: libssl3@3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-6237",
+            "package": [
+              "libssl3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-6237",
+            "package": [
+              "debian:bookworm:libssl3_3.0.11-1~deb12u2"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-26461",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-26461",
+            "package": [
+              "krb5/libkrb5support0@1.20.1-2+deb12u1"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-26461",
+            "package": [
+              "fluent/fluent-bit: libgssapi-krb5-2@1.20.1-2+deb12u1",
+              "fluent/fluent-bit: libk5crypto3@1.20.1-2+deb12u1",
+              "fluent/fluent-bit: libkrb5-3@1.20.1-2+deb12u1",
+              "fluent/fluent-bit: libkrb5support0@1.20.1-2+deb12u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-26461",
+            "package": [
+              "libgssapi-krb5-2",
+              "libk5crypto3",
+              "libkrb5-3",
+              "libkrb5support0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-26461",
+            "package": [
+              "debian:bookworm:libkrb5-3_1.20.1-2+deb12u1",
+              "debian:bookworm:libkrb5support0_1.20.1-2+deb12u1",
+              "debian:bookworm:libgssapi-krb5-2_1.20.1-2+deb12u1",
+              "debian:bookworm:libk5crypto3_1.20.1-2+deb12u1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-26458",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-26458",
+            "package": [
+              "krb5/libkrb5support0@1.20.1-2+deb12u1"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-26458",
+            "package": [
+              "fluent/fluent-bit: libgssapi-krb5-2@1.20.1-2+deb12u1",
+              "fluent/fluent-bit: libk5crypto3@1.20.1-2+deb12u1",
+              "fluent/fluent-bit: libkrb5-3@1.20.1-2+deb12u1",
+              "fluent/fluent-bit: libkrb5support0@1.20.1-2+deb12u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-26458",
+            "package": [
+              "libgssapi-krb5-2",
+              "libk5crypto3",
+              "libkrb5-3",
+              "libkrb5support0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-26458",
+            "package": [
+              "debian:bookworm:libk5crypto3_1.20.1-2+deb12u1",
+              "debian:bookworm:libkrb5-3_1.20.1-2+deb12u1",
+              "debian:bookworm:libkrb5support0_1.20.1-2+deb12u1",
+              "debian:bookworm:libgssapi-krb5-2_1.20.1-2+deb12u1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-26462",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-26462",
+            "package": [
+              "krb5/libkrb5support0@1.20.1-2+deb12u1"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-26462",
+            "package": [
+              "fluent/fluent-bit: libgssapi-krb5-2@1.20.1-2+deb12u1",
+              "fluent/fluent-bit: libk5crypto3@1.20.1-2+deb12u1",
+              "fluent/fluent-bit: libkrb5-3@1.20.1-2+deb12u1",
+              "fluent/fluent-bit: libkrb5support0@1.20.1-2+deb12u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-26462",
+            "package": [
+              "libgssapi-krb5-2",
+              "libk5crypto3",
+              "libkrb5-3",
+              "libkrb5support0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-26462",
+            "package": [
+              "debian:bookworm:libkrb5-3_1.20.1-2+deb12u1",
+              "debian:bookworm:libkrb5support0_1.20.1-2+deb12u1",
+              "debian:bookworm:libk5crypto3_1.20.1-2+deb12u1",
+              "debian:bookworm:libgssapi-krb5-2_1.20.1-2+deb12u1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-50387",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-50387",
+            "package": [
+              "systemd/libsystemd0@254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-50387",
+            "package": [
+              "fluent/fluent-bit: libsystemd0@254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-50387",
+            "package": [
+              "libsystemd0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-50387",
+            "package": [
+              "debian:bookworm:libsystemd0_254.5-1~bpo12+3"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2011-3389",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2011-3389",
+            "package": [
+              "gnutls28/libgnutls30@3.7.9-2+deb12u2"
+            ],
+            "cvssv3_score": "4.3",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2011-3389",
+            "package": [
+              "fluent/fluent-bit: libgnutls30@3.7.9-2+deb12u2"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2011-3389",
+            "package": [
+              "libgnutls30"
+            ],
+            "cvssv3_score": "4.3",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2011-3389",
+            "package": [
+              "debian:bookworm:libgnutls30_3.7.9-2+deb12u2"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2018-5709",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2018-5709",
+            "package": [
+              "krb5/libkrb5support0@1.20.1-2+deb12u1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2018-5709",
+            "package": [
+              "fluent/fluent-bit: libgssapi-krb5-2@1.20.1-2+deb12u1",
+              "fluent/fluent-bit: libk5crypto3@1.20.1-2+deb12u1",
+              "fluent/fluent-bit: libkrb5-3@1.20.1-2+deb12u1",
+              "fluent/fluent-bit: libkrb5support0@1.20.1-2+deb12u1"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2018-5709",
+            "package": [
+              "libgssapi-krb5-2",
+              "libk5crypto3",
+              "libkrb5-3",
+              "libkrb5support0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "low",
+            "type": "deb",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-5709",
+            "package": [
+              "debian:bookworm:libgssapi-krb5-2_1.20.1-2+deb12u1",
+              "debian:bookworm:libkrb5support0_1.20.1-2+deb12u1",
+              "debian:bookworm:libkrb5-3_1.20.1-2+deb12u1",
+              "debian:bookworm:libk5crypto3_1.20.1-2+deb12u1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    }
+  ],
+  "num_unique_cves": 38
+}

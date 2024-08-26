@@ -1,0 +1,256 @@
+{
+  "image_scanned": "elixir:1.12.3-otp-24-alpine",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "DockerScout",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "busybox/busybox@1.35.0-r29"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.35.0-r30"
+        }
+      ],
+      "num_cves": 1,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.2
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2022-48174",
+          "package": [
+            "3.17:busybox-binsh_1.35.0-r29",
+            "3.17:ssl_client_1.35.0-r29",
+            "3.17:busybox_1.35.0-r29"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "3.17:ssl_client_1.35.0-r29",
+            "3.17:busybox_1.35.0-r29",
+            "3.17:busybox-binsh_1.35.0-r29"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "3.17:busybox-binsh_1.35.0-r29",
+            "3.17:busybox_1.35.0-r29",
+            "3.17:ssl_client_1.35.0-r29"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "3.17:busybox_1.35.0-r29",
+            "3.17:ssl_client_1.35.0-r29",
+            "3.17:busybox-binsh_1.35.0-r29"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "3.17:busybox-binsh_1.35.0-r29",
+            "3.17:busybox_1.35.0-r29",
+            "3.17:ssl_client_1.35.0-r29"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        }
+      ],
+      "num_cves": 5,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2022-48174",
+        "CVE-2023-42364",
+        "CVE-2023-42366",
+        "CVE-2023-42363",
+        "CVE-2023-42365"
+      ],
+      "relative_efficiency": 1
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2022-48174",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-48174",
+            "package": [
+              "3.17:busybox-binsh_1.35.0-r29",
+              "3.17:ssl_client_1.35.0-r29",
+              "3.17:busybox_1.35.0-r29"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42364",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "3.17:ssl_client_1.35.0-r29",
+              "3.17:busybox_1.35.0-r29",
+              "3.17:busybox-binsh_1.35.0-r29"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42363",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "3.17:busybox_1.35.0-r29",
+              "3.17:ssl_client_1.35.0-r29",
+              "3.17:busybox-binsh_1.35.0-r29"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42365",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "3.17:busybox-binsh_1.35.0-r29",
+              "3.17:busybox_1.35.0-r29",
+              "3.17:ssl_client_1.35.0-r29"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42366",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "busybox/busybox@1.35.0-r29"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.35.0-r30"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "3.17:busybox-binsh_1.35.0-r29",
+              "3.17:busybox_1.35.0-r29",
+              "3.17:ssl_client_1.35.0-r29"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 2
+    }
+  ],
+  "num_unique_cves": 5
+}

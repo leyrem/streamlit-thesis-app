@@ -1,0 +1,2548 @@
+{
+  "image_scanned": "oraclelinux:8-slim-fips",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "Grype",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "DockerScout",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2021-3450",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1g-15.ksplice1.el8_3"
+        },
+        {
+          "cve_id": "CVE-2021-3449",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1g-15.ksplice1.el8_3"
+        },
+        {
+          "cve_id": "CVE-2021-23841",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-4.ksplice1.el8"
+        },
+        {
+          "cve_id": "CVE-2021-23840",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-4.ksplice1.el8"
+        },
+        {
+          "cve_id": "CVE-2021-3712",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-5.ksplice1.el8_5"
+        },
+        {
+          "cve_id": "CVE-2022-0778",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-6.ksplice1.el8_5"
+        },
+        {
+          "cve_id": "CVE-2022-2097",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-7.ksplice1.el8_6"
+        },
+        {
+          "cve_id": "CVE-2022-2068",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-7.ksplice1.el8_6"
+        },
+        {
+          "cve_id": "CVE-2022-1292",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-7.ksplice1.el8_6"
+        },
+        {
+          "cve_id": "CVE-2023-0286",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-9.ksplice1.el8_7"
+        },
+        {
+          "cve_id": "CVE-2023-0215",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-9.ksplice1.el8_7"
+        },
+        {
+          "cve_id": "CVE-2022-4304",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-9.ksplice1.el8_7"
+        },
+        {
+          "cve_id": "CVE-2022-4450",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-9.ksplice1.el8_7"
+        },
+        {
+          "cve_id": "CVE-2023-3446",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-12.ksplice1.el8_9"
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-12.ksplice1.el8_9"
+        },
+        {
+          "cve_id": "CVE-2023-3817",
+          "package": [
+            "openssl-libs@1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-12.ksplice1.el8_9"
+        }
+      ],
+      "num_cves": 16,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.20253165
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-32665",
+          "package": [
+            "glib2_0:2.56.4-162.el8"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-3219",
+          "package": [
+            "gnupg2_0:2.2.20-3.el8_6"
+          ],
+          "cvssv3_score": "6.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-14250",
+          "package": [
+            "libgcc_0:8.5.0-22.0.1.el8_10",
+            "libstdc++_0:8.5.0-22.0.1.el8_10"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            "openssl-libs_1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-12904",
+          "package": [
+            "libgcrypt_10:1.8.5-7.el8_6_fips"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2236",
+          "package": [
+            "libgcrypt_10:1.8.5-7.el8_6_fips"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-2953",
+          "package": [
+            "openldap_0:2.4.46-18.el8"
+          ],
+          "cvssv3_score": "7.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-8905",
+          "package": [
+            "file-libs_0:5.33-26.el8"
+          ],
+          "cvssv3_score": "4.4",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-12900",
+          "package": [
+            "bzip2-libs_0:1.0.6-26.el8"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-36191",
+          "package": [
+            "sqlite-libs_0:3.26.0-19.0.1.el8_9"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-34397",
+          "package": [
+            "glib2_0:2.56.4-162.el8"
+          ],
+          "cvssv3_score": "3.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-27943",
+          "package": [
+            "libgcc_0:8.5.0-22.0.1.el8_10",
+            "libstdc++_0:8.5.0-22.0.1.el8_10"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-0466",
+          "package": [
+            "openssl-libs_1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-1000880",
+          "package": [
+            "libarchive_0:3.3.3-5.el8"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "openssl-libs_1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2005-2541",
+          "package": [
+            "tar_2:1.30-9.el8"
+          ],
+          "cvssv3_score": "7.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-39804",
+          "package": [
+            "tar_2:1.30-9.el8"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-19217",
+          "package": [
+            "ncurses-libs_0:6.1-10.20180224.el8",
+            "ncurses-base_0:6.1-10.20180224.el8"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-19211",
+          "package": [
+            "ncurses-base_0:6.1-10.20180224.el8",
+            "ncurses-libs_0:6.1-10.20180224.el8"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-19185",
+          "package": [
+            "ncurses-base_0:6.1-10.20180224.el8",
+            "ncurses-libs_0:6.1-10.20180224.el8"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-4209",
+          "package": [
+            "gnutls_10:3.6.16-8.el8_9.3_fips"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-24032",
+          "package": [
+            "libzstd_0:1.4.4-1.0.1.el8"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-33294",
+          "package": [
+            "elfutils-libelf_0:0.190-2.el8"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-9937",
+          "package": [
+            "sqlite-libs_0:3.26.0-19.0.1.el8_9"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-1000654",
+          "package": [
+            "libtasn1_0:4.13-4.el8_7"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-25260",
+          "package": [
+            "elfutils-libelf_0:0.190-2.el8"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-35328",
+          "package": [
+            "libyaml_0:0.1.7-5.el8"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-45322",
+          "package": [
+            "libxml2_0:2.9.7-18.el8_10.1"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-50495",
+          "package": [
+            "ncurses-base_0:6.1-10.20180224.el8",
+            "ncurses-libs_0:6.1-10.20180224.el8"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-19188",
+          "package": [
+            "ncurses-libs_0:6.1-10.20180224.el8",
+            "ncurses-base_0:6.1-10.20180224.el8"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-32636",
+          "package": [
+            "glib2_0:2.56.4-162.el8"
+          ],
+          "cvssv3_score": "6.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-20839",
+          "package": [
+            "systemd-libs_0:239-82.0.1.el8"
+          ],
+          "cvssv3_score": "6.4",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-27534",
+          "package": [
+            "curl_0:7.61.1-34.el8",
+            "libcurl_0:7.61.1-34.el8"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "openssl-libs_1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "5.6",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2398",
+          "package": [
+            "libcurl_0:7.61.1-34.el8",
+            "curl_0:7.61.1-34.el8"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-3997",
+          "package": [
+            "systemd-libs_0:239-82.0.1.el8"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-19186",
+          "package": [
+            "ncurses-base_0:6.1-10.20180224.el8",
+            "ncurses-libs_0:6.1-10.20180224.el8"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-34459",
+          "package": [
+            "libxml2_0:2.9.7-18.el8_10.1"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-20193",
+          "package": [
+            "tar_2:1.30-9.el8"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-0464",
+          "package": [
+            "openssl-libs_1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-4899",
+          "package": [
+            "libzstd_0:1.4.4-1.0.1.el8"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-19190",
+          "package": [
+            "ncurses-base_0:6.1-10.20180224.el8",
+            "ncurses-libs_0:6.1-10.20180224.el8"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-32611",
+          "package": [
+            "glib2_0:2.56.4-162.el8"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-21674",
+          "package": [
+            "libarchive_0:3.3.3-5.el8"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-20657",
+          "package": [
+            "libgcc_0:8.5.0-22.0.1.el8_10",
+            "libstdc++_0:8.5.0-22.0.1.el8_10"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-0232",
+          "package": [
+            "sqlite-libs_0:3.26.0-19.0.1.el8_9"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-9936",
+          "package": [
+            "sqlite-libs_0:3.26.0-19.0.1.el8_9"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-19187",
+          "package": [
+            "ncurses-base_0:6.1-10.20180224.el8",
+            "ncurses-libs_0:6.1-10.20180224.el8"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-8906",
+          "package": [
+            "file-libs_0:5.33-26.el8"
+          ],
+          "cvssv3_score": "4.4",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-19244",
+          "package": [
+            "sqlite-libs_0:3.26.0-19.0.1.el8_9"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-2650",
+          "package": [
+            "openssl-libs_1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-9923",
+          "package": [
+            "tar_2:1.30-9.el8"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-39537",
+          "package": [
+            "ncurses-libs_0:6.1-10.20180224.el8",
+            "ncurses-base_0:6.1-10.20180224.el8"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-41409",
+          "package": [
+            "pcre2_0:10.32-3.el8_6"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-1000879",
+          "package": [
+            "libarchive_0:3.3.3-5.el8"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-42694",
+          "package": [
+            "libstdc++_0:8.5.0-22.0.1.el8_10",
+            "libgcc_0:8.5.0-22.0.1.el8_10"
+          ],
+          "cvssv3_score": "8.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-37920",
+          "package": [
+            "ca-certificates_0:2023.2.60_v7.0.306-80.0.el8_8"
+          ],
+          "cvssv3_score": "9.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-43618",
+          "package": [
+            "gmp_1:6.1.2-11.el8"
+          ],
+          "cvssv3_score": "6.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[1:6.1.2-11.el8], [1:6.1.2-11.el8_6.1], [1:6.1.2-11.el8_8.1]"
+        },
+        {
+          "cve_id": "CVE-2020-19189",
+          "package": [
+            "ncurses-base_0:6.1-10.20180224.el8",
+            "ncurses-libs_0:6.1-10.20180224.el8"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-0465",
+          "package": [
+            "openssl-libs_1:1.1.1k-12.el8_9"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2019-17543",
+          "package": [
+            "lz4-libs_0:1.8.3-3.el8_4"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-29499",
+          "package": [
+            "glib2_0:2.56.4-162.el8"
+          ],
+          "cvssv3_score": "6.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-4156",
+          "package": [
+            "gawk_0:4.2.1-4.el8"
+          ],
+          "cvssv3_score": "6.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 63,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2021-42694",
+        "CVE-2024-2398",
+        "CVE-2023-27534",
+        "CVE-2020-19186",
+        "CVE-2022-27943",
+        "CVE-2023-50495",
+        "CVE-2020-19188",
+        "CVE-2018-20657",
+        "CVE-2021-39537",
+        "CVE-2020-19185",
+        "CVE-2020-19189",
+        "CVE-2018-19217",
+        "CVE-2018-19211",
+        "CVE-2020-19190",
+        "CVE-2019-14250",
+        "CVE-2020-19187"
+      ],
+      "relative_efficiency": 0.79746836
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2021-23840",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-23840",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-4.ksplice1.el8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-0286",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-0286",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-9.ksplice1.el8_7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-0466",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0466",
+            "package": [
+              "openssl-libs_1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-8906",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-8906",
+            "package": [
+              "file-libs_0:5.33-26.el8"
+            ],
+            "cvssv3_score": "4.4",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-19186",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-19186",
+            "package": [
+              "ncurses-base_0:6.1-10.20180224.el8",
+              "ncurses-libs_0:6.1-10.20180224.el8"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-19244",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-19244",
+            "package": [
+              "sqlite-libs_0:3.26.0-19.0.1.el8_9"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-37920",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-37920",
+            "package": [
+              "ca-certificates_0:2023.2.60_v7.0.306-80.0.el8_8"
+            ],
+            "cvssv3_score": "9.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-4209",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-4209",
+            "package": [
+              "gnutls_10:3.6.16-8.el8_9.3_fips"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-9937",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-9937",
+            "package": [
+              "sqlite-libs_0:3.26.0-19.0.1.el8_9"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-32611",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-32611",
+            "package": [
+              "glib2_0:2.56.4-162.el8"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-0778",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-0778",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-6.ksplice1.el8_5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-3817",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-3817",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-12.ksplice1.el8_9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-12904",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-12904",
+            "package": [
+              "libgcrypt_10:1.8.5-7.el8_6_fips"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-1000880",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-1000880",
+            "package": [
+              "libarchive_0:3.3.3-5.el8"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-19211",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-19211",
+            "package": [
+              "ncurses-base_0:6.1-10.20180224.el8",
+              "ncurses-libs_0:6.1-10.20180224.el8"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-19187",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-19187",
+            "package": [
+              "ncurses-base_0:6.1-10.20180224.el8",
+              "ncurses-libs_0:6.1-10.20180224.el8"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2005-2541",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2005-2541",
+            "package": [
+              "tar_2:1.30-9.el8"
+            ],
+            "cvssv3_score": "7.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-20839",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-20839",
+            "package": [
+              "systemd-libs_0:239-82.0.1.el8"
+            ],
+            "cvssv3_score": "6.4",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2398",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2398",
+            "package": [
+              "libcurl_0:7.61.1-34.el8",
+              "curl_0:7.61.1-34.el8"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-0232",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-0232",
+            "package": [
+              "sqlite-libs_0:3.26.0-19.0.1.el8_9"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-4304",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-4304",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-9.ksplice1.el8_7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2236",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2236",
+            "package": [
+              "libgcrypt_10:1.8.5-7.el8_6_fips"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-27943",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-27943",
+            "package": [
+              "libgcc_0:8.5.0-22.0.1.el8_10",
+              "libstdc++_0:8.5.0-22.0.1.el8_10"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-1000654",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-1000654",
+            "package": [
+              "libtasn1_0:4.13-4.el8_7"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-19188",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-19188",
+            "package": [
+              "ncurses-libs_0:6.1-10.20180224.el8",
+              "ncurses-base_0:6.1-10.20180224.el8"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-32665",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-32665",
+            "package": [
+              "glib2_0:2.56.4-162.el8"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-14250",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-14250",
+            "package": [
+              "libgcc_0:8.5.0-22.0.1.el8_10",
+              "libstdc++_0:8.5.0-22.0.1.el8_10"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-0727",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              "openssl-libs_1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-45322",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-45322",
+            "package": [
+              "libxml2_0:2.9.7-18.el8_10.1"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-36191",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-36191",
+            "package": [
+              "sqlite-libs_0:3.26.0-19.0.1.el8_9"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-9923",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-9923",
+            "package": [
+              "tar_2:1.30-9.el8"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-42694",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-42694",
+            "package": [
+              "libstdc++_0:8.5.0-22.0.1.el8_10",
+              "libgcc_0:8.5.0-22.0.1.el8_10"
+            ],
+            "cvssv3_score": "8.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-0215",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-0215",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-9.ksplice1.el8_7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-3446",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-3446",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-12.ksplice1.el8_9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-39804",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-39804",
+            "package": [
+              "tar_2:1.30-9.el8"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-24032",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-24032",
+            "package": [
+              "libzstd_0:1.4.4-1.0.1.el8"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-33294",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-33294",
+            "package": [
+              "elfutils-libelf_0:0.190-2.el8"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-3450",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-3450",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1g-15.ksplice1.el8_3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-8905",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-8905",
+            "package": [
+              "file-libs_0:5.33-26.el8"
+            ],
+            "cvssv3_score": "4.4",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-3997",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-3997",
+            "package": [
+              "systemd-libs_0:239-82.0.1.el8"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-2650",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-2650",
+            "package": [
+              "openssl-libs_1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-19185",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-19185",
+            "package": [
+              "ncurses-base_0:6.1-10.20180224.el8",
+              "ncurses-libs_0:6.1-10.20180224.el8"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-50495",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-50495",
+            "package": [
+              "ncurses-base_0:6.1-10.20180224.el8",
+              "ncurses-libs_0:6.1-10.20180224.el8"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-34459",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-34459",
+            "package": [
+              "libxml2_0:2.9.7-18.el8_10.1"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-41409",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-41409",
+            "package": [
+              "pcre2_0:10.32-3.el8_6"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-21674",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-21674",
+            "package": [
+              "libarchive_0:3.3.3-5.el8"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-9936",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-9936",
+            "package": [
+              "sqlite-libs_0:3.26.0-19.0.1.el8_9"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-39537",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-39537",
+            "package": [
+              "ncurses-libs_0:6.1-10.20180224.el8",
+              "ncurses-base_0:6.1-10.20180224.el8"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-3449",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-3449",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1g-15.ksplice1.el8_3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-3712",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-3712",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-5.ksplice1.el8_5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2511",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "openssl-libs_1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-20193",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-20193",
+            "package": [
+              "tar_2:1.30-9.el8"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-19190",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-19190",
+            "package": [
+              "ncurses-base_0:6.1-10.20180224.el8",
+              "ncurses-libs_0:6.1-10.20180224.el8"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-1000879",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-1000879",
+            "package": [
+              "libarchive_0:3.3.3-5.el8"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-43618",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-43618",
+            "package": [
+              "gmp_1:6.1.2-11.el8"
+            ],
+            "cvssv3_score": "6.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[1:6.1.2-11.el8], [1:6.1.2-11.el8_6.1], [1:6.1.2-11.el8_8.1]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-4156",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-4156",
+            "package": [
+              "gawk_0:4.2.1-4.el8"
+            ],
+            "cvssv3_score": "6.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-17543",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-17543",
+            "package": [
+              "lz4-libs_0:1.8.3-3.el8_4"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-29499",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-29499",
+            "package": [
+              "glib2_0:2.56.4-162.el8"
+            ],
+            "cvssv3_score": "6.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-1292",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-1292",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-7.ksplice1.el8_6"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-25260",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-25260",
+            "package": [
+              "elfutils-libelf_0:0.190-2.el8"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-32636",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-32636",
+            "package": [
+              "glib2_0:2.56.4-162.el8"
+            ],
+            "cvssv3_score": "6.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-27534",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-27534",
+            "package": [
+              "curl_0:7.61.1-34.el8",
+              "libcurl_0:7.61.1-34.el8"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-0464",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0464",
+            "package": [
+              "openssl-libs_1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-4741",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "openssl-libs_1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "5.6",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-23841",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-23841",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-4.ksplice1.el8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-4450",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-4450",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-9.ksplice1.el8_7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-12900",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-12900",
+            "package": [
+              "bzip2-libs_0:1.0.6-26.el8"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-34397",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-34397",
+            "package": [
+              "glib2_0:2.56.4-162.el8"
+            ],
+            "cvssv3_score": "3.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-19217",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-19217",
+            "package": [
+              "ncurses-libs_0:6.1-10.20180224.el8",
+              "ncurses-base_0:6.1-10.20180224.el8"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-2097",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-2097",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-7.ksplice1.el8_6"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-2953",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-2953",
+            "package": [
+              "openldap_0:2.4.46-18.el8"
+            ],
+            "cvssv3_score": "7.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-4899",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-4899",
+            "package": [
+              "libzstd_0:1.4.4-1.0.1.el8"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-5678",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-12.ksplice1.el8_9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-3219",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-3219",
+            "package": [
+              "gnupg2_0:2.2.20-3.el8_6"
+            ],
+            "cvssv3_score": "6.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-20657",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-20657",
+            "package": [
+              "libgcc_0:8.5.0-22.0.1.el8_10",
+              "libstdc++_0:8.5.0-22.0.1.el8_10"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-19189",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-19189",
+            "package": [
+              "ncurses-base_0:6.1-10.20180224.el8",
+              "ncurses-libs_0:6.1-10.20180224.el8"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-0465",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-0465",
+            "package": [
+              "openssl-libs_1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-2068",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-2068",
+            "package": [
+              "openssl-libs@1:1.1.1k-12.el8_9"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@2:1.1.1k-7.ksplice1.el8_6"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-35328",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-35328",
+            "package": [
+              "libyaml_0:0.1.7-5.el8"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 79
+}

@@ -1,0 +1,148 @@
+{
+
+    "image_name": "opensearchproject/opensearch:2",
+    "category": "verified",
+    "unique_cves": [
+        {
+            "cve_id": "CVE-2024-30171",
+            "detected_scanners": "Snyk, JFrog, DockerScout, Trivy, Grype",
+            "outcome": "Undetermined",
+            "reason": "cannot find pkg, but might be there as 4 scanners point to it",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2024-29857",
+            "detected_scanners": "JFrog, Snyk, Trivy, DockerScout",
+            "outcome": "Undetermined",
+            "reason": "cannot find pkg, but might be there as 4 scanners point to it",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2024-30172",
+            "detected_scanners": "JFrog, Snyk, Trivy, DockerScout",
+            "outcome": "Undetermined",
+            "reason": "cannot find pkg, but might be there as 4 scanners point to it",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2023-6597",
+            "detected_scanners": "Snyk, Trivy, DockerScout",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-2511",
+            "detected_scanners": "Snyk, Trivy, DockerScout",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-34447",
+            "detected_scanners": "JFrog, Trivy, DockerScout",
+            "outcome": "Undetermined",
+            "reason": "cannot find pkg, but might be there as 4 scanners point to it",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2022-40897",
+            "detected_scanners": "JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2020-29582",
+            "detected_scanners": "Snyk",
+            "outcome": "False Positive",
+            "reason": "pkg not found",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2024-37902",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "pkg not found",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "GHSA-4h8f-2wvx",
+            "detected_scanners": "Grype",
+            "outcome": "False Positive",
+            "reason": "pkg not found",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2023-5752",
+            "detected_scanners": "JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "GHSA-m44j-cfrm",
+            "detected_scanners": "Grype",
+            "outcome": "False Positive",
+            "reason": "pkg not found",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "GHSA-v435-xc8x",
+            "detected_scanners": "Grype",
+            "outcome": "False Positive",
+            "reason": "pkg not found",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "ALAS-2024-616",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "XRAY-125253_",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "XRAY-125253_",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "ALAS-2024-640",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-35116",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "pkg does not match",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2018-20225",
+            "detected_scanners": "JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "GHSA-8xfc-gm6g",
+            "detected_scanners": "Grype",
+            "outcome": "False Positive",
+            "reason": "pkg not found, bouncycastle",
+            "reason_keyword": "pkg-not-found"
+        }
+    ]
+    
+}

@@ -1,0 +1,348 @@
+{
+
+    "image_name": "arangodb:3.12.0.2",
+    "category": "official",
+    "unique_cves": [
+        {
+            "cve_id": "CVE-2023-1972",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-24788",
+            "detected_scanners": "DockerScout, Grype, Trivy",
+            "outcome": "Undetermined",
+            "reason": "Cannot find pkg stdlib",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2024-24790",
+            "detected_scanners": "DockerScout, Grype, Trivy",
+            "outcome": "Undetermined",
+            "reason": "Cannot find pkg stdlib",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2024-2511",
+            "detected_scanners": "DockerScout",
+            "outcome": "False Positive",
+            "reason": "The package openssl is not present",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "GHSA-c5pj-mqfh-rvc3",
+            "detected_scanners": "DockerScout",
+            "outcome": "Undetermined",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2022-47695",
+            "detected_scanners": "JFrog, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2022-48064",
+            "detected_scanners": "JFrog, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-1579",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2009-3767",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "seems to affect openldap and not the pkgs listed by JFrog",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2023-42364",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "pkgs match but version is not the one listed online (1.35)",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2024-4603",
+            "detected_scanners": "DockerScout",
+            "outcome": "False Positive",
+            "reason": "openssl does not seem to be installed",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2024-3154",
+            "detected_scanners": "DockerScout",
+            "outcome": "Undetermined",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2022-48063",
+            "detected_scanners": "Grype, JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2022-4285",
+            "detected_scanners": "Grype, JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2022-44840",
+            "detected_scanners": "Grype, JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-25584",
+            "detected_scanners": "Grype, JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2022-48174",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "version does not match",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2023-42365",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "version does not match",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2023-42363",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "version does not match",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2024-24789",
+            "detected_scanners": "DockerScout, Grype, Trivy",
+            "outcome": "False Positive",
+            "reason": "cannot find golang installed in img but might be there",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2023-42366",
+            "detected_scanners": "DockerScout, JFrog",
+            "outcome": "False Positive",
+            "reason": "version does not match",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2022-45703",
+            "detected_scanners": "Grype, JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2022-47673",
+            "detected_scanners": "Grype, JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2021-3807",
+            "detected_scanners": "Snyk",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2021-3820",
+            "detected_scanners": "Snyk",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2017-16137",
+            "detected_scanners": "Snyk",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2021-23424",
+            "detected_scanners": "Snyk",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2022-3517",
+            "detected_scanners": "Snyk",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2021-44906",
+            "detected_scanners": "Snyk",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2022-48065",
+            "detected_scanners": "Grype, JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2022-24999",
+            "detected_scanners": "Snyk",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2022-25883",
+            "detected_scanners": "Snyk",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2022-39353",
+            "detected_scanners": "Snyk",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2022-47696",
+            "detected_scanners": "Grype, JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-24787",
+            "detected_scanners": "Grype",
+            "outcome": "Undetermined",
+            "reason": "Cannot find stdlib",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2021-32796",
+            "detected_scanners": "Snyk",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2022-37616",
+            "detected_scanners": "Snyk",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        }
+    ],
+    "packages_in_img": [
+        {
+            "pkg_name": "alpine-baselayout-data-3.4.0-r0",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "musl-1.2.3-r5",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "busybox-1.35.0-r31",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "busybox-binsh-1.35.0-r31",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "alpine-baselayout-3.4.0-r0",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "alpine-keys-2.4-r1",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "ca-certificates-bundle-20240226-r0",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "libcrypto3-3.0.14-r0",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "libssl3-3.0.14-r0",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "ssl_client-1.35.0-r31",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "zlib-1.2.13-r0",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "apk-tools-2.12.14-r0",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "scanelf-1.3.5-r1",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "musl-utils-1.2.3-r5",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "libc-utils-0.7.2-r3",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "libgcc-12.2.1_git20220924-r4",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "libstdc++-12.2.1_git20220924-r4",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "binutils-2.39-r2",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "numactl-2.0.16-r1",
+            "cves_associated": []
+        },
+        {
+            "pkg_name": "numactl-tools",
+            "cves_associated": []
+        }
+    ]    
+}

@@ -1,0 +1,6501 @@
+{
+  "image_scanned": "camunda/camunda-bpm-platform:wildfly-SNAPSHOT",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-1300",
+          "package": [
+            "camunda/modules/system/layers/base/io/vertx/core/main/vertx-core-4.4.6.jar: io.vertx:vertx-core@4.4.6"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.4.8, 4.5.3"
+        },
+        {
+          "cve_id": "CVE-2024-1233",
+          "package": [
+            "camunda/modules/system/layers/base/org/wildfly/security/elytron-base/main/wildfly-elytron-realm-token-2.2.3.Final.jar: org.wildfly.security:wildfly-elytron-realm-token@2.2.3.Final"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-18640",
+          "package": [
+            "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.26"
+        },
+        {
+          "cve_id": "CVE-2024-29025",
+          "package": [
+            "camunda/bin/client/jboss-client.jar: io.netty:netty-codec-http@4.1.104.Final",
+            "camunda/modules/system/layers/base/io/netty/netty-codec-http/main/netty-codec-http-4.1.104.Final.jar: io.netty:netty-codec-http@4.1.104.Final"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.1.108.Final"
+        },
+        {
+          "cve_id": "CVE-2023-5685",
+          "package": [
+            "camunda/bin/client/jboss-cli-client.jar: org.jboss.xnio:xnio-api@3.8.12.Final",
+            "camunda/bin/client/jboss-client.jar: org.jboss.xnio:xnio-api@3.8.12.Final",
+            "camunda/modules/system/layers/base/org/jboss/xnio/main/xnio-api-3.8.12.Final.jar: org.jboss.xnio:xnio-api@3.8.12.Final"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.8.14.Final"
+        },
+        {
+          "cve_id": "CVE-2023-34455",
+          "package": [
+            "camunda/modules/system/layers/base/org/xerial/snappy/snappy-java/main/snappy-java-1.1.8.4.jar: org.xerial.snappy:snappy-java@1.1.8.4"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.10.1"
+        },
+        {
+          "cve_id": "CVE-2022-25857",
+          "package": [
+            "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.31"
+        },
+        {
+          "cve_id": "CVE-2022-41854",
+          "package": [
+            "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.32"
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "camunda/camunda-bpm-platform: busybox@1.36.1-r5",
+            "camunda/camunda-bpm-platform: busybox-binsh@1.36.1-r5",
+            "camunda/camunda-bpm-platform: ssl_client@1.36.1-r5"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2024-1102",
+          "package": [
+            "camunda/modules/system/layers/base/org/jberet/jberet-core/main/jberet-core-2.2.0.Final.jar: org.jberet:jberet-core@2.2.0.Final"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.2.1.Final"
+        },
+        {
+          "cve_id": "CVE-2024-28752",
+          "package": [
+            "camunda/modules/system/layers/base/org/apache/cxf/main/cxf-core-4.0.0.jar: org.apache.cxf:cxf-core@4.0.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.5.8, 3.6.3, 4.0.4"
+        },
+        {
+          "cve_id": "CVE-2023-43642",
+          "package": [
+            "camunda/modules/system/layers/base/org/xerial/snappy/snappy-java/main/snappy-java-1.1.8.4.jar: org.xerial.snappy:snappy-java@1.1.8.4"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.10.4"
+        },
+        {
+          "cve_id": "CVE-2022-1471",
+          "package": [
+            "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.0"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "camunda/camunda-bpm-platform: busybox@1.36.1-r5",
+            "camunda/camunda-bpm-platform: busybox-binsh@1.36.1-r5",
+            "camunda/camunda-bpm-platform: ssl_client@1.36.1-r5"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "camunda/camunda-bpm-platform: libcrypto3@3.1.4-r5",
+            "camunda/camunda-bpm-platform: libssl3@3.1.4-r5"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.5-r0"
+        },
+        {
+          "cve_id": "CVE-2024-1459",
+          "package": [
+            "camunda/bin/client/jboss-client.jar: io.undertow:undertow-core@2.3.10.Final",
+            "camunda/modules/system/layers/base/io/undertow/core/main/undertow-core-2.3.10.Final.jar: io.undertow:undertow-core@2.3.10.Final"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.2.31.Final, 2.3.12.Final"
+        },
+        {
+          "cve_id": "CVE-2024-1023",
+          "package": [
+            "camunda/modules/system/layers/base/io/vertx/core/main/vertx-core-4.4.6.jar: io.vertx:vertx-core@4.4.6"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.5.2, 4.4.7"
+        },
+        {
+          "cve_id": "CVE-2024-30171",
+          "package": [
+            "camunda/modules/system/layers/base/org/bouncycastle/bcpkix/main/bcpkix-jdk18on-1.77.jar: org.bouncycastle:bcpkix-jdk18on@1.77",
+            "camunda/modules/system/layers/base/org/bouncycastle/bcprov/main/bcprov-jdk18on-1.77.jar: org.bouncycastle:bcprov-jdk18on@1.77"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "camunda/camunda-bpm-platform: libcrypto3@3.1.4-r5",
+            "camunda/camunda-bpm-platform: libssl3@3.1.4-r5"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r6"
+        },
+        {
+          "cve_id": "CVE-2022-45868",
+          "package": [
+            "camunda/modules/com/h2database/h2/main/h2-2.1.214.jar: com.h2database:h2@2.1.214"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.2.220"
+        },
+        {
+          "cve_id": "CVE-2024-29857",
+          "package": [
+            "camunda/modules/system/layers/base/org/bouncycastle/bcpkix/main/bcpkix-jdk18on-1.77.jar: org.bouncycastle:bcpkix-jdk18on@1.77",
+            "camunda/modules/system/layers/base/org/bouncycastle/bcprov/main/bcprov-jdk18on-1.77.jar: org.bouncycastle:bcprov-jdk18on@1.77"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "CVE-2024-34447",
+          "package": [
+            "camunda/modules/system/layers/base/org/bouncycastle/bcprov/main/bcprov-jdk18on-1.77.jar: org.bouncycastle:bcprov-jdk18on@1.77"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "CVE-2022-38751",
+          "package": [
+            "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.31"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "camunda/camunda-bpm-platform: busybox@1.36.1-r5",
+            "camunda/camunda-bpm-platform: busybox-binsh@1.36.1-r5",
+            "camunda/camunda-bpm-platform: ssl_client@1.36.1-r5"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "camunda/camunda-bpm-platform: busybox@1.36.1-r5",
+            "camunda/camunda-bpm-platform: busybox-binsh@1.36.1-r5",
+            "camunda/camunda-bpm-platform: ssl_client@1.36.1-r5"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r6"
+        },
+        {
+          "cve_id": "CVE-2024-21742",
+          "package": [
+            "camunda/modules/system/layers/base/org/apache/james/mime4j/main/apache-mime4j-core-0.8.9.jar: org.apache.james:apache-mime4j-core@0.8.9"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "0.8.10"
+        },
+        {
+          "cve_id": "CVE-2024-30172",
+          "package": [
+            "camunda/modules/system/layers/base/org/bouncycastle/bcpkix/main/bcpkix-jdk18on-1.77.jar: org.bouncycastle:bcpkix-jdk18on@1.77",
+            "camunda/modules/system/layers/base/org/bouncycastle/bcprov/main/bcprov-jdk18on-1.77.jar: org.bouncycastle:bcprov-jdk18on@1.77"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "CVE-2023-34453",
+          "package": [
+            "camunda/modules/system/layers/base/org/xerial/snappy/snappy-java/main/snappy-java-1.1.8.4.jar: org.xerial.snappy:snappy-java@1.1.8.4"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.10.1"
+        },
+        {
+          "cve_id": "CVE-2023-34454",
+          "package": [
+            "camunda/modules/system/layers/base/org/xerial/snappy/snappy-java/main/snappy-java-1.1.8.4.jar: org.xerial.snappy:snappy-java@1.1.8.4"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.10.1"
+        },
+        {
+          "cve_id": "CVE-2022-38752",
+          "package": [
+            "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.32"
+        },
+        {
+          "cve_id": "CVE-2023-52428",
+          "package": [
+            "camunda/modules/system/layers/base/com/nimbusds/nimbus-jose-jwt/main/nimbus-jose-jwt-9.31.jar: com.nimbusds:nimbus-jose-jwt@9.31"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "9.37.2"
+        },
+        {
+          "cve_id": "CVE-2022-38749",
+          "package": [
+            "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.31"
+        },
+        {
+          "cve_id": "CVE-2022-38750",
+          "package": [
+            "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.31"
+        }
+      ],
+      "num_cves": 33,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42363",
+        "CVE-2023-42364",
+        "CVE-2023-42365",
+        "CVE-2023-42366",
+        "CVE-2024-4603",
+        "CVE-2024-2511",
+        "CVE-2024-29025",
+        "CVE-2024-1459",
+        "CVE-2024-29857",
+        "CVE-2024-30171",
+        "CVE-2024-30172",
+        "CVE-2023-5685"
+      ],
+      "relative_efficiency": 0.275
+    },
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-34454",
+          "package": [
+            " pkg:maven/org.xerial.snappy/snappy-java@1.1.8.4"
+          ],
+          "cvssv3_score": "5.900000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.10.1"
+        },
+        {
+          "cve_id": "CVE-2023-34455",
+          "package": [
+            " pkg:maven/org.xerial.snappy/snappy-java@1.1.8.4"
+          ],
+          "cvssv3_score": "7.500000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.10.1"
+        },
+        {
+          "cve_id": "CVE-2024-1102",
+          "package": [
+            " pkg:maven/org.jberet/jberet-core@2.2.0.Final"
+          ],
+          "cvssv3_score": "6.500000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.2.1.Final"
+        },
+        {
+          "cve_id": "CVE-2022-1471",
+          "package": [
+            " pkg:maven/org.yaml/snakeyaml@1.16"
+          ],
+          "cvssv3_score": "8.300000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.0"
+        },
+        {
+          "cve_id": "CVE-2024-29025",
+          "package": [
+            " pkg:maven/io.netty/netty-codec-http@4.1.104.Final"
+          ],
+          "cvssv3_score": "5.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.1.108.Final"
+        },
+        {
+          "cve_id": "CVE-2024-30172",
+          "package": [
+            " pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.77 pkg:maven/org.bouncycastle/bcprov-jdk18on@1.77",
+            " pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.77 pkg:maven/org.bouncycastle/bcprov-jdk18on@1.77"
+          ],
+          "cvssv3_score": "5.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "CVE-2024-30171",
+          "package": [
+            " pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.77 pkg:maven/org.bouncycastle/bcprov-jdk18on@1.77",
+            " pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.77 pkg:maven/org.bouncycastle/bcprov-jdk18on@1.77"
+          ],
+          "cvssv3_score": "5.900000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "CVE-2022-38749",
+          "package": [
+            " pkg:maven/org.yaml/snakeyaml@1.16"
+          ],
+          "cvssv3_score": "6.500000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.31"
+        },
+        {
+          "cve_id": "CVE-2022-38751",
+          "package": [
+            " pkg:maven/org.yaml/snakeyaml@1.16"
+          ],
+          "cvssv3_score": "6.500000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.31"
+        },
+        {
+          "cve_id": "CVE-2023-5685",
+          "package": [
+            " pkg:maven/org.jboss.xnio/xnio-api@3.8.12.Final"
+          ],
+          "cvssv3_score": "7.500000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.8.14.Final"
+        },
+        {
+          "cve_id": "CVE-2022-41678",
+          "package": [
+            " pkg:maven/org.apache.activemq/artemis-server@2.31.2"
+          ],
+          "cvssv3_score": "8.800000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-1300",
+          "package": [
+            " pkg:maven/io.vertx/vertx-core@4.4.6"
+          ],
+          "cvssv3_score": "5.400000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.4.8"
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r5?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2023-5379",
+          "package": [
+            " pkg:maven/io.undertow/undertow-core@2.3.10.Final"
+          ],
+          "cvssv3_score": "7.500000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-45868",
+          "package": [
+            " pkg:maven/com.h2database/h2@2.1.214"
+          ],
+          "cvssv3_score": "7.800000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.2.220"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r5?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r5?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r6"
+        },
+        {
+          "cve_id": "CVE-2022-38752",
+          "package": [
+            " pkg:maven/org.yaml/snakeyaml@1.16"
+          ],
+          "cvssv3_score": "6.500000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.32"
+        },
+        {
+          "cve_id": "CVE-2017-18640",
+          "package": [
+            " pkg:maven/org.yaml/snakeyaml@1.16"
+          ],
+          "cvssv3_score": "7.500000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.26"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            " pkg:apk/alpine/openssl@3.1.4-r5?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r6"
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            " pkg:apk/alpine/openssl@3.1.4-r5?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.5-r0"
+        },
+        {
+          "cve_id": "CVE-2023-52428",
+          "package": [
+            " pkg:maven/com.nimbusds/nimbus-jose-jwt@9.31"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "9.37.2"
+        },
+        {
+          "cve_id": "CVE-2024-0853",
+          "package": [
+            " pkg:apk/alpine/curl@8.5.0-r0?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-21742",
+          "package": [
+            " pkg:maven/org.apache.james/apache-mime4j-core@0.8.9"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "0.8.10"
+        },
+        {
+          "cve_id": "CVE-2022-25857",
+          "package": [
+            " pkg:maven/org.yaml/snakeyaml@1.16"
+          ],
+          "cvssv3_score": "7.500000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.31"
+        },
+        {
+          "cve_id": "CVE-2024-1023",
+          "package": [
+            " pkg:maven/io.vertx/vertx-core@4.4.6"
+          ],
+          "cvssv3_score": "6.500000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.4.7"
+        },
+        {
+          "cve_id": "CVE-2024-1233",
+          "package": [
+            " pkg:maven/org.wildfly.security/wildfly-elytron-realm-token@2.2.3.Final"
+          ],
+          "cvssv3_score": "7.300000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-43642",
+          "package": [
+            " pkg:maven/org.xerial.snappy/snappy-java@1.1.8.4"
+          ],
+          "cvssv3_score": "7.500000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.10.4"
+        },
+        {
+          "cve_id": "CVE-2023-46604",
+          "package": [
+            " pkg:maven/org.apache.activemq/artemis-server@2.31.2"
+          ],
+          "cvssv3_score": "9.800000",
+          "severity": "CRITICAL",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-34447",
+          "package": [
+            " pkg:maven/org.bouncycastle/bcprov-jdk18on@1.77"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "CVE-2024-28752",
+          "package": [
+            " pkg:maven/org.apache.cxf/cxf-core@4.0.0"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.0.4"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r5?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2023-34453",
+          "package": [
+            " pkg:maven/org.xerial.snappy/snappy-java@1.1.8.4"
+          ],
+          "cvssv3_score": "5.900000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.10.1"
+        },
+        {
+          "cve_id": "CVE-2024-1459",
+          "package": [
+            " pkg:maven/io.undertow/undertow-core@2.3.10.Final"
+          ],
+          "cvssv3_score": "5.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.3.12.Final"
+        },
+        {
+          "cve_id": "CVE-2024-29857",
+          "package": [
+            " pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.77 pkg:maven/org.bouncycastle/bcprov-jdk18on@1.77",
+            " pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.77 pkg:maven/org.bouncycastle/bcprov-jdk18on@1.77"
+          ],
+          "cvssv3_score": "5.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "CVE-2022-38750",
+          "package": [
+            " pkg:maven/org.yaml/snakeyaml@1.16"
+          ],
+          "cvssv3_score": "5.500000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.31"
+        },
+        {
+          "cve_id": "CVE-2022-41854",
+          "package": [
+            " pkg:maven/org.yaml/snakeyaml@1.16"
+          ],
+          "cvssv3_score": "6.500000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.32"
+        }
+      ],
+      "num_cves": 37,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-29857",
+        "CVE-2024-30172",
+        "CVE-2024-30171"
+      ],
+      "relative_efficiency": 0.30833334
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-21742",
+          "package": [
+            "org.apache.james:apache-mime4j-core_0.8.9"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-1459",
+          "package": [
+            "io.undertow:undertow-core_2.3.10.Final"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2022-21449",
+          "package": [
+            "org.graalvm.sdk:graal-sdk_21.1.0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "3.18:ssl_client_1.36.1-r5",
+            "3.18:busybox-binsh_1.36.1-r5",
+            "3.18:busybox_1.36.1-r5"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2012-5373",
+          "package": [
+            "3.18:libxslt_1.1.38-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-34454",
+          "package": [
+            "org.xerial.snappy:snappy-java_1.1.8.4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-1102",
+          "package": [
+            "org.jberet:jberet-core_2.2.0.Final"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2024-34447",
+          "package": [
+            "org.bouncycastle:bcprov-jdk18on_1.77"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2017-18640",
+          "package": [
+            "org.yaml:snakeyaml_1.16"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-38751",
+          "package": [
+            "org.yaml:snakeyaml_1.16"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2022-45868",
+          "package": [
+            "com.h2database:h2_2.1.214"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.8"
+        },
+        {
+          "cve_id": "CVE-2023-35116",
+          "package": [
+            "com.fasterxml.jackson.core:jackson-databind_2.15.2"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.7"
+        },
+        {
+          "cve_id": "CVE-2024-29857",
+          "package": [
+            "org.bouncycastle:bcprov-jdk18on_1.77",
+            "org.bouncycastle:bcpkix-jdk18on_1.77"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2023-34455",
+          "package": [
+            "org.xerial.snappy:snappy-java_1.1.8.4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-6236",
+          "package": [
+            "org.wildfly.security:wildfly-elytron-http-oidc_2.2.3.Final"
+          ],
+          "cvssv3_score": "7.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.3"
+        },
+        {
+          "cve_id": "CVE-2024-30172",
+          "package": [
+            "org.bouncycastle:bcprov-jdk18on_1.77",
+            "org.bouncycastle:bcpkix-jdk18on_1.77"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2012-2739",
+          "package": [
+            "3.18:libxslt_1.1.38-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-5685",
+          "package": [
+            "org.jboss.xnio:xnio-api_3.8.12.Final"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-30171",
+          "package": [
+            "org.bouncycastle:bcprov-jdk18on_1.77",
+            "org.bouncycastle:bcpkix-jdk18on_1.77"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.9"
+        },
+        {
+          "cve_id": "CVE-2024-1023",
+          "package": [
+            "io.vertx:vertx-core_4.4.6"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2009-3767",
+          "package": [
+            "3.18:libssl3_3.1.4-r5",
+            "3.18:libcrypto3_3.1.4-r5"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-34453",
+          "package": [
+            "org.xerial.snappy:snappy-java_1.1.8.4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "3.18:busybox_1.36.1-r5",
+            "3.18:busybox-binsh_1.36.1-r5",
+            "3.18:ssl_client_1.36.1-r5"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "3.18:busybox-binsh_1.36.1-r5",
+            "3.18:busybox_1.36.1-r5",
+            "3.18:ssl_client_1.36.1-r5"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2022-38752",
+          "package": [
+            "org.yaml:snakeyaml_1.16"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2022-38749",
+          "package": [
+            "org.yaml:snakeyaml_1.16"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "3.18:busybox_1.36.1-r5",
+            "3.18:ssl_client_1.36.1-r5",
+            "3.18:busybox-binsh_1.36.1-r5"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2024-29025",
+          "package": [
+            "io.netty:netty-codec-http_4.1.104.Final"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2023-52071",
+          "package": [
+            "3.18:libcurl_8.5.0-r0",
+            "3.18:curl_8.5.0-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2022-1471",
+          "package": [
+            "org.yaml:snakeyaml_1.16"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2022-25857",
+          "package": [
+            "org.yaml:snakeyaml_1.16"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-28752",
+          "package": [
+            "org.apache.cxf:cxf-core_4.0.0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2022-41854",
+          "package": [
+            "org.yaml:snakeyaml_1.16"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2022-38750",
+          "package": [
+            "org.yaml:snakeyaml_1.16"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2024-1300",
+          "package": [
+            "io.vertx:vertx-core_4.4.6"
+          ],
+          "cvssv3_score": "5.4",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.4"
+        },
+        {
+          "cve_id": "CVE-2023-52428",
+          "package": [
+            "com.nimbusds:nimbus-jose-jwt_9.31"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-43642",
+          "package": [
+            "org.xerial.snappy:snappy-java_1.1.8.4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-1233",
+          "package": [
+            "org.wildfly.security:wildfly-elytron-realm-token_2.2.3.Final"
+          ],
+          "cvssv3_score": "7.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.3"
+        }
+      ],
+      "num_cves": 38,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42364",
+        "CVE-2023-42366",
+        "CVE-2023-42365",
+        "CVE-2024-30171",
+        "CVE-2023-42363",
+        "CVE-2024-30172",
+        "CVE-2024-29857",
+        "CVE-2009-3767",
+        "CVE-2023-52071"
+      ],
+      "relative_efficiency": 0.31666666
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "GHSA-22wj-vf5f",
+          "package": [
+            "wrvj-h2"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "2.2.220"
+        },
+        {
+          "cve_id": "GHSA-3mc7-4q67",
+          "package": [
+            "w48m-snakeyaml"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.31"
+        },
+        {
+          "cve_id": "GHSA-4h8f-2wvx",
+          "package": [
+            "gg5w-bcprov-jdk18on"
+          ],
+          "cvssv3_score": "1.0",
+          "severity": "low",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "GHSA-v76w-3ph8",
+          "package": [
+            "vm66-undertow-core",
+            "vm66-undertow-core"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "2.3.12.Final"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2024-2398",
+          "package": [
+            "curl"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-5667-3wch",
+          "package": [
+            "7q7w-vertx-core"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "4.4.7"
+        },
+        {
+          "cve_id": "GHSA-v435-xc8x",
+          "package": [
+            "wvr9-bcpkix-jdk18on",
+            "wvr9-bcprov-jdk18on"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "GHSA-jw7r-rxff",
+          "package": [
+            "gv24-apache-mime4j-core"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "0.8.10"
+        },
+        {
+          "cve_id": "GHSA-m44j-cfrm",
+          "package": [
+            "g8qc-bcpkix-jdk18on",
+            "g8qc-bcprov-jdk18on"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "CVE-2024-0853",
+          "package": [
+            "curl"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2004",
+          "package": [
+            "curl"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-9wmf-xf3h",
+          "package": [
+            "r8pr-jberet-core"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "2.2.1.Final"
+        },
+        {
+          "cve_id": "GHSA-fjpj-2g6w",
+          "package": [
+            "x25r-snappy-java"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.1.10.1"
+        },
+        {
+          "cve_id": "GHSA-gvpg-vgmx",
+          "package": [
+            "xg6w-nimbus-jose-jwt"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "9.37.2"
+        },
+        {
+          "cve_id": "GHSA-v4mm-q8fv",
+          "package": [
+            "r2w5-wildfly-elytron-realm-token"
+          ],
+          "cvssv3_score": "7.3",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2024-28182",
+          "package": [
+            "nghttp2-libs"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-55g7-9cwv",
+          "package": [
+            "5qfv-snappy-java"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.1.10.4"
+        },
+        {
+          "cve_id": "GHSA-5jpm-x58v",
+          "package": [
+            "624v-netty-codec-http",
+            "624v-netty-codec-http"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "4.1.108.Final"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r6"
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "libcrypto3",
+            "libssl3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.1.5-r0"
+        },
+        {
+          "cve_id": "GHSA-7f88-5hhx",
+          "package": [
+            "67m2-xnio-api",
+            "67m2-xnio-api",
+            "67m2-xnio-api"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "3.8.14.Final"
+        },
+        {
+          "cve_id": "GHSA-rvwf-54qp",
+          "package": [
+            "4r6v-snakeyaml"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.26"
+        },
+        {
+          "cve_id": "GHSA-hhhw-99gj",
+          "package": [
+            "p3c3-snakeyaml"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.31"
+        },
+        {
+          "cve_id": "GHSA-mjmj-j48q",
+          "package": [
+            "9wg2-snakeyaml"
+          ],
+          "cvssv3_score": "8.3",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "2.0"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "GHSA-8xfc-gm6g",
+          "package": [
+            "vgpv-bcpkix-jdk18on",
+            "vgpv-bcprov-jdk18on"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.78"
+        },
+        {
+          "cve_id": "GHSA-9ph3-v2vh",
+          "package": [
+            "3qx7-vertx-core"
+          ],
+          "cvssv3_score": "5.4",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "4.4.8"
+        },
+        {
+          "cve_id": "GHSA-9w3m-gqgf",
+          "package": [
+            "c4p9-snakeyaml"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.32"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "libcrypto3",
+            "libssl3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r6"
+        },
+        {
+          "cve_id": "GHSA-pqr6-cmr2",
+          "package": [
+            "h8hf-snappy-java"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.1.10.1"
+        },
+        {
+          "cve_id": "GHSA-qcwq-55hx",
+          "package": [
+            "v3vh-snappy-java"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.1.10.1"
+        },
+        {
+          "cve_id": "GHSA-w37g-rhq8",
+          "package": [
+            "7m4j-snakeyaml"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.32"
+        },
+        {
+          "cve_id": "CVE-2024-2466",
+          "package": [
+            "curl"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-98wm-3w3q",
+          "package": [
+            "mw94-snakeyaml"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.31"
+        },
+        {
+          "cve_id": "GHSA-c4r9-r8fh",
+          "package": [
+            "9vj2-snakeyaml"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.31"
+        },
+        {
+          "cve_id": "GHSA-qmgx-j96g",
+          "package": [
+            "4428-cxf-core"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "4.0.4"
+        }
+      ],
+      "num_cves": 38,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42363",
+        "CVE-2023-42364",
+        "CVE-2023-42365",
+        "CVE-2023-42366",
+        "CVE-2024-2511",
+        "CVE-2024-4603",
+        "GHSA-5jpm-x58v",
+        "GHSA-7f88-5hhx",
+        "GHSA-8xfc-gm6g",
+        "GHSA-m44j-cfrm",
+        "GHSA-v435-xc8x",
+        "GHSA-v76w-3ph8"
+      ],
+      "relative_efficiency": 0.31666666
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "openssl/libcrypto3@3.1.4-r5"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r6"
+        },
+        {
+          "cve_id": "CVE-2022-38750",
+          "package": [
+            "org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+        },
+        {
+          "cve_id": "CVE-2023-21939",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.6"
+        },
+        {
+          "cve_id": "CVE-2024-21068",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.10"
+        },
+        {
+          "cve_id": "CVE-2023-52428",
+          "package": [
+            "com.nimbusds:nimbus-jose-jwt@9.31"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to com.nimbusds:nimbus-jose-jwt@9.37.2"
+        },
+        {
+          "cve_id": "CVE-2024-30171",
+          "package": [
+            "org.bouncycastle:bcprov-jdk18on@1.77"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.bouncycastle:bcprov-jdk18on@1.78"
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "openssl/libcrypto3@3.1.4-r5"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto3@3.1.5-r0"
+        },
+        {
+          "cve_id": "CVE-2017-18640",
+          "package": [
+            "org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "5.4",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+        },
+        {
+          "cve_id": "CVE-2022-21248",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+        },
+        {
+          "cve_id": "CVE-2022-21366",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+        },
+        {
+          "cve_id": "CVE-2023-21930",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.6"
+        },
+        {
+          "cve_id": "CVE-2024-20926",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+        },
+        {
+          "cve_id": "CVE-2024-1023",
+          "package": [
+            "io.vertx:vertx-core@4.4.6"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to io.vertx:vertx-core@4.4.7"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "busybox/busybox@1.36.1-r5"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2024-29025",
+          "package": [
+            "io.netty:netty-codec-http@4.1.104.Final",
+            "io.netty:netty-codec-http@4.1.104.Final"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.wildfly:wildfly-client-all@31.0.0.Final"
+        },
+        {
+          "cve_id": "CVE-2023-5379",
+          "package": [
+            "io.undertow:undertow-core@2.3.10.Final",
+            "io.undertow:undertow-core@2.3.10.Final"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.wildfly:wildfly-client-all@31.0.0.Final"
+        },
+        {
+          "cve_id": "CVE-2022-41854",
+          "package": [
+            "org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+        },
+        {
+          "cve_id": "CVE-2022-21299",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+        },
+        {
+          "cve_id": "CVE-2024-20922",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "2.5",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+        },
+        {
+          "cve_id": "CVE-2023-22049",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.7"
+        },
+        {
+          "cve_id": "CVE-2024-28752",
+          "package": [
+            "org.apache.cxf:cxf-rt-databinding-aegis@4.0.0"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.apache.cxf:cxf-rt-databinding-aegis@4.0.4"
+        },
+        {
+          "cve_id": "CVE-2023-5685",
+          "package": [
+            "org.jboss.xnio:xnio-api@3.8.12.Final",
+            "org.jboss.xnio:xnio-api@3.8.12.Final"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.wildfly.core:wildfly-cli@24.0.0.Final"
+        },
+        {
+          "cve_id": "CVE-2022-21360",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+        },
+        {
+          "cve_id": "CVE-2022-21340",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+        },
+        {
+          "cve_id": "CVE-2023-22006",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "3.1",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.7"
+        },
+        {
+          "cve_id": "CVE-2024-20919",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+        },
+        {
+          "cve_id": "CVE-2024-21011",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.10"
+        },
+        {
+          "cve_id": "CVE-2022-38751",
+          "package": [
+            "org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "4.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+        },
+        {
+          "cve_id": "CVE-2021-35578",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.0"
+        },
+        {
+          "cve_id": "CVE-2022-21277",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+        },
+        {
+          "cve_id": "CVE-2022-21341",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+        },
+        {
+          "cve_id": "CVE-2023-6236",
+          "package": [
+            "org.wildfly.security:wildfly-elytron-http-oidc@2.2.3.Final"
+          ],
+          "cvssv3_score": "7.3",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-22036",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.7"
+        },
+        {
+          "cve_id": "CVE-2024-20925",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "3.1",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+        },
+        {
+          "cve_id": "CVE-2022-21305",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+        },
+        {
+          "cve_id": "CVE-2024-30172",
+          "package": [
+            "org.bouncycastle:bcprov-jdk18on@1.77"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.bouncycastle:bcprov-jdk18on@1.78"
+        },
+        {
+          "cve_id": "CVE-2023-43642",
+          "package": [
+            "org.xerial.snappy:snappy-java@1.1.8.4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.xerial.snappy:snappy-java@1.1.10.4"
+        },
+        {
+          "cve_id": "CVE-2021-35567",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "6.8",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.0"
+        },
+        {
+          "cve_id": "CVE-2021-35603",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.0"
+        },
+        {
+          "cve_id": "CVE-2022-21283",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+        },
+        {
+          "cve_id": "CVE-2023-21968",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.6"
+        },
+        {
+          "cve_id": "CVE-2024-20918",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+        },
+        {
+          "cve_id": "CVE-2024-20923",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "3.1",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+        },
+        {
+          "cve_id": "CVE-2024-21742",
+          "package": [
+            "org.apache.james:apache-mime4j-core@0.8.9"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.apache.james:apache-mime4j-core@0.8.10"
+        },
+        {
+          "cve_id": "CVE-2024-1102",
+          "package": [
+            "org.jberet:jberet-core@2.2.0.Final"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-1973",
+          "package": [
+            "io.undertow:undertow-core@2.3.10.Final",
+            "io.undertow:undertow-core@2.3.10.Final"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.wildfly:wildfly-client-all@31.0.0.Final"
+        },
+        {
+          "cve_id": "CVE-2022-1471",
+          "package": [
+            "org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "6.6",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+        },
+        {
+          "cve_id": "CVE-2022-38749",
+          "package": [
+            "org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+        },
+        {
+          "cve_id": "CVE-2018-10054",
+          "package": [
+            "com.h2database:h2@2.1.214"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-21365",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+        },
+        {
+          "cve_id": "CVE-2023-21937",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.6"
+        },
+        {
+          "cve_id": "CVE-2024-20945",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+        },
+        {
+          "cve_id": "CVE-2024-29857",
+          "package": [
+            "org.bouncycastle:bcprov-jdk18on@1.77"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.bouncycastle:bcprov-jdk18on@1.78"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "busybox/busybox@1.36.1-r5"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2022-21291",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+        },
+        {
+          "cve_id": "CVE-2022-21294",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+        },
+        {
+          "cve_id": "CVE-2022-21296",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+        },
+        {
+          "cve_id": "CVE-2023-21954",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.6"
+        },
+        {
+          "cve_id": "CVE-2023-22045",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.7"
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "busybox/busybox@1.36.1-r5"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2022-45868",
+          "package": [
+            "com.h2database:h2@2.1.214"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to com.h2database:h2@2.2.220"
+        },
+        {
+          "cve_id": "CVE-2022-21282",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+        },
+        {
+          "cve_id": "CVE-2023-22044",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.7"
+        },
+        {
+          "cve_id": "CVE-2024-20932",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+        },
+        {
+          "cve_id": "CVE-2022-25857",
+          "package": [
+            "org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+        },
+        {
+          "cve_id": "CVE-2022-38752",
+          "package": [
+            "org.yaml:snakeyaml@1.16"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+        },
+        {
+          "cve_id": "CVE-2022-21293",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+        },
+        {
+          "cve_id": "CVE-2024-20921",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+        },
+        {
+          "cve_id": "CVE-2023-21938",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.6"
+        },
+        {
+          "cve_id": "CVE-2023-34455",
+          "package": [
+            "org.xerial.snappy:snappy-java@1.1.8.4"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.xerial.snappy:snappy-java@1.1.10.1"
+        },
+        {
+          "cve_id": "CVE-2023-34454",
+          "package": [
+            "org.xerial.snappy:snappy-java@1.1.8.4"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.xerial.snappy:snappy-java@1.1.10.1"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "busybox/busybox@1.36.1-r5"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r6"
+        },
+        {
+          "cve_id": "CVE-2023-21967",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.6"
+        },
+        {
+          "cve_id": "CVE-2023-22041",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "5.1",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.7"
+        },
+        {
+          "cve_id": "CVE-2024-20952",
+          "package": [
+            "org.graalvm.sdk:graal-sdk@21.1.0"
+          ],
+          "cvssv3_score": "7.4",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+        },
+        {
+          "cve_id": "CVE-2024-1300",
+          "package": [
+            "io.vertx:vertx-core@4.4.6"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to io.vertx:vertx-core@4.4.8"
+        },
+        {
+          "cve_id": "CVE-2023-34453",
+          "package": [
+            "org.xerial.snappy:snappy-java@1.1.8.4"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.xerial.snappy:snappy-java@1.1.10.1"
+        }
+      ],
+      "num_cves": 77,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-29025",
+        "CVE-2023-1973",
+        "CVE-2023-5379",
+        "CVE-2023-5685"
+      ],
+      "relative_efficiency": 0.64166665
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "GHSA-9w3m-gqgf",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-9w3m-gqgf",
+            "package": [
+              "c4p9-snakeyaml"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.32"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-20922",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-20922",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "2.5",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-22036",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-22036",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-20923",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-20923",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "3.1",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-22041",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-22041",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.1",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2017-18640",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2017-18640",
+            "package": [
+              "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.26"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2017-18640",
+            "package": [
+              " pkg:maven/org.yaml/snakeyaml@1.16"
+            ],
+            "cvssv3_score": "7.500000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.26"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2017-18640",
+            "package": [
+              "org.yaml:snakeyaml_1.16"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2017-18640",
+            "package": [
+              "org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "5.4",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-1023",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-1023",
+            "package": [
+              "camunda/modules/system/layers/base/io/vertx/core/main/vertx-core-4.4.6.jar: io.vertx:vertx-core@4.4.6"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.5.2, 4.4.7"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-1023",
+            "package": [
+              " pkg:maven/io.vertx/vertx-core@4.4.6"
+            ],
+            "cvssv3_score": "6.500000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.4.7"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-1023",
+            "package": [
+              "io.vertx:vertx-core_4.4.6"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-1023",
+            "package": [
+              "io.vertx:vertx-core@4.4.6"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to io.vertx:vertx-core@4.4.7"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "GHSA-22wj-vf5f",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-22wj-vf5f",
+            "package": [
+              "wrvj-h2"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "2.2.220"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-5667-3wch",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-5667-3wch",
+            "package": [
+              "7q7w-vertx-core"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "4.4.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-jw7r-rxff",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-jw7r-rxff",
+            "package": [
+              "gv24-apache-mime4j-core"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "0.8.10"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-21296",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-21296",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-21938",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-21938",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.6"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-34447",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-34447",
+            "package": [
+              "camunda/modules/system/layers/base/org/bouncycastle/bcprov/main/bcprov-jdk18on-1.77.jar: org.bouncycastle:bcprov-jdk18on@1.77"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-34447",
+            "package": [
+              " pkg:maven/org.bouncycastle/bcprov-jdk18on@1.77"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-34447",
+            "package": [
+              "org.bouncycastle:bcprov-jdk18on_1.77"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "GHSA-4h8f-2wvx",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-4h8f-2wvx",
+            "package": [
+              "gg5w-bcprov-jdk18on"
+            ],
+            "cvssv3_score": "1.0",
+            "severity": "low",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-20925",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-20925",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "3.1",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-21283",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-21283",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-29025",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-29025",
+            "package": [
+              "camunda/bin/client/jboss-client.jar: io.netty:netty-codec-http@4.1.104.Final",
+              "camunda/modules/system/layers/base/io/netty/netty-codec-http/main/netty-codec-http-4.1.104.Final.jar: io.netty:netty-codec-http@4.1.104.Final"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.1.108.Final"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-29025",
+            "package": [
+              " pkg:maven/io.netty/netty-codec-http@4.1.104.Final"
+            ],
+            "cvssv3_score": "5.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.1.108.Final"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-29025",
+            "package": [
+              "io.netty:netty-codec-http_4.1.104.Final"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-29025",
+            "package": [
+              "io.netty:netty-codec-http@4.1.104.Final",
+              "io.netty:netty-codec-http@4.1.104.Final"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.wildfly:wildfly-client-all@31.0.0.Final"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2022-45868",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-45868",
+            "package": [
+              "camunda/modules/com/h2database/h2/main/h2-2.1.214.jar: com.h2database:h2@2.1.214"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.2.220"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-45868",
+            "package": [
+              " pkg:maven/com.h2database/h2@2.1.214"
+            ],
+            "cvssv3_score": "7.800000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.2.220"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-45868",
+            "package": [
+              "com.h2database:h2_2.1.214"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.8"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-45868",
+            "package": [
+              "com.h2database:h2@2.1.214"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to com.h2database:h2@2.2.220"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2012-5373",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2012-5373",
+            "package": [
+              "3.18:libxslt_1.1.38-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2466",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2466",
+            "package": [
+              "curl"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-21305",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-21305",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-20945",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-20945",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-29857",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-29857",
+            "package": [
+              "camunda/modules/system/layers/base/org/bouncycastle/bcpkix/main/bcpkix-jdk18on-1.77.jar: org.bouncycastle:bcpkix-jdk18on@1.77",
+              "camunda/modules/system/layers/base/org/bouncycastle/bcprov/main/bcprov-jdk18on-1.77.jar: org.bouncycastle:bcprov-jdk18on@1.77"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-29857",
+            "package": [
+              " pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.77 pkg:maven/org.bouncycastle/bcprov-jdk18on@1.77",
+              " pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.77 pkg:maven/org.bouncycastle/bcprov-jdk18on@1.77"
+            ],
+            "cvssv3_score": "5.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-29857",
+            "package": [
+              "org.bouncycastle:bcprov-jdk18on_1.77",
+              "org.bouncycastle:bcpkix-jdk18on_1.77"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-29857",
+            "package": [
+              "org.bouncycastle:bcprov-jdk18on@1.77"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.bouncycastle:bcprov-jdk18on@1.78"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-42366",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "camunda/camunda-bpm-platform: busybox@1.36.1-r5",
+              "camunda/camunda-bpm-platform: busybox-binsh@1.36.1-r5",
+              "camunda/camunda-bpm-platform: ssl_client@1.36.1-r5"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r6"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r5?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r6"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "3.18:ssl_client_1.36.1-r5",
+              "3.18:busybox-binsh_1.36.1-r5",
+              "3.18:busybox_1.36.1-r5"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r6"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "busybox/busybox@1.36.1-r5"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r6"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2023-34454",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-34454",
+            "package": [
+              "camunda/modules/system/layers/base/org/xerial/snappy/snappy-java/main/snappy-java-1.1.8.4.jar: org.xerial.snappy:snappy-java@1.1.8.4"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.10.1"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-34454",
+            "package": [
+              " pkg:maven/org.xerial.snappy/snappy-java@1.1.8.4"
+            ],
+            "cvssv3_score": "5.900000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.10.1"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-34454",
+            "package": [
+              "org.xerial.snappy:snappy-java_1.1.8.4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-34454",
+            "package": [
+              "org.xerial.snappy:snappy-java@1.1.8.4"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.xerial.snappy:snappy-java@1.1.10.1"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2022-21299",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-21299",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-35603",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-35603",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-38751",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-38751",
+            "package": [
+              "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.31"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-38751",
+            "package": [
+              " pkg:maven/org.yaml/snakeyaml@1.16"
+            ],
+            "cvssv3_score": "6.500000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.31"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-38751",
+            "package": [
+              "org.yaml:snakeyaml_1.16"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-38751",
+            "package": [
+              "org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "4.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-21968",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-21968",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.6"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-21291",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-21291",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42364",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "camunda/camunda-bpm-platform: busybox@1.36.1-r5",
+              "camunda/camunda-bpm-platform: busybox-binsh@1.36.1-r5",
+              "camunda/camunda-bpm-platform: ssl_client@1.36.1-r5"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r5?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "3.18:busybox_1.36.1-r5",
+              "3.18:ssl_client_1.36.1-r5",
+              "3.18:busybox-binsh_1.36.1-r5"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "busybox/busybox@1.36.1-r5"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r7"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2022-38749",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-38749",
+            "package": [
+              "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.31"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-38749",
+            "package": [
+              " pkg:maven/org.yaml/snakeyaml@1.16"
+            ],
+            "cvssv3_score": "6.500000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.31"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-38749",
+            "package": [
+              "org.yaml:snakeyaml_1.16"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-38749",
+            "package": [
+              "org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "GHSA-9wmf-xf3h",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-9wmf-xf3h",
+            "package": [
+              "r8pr-jberet-core"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "2.2.1.Final"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-5jpm-x58v",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-5jpm-x58v",
+            "package": [
+              "624v-netty-codec-http",
+              "624v-netty-codec-http"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "4.1.108.Final"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-43642",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-43642",
+            "package": [
+              "camunda/modules/system/layers/base/org/xerial/snappy/snappy-java/main/snappy-java-1.1.8.4.jar: org.xerial.snappy:snappy-java@1.1.8.4"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.10.4"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-43642",
+            "package": [
+              " pkg:maven/org.xerial.snappy/snappy-java@1.1.8.4"
+            ],
+            "cvssv3_score": "7.500000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.10.4"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-43642",
+            "package": [
+              "org.xerial.snappy:snappy-java_1.1.8.4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-43642",
+            "package": [
+              "org.xerial.snappy:snappy-java@1.1.8.4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.xerial.snappy:snappy-java@1.1.10.4"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-1459",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-1459",
+            "package": [
+              "camunda/bin/client/jboss-client.jar: io.undertow:undertow-core@2.3.10.Final",
+              "camunda/modules/system/layers/base/io/undertow/core/main/undertow-core-2.3.10.Final.jar: io.undertow:undertow-core@2.3.10.Final"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.2.31.Final, 2.3.12.Final"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-1459",
+            "package": [
+              " pkg:maven/io.undertow/undertow-core@2.3.10.Final"
+            ],
+            "cvssv3_score": "5.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.3.12.Final"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-1459",
+            "package": [
+              "io.undertow:undertow-core_2.3.10.Final"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2022-21340",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-21340",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2012-2739",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2012-2739",
+            "package": [
+              "3.18:libxslt_1.1.38-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-20926",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-20926",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-21341",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-21341",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-30172",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-30172",
+            "package": [
+              "camunda/modules/system/layers/base/org/bouncycastle/bcpkix/main/bcpkix-jdk18on-1.77.jar: org.bouncycastle:bcpkix-jdk18on@1.77",
+              "camunda/modules/system/layers/base/org/bouncycastle/bcprov/main/bcprov-jdk18on-1.77.jar: org.bouncycastle:bcprov-jdk18on@1.77"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-30172",
+            "package": [
+              " pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.77 pkg:maven/org.bouncycastle/bcprov-jdk18on@1.77",
+              " pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.77 pkg:maven/org.bouncycastle/bcprov-jdk18on@1.77"
+            ],
+            "cvssv3_score": "5.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-30172",
+            "package": [
+              "org.bouncycastle:bcprov-jdk18on_1.77",
+              "org.bouncycastle:bcpkix-jdk18on_1.77"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-30172",
+            "package": [
+              "org.bouncycastle:bcprov-jdk18on@1.77"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.bouncycastle:bcprov-jdk18on@1.78"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2022-38752",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-38752",
+            "package": [
+              "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.32"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-38752",
+            "package": [
+              " pkg:maven/org.yaml/snakeyaml@1.16"
+            ],
+            "cvssv3_score": "6.500000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.32"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-38752",
+            "package": [
+              "org.yaml:snakeyaml_1.16"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-38752",
+            "package": [
+              "org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-22049",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-22049",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-34455",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-34455",
+            "package": [
+              "camunda/modules/system/layers/base/org/xerial/snappy/snappy-java/main/snappy-java-1.1.8.4.jar: org.xerial.snappy:snappy-java@1.1.8.4"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.10.1"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-34455",
+            "package": [
+              " pkg:maven/org.xerial.snappy/snappy-java@1.1.8.4"
+            ],
+            "cvssv3_score": "7.500000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.10.1"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-34455",
+            "package": [
+              "org.xerial.snappy:snappy-java_1.1.8.4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-34455",
+            "package": [
+              "org.xerial.snappy:snappy-java@1.1.8.4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.xerial.snappy:snappy-java@1.1.10.1"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-5379",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-5379",
+            "package": [
+              " pkg:maven/io.undertow/undertow-core@2.3.10.Final"
+            ],
+            "cvssv3_score": "7.500000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-5379",
+            "package": [
+              "io.undertow:undertow-core@2.3.10.Final",
+              "io.undertow:undertow-core@2.3.10.Final"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.wildfly:wildfly-client-all@31.0.0.Final"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "GHSA-55g7-9cwv",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-55g7-9cwv",
+            "package": [
+              "5qfv-snappy-java"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.1.10.4"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-20919",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-20919",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-21967",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-21967",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.6"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-1471",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-1471",
+            "package": [
+              "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.0"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-1471",
+            "package": [
+              " pkg:maven/org.yaml/snakeyaml@1.16"
+            ],
+            "cvssv3_score": "8.300000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-1471",
+            "package": [
+              "org.yaml:snakeyaml_1.16"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-1471",
+            "package": [
+              "org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "6.6",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-21011",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-21011",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.10"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-35578",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-35578",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-20918",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-20918",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-gvpg-vgmx",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-gvpg-vgmx",
+            "package": [
+              "xg6w-nimbus-jose-jwt"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "9.37.2"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-mjmj-j48q",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-mjmj-j48q",
+            "package": [
+              "9wg2-snakeyaml"
+            ],
+            "cvssv3_score": "8.3",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "2.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-8xfc-gm6g",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-8xfc-gm6g",
+            "package": [
+              "vgpv-bcpkix-jdk18on",
+              "vgpv-bcprov-jdk18on"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-qcwq-55hx",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-qcwq-55hx",
+            "package": [
+              "v3vh-snappy-java"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.1.10.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-21939",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-21939",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.6"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2511",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "camunda/camunda-bpm-platform: libcrypto3@3.1.4-r5",
+              "camunda/camunda-bpm-platform: libssl3@3.1.4-r5"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r6"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              " pkg:apk/alpine/openssl@3.1.4-r5?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r6"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "libcrypto3",
+              "libssl3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r6"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "openssl/libcrypto3@3.1.4-r5"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r6"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "GHSA-98wm-3w3q",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-98wm-3w3q",
+            "package": [
+              "mw94-snakeyaml"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.31"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-21365",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-21365",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-20932",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-20932",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42363",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "camunda/camunda-bpm-platform: busybox@1.36.1-r5",
+              "camunda/camunda-bpm-platform: busybox-binsh@1.36.1-r5",
+              "camunda/camunda-bpm-platform: ssl_client@1.36.1-r5"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r5?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "3.18:busybox_1.36.1-r5",
+              "3.18:busybox-binsh_1.36.1-r5",
+              "3.18:ssl_client_1.36.1-r5"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "busybox/busybox@1.36.1-r5"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r7"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2024-4603",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "camunda/camunda-bpm-platform: libcrypto3@3.1.4-r5",
+              "camunda/camunda-bpm-platform: libssl3@3.1.4-r5"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.5-r0"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              " pkg:apk/alpine/openssl@3.1.4-r5?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.5-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "libcrypto3",
+              "libssl3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.1.5-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "openssl/libcrypto3@3.1.4-r5"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto3@3.1.5-r0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-21742",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-21742",
+            "package": [
+              "camunda/modules/system/layers/base/org/apache/james/mime4j/main/apache-mime4j-core-0.8.9.jar: org.apache.james:apache-mime4j-core@0.8.9"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "0.8.10"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-21742",
+            "package": [
+              " pkg:maven/org.apache.james/apache-mime4j-core@0.8.9"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "0.8.10"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-21742",
+            "package": [
+              "org.apache.james:apache-mime4j-core_0.8.9"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-21742",
+            "package": [
+              "org.apache.james:apache-mime4j-core@0.8.9"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.apache.james:apache-mime4j-core@0.8.10"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-20952",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-20952",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-46604",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-46604",
+            "package": [
+              " pkg:maven/org.apache.activemq/artemis-server@2.31.2"
+            ],
+            "cvssv3_score": "9.800000",
+            "severity": "CRITICAL",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-52071",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-52071",
+            "package": [
+              "3.18:libcurl_8.5.0-r0",
+              "3.18:curl_8.5.0-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-v4mm-q8fv",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-v4mm-q8fv",
+            "package": [
+              "r2w5-wildfly-elytron-realm-token"
+            ],
+            "cvssv3_score": "7.3",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-21282",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-21282",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-52428",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-52428",
+            "package": [
+              "camunda/modules/system/layers/base/com/nimbusds/nimbus-jose-jwt/main/nimbus-jose-jwt-9.31.jar: com.nimbusds:nimbus-jose-jwt@9.31"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "9.37.2"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-52428",
+            "package": [
+              " pkg:maven/com.nimbusds/nimbus-jose-jwt@9.31"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "9.37.2"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-52428",
+            "package": [
+              "com.nimbusds:nimbus-jose-jwt_9.31"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-52428",
+            "package": [
+              "com.nimbusds:nimbus-jose-jwt@9.31"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to com.nimbusds:nimbus-jose-jwt@9.37.2"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2022-38750",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-38750",
+            "package": [
+              "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.31"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-38750",
+            "package": [
+              " pkg:maven/org.yaml/snakeyaml@1.16"
+            ],
+            "cvssv3_score": "5.500000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.31"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-38750",
+            "package": [
+              "org.yaml:snakeyaml_1.16"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-38750",
+            "package": [
+              "org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-5685",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-5685",
+            "package": [
+              "camunda/bin/client/jboss-cli-client.jar: org.jboss.xnio:xnio-api@3.8.12.Final",
+              "camunda/bin/client/jboss-client.jar: org.jboss.xnio:xnio-api@3.8.12.Final",
+              "camunda/modules/system/layers/base/org/jboss/xnio/main/xnio-api-3.8.12.Final.jar: org.jboss.xnio:xnio-api@3.8.12.Final"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.8.14.Final"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-5685",
+            "package": [
+              " pkg:maven/org.jboss.xnio/xnio-api@3.8.12.Final"
+            ],
+            "cvssv3_score": "7.500000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.8.14.Final"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-5685",
+            "package": [
+              "org.jboss.xnio:xnio-api_3.8.12.Final"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-5685",
+            "package": [
+              "org.jboss.xnio:xnio-api@3.8.12.Final",
+              "org.jboss.xnio:xnio-api@3.8.12.Final"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.wildfly.core:wildfly-cli@24.0.0.Final"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-0853",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-0853",
+            "package": [
+              " pkg:apk/alpine/curl@8.5.0-r0?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-0853",
+            "package": [
+              "curl"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2022-21449",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-21449",
+            "package": [
+              "org.graalvm.sdk:graal-sdk_21.1.0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-7f88-5hhx",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-7f88-5hhx",
+            "package": [
+              "67m2-xnio-api",
+              "67m2-xnio-api",
+              "67m2-xnio-api"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "3.8.14.Final"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-pqr6-cmr2",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-pqr6-cmr2",
+            "package": [
+              "h8hf-snappy-java"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.1.10.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-1300",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-1300",
+            "package": [
+              "camunda/modules/system/layers/base/io/vertx/core/main/vertx-core-4.4.6.jar: io.vertx:vertx-core@4.4.6"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.4.8, 4.5.3"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-1300",
+            "package": [
+              " pkg:maven/io.vertx/vertx-core@4.4.6"
+            ],
+            "cvssv3_score": "5.400000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.4.8"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-1300",
+            "package": [
+              "io.vertx:vertx-core_4.4.6"
+            ],
+            "cvssv3_score": "5.4",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.4"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-1300",
+            "package": [
+              "io.vertx:vertx-core@4.4.6"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to io.vertx:vertx-core@4.4.8"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-34453",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-34453",
+            "package": [
+              "camunda/modules/system/layers/base/org/xerial/snappy/snappy-java/main/snappy-java-1.1.8.4.jar: org.xerial.snappy:snappy-java@1.1.8.4"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.10.1"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-34453",
+            "package": [
+              " pkg:maven/org.xerial.snappy/snappy-java@1.1.8.4"
+            ],
+            "cvssv3_score": "5.900000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.10.1"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-34453",
+            "package": [
+              "org.xerial.snappy:snappy-java_1.1.8.4"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-34453",
+            "package": [
+              "org.xerial.snappy:snappy-java@1.1.8.4"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.xerial.snappy:snappy-java@1.1.10.1"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-35116",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-35116",
+            "package": [
+              "com.fasterxml.jackson.core:jackson-databind_2.15.2"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-hhhw-99gj",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-hhhw-99gj",
+            "package": [
+              "p3c3-snakeyaml"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.31"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-21360",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-21360",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-30171",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-30171",
+            "package": [
+              "camunda/modules/system/layers/base/org/bouncycastle/bcpkix/main/bcpkix-jdk18on-1.77.jar: org.bouncycastle:bcpkix-jdk18on@1.77",
+              "camunda/modules/system/layers/base/org/bouncycastle/bcprov/main/bcprov-jdk18on-1.77.jar: org.bouncycastle:bcprov-jdk18on@1.77"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-30171",
+            "package": [
+              " pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.77 pkg:maven/org.bouncycastle/bcprov-jdk18on@1.77",
+              " pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.77 pkg:maven/org.bouncycastle/bcprov-jdk18on@1.77"
+            ],
+            "cvssv3_score": "5.900000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-30171",
+            "package": [
+              "org.bouncycastle:bcprov-jdk18on_1.77",
+              "org.bouncycastle:bcpkix-jdk18on_1.77"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.9"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-30171",
+            "package": [
+              "org.bouncycastle:bcprov-jdk18on@1.77"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.bouncycastle:bcprov-jdk18on@1.78"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-6236",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-6236",
+            "package": [
+              "org.wildfly.security:wildfly-elytron-http-oidc_2.2.3.Final"
+            ],
+            "cvssv3_score": "7.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.3"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-6236",
+            "package": [
+              "org.wildfly.security:wildfly-elytron-http-oidc@2.2.3.Final"
+            ],
+            "cvssv3_score": "7.3",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "GHSA-9ph3-v2vh",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-9ph3-v2vh",
+            "package": [
+              "3qx7-vertx-core"
+            ],
+            "cvssv3_score": "5.4",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "4.4.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-21277",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-21277",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-21293",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-21293",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-1233",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-1233",
+            "package": [
+              "camunda/modules/system/layers/base/org/wildfly/security/elytron-base/main/wildfly-elytron-realm-token-2.2.3.Final.jar: org.wildfly.security:wildfly-elytron-realm-token@2.2.3.Final"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-1233",
+            "package": [
+              " pkg:maven/org.wildfly.security/wildfly-elytron-realm-token@2.2.3.Final"
+            ],
+            "cvssv3_score": "7.300000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-1233",
+            "package": [
+              "org.wildfly.security:wildfly-elytron-realm-token_2.2.3.Final"
+            ],
+            "cvssv3_score": "7.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.3"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-28752",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-28752",
+            "package": [
+              "camunda/modules/system/layers/base/org/apache/cxf/main/cxf-core-4.0.0.jar: org.apache.cxf:cxf-core@4.0.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.5.8, 3.6.3, 4.0.4"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-28752",
+            "package": [
+              " pkg:maven/org.apache.cxf/cxf-core@4.0.0"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.0.4"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-28752",
+            "package": [
+              "org.apache.cxf:cxf-core_4.0.0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-28752",
+            "package": [
+              "org.apache.cxf:cxf-rt-databinding-aegis@4.0.0"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.apache.cxf:cxf-rt-databinding-aegis@4.0.4"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-42365",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "camunda/camunda-bpm-platform: busybox@1.36.1-r5",
+              "camunda/camunda-bpm-platform: busybox-binsh@1.36.1-r5",
+              "camunda/camunda-bpm-platform: ssl_client@1.36.1-r5"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r5?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "3.18:busybox-binsh_1.36.1-r5",
+              "3.18:busybox_1.36.1-r5",
+              "3.18:ssl_client_1.36.1-r5"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "busybox/busybox@1.36.1-r5"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r7"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2022-41678",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-41678",
+            "package": [
+              " pkg:maven/org.apache.activemq/artemis-server@2.31.2"
+            ],
+            "cvssv3_score": "8.800000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-m44j-cfrm",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-m44j-cfrm",
+            "package": [
+              "g8qc-bcpkix-jdk18on",
+              "g8qc-bcprov-jdk18on"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-35567",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-35567",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "6.8",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-21937",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-21937",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.6"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-22045",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-22045",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-41854",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-41854",
+            "package": [
+              "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.32"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-41854",
+            "package": [
+              " pkg:maven/org.yaml/snakeyaml@1.16"
+            ],
+            "cvssv3_score": "6.500000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.32"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-41854",
+            "package": [
+              "org.yaml:snakeyaml_1.16"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-41854",
+            "package": [
+              "org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2009-3767",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2009-3767",
+            "package": [
+              "3.18:libssl3_3.1.4-r5",
+              "3.18:libcrypto3_3.1.4-r5"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-21930",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-21930",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "7.4",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.6"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-1973",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-1973",
+            "package": [
+              "io.undertow:undertow-core@2.3.10.Final",
+              "io.undertow:undertow-core@2.3.10.Final"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.wildfly:wildfly-client-all@31.0.0.Final"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-20921",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-20921",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2004",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2004",
+            "package": [
+              "curl"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-21954",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-21954",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.6"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-3mc7-4q67",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-3mc7-4q67",
+            "package": [
+              "w48m-snakeyaml"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.31"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-v435-xc8x",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-v435-xc8x",
+            "package": [
+              "wvr9-bcpkix-jdk18on",
+              "wvr9-bcprov-jdk18on"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.78"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-w37g-rhq8",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-w37g-rhq8",
+            "package": [
+              "7m4j-snakeyaml"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.32"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-21248",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-21248",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-rvwf-54qp",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-rvwf-54qp",
+            "package": [
+              "4r6v-snakeyaml"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.26"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-c4r9-r8fh",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-c4r9-r8fh",
+            "package": [
+              "9vj2-snakeyaml"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.31"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-1102",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-1102",
+            "package": [
+              "camunda/modules/system/layers/base/org/jberet/jberet-core/main/jberet-core-2.2.0.Final.jar: org.jberet:jberet-core@2.2.0.Final"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.2.1.Final"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-1102",
+            "package": [
+              " pkg:maven/org.jberet/jberet-core@2.2.0.Final"
+            ],
+            "cvssv3_score": "6.500000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.2.1.Final"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-1102",
+            "package": [
+              "org.jberet:jberet-core_2.2.0.Final"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-1102",
+            "package": [
+              "org.jberet:jberet-core@2.2.0.Final"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-2398",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2398",
+            "package": [
+              "curl"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-28182",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-28182",
+            "package": [
+              "nghttp2-libs"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-21294",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-21294",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-qmgx-j96g",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-qmgx-j96g",
+            "package": [
+              "4428-cxf-core"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "4.0.4"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-21068",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-21068",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.10"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-10054",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2018-10054",
+            "package": [
+              "com.h2database:h2@2.1.214"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-25857",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-25857",
+            "package": [
+              "camunda/javaagent/jmx_prometheus_javaagent.jar: org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.31"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-25857",
+            "package": [
+              " pkg:maven/org.yaml/snakeyaml@1.16"
+            ],
+            "cvssv3_score": "7.500000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.31"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-25857",
+            "package": [
+              "org.yaml:snakeyaml_1.16"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-25857",
+            "package": [
+              "org.yaml:snakeyaml@1.16"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to io.prometheus.jmx:jmx_prometheus_javaagent@0.12.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "GHSA-fjpj-2g6w",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-fjpj-2g6w",
+            "package": [
+              "x25r-snappy-java"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.1.10.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-v76w-3ph8",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-v76w-3ph8",
+            "package": [
+              "vm66-undertow-core",
+              "vm66-undertow-core"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "2.3.12.Final"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-21366",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-21366",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-22006",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-22006",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "3.1",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-22044",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-22044",
+            "package": [
+              "org.graalvm.sdk:graal-sdk@21.1.0"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.graalvm.sdk:graal-sdk@21.3.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 120
+}

@@ -1,0 +1,112 @@
+{
+
+    "image_name": "curlimages/curl:8.4.0",
+    "category": "sponsored",
+    "unique_cves": [
+        {
+            "cve_id": "CVE-2023-42363",
+            "detected_scanners": "JFrog, DockerScout, Snyk, Trivy, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-42366",
+            "detected_scanners": "JFrog, DockerScout, Snyk, Trivy, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-42365",
+            "detected_scanners": "JFrog, DockerScout, Snyk, Trivy, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-42364",
+            "detected_scanners": "JFrog, DockerScout, Snyk, Trivy, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-6129",
+            "detected_scanners": "JFrog, DockerScout, Snyk, Trivy, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-48795",
+            "detected_scanners": "DockerScout, Snyk, Trivy, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-5363",
+            "detected_scanners": "DockerScout, Snyk, Trivy, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-4603",
+            "detected_scanners": "DockerScout, Snyk, Trivy, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-5678",
+            "detected_scanners": "DockerScout, Snyk, Trivy, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-0727",
+            "detected_scanners": "DockerScout, Snyk, Trivy, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-6237",
+            "detected_scanners": "DockerScout, Snyk, Trivy, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-2511",
+            "detected_scanners": "DockerScout, Snyk, Trivy, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2020-22218",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2009-3767",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "openldap pkg not installed",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2024-28182",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        }
+    ]
+}

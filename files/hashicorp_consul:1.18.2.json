@@ -1,0 +1,112 @@
+{
+
+    "image_name": "hashicorp/consul:1.18.2",
+    "category": "verified",
+    "unique_cves": [
+        {
+            "cve_id": "CVE-2023-42365",
+            "detected_scanners": "Snyk, DockerScout, Trivy, JFrog, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-42363",
+            "detected_scanners": "Snyk, DockerScout, Trivy, JFrog, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-42364",
+            "detected_scanners": "Snyk, DockerScout, Trivy, JFrog, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-42366",
+            "detected_scanners": "Snyk, DockerScout, Trivy, JFrog, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-4603",
+            "detected_scanners": "Snyk, DockerScout, Trivy, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-24789",
+            "detected_scanners": "DockerScout, Trivy, Grype",
+            "outcome": "False Positive",
+            "reason": "cannot find golang installed in img",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2024-24790",
+            "detected_scanners": "DockerScout, Trivy, Grype",
+            "outcome": "False Positive",
+            "reason": "cannot find golang installed in img",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2024-0853",
+            "detected_scanners": "DockerScout, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-28182",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-2398",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-2004",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-2466",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2022-3219",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2020-8911",
+            "detected_scanners": "DockerScout",
+            "outcome": "False Positive",
+            "reason": "cannot find golang installed in img",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2023-52071",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "cve seems to be rejected",
+            "reason_keyword": "cve-rejected"
+        }
+    ]
+}

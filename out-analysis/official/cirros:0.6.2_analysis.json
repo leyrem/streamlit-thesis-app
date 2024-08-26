@@ -1,0 +1,111 @@
+{
+  "image_scanned": "cirros:0.6.2",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "DockerScout",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2022-28391",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-30065",
+          "package": [
+            "busybox"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 2,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 1
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2022-28391",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-28391",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-30065",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-30065",
+            "package": [
+              "busybox"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 2
+}

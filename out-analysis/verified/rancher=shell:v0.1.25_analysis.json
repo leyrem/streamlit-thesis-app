@@ -1,0 +1,2751 @@
+{
+  "image_scanned": "rancher/shell:v0.1.25",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            "golang.org/x/net/http2@v0.19.0",
+            "golang.org/x/net/http2@v0.17.0",
+            "golang.org/x/net/http2@v0.17.0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-21626",
+          "package": [
+            "github.com/containerd/containerd@v1.7.12"
+          ],
+          "cvssv3_score": "8.6",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-3817",
+          "package": [
+            "github.com/hashicorp/go-getter@v1.7.3"
+          ],
+          "cvssv3_score": "7.3",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 3,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-45288"
+      ],
+      "relative_efficiency": 0.05882353
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-33602",
+          "package": [
+            "glibc_0:2.31-150300.74.1"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[0:2.26-150000.13.73.1], [0:2.31-150300.83.1]"
+        },
+        {
+          "cve_id": "CVE-2024-33601",
+          "package": [
+            "glibc_0:2.31-150300.74.1"
+          ],
+          "cvssv3_score": "6.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[0:2.26-150000.13.73.1], [0:2.31-150300.83.1]"
+        },
+        {
+          "cve_id": "CVE-2019-13225",
+          "package": [
+            "libonig4_0:6.7.0-150000.3.3.1"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-48795",
+          "package": [
+            "golang.org/x/crypto_0.14.0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[0.17.0]"
+        },
+        {
+          "cve_id": "CVE-2024-3817",
+          "package": [
+            "github.com/hashicorp/go-getter_1.7.3"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[1.7.4]"
+        },
+        {
+          "cve_id": "CVE-2024-33599",
+          "package": [
+            "glibc_0:2.31-150300.74.1"
+          ],
+          "cvssv3_score": "7.6",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[0:2.26-150000.13.73.1], [0:2.31-150300.83.1]"
+        },
+        {
+          "cve_id": "CVE-2024-2236",
+          "package": [
+            "libgcrypt20-hmac_0:1.9.4-150500.10.19",
+            "libgcrypt20_0:1.9.4-150500.10.19"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24786",
+          "package": [
+            "google.golang.org/protobuf_1.31.0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[1.33.0]"
+        },
+        {
+          "cve_id": "CVE-2024-34459",
+          "package": [
+            "libxml2-2_0:2.10.3-150500.5.14.1"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24557",
+          "package": [
+            "github.com/docker/docker_24.0.7+incompatible",
+            "github.com/docker/docker_24.0.7+incompatible"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[24.0.9], [25.0.2]"
+        },
+        {
+          "cve_id": "CVE-2024-6257",
+          "package": [
+            "github.com/hashicorp/go-getter_1.7.3"
+          ],
+          "cvssv3_score": "8.4",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[1.7.5]"
+        },
+        {
+          "cve_id": "CVE-2023-5408",
+          "package": [
+            "k8s.io/kubernetes_1.26.15"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-2253",
+          "package": [
+            "github.com/docker/distribution_2.8.1+incompatible"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[2.8.2-beta.1]"
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "libopenssl1_1-hmac_0:1.1.1l-150500.17.28.2",
+            "openssl-1_1_0:1.1.1l-150500.17.28.2",
+            "libopenssl1_1_0:1.1.1l-150500.17.28.2"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[0:1.1.1l-150500.17.31.1]"
+        },
+        {
+          "cve_id": "CVE-2024-33600",
+          "package": [
+            "glibc_0:2.31-150300.74.1"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[0:2.26-150000.13.73.1], [0:2.31-150300.83.1]"
+        },
+        {
+          "cve_id": "CVE-2023-52426",
+          "package": [
+            "libexpat1_0:2.4.4-150400.3.17.1"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2013-4235",
+          "package": [
+            "login_defs_0:4.8.1-150400.10.15.1",
+            "shadow_0:4.8.1-150400.10.15.1"
+          ],
+          "cvssv3_score": "6.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-38428",
+          "package": [
+            "wget_0:1.20.3-150000.3.17.1"
+          ],
+          "cvssv3_score": "6.2",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[0:1.20.3-150000.3.20.1]"
+        },
+        {
+          "cve_id": "CVE-2024-3177",
+          "package": [
+            "k8s.io/kubernetes_1.26.15"
+          ],
+          "cvssv3_score": "2.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[1.27.13], [1.28.9], [1.29.4]"
+        },
+        {
+          "cve_id": "CVE-2024-0406",
+          "package": [
+            "github.com/mholt/archiver/v3_3.5.1"
+          ],
+          "cvssv3_score": "6.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            "golang.org/x/net_0.17.0",
+            "golang.org/x/net_0.17.0",
+            "golang.org/x/net_0.19.0",
+            "github.com/golang/go_1.21.8",
+            "github.com/golang/go_1.21.7",
+            "github.com/golang/go_1.22.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[0.23.0]"
+        }
+      ],
+      "num_cves": 21,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-24557",
+        "CVE-2024-4741",
+        "CVE-2023-45288",
+        "CVE-2013-4235",
+        "CVE-2024-2236"
+      ],
+      "relative_efficiency": 0.4117647
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-24790",
+          "package": [
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-45x7-px36",
+          "package": [
+            "x8w8-golang.org/x/crypto"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "0.17.0"
+        },
+        {
+          "cve_id": "GHSA-jw44-4f3j",
+          "package": [
+            "q396-helm.sh/helm/v3"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-pxhw-596r",
+          "package": [
+            "rwq5-k8s.io/kubernetes"
+          ],
+          "cvssv3_score": "2.7",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "1.27.13"
+        },
+        {
+          "cve_id": "GHSA-xw73-rw38",
+          "package": [
+            "6vjc-github.com/docker/docker",
+            "6vjc-github.com/docker/docker"
+          ],
+          "cvssv3_score": "6.9",
+          "severity": "medium",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "24.0.9"
+        },
+        {
+          "cve_id": "GHSA-hqxw-f8mx",
+          "package": [
+            "cpmw-github.com/docker/distribution"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "2.8.2-beta.1"
+        },
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            "stdlib",
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24783",
+          "package": [
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24787",
+          "package": [
+            "stdlib",
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24788",
+          "package": [
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24789",
+          "package": [
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-45289",
+          "package": [
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24784",
+          "package": [
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-4v7x-pqxf",
+          "package": [
+            "cx7m-golang.org/x/net",
+            "cx7m-golang.org/x/net",
+            "cx7m-golang.org/x/net"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "0.23.0"
+        },
+        {
+          "cve_id": "GHSA-8r3f-844c",
+          "package": [
+            "mc37-google.golang.org/protobuf"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "1.33.0"
+        },
+        {
+          "cve_id": "GHSA-q64h-39hv",
+          "package": [
+            "4cf7-github.com/hashicorp/go-getter"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "1.7.4"
+        },
+        {
+          "cve_id": "GHSA-r53h-jv2g",
+          "package": [
+            "vpx6-helm.sh/helm/v3"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "3.14.2"
+        },
+        {
+          "cve_id": "CVE-2023-45290",
+          "package": [
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24785",
+          "package": [
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-38428",
+          "package": [
+            "wget"
+          ],
+          "cvssv3_score": "6.2",
+          "severity": "medium",
+          "type": "rpm",
+          "is_fixed": true,
+          "fixed_version": "0:1.20.3-150000.3.20.1"
+        },
+        {
+          "cve_id": "CVE-2024-4741",
+          "package": [
+            "libopenssl1_1",
+            "libopenssl1_1-hmac",
+            "openssl-1_1"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "high",
+          "type": "rpm",
+          "is_fixed": true,
+          "fixed_version": "0:1.1.1l-150500.17.31.1"
+        },
+        {
+          "cve_id": "GHSA-7ww5-4wqc",
+          "package": [
+            "m92c-github.com/containerd/containerd"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "1.7.11"
+        },
+        {
+          "cve_id": "GHSA-rhh4-rh7c",
+          "package": [
+            "7r5v-github.com/mholt/archiver/v3"
+          ],
+          "cvssv3_score": "6.1",
+          "severity": "medium",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-v53g-5gjp",
+          "package": [
+            "272r-helm.sh/helm/v3"
+          ],
+          "cvssv3_score": "6.4",
+          "severity": "medium",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "3.14.1"
+        }
+      ],
+      "num_cves": 24,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-45288",
+        "CVE-2023-45289",
+        "CVE-2023-45290",
+        "CVE-2024-24783",
+        "CVE-2024-24784",
+        "CVE-2024-24785",
+        "CVE-2024-24787",
+        "CVE-2024-24789",
+        "CVE-2024-24790",
+        "CVE-2024-4741",
+        "GHSA-4v7x-pqxf",
+        "GHSA-xw73-rw38"
+      ],
+      "relative_efficiency": 0.47058824
+    },
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-48795",
+          "package": [
+            " pkg:golang/golang.org/x/crypto@0.14.0"
+          ],
+          "cvssv3_score": "5.900000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "0.17.0"
+        },
+        {
+          "cve_id": "CVE-2023-45289",
+          "package": [
+            " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0",
+            " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.22.1"
+        },
+        {
+          "cve_id": "CVE-2024-24783",
+          "package": [
+            " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0",
+            " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8"
+        },
+        {
+          "cve_id": "CVE-2024-24785",
+          "package": [
+            " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0",
+            " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.22.1"
+        },
+        {
+          "cve_id": "GMS-2023-6564",
+          "package": [
+            " pkg:golang/github.com/containerd/containerd@1.7.6"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.6.26, 1.7.11"
+        },
+        {
+          "cve_id": "CVE-2020-8912",
+          "package": [
+            " pkg:golang/github.com/aws/aws-sdk-go@1.44.288"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-8552",
+          "package": [
+            " pkg:golang/k8s.io/apiserver@0.28.4 pkg:golang/k8s.io/apiserver@0.29.3",
+            " pkg:golang/k8s.io/apiserver@0.28.4 pkg:golang/k8s.io/apiserver@0.29.3"
+          ],
+          "cvssv3_score": "4.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.15.10, 1.16.7, 1.17.3"
+        },
+        {
+          "cve_id": "CVE-2020-8911",
+          "package": [
+            " pkg:golang/github.com/aws/aws-sdk-go@1.44.288"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-2253",
+          "package": [
+            " pkg:golang/github.com/docker/distribution@2.8.1%2Bincompatible"
+          ],
+          "cvssv3_score": "7.500000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.8.2-beta.1"
+        },
+        {
+          "cve_id": "CVE-2024-6257",
+          "package": [
+            " pkg:golang/github.com/hashicorp/go-getter@1.7.3"
+          ],
+          "cvssv3_score": "8.400000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.7.5"
+        },
+        {
+          "cve_id": "CVE-2024-24557",
+          "package": [
+            " pkg:golang/github.com/docker/docker@24.0.7%2Bincompatible"
+          ],
+          "cvssv3_score": "6.900000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "24.0.9"
+        },
+        {
+          "cve_id": "CVE-2024-24784",
+          "package": [
+            " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0",
+            " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8"
+        },
+        {
+          "cve_id": "CVE-2024-24788",
+          "package": [
+            " pkg:golang/stdlib@1.22.0"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.22.3"
+        },
+        {
+          "cve_id": "CVE-2024-24786",
+          "package": [
+            " pkg:golang/google.golang.org/protobuf@1.31.0"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.33.0"
+        },
+        {
+          "cve_id": "GHSA-7ww5-4wqc-m92c",
+          "package": [
+            " pkg:golang/github.com/containerd/containerd@1.7.6"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.7.11"
+        },
+        {
+          "cve_id": "CVE-2024-24789",
+          "package": [
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.11"
+        },
+        {
+          "cve_id": "CVE-2024-24790",
+          "package": [
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "CRITICAL",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.22.4"
+        },
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            " pkg:golang/golang.org/x/net@0.17.0 pkg:golang/golang.org/x/net@0.19.0 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0",
+            " pkg:golang/golang.org/x/net@0.17.0 pkg:golang/golang.org/x/net@0.19.0 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0",
+            " pkg:golang/golang.org/x/net@0.17.0 pkg:golang/golang.org/x/net@0.19.0 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0",
+            " pkg:golang/golang.org/x/net@0.17.0 pkg:golang/golang.org/x/net@0.19.0 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0",
+            " pkg:golang/golang.org/x/net@0.17.0 pkg:golang/golang.org/x/net@0.19.0 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.22.2"
+        },
+        {
+          "cve_id": "CVE-2023-45290",
+          "package": [
+            " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0",
+            " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.22.1"
+        },
+        {
+          "cve_id": "CVE-2024-0406",
+          "package": [
+            " pkg:golang/github.com/mholt/archiver@3.5.1#v3"
+          ],
+          "cvssv3_score": "6.100000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-3817",
+          "package": [
+            " pkg:golang/github.com/hashicorp/go-getter@1.7.3"
+          ],
+          "cvssv3_score": "9.800000",
+          "severity": "CRITICAL",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.7.4"
+        }
+      ],
+      "num_cves": 21,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-45288",
+        "CVE-2023-45289",
+        "CVE-2023-45290",
+        "CVE-2024-24783",
+        "CVE-2024-24784",
+        "CVE-2024-24785",
+        "CVE-2020-8552",
+        "CVE-2024-24789",
+        "CVE-2024-24790"
+      ],
+      "relative_efficiency": 0.4117647
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "SUSE-SU-2024:2051-1",
+          "package": [
+            "rancher/shell: libopenssl1_1@1.1.1l-150500.17.28.2",
+            "rancher/shell: libopenssl1_1-hmac@1.1.1l-150500.17.28.2",
+            "rancher/shell: openssl-1_1@1.1.1l-150500.17.28.2"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.1.1l-150500.17.31.1"
+        },
+        {
+          "cve_id": "SUSE-SU-2024:2174-1",
+          "package": [
+            "rancher/shell: wget@1.20.3-150000.3.17.1"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.20.3-150000.3.20.1"
+        },
+        {
+          "cve_id": "CVE-2024-24788",
+          "package": [
+            "usr/local/bin/k9s: stdlib@1.22.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.22.3"
+        },
+        {
+          "cve_id": "CVE-2024-24786",
+          "package": [
+            "usr/local/bin/helm: google.golang.org/protobuf@v1.31.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.33.0"
+        },
+        {
+          "cve_id": "CVE-2024-24790",
+          "package": [
+            "usr/local/bin/helm: stdlib@1.22.3",
+            "usr/local/bin/k9s: stdlib@1.22.0",
+            "usr/local/bin/kubectl: stdlib@1.21.8",
+            "usr/local/bin/kustomize: stdlib@1.21.10"
+          ],
+          "cvssv3_score": "",
+          "severity": "CRITICAL",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.11, 1.22.4"
+        },
+        {
+          "cve_id": "CVE-2024-6257",
+          "package": [
+            "usr/local/bin/k9s: github.com/hashicorp/go-getter@v1.7.3"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.7.5"
+        },
+        {
+          "cve_id": "CVE-2024-24557",
+          "package": [
+            "usr/local/bin/helm: github.com/docker/docker@v24.0.7+incompatible",
+            "usr/local/bin/k9s: github.com/docker/docker@v24.0.7+incompatible"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "25.0.2, 24.0.9"
+        },
+        {
+          "cve_id": "CVE-2023-48795",
+          "package": [
+            "usr/local/bin/helm: golang.org/x/crypto@v0.14.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "0.17.0"
+        },
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            "usr/local/bin/helm: golang.org/x/net@v0.17.0",
+            "usr/local/bin/k9s: golang.org/x/net@v0.19.0",
+            "usr/local/bin/k9s: stdlib@1.22.0",
+            "usr/local/bin/kubectl: golang.org/x/net@v0.17.0",
+            "usr/local/bin/kubectl: stdlib@1.21.8"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.9, 1.22.2"
+        },
+        {
+          "cve_id": "CVE-2023-2253",
+          "package": [
+            "usr/local/bin/kubectl: github.com/docker/distribution@v2.8.1+incompatible"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.8.2-beta.1"
+        },
+        {
+          "cve_id": "SUSE-SU-2024:1895-1",
+          "package": [
+            "rancher/shell: glibc@2.31-150300.74.1"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.31-150300.83.1"
+        },
+        {
+          "cve_id": "CVE-2024-0406",
+          "package": [
+            "usr/local/bin/k9s: github.com/mholt/archiver/v3@v3.5.1"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24783",
+          "package": [
+            "usr/local/bin/k9s: stdlib@1.22.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8, 1.22.1"
+        },
+        {
+          "cve_id": "CVE-2023-45289",
+          "package": [
+            "usr/local/bin/k9s: stdlib@1.22.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8, 1.22.1"
+        },
+        {
+          "cve_id": "CVE-2023-45290",
+          "package": [
+            "usr/local/bin/k9s: stdlib@1.22.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8, 1.22.1"
+        },
+        {
+          "cve_id": "CVE-2024-24784",
+          "package": [
+            "usr/local/bin/k9s: stdlib@1.22.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8, 1.22.1"
+        },
+        {
+          "cve_id": "CVE-2024-24785",
+          "package": [
+            "usr/local/bin/k9s: stdlib@1.22.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.8, 1.22.1"
+        },
+        {
+          "cve_id": "GHSA-7ww5-4wqc-m92c",
+          "package": [
+            "usr/local/bin/helm: github.com/containerd/containerd@v1.7.6"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.6.26, 1.7.11"
+        },
+        {
+          "cve_id": "CVE-2024-24789",
+          "package": [
+            "usr/local/bin/helm: stdlib@1.22.3",
+            "usr/local/bin/k9s: stdlib@1.22.0",
+            "usr/local/bin/kubectl: stdlib@1.21.8",
+            "usr/local/bin/kustomize: stdlib@1.21.10"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.11, 1.22.4"
+        },
+        {
+          "cve_id": "CVE-2024-3817",
+          "package": [
+            "usr/local/bin/k9s: github.com/hashicorp/go-getter@v1.7.3"
+          ],
+          "cvssv3_score": "",
+          "severity": "CRITICAL",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.7.4"
+        }
+      ],
+      "num_cves": 20,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "SUSE-SU-2024:2051-1",
+        "CVE-2024-24557",
+        "CVE-2023-45288",
+        "CVE-2024-24790",
+        "CVE-2024-24789"
+      ],
+      "relative_efficiency": 0.39215687
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "GMS-2023-6564",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "GMS-2023-6564",
+            "package": [
+              " pkg:golang/github.com/containerd/containerd@1.7.6"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.6.26, 1.7.11"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-3817",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-3817",
+            "package": [
+              "github.com/hashicorp/go-getter@v1.7.3"
+            ],
+            "cvssv3_score": "7.3",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-3817",
+            "package": [
+              "github.com/hashicorp/go-getter_1.7.3"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[1.7.4]"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-3817",
+            "package": [
+              " pkg:golang/github.com/hashicorp/go-getter@1.7.3"
+            ],
+            "cvssv3_score": "9.800000",
+            "severity": "CRITICAL",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.7.4"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-3817",
+            "package": [
+              "usr/local/bin/k9s: github.com/hashicorp/go-getter@v1.7.3"
+            ],
+            "cvssv3_score": "",
+            "severity": "CRITICAL",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.7.4"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2019-13225",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2019-13225",
+            "package": [
+              "libonig4_0:6.7.0-150000.3.3.1"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-34459",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-34459",
+            "package": [
+              "libxml2-2_0:2.10.3-150500.5.14.1"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-0406",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-0406",
+            "package": [
+              "github.com/mholt/archiver/v3_3.5.1"
+            ],
+            "cvssv3_score": "6.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-0406",
+            "package": [
+              " pkg:golang/github.com/mholt/archiver@3.5.1#v3"
+            ],
+            "cvssv3_score": "6.100000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-0406",
+            "package": [
+              "usr/local/bin/k9s: github.com/mholt/archiver/v3@v3.5.1"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "GHSA-8r3f-844c",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-8r3f-844c",
+            "package": [
+              "mc37-google.golang.org/protobuf"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "1.33.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-v53g-5gjp",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-v53g-5gjp",
+            "package": [
+              "272r-helm.sh/helm/v3"
+            ],
+            "cvssv3_score": "6.4",
+            "severity": "medium",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "3.14.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-rhh4-rh7c",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-rhh4-rh7c",
+            "package": [
+              "7r5v-github.com/mholt/archiver/v3"
+            ],
+            "cvssv3_score": "6.1",
+            "severity": "medium",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-52426",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-52426",
+            "package": [
+              "libexpat1_0:2.4.4-150400.3.17.1"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-hqxw-f8mx",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-hqxw-f8mx",
+            "package": [
+              "cpmw-github.com/docker/distribution"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "2.8.2-beta.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-24783",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24783",
+            "package": [
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24783",
+            "package": [
+              " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0",
+              " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24783",
+            "package": [
+              "usr/local/bin/k9s: stdlib@1.22.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8, 1.22.1"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-24788",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24788",
+            "package": [
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24788",
+            "package": [
+              " pkg:golang/stdlib@1.22.0"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.22.3"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24788",
+            "package": [
+              "usr/local/bin/k9s: stdlib@1.22.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.22.3"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "GHSA-4v7x-pqxf",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-4v7x-pqxf",
+            "package": [
+              "cx7m-golang.org/x/net",
+              "cx7m-golang.org/x/net",
+              "cx7m-golang.org/x/net"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "0.23.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-45290",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-45290",
+            "package": [
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-45290",
+            "package": [
+              " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0",
+              " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.22.1"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-45290",
+            "package": [
+              "usr/local/bin/k9s: stdlib@1.22.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8, 1.22.1"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-33601",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-33601",
+            "package": [
+              "glibc_0:2.31-150300.74.1"
+            ],
+            "cvssv3_score": "6.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[0:2.26-150000.13.73.1], [0:2.31-150300.83.1]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-pxhw-596r",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-pxhw-596r",
+            "package": [
+              "rwq5-k8s.io/kubernetes"
+            ],
+            "cvssv3_score": "2.7",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "1.27.13"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-7ww5-4wqc",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-7ww5-4wqc",
+            "package": [
+              "m92c-github.com/containerd/containerd"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "1.7.11"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-8911",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2020-8911",
+            "package": [
+              " pkg:golang/github.com/aws/aws-sdk-go@1.44.288"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "SUSE-SU-2024:2051-1",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "SUSE-SU-2024:2051-1",
+            "package": [
+              "rancher/shell: libopenssl1_1@1.1.1l-150500.17.28.2",
+              "rancher/shell: libopenssl1_1-hmac@1.1.1l-150500.17.28.2",
+              "rancher/shell: openssl-1_1@1.1.1l-150500.17.28.2"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.1.1l-150500.17.31.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "SUSE-SU-2024:2174-1",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "SUSE-SU-2024:2174-1",
+            "package": [
+              "rancher/shell: wget@1.20.3-150000.3.17.1"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.20.3-150000.3.20.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-3177",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-3177",
+            "package": [
+              "k8s.io/kubernetes_1.26.15"
+            ],
+            "cvssv3_score": "2.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[1.27.13], [1.28.9], [1.29.4]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-24790",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24790",
+            "package": [
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24790",
+            "package": [
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "CRITICAL",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.22.4"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24790",
+            "package": [
+              "usr/local/bin/helm: stdlib@1.22.3",
+              "usr/local/bin/k9s: stdlib@1.22.0",
+              "usr/local/bin/kubectl: stdlib@1.21.8",
+              "usr/local/bin/kustomize: stdlib@1.21.10"
+            ],
+            "cvssv3_score": "",
+            "severity": "CRITICAL",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.11, 1.22.4"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-21626",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-21626",
+            "package": [
+              "github.com/containerd/containerd@v1.7.12"
+            ],
+            "cvssv3_score": "8.6",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-24557",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-24557",
+            "package": [
+              "github.com/docker/docker_24.0.7+incompatible",
+              "github.com/docker/docker_24.0.7+incompatible"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[24.0.9], [25.0.2]"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24557",
+            "package": [
+              " pkg:golang/github.com/docker/docker@24.0.7%2Bincompatible"
+            ],
+            "cvssv3_score": "6.900000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "24.0.9"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24557",
+            "package": [
+              "usr/local/bin/helm: github.com/docker/docker@v24.0.7+incompatible",
+              "usr/local/bin/k9s: github.com/docker/docker@v24.0.7+incompatible"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "25.0.2, 24.0.9"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-5408",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-5408",
+            "package": [
+              "k8s.io/kubernetes_1.26.15"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-4741",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "libopenssl1_1-hmac_0:1.1.1l-150500.17.28.2",
+              "openssl-1_1_0:1.1.1l-150500.17.28.2",
+              "libopenssl1_1_0:1.1.1l-150500.17.28.2"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[0:1.1.1l-150500.17.31.1]"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-4741",
+            "package": [
+              "libopenssl1_1",
+              "libopenssl1_1-hmac",
+              "openssl-1_1"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "high",
+            "type": "rpm",
+            "is_fixed": true,
+            "fixed_version": "0:1.1.1l-150500.17.31.1"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2024-33600",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-33600",
+            "package": [
+              "glibc_0:2.31-150300.74.1"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[0:2.26-150000.13.73.1], [0:2.31-150300.83.1]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-38428",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-38428",
+            "package": [
+              "wget_0:1.20.3-150000.3.17.1"
+            ],
+            "cvssv3_score": "6.2",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[0:1.20.3-150000.3.20.1]"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-38428",
+            "package": [
+              "wget"
+            ],
+            "cvssv3_score": "6.2",
+            "severity": "medium",
+            "type": "rpm",
+            "is_fixed": true,
+            "fixed_version": "0:1.20.3-150000.3.20.1"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2020-8912",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2020-8912",
+            "package": [
+              " pkg:golang/github.com/aws/aws-sdk-go@1.44.288"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-24786",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-24786",
+            "package": [
+              "google.golang.org/protobuf_1.31.0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[1.33.0]"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24786",
+            "package": [
+              " pkg:golang/google.golang.org/protobuf@1.31.0"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.33.0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24786",
+            "package": [
+              "usr/local/bin/helm: google.golang.org/protobuf@v1.31.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.33.0"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "GHSA-45x7-px36",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-45x7-px36",
+            "package": [
+              "x8w8-golang.org/x/crypto"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "0.17.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-jw44-4f3j",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-jw44-4f3j",
+            "package": [
+              "q396-helm.sh/helm/v3"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-24787",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24787",
+            "package": [
+              "stdlib",
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-24784",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24784",
+            "package": [
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24784",
+            "package": [
+              " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0",
+              " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24784",
+            "package": [
+              "usr/local/bin/k9s: stdlib@1.22.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8, 1.22.1"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-33599",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-33599",
+            "package": [
+              "glibc_0:2.31-150300.74.1"
+            ],
+            "cvssv3_score": "7.6",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[0:2.26-150000.13.73.1], [0:2.31-150300.83.1]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2236",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2236",
+            "package": [
+              "libgcrypt20-hmac_0:1.9.4-150500.10.19",
+              "libgcrypt20_0:1.9.4-150500.10.19"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-8552",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2020-8552",
+            "package": [
+              " pkg:golang/k8s.io/apiserver@0.28.4 pkg:golang/k8s.io/apiserver@0.29.3",
+              " pkg:golang/k8s.io/apiserver@0.28.4 pkg:golang/k8s.io/apiserver@0.29.3"
+            ],
+            "cvssv3_score": "4.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.15.10, 1.16.7, 1.17.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-7ww5-4wqc-m92c",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "GHSA-7ww5-4wqc-m92c",
+            "package": [
+              " pkg:golang/github.com/containerd/containerd@1.7.6"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.7.11"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "GHSA-7ww5-4wqc-m92c",
+            "package": [
+              "usr/local/bin/helm: github.com/containerd/containerd@v1.7.6"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.6.26, 1.7.11"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "SUSE-SU-2024:1895-1",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "SUSE-SU-2024:1895-1",
+            "package": [
+              "rancher/shell: glibc@2.31-150300.74.1"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.31-150300.83.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-q64h-39hv",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-q64h-39hv",
+            "package": [
+              "4cf7-github.com/hashicorp/go-getter"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "1.7.4"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-33602",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-33602",
+            "package": [
+              "glibc_0:2.31-150300.74.1"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[0:2.26-150000.13.73.1], [0:2.31-150300.83.1]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-48795",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-48795",
+            "package": [
+              "golang.org/x/crypto_0.14.0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[0.17.0]"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-48795",
+            "package": [
+              " pkg:golang/golang.org/x/crypto@0.14.0"
+            ],
+            "cvssv3_score": "5.900000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "0.17.0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-48795",
+            "package": [
+              "usr/local/bin/helm: golang.org/x/crypto@v0.14.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "0.17.0"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-6257",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-6257",
+            "package": [
+              "github.com/hashicorp/go-getter_1.7.3"
+            ],
+            "cvssv3_score": "8.4",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[1.7.5]"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-6257",
+            "package": [
+              " pkg:golang/github.com/hashicorp/go-getter@1.7.3"
+            ],
+            "cvssv3_score": "8.400000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.7.5"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-6257",
+            "package": [
+              "usr/local/bin/k9s: github.com/hashicorp/go-getter@v1.7.3"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.7.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-2253",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-2253",
+            "package": [
+              "github.com/docker/distribution_2.8.1+incompatible"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[2.8.2-beta.1]"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-2253",
+            "package": [
+              " pkg:golang/github.com/docker/distribution@2.8.1%2Bincompatible"
+            ],
+            "cvssv3_score": "7.500000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.8.2-beta.1"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-2253",
+            "package": [
+              "usr/local/bin/kubectl: github.com/docker/distribution@v2.8.1+incompatible"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.8.2-beta.1"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-24789",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24789",
+            "package": [
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24789",
+            "package": [
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3",
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0 pkg:golang/stdlib@1.22.3"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.11"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24789",
+            "package": [
+              "usr/local/bin/helm: stdlib@1.22.3",
+              "usr/local/bin/k9s: stdlib@1.22.0",
+              "usr/local/bin/kubectl: stdlib@1.21.8",
+              "usr/local/bin/kustomize: stdlib@1.21.10"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.11, 1.22.4"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-45289",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-45289",
+            "package": [
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-45289",
+            "package": [
+              " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0",
+              " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.22.1"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-45289",
+            "package": [
+              "usr/local/bin/k9s: stdlib@1.22.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8, 1.22.1"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-45288",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              "golang.org/x/net/http2@v0.19.0",
+              "golang.org/x/net/http2@v0.17.0",
+              "golang.org/x/net/http2@v0.17.0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              "golang.org/x/net_0.17.0",
+              "golang.org/x/net_0.17.0",
+              "golang.org/x/net_0.19.0",
+              "github.com/golang/go_1.21.8",
+              "github.com/golang/go_1.21.7",
+              "github.com/golang/go_1.22.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[0.23.0]"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              "stdlib",
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              " pkg:golang/golang.org/x/net@0.17.0 pkg:golang/golang.org/x/net@0.19.0 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0",
+              " pkg:golang/golang.org/x/net@0.17.0 pkg:golang/golang.org/x/net@0.19.0 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0",
+              " pkg:golang/golang.org/x/net@0.17.0 pkg:golang/golang.org/x/net@0.19.0 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0",
+              " pkg:golang/golang.org/x/net@0.17.0 pkg:golang/golang.org/x/net@0.19.0 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0",
+              " pkg:golang/golang.org/x/net@0.17.0 pkg:golang/golang.org/x/net@0.19.0 pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.21.8 pkg:golang/stdlib@1.22.0"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.22.2"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              "usr/local/bin/helm: golang.org/x/net@v0.17.0",
+              "usr/local/bin/k9s: golang.org/x/net@v0.19.0",
+              "usr/local/bin/k9s: stdlib@1.22.0",
+              "usr/local/bin/kubectl: golang.org/x/net@v0.17.0",
+              "usr/local/bin/kubectl: stdlib@1.21.8"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.9, 1.22.2"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2013-4235",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2013-4235",
+            "package": [
+              "login_defs_0:4.8.1-150400.10.15.1",
+              "shadow_0:4.8.1-150400.10.15.1"
+            ],
+            "cvssv3_score": "6.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-xw73-rw38",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-xw73-rw38",
+            "package": [
+              "6vjc-github.com/docker/docker",
+              "6vjc-github.com/docker/docker"
+            ],
+            "cvssv3_score": "6.9",
+            "severity": "medium",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "24.0.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-r53h-jv2g",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-r53h-jv2g",
+            "package": [
+              "vpx6-helm.sh/helm/v3"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "3.14.2"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-24785",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24785",
+            "package": [
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24785",
+            "package": [
+              " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0",
+              " pkg:golang/stdlib@1.21.7 pkg:golang/stdlib@1.22.0"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.22.1"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24785",
+            "package": [
+              "usr/local/bin/k9s: stdlib@1.22.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.8, 1.22.1"
+          }
+        }
+      ],
+      "detection_rate": 3
+    }
+  ],
+  "num_unique_cves": 51
+}

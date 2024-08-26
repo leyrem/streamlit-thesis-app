@@ -1,0 +1,609 @@
+{
+  "image_scanned": "linuxserver/lidarr:arm64v8-2.4.0-nightly",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2016-2781",
+          "package": [
+            "coreutils",
+            "coreutils-env",
+            "coreutils-fmt",
+            "coreutils-sha512sum"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-59j7-ghrg",
+          "package": [
+            "fj52-Microsoft.IdentityModel.JsonWebTokens",
+            "fj52-System.IdentityModel.Tokens.Jwt"
+          ],
+          "cvssv3_score": "6.8",
+          "severity": "medium",
+          "type": "dotnet",
+          "is_fixed": true,
+          "fixed_version": "6.34.0"
+        },
+        {
+          "cve_id": "GHSA-98g6-xh36",
+          "package": [
+            "x2p7-Microsoft.Data.SqlClient"
+          ],
+          "cvssv3_score": "8.7",
+          "severity": "high",
+          "type": "dotnet",
+          "is_fixed": true,
+          "fixed_version": "2.1.7"
+        }
+      ],
+      "num_cves": 3,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2016-2781",
+        "GHSA-59j7-ghrg"
+      ],
+      "relative_efficiency": 0.27272728
+    },
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-21319",
+          "package": [
+            " pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0 pkg:nuget/System.IdentityModel.Tokens.Jwt@6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0",
+            " pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0 pkg:nuget/System.IdentityModel.Tokens.Jwt@6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0"
+          ],
+          "cvssv3_score": "6.800000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "6.34.0"
+        },
+        {
+          "cve_id": "CVE-2024-0056",
+          "package": [
+            " pkg:nuget/Microsoft.Data.SqlClient@2.1.2%2B2a61e8301e9d21ada2338a9279cf27653e781757"
+          ],
+          "cvssv3_score": "8.700000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.1.7"
+        }
+      ],
+      "num_cves": 2,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-21319"
+      ],
+      "relative_efficiency": 0.18181819
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-0056",
+          "package": [
+            "microsoft.data.sqlclient_2.1.2"
+          ],
+          "cvssv3_score": "8.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "8.7"
+        },
+        {
+          "cve_id": "CVE-2024-21319",
+          "package": [
+            "microsoft.identitymodel.jsonwebtokens_6.8.0",
+            "system.identitymodel.tokens.jwt_6.8.0"
+          ],
+          "cvssv3_score": "6.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.8"
+        }
+      ],
+      "num_cves": 2,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-21319"
+      ],
+      "relative_efficiency": 0.18181819
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2018-8292",
+          "package": [
+            "app/lidarr/bin/Lidarr.Api.V1.deps.json: System.Net.Http@4.3.0",
+            "app/lidarr/bin/Lidarr.Host.deps.json: System.Net.Http@4.3.0",
+            "app/lidarr/bin/Lidarr.Http.deps.json: System.Net.Http@4.3.0",
+            "app/lidarr/bin/Lidarr.deps.json: System.Net.Http@4.3.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.3.4"
+        },
+        {
+          "cve_id": "CVE-2019-0980",
+          "package": [
+            "app/lidarr/bin/Lidarr.Api.V1.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.Common.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.Core.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.Host.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.Http.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.Mono.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.SignalR.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.deps.json: System.Private.Uri@4.3.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.3.2"
+        },
+        {
+          "cve_id": "CVE-2019-0981",
+          "package": [
+            "app/lidarr/bin/Lidarr.Api.V1.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.Common.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.Core.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.Host.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.Http.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.Mono.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.SignalR.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.deps.json: System.Private.Uri@4.3.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.3.2"
+        },
+        {
+          "cve_id": "CVE-2019-0657",
+          "package": [
+            "app/lidarr/bin/Lidarr.Api.V1.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.Common.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.Core.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.Host.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.Http.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.Mono.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.SignalR.deps.json: System.Private.Uri@4.3.0",
+            "app/lidarr/bin/Lidarr.deps.json: System.Private.Uri@4.3.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.3.2"
+        },
+        {
+          "cve_id": "CVE-2023-29331",
+          "package": [
+            "app/lidarr/bin/Lidarr.Api.V1.deps.json: System.Security.Cryptography.Pkcs@6.0.0",
+            "app/lidarr/bin/Lidarr.Core.deps.json: System.Security.Cryptography.Pkcs@6.0.0",
+            "app/lidarr/bin/Lidarr.Host.deps.json: System.Security.Cryptography.Pkcs@6.0.0",
+            "app/lidarr/bin/Lidarr.Http.deps.json: System.Security.Cryptography.Pkcs@6.0.0",
+            "app/lidarr/bin/Lidarr.SignalR.deps.json: System.Security.Cryptography.Pkcs@6.0.0",
+            "app/lidarr/bin/Lidarr.deps.json: System.Security.Cryptography.Pkcs@6.0.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "7.0.2, 6.0.3"
+        },
+        {
+          "cve_id": "CVE-2019-0820",
+          "package": [
+            "app/lidarr/bin/Lidarr.Api.V1.deps.json: System.Text.RegularExpressions@4.3.0",
+            "app/lidarr/bin/Lidarr.Host.deps.json: System.Text.RegularExpressions@4.3.0",
+            "app/lidarr/bin/Lidarr.Http.deps.json: System.Text.RegularExpressions@4.3.0",
+            "app/lidarr/bin/Lidarr.deps.json: System.Text.RegularExpressions@4.3.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.3.1"
+        },
+        {
+          "cve_id": "CVE-2024-0056",
+          "package": [
+            "app/lidarr/bin/Lidarr.Api.V1.deps.json: Microsoft.Data.SqlClient@2.1.2",
+            "app/lidarr/bin/Lidarr.Core.deps.json: Microsoft.Data.SqlClient@2.1.2",
+            "app/lidarr/bin/Lidarr.Host.deps.json: Microsoft.Data.SqlClient@2.1.2",
+            "app/lidarr/bin/Lidarr.Http.deps.json: Microsoft.Data.SqlClient@2.1.2",
+            "app/lidarr/bin/Lidarr.SignalR.deps.json: Microsoft.Data.SqlClient@2.1.2",
+            "app/lidarr/bin/Lidarr.deps.json: Microsoft.Data.SqlClient@2.1.2"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.1.7, 3.1.5, 4.0.5, 5.1.3"
+        },
+        {
+          "cve_id": "CVE-2024-21319",
+          "package": [
+            "app/lidarr/bin/Lidarr.Api.V1.deps.json: Microsoft.IdentityModel.JsonWebTokens@6.8.0",
+            "app/lidarr/bin/Lidarr.Api.V1.deps.json: System.IdentityModel.Tokens.Jwt@6.8.0",
+            "app/lidarr/bin/Lidarr.Core.deps.json: Microsoft.IdentityModel.JsonWebTokens@6.8.0",
+            "app/lidarr/bin/Lidarr.Core.deps.json: System.IdentityModel.Tokens.Jwt@6.8.0",
+            "app/lidarr/bin/Lidarr.Host.deps.json: Microsoft.IdentityModel.JsonWebTokens@6.8.0",
+            "app/lidarr/bin/Lidarr.Host.deps.json: System.IdentityModel.Tokens.Jwt@6.8.0",
+            "app/lidarr/bin/Lidarr.Http.deps.json: Microsoft.IdentityModel.JsonWebTokens@6.8.0",
+            "app/lidarr/bin/Lidarr.Http.deps.json: System.IdentityModel.Tokens.Jwt@6.8.0",
+            "app/lidarr/bin/Lidarr.SignalR.deps.json: Microsoft.IdentityModel.JsonWebTokens@6.8.0",
+            "app/lidarr/bin/Lidarr.SignalR.deps.json: System.IdentityModel.Tokens.Jwt@6.8.0",
+            "app/lidarr/bin/Lidarr.deps.json: Microsoft.IdentityModel.JsonWebTokens@6.8.0",
+            "app/lidarr/bin/Lidarr.deps.json: System.IdentityModel.Tokens.Jwt@6.8.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "5.7.0, 6.34.0, 7.1.2"
+        }
+      ],
+      "num_cves": 8,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-21319",
+        "CVE-2019-0980",
+        "CVE-2019-0981",
+        "CVE-2019-0657",
+        "CVE-2024-0056",
+        "CVE-2023-29331",
+        "CVE-2018-8292",
+        "CVE-2019-0820"
+      ],
+      "relative_efficiency": 0.72727275
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2016-2781",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-2781",
+            "package": [
+              "coreutils",
+              "coreutils-env",
+              "coreutils-fmt",
+              "coreutils-sha512sum"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-98g6-xh36",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-98g6-xh36",
+            "package": [
+              "x2p7-Microsoft.Data.SqlClient"
+            ],
+            "cvssv3_score": "8.7",
+            "severity": "high",
+            "type": "dotnet",
+            "is_fixed": true,
+            "fixed_version": "2.1.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-21319",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-21319",
+            "package": [
+              " pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0 pkg:nuget/System.IdentityModel.Tokens.Jwt@6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0",
+              " pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0 pkg:nuget/System.IdentityModel.Tokens.Jwt@6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0"
+            ],
+            "cvssv3_score": "6.800000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "6.34.0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-21319",
+            "package": [
+              "microsoft.identitymodel.jsonwebtokens_6.8.0",
+              "system.identitymodel.tokens.jwt_6.8.0"
+            ],
+            "cvssv3_score": "6.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.8"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-21319",
+            "package": [
+              "app/lidarr/bin/Lidarr.Api.V1.deps.json: Microsoft.IdentityModel.JsonWebTokens@6.8.0",
+              "app/lidarr/bin/Lidarr.Api.V1.deps.json: System.IdentityModel.Tokens.Jwt@6.8.0",
+              "app/lidarr/bin/Lidarr.Core.deps.json: Microsoft.IdentityModel.JsonWebTokens@6.8.0",
+              "app/lidarr/bin/Lidarr.Core.deps.json: System.IdentityModel.Tokens.Jwt@6.8.0",
+              "app/lidarr/bin/Lidarr.Host.deps.json: Microsoft.IdentityModel.JsonWebTokens@6.8.0",
+              "app/lidarr/bin/Lidarr.Host.deps.json: System.IdentityModel.Tokens.Jwt@6.8.0",
+              "app/lidarr/bin/Lidarr.Http.deps.json: Microsoft.IdentityModel.JsonWebTokens@6.8.0",
+              "app/lidarr/bin/Lidarr.Http.deps.json: System.IdentityModel.Tokens.Jwt@6.8.0",
+              "app/lidarr/bin/Lidarr.SignalR.deps.json: Microsoft.IdentityModel.JsonWebTokens@6.8.0",
+              "app/lidarr/bin/Lidarr.SignalR.deps.json: System.IdentityModel.Tokens.Jwt@6.8.0",
+              "app/lidarr/bin/Lidarr.deps.json: Microsoft.IdentityModel.JsonWebTokens@6.8.0",
+              "app/lidarr/bin/Lidarr.deps.json: System.IdentityModel.Tokens.Jwt@6.8.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "5.7.0, 6.34.0, 7.1.2"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-0056",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-0056",
+            "package": [
+              " pkg:nuget/Microsoft.Data.SqlClient@2.1.2%2B2a61e8301e9d21ada2338a9279cf27653e781757"
+            ],
+            "cvssv3_score": "8.700000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.1.7"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-0056",
+            "package": [
+              "microsoft.data.sqlclient_2.1.2"
+            ],
+            "cvssv3_score": "8.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "8.7"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-0056",
+            "package": [
+              "app/lidarr/bin/Lidarr.Api.V1.deps.json: Microsoft.Data.SqlClient@2.1.2",
+              "app/lidarr/bin/Lidarr.Core.deps.json: Microsoft.Data.SqlClient@2.1.2",
+              "app/lidarr/bin/Lidarr.Host.deps.json: Microsoft.Data.SqlClient@2.1.2",
+              "app/lidarr/bin/Lidarr.Http.deps.json: Microsoft.Data.SqlClient@2.1.2",
+              "app/lidarr/bin/Lidarr.SignalR.deps.json: Microsoft.Data.SqlClient@2.1.2",
+              "app/lidarr/bin/Lidarr.deps.json: Microsoft.Data.SqlClient@2.1.2"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.1.7, 3.1.5, 4.0.5, 5.1.3"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2018-8292",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2018-8292",
+            "package": [
+              "app/lidarr/bin/Lidarr.Api.V1.deps.json: System.Net.Http@4.3.0",
+              "app/lidarr/bin/Lidarr.Host.deps.json: System.Net.Http@4.3.0",
+              "app/lidarr/bin/Lidarr.Http.deps.json: System.Net.Http@4.3.0",
+              "app/lidarr/bin/Lidarr.deps.json: System.Net.Http@4.3.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.3.4"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-0981",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2019-0981",
+            "package": [
+              "app/lidarr/bin/Lidarr.Api.V1.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.Common.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.Core.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.Host.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.Http.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.Mono.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.SignalR.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.deps.json: System.Private.Uri@4.3.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.3.2"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-0820",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2019-0820",
+            "package": [
+              "app/lidarr/bin/Lidarr.Api.V1.deps.json: System.Text.RegularExpressions@4.3.0",
+              "app/lidarr/bin/Lidarr.Host.deps.json: System.Text.RegularExpressions@4.3.0",
+              "app/lidarr/bin/Lidarr.Http.deps.json: System.Text.RegularExpressions@4.3.0",
+              "app/lidarr/bin/Lidarr.deps.json: System.Text.RegularExpressions@4.3.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.3.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-59j7-ghrg",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-59j7-ghrg",
+            "package": [
+              "fj52-Microsoft.IdentityModel.JsonWebTokens",
+              "fj52-System.IdentityModel.Tokens.Jwt"
+            ],
+            "cvssv3_score": "6.8",
+            "severity": "medium",
+            "type": "dotnet",
+            "is_fixed": true,
+            "fixed_version": "6.34.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-0980",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2019-0980",
+            "package": [
+              "app/lidarr/bin/Lidarr.Api.V1.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.Common.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.Core.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.Host.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.Http.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.Mono.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.SignalR.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.deps.json: System.Private.Uri@4.3.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.3.2"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2019-0657",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2019-0657",
+            "package": [
+              "app/lidarr/bin/Lidarr.Api.V1.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.Common.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.Core.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.Host.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.Http.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.Mono.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.SignalR.deps.json: System.Private.Uri@4.3.0",
+              "app/lidarr/bin/Lidarr.deps.json: System.Private.Uri@4.3.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.3.2"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-29331",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-29331",
+            "package": [
+              "app/lidarr/bin/Lidarr.Api.V1.deps.json: System.Security.Cryptography.Pkcs@6.0.0",
+              "app/lidarr/bin/Lidarr.Core.deps.json: System.Security.Cryptography.Pkcs@6.0.0",
+              "app/lidarr/bin/Lidarr.Host.deps.json: System.Security.Cryptography.Pkcs@6.0.0",
+              "app/lidarr/bin/Lidarr.Http.deps.json: System.Security.Cryptography.Pkcs@6.0.0",
+              "app/lidarr/bin/Lidarr.SignalR.deps.json: System.Security.Cryptography.Pkcs@6.0.0",
+              "app/lidarr/bin/Lidarr.deps.json: System.Security.Cryptography.Pkcs@6.0.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "7.0.2, 6.0.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 11
+}

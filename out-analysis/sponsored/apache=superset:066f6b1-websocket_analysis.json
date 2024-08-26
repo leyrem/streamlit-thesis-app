@@ -1,0 +1,2580 @@
+{
+  "image_scanned": "apache/superset:066f6b1-websocket",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-6237",
+          "package": [
+            " pkg:apk/alpine/openssl@3.1.2-r0?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r4"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            " pkg:apk/alpine/openssl@3.1.2-r0?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r6"
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            " pkg:apk/alpine/openssl@3.1.2-r0?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.5-r0"
+        },
+        {
+          "cve_id": "CVE-2023-42282",
+          "package": [
+            " pkg:npm/ip@2.0.0"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.0.1"
+        },
+        {
+          "cve_id": "CVE-2022-25883",
+          "package": [
+            " pkg:npm/semver@7.3.7"
+          ],
+          "cvssv3_score": "5.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "7.5.2"
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            " pkg:apk/alpine/openssl@3.1.2-r0?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r1"
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r2?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r2?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r2?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r2?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r6"
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            " pkg:apk/alpine/openssl@3.1.2-r0?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r5"
+        },
+        {
+          "cve_id": "CVE-2023-6129",
+          "package": [
+            " pkg:apk/alpine/openssl@3.1.2-r0?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r3"
+        },
+        {
+          "cve_id": "CVE-2024-28863",
+          "package": [
+            " pkg:npm/tar@6.1.11"
+          ],
+          "cvssv3_score": "6.500000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "6.2.1"
+        },
+        {
+          "cve_id": "CVE-2024-29415",
+          "package": [
+            " pkg:npm/ip@2.0.0"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-5363",
+          "package": [
+            " pkg:apk/alpine/openssl@3.1.2-r0?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r0"
+        }
+      ],
+      "num_cves": 15,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.46875
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "busybox/busybox@1.36.1-r2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r6"
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "busybox/busybox@1.36.1-r2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "busybox/busybox@1.36.1-r2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "busybox/busybox@1.36.1-r2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2023-5363",
+          "package": [
+            "openssl/libcrypto3@3.1.2-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r0"
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            "openssl/libcrypto3@3.1.2-r0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r1"
+        },
+        {
+          "cve_id": "CVE-2023-6129",
+          "package": [
+            "openssl/libcrypto3@3.1.2-r0"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r3"
+        },
+        {
+          "cve_id": "CVE-2023-6237",
+          "package": [
+            "openssl/libcrypto3@3.1.2-r0"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r4"
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            "openssl/libcrypto3@3.1.2-r0"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r5"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "openssl/libcrypto3@3.1.2-r0"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r6"
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "openssl/libcrypto3@3.1.2-r0"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto3@3.1.5-r0"
+        },
+        {
+          "cve_id": "CVE-2024-22019",
+          "package": [
+            "node@16.20.2"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-46809",
+          "package": [
+            "node@16.20.2"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-21892",
+          "package": [
+            "node@16.20.2"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24758",
+          "package": [
+            "node@16.20.2"
+          ],
+          "cvssv3_score": "3.9",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-27983",
+          "package": [
+            "node@16.20.2"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-27982",
+          "package": [
+            "node@16.20.2"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-27980",
+          "package": [
+            "node@16.20.2"
+          ],
+          "cvssv3_score": "7.2",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 18,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.5625
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "apache/superset: busybox@1.36.1-r2",
+            "apache/superset: busybox-binsh@1.36.1-r2",
+            "apache/superset: ssl_client@1.36.1-r2"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r6"
+        },
+        {
+          "cve_id": "CVE-2023-6237",
+          "package": [
+            "apache/superset: libcrypto3@3.1.2-r0",
+            "apache/superset: libssl3@3.1.2-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r4"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "apache/superset: libcrypto3@3.1.2-r0",
+            "apache/superset: libssl3@3.1.2-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r6"
+        },
+        {
+          "cve_id": "CVE-2024-28863",
+          "package": [
+            "usr/local/lib/node_modules/npm/node_modules/tar/package.json: tar@6.1.11"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "6.2.1"
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            "apache/superset: libcrypto3@3.1.2-r0",
+            "apache/superset: libssl3@3.1.2-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r5"
+        },
+        {
+          "cve_id": "CVE-2023-42282",
+          "package": [
+            "usr/local/lib/node_modules/npm/node_modules/ip/package.json: ip@2.0.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.0.1, 1.1.9"
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "apache/superset: busybox@1.36.1-r2",
+            "apache/superset: busybox-binsh@1.36.1-r2",
+            "apache/superset: ssl_client@1.36.1-r2"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "apache/superset: busybox@1.36.1-r2",
+            "apache/superset: busybox-binsh@1.36.1-r2",
+            "apache/superset: ssl_client@1.36.1-r2"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "apache/superset: busybox@1.36.1-r2",
+            "apache/superset: busybox-binsh@1.36.1-r2",
+            "apache/superset: ssl_client@1.36.1-r2"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2023-5363",
+          "package": [
+            "apache/superset: libcrypto3@3.1.2-r0",
+            "apache/superset: libssl3@3.1.2-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r0"
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            "apache/superset: libcrypto3@3.1.2-r0",
+            "apache/superset: libssl3@3.1.2-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r1"
+        },
+        {
+          "cve_id": "CVE-2023-6129",
+          "package": [
+            "apache/superset: libcrypto3@3.1.2-r0",
+            "apache/superset: libssl3@3.1.2-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r3"
+        },
+        {
+          "cve_id": "CVE-2022-25883",
+          "package": [
+            "usr/local/lib/node_modules/npm/node_modules/semver/package.json: semver@7.3.7"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "7.5.2, 6.3.1, 5.7.2"
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "apache/superset: libcrypto3@3.1.2-r0",
+            "apache/superset: libssl3@3.1.2-r0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.5-r0"
+        },
+        {
+          "cve_id": "CVE-2024-29415",
+          "package": [
+            "usr/local/lib/node_modules/npm/node_modules/ip/package.json: ip@2.0.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 15,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42363",
+        "CVE-2023-42364",
+        "CVE-2023-42365",
+        "CVE-2023-42366",
+        "CVE-2023-5363",
+        "CVE-2023-5678",
+        "CVE-2023-6129",
+        "CVE-2023-6237",
+        "CVE-2024-0727",
+        "CVE-2024-4603",
+        "CVE-2024-2511"
+      ],
+      "relative_efficiency": 0.46875
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "3.18:ssl_client_1.36.1-r2",
+            "3.18:busybox_1.36.1-r2",
+            "3.18:busybox-binsh_1.36.1-r2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "3.18:busybox_1.36.1-r2",
+            "3.18:ssl_client_1.36.1-r2",
+            "3.18:busybox-binsh_1.36.1-r2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "3.18:busybox_1.36.1-r2",
+            "3.18:ssl_client_1.36.1-r2",
+            "3.18:busybox-binsh_1.36.1-r2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "3.18:busybox-binsh_1.36.1-r2",
+            "3.18:busybox_1.36.1-r2",
+            "3.18:ssl_client_1.36.1-r2"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            "3.18:libcrypto3_3.1.2-r0",
+            "3.18:libssl3_3.1.2-r0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2024-29415",
+          "package": [
+            "ip_2.0.0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2009-3767",
+          "package": [
+            "3.18:libssl3_3.1.2-r0",
+            "3.18:libcrypto3_3.1.2-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "3.18:libcrypto3_3.1.2-r0",
+            "3.18:libssl3_3.1.2-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-28863",
+          "package": [
+            "tar_6.1.11"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2023-6237",
+          "package": [
+            "3.18:libssl3_3.1.2-r0",
+            "3.18:libcrypto3_3.1.2-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2016-7798",
+          "package": [
+            "3.18:libssl3_3.1.2-r0",
+            "3.18:libcrypto3_3.1.2-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2022-25883",
+          "package": [
+            "semver_7.3.7"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-4039",
+          "package": [
+            "3.18:libstdc++_12.2.1_git20220924-r10",
+            "3.18:libgcc_12.2.1_git20220924-r10"
+          ],
+          "cvssv3_score": "4.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.8"
+        },
+        {
+          "cve_id": "CVE-2023-6129",
+          "package": [
+            "3.18:libcrypto3_3.1.2-r0",
+            "3.18:libssl3_3.1.2-r0"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            "3.18:libssl3_3.1.2-r0",
+            "3.18:libcrypto3_3.1.2-r0"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "3.18:libssl3_3.1.2-r0",
+            "3.18:libcrypto3_3.1.2-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-42282",
+          "package": [
+            "ip_2.0.0"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2023-5363",
+          "package": [
+            "3.18:libssl3_3.1.2-r0",
+            "3.18:libcrypto3_3.1.2-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        }
+      ],
+      "num_cves": 18,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42366",
+        "CVE-2023-42365",
+        "CVE-2023-5678",
+        "CVE-2023-42364",
+        "CVE-2023-6129",
+        "CVE-2024-0727",
+        "CVE-2023-4039",
+        "CVE-2023-42363",
+        "CVE-2009-3767",
+        "CVE-2024-4603",
+        "CVE-2023-6237",
+        "CVE-2024-2511",
+        "CVE-2023-5363",
+        "CVE-2016-7798"
+      ],
+      "relative_efficiency": 0.5625
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "GHSA-c2qf-rxjj",
+          "package": [
+            "qqgw-semver"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "npm",
+          "is_fixed": true,
+          "fixed_version": "7.5.2"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2024-22019",
+          "package": [
+            "node"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "libcrypto3",
+            "libssl3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r6"
+        },
+        {
+          "cve_id": "CVE-2024-21890",
+          "package": [
+            "node"
+          ],
+          "cvssv3_score": "5.0",
+          "severity": "medium",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-22025",
+          "package": [
+            "node"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-78xj-cgh5",
+          "package": [
+            "2h22-ip"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "medium",
+          "type": "npm",
+          "is_fixed": true,
+          "fixed_version": "2.0.1"
+        },
+        {
+          "cve_id": "GHSA-f5x3-32g6",
+          "package": [
+            "xq36-tar"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "npm",
+          "is_fixed": true,
+          "fixed_version": "6.2.1"
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r6"
+        },
+        {
+          "cve_id": "CVE-2023-5363",
+          "package": [
+            "libcrypto3",
+            "libssl3"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r0"
+        },
+        {
+          "cve_id": "GHSA-qrv4-fch7",
+          "package": [
+            "39w7-superset-websocket"
+          ],
+          "cvssv3_score": "9.0",
+          "severity": "critical",
+          "type": "npm",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r7"
+        },
+        {
+          "cve_id": "CVE-2024-21892",
+          "package": [
+            "node"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-27983",
+          "package": [
+            "node"
+          ],
+          "cvssv3_score": "8.2",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-0727",
+          "package": [
+            "libcrypto3",
+            "libssl3"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r5"
+        },
+        {
+          "cve_id": "CVE-2024-27982",
+          "package": [
+            "node"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "libcrypto3",
+            "libssl3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.1.5-r0"
+        },
+        {
+          "cve_id": "GHSA-2p57-rm9w",
+          "package": [
+            "gvfp-ip"
+          ],
+          "cvssv3_score": "7.0",
+          "severity": "high",
+          "type": "npm",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-5678",
+          "package": [
+            "libcrypto3",
+            "libssl3"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r1"
+        },
+        {
+          "cve_id": "CVE-2023-6129",
+          "package": [
+            "libcrypto3",
+            "libssl3"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r3"
+        },
+        {
+          "cve_id": "CVE-2023-6237",
+          "package": [
+            "libcrypto3",
+            "libssl3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r4"
+        }
+      ],
+      "num_cves": 22,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42363",
+        "CVE-2023-42364",
+        "CVE-2023-42365",
+        "CVE-2023-42366",
+        "CVE-2023-5363",
+        "CVE-2023-5678",
+        "CVE-2023-6129",
+        "CVE-2023-6237",
+        "CVE-2024-0727",
+        "CVE-2024-2511",
+        "CVE-2024-4603"
+      ],
+      "relative_efficiency": 0.6875
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "GHSA-c2qf-rxjj",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-c2qf-rxjj",
+            "package": [
+              "qqgw-semver"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "npm",
+            "is_fixed": true,
+            "fixed_version": "7.5.2"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-22025",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-22025",
+            "package": [
+              "node"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-78xj-cgh5",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-78xj-cgh5",
+            "package": [
+              "2h22-ip"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "medium",
+            "type": "npm",
+            "is_fixed": true,
+            "fixed_version": "2.0.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2511",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              " pkg:apk/alpine/openssl@3.1.2-r0?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r6"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "openssl/libcrypto3@3.1.2-r0"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r6"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "apache/superset: libcrypto3@3.1.2-r0",
+              "apache/superset: libssl3@3.1.2-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r6"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "3.18:libcrypto3_3.1.2-r0",
+              "3.18:libssl3_3.1.2-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "libcrypto3",
+              "libssl3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r6"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2023-42363",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r2?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "busybox/busybox@1.36.1-r2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "apache/superset: busybox@1.36.1-r2",
+              "apache/superset: busybox-binsh@1.36.1-r2",
+              "apache/superset: ssl_client@1.36.1-r2"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "3.18:ssl_client_1.36.1-r2",
+              "3.18:busybox_1.36.1-r2",
+              "3.18:busybox-binsh_1.36.1-r2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2024-0727",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              " pkg:apk/alpine/openssl@3.1.2-r0?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r5"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              "openssl/libcrypto3@3.1.2-r0"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r5"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              "apache/superset: libcrypto3@3.1.2-r0",
+              "apache/superset: libssl3@3.1.2-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r5"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              "3.18:libssl3_3.1.2-r0",
+              "3.18:libcrypto3_3.1.2-r0"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-0727",
+            "package": [
+              "libcrypto3",
+              "libssl3"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r5"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2024-21892",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-21892",
+            "package": [
+              "node@16.20.2"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-21892",
+            "package": [
+              "node"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2024-27983",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-27983",
+            "package": [
+              "node@16.20.2"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-27983",
+            "package": [
+              "node"
+            ],
+            "cvssv3_score": "8.2",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "GHSA-2p57-rm9w",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-2p57-rm9w",
+            "package": [
+              "gvfp-ip"
+            ],
+            "cvssv3_score": "7.0",
+            "severity": "high",
+            "type": "npm",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-5678",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              " pkg:apk/alpine/openssl@3.1.2-r0?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r1"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              "openssl/libcrypto3@3.1.2-r0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r1"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              "apache/superset: libcrypto3@3.1.2-r0",
+              "apache/superset: libssl3@3.1.2-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r1"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              "3.18:libcrypto3_3.1.2-r0",
+              "3.18:libssl3_3.1.2-r0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-5678",
+            "package": [
+              "libcrypto3",
+              "libssl3"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r1"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2023-6129",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-6129",
+            "package": [
+              " pkg:apk/alpine/openssl@3.1.2-r0?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r3"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-6129",
+            "package": [
+              "openssl/libcrypto3@3.1.2-r0"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r3"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-6129",
+            "package": [
+              "apache/superset: libcrypto3@3.1.2-r0",
+              "apache/superset: libssl3@3.1.2-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r3"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-6129",
+            "package": [
+              "3.18:libcrypto3_3.1.2-r0",
+              "3.18:libssl3_3.1.2-r0"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-6129",
+            "package": [
+              "libcrypto3",
+              "libssl3"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r3"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2023-5363",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-5363",
+            "package": [
+              " pkg:apk/alpine/openssl@3.1.2-r0?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-5363",
+            "package": [
+              "openssl/libcrypto3@3.1.2-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-5363",
+            "package": [
+              "apache/superset: libcrypto3@3.1.2-r0",
+              "apache/superset: libssl3@3.1.2-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-5363",
+            "package": [
+              "3.18:libssl3_3.1.2-r0",
+              "3.18:libcrypto3_3.1.2-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-5363",
+            "package": [
+              "libcrypto3",
+              "libssl3"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r0"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2024-27982",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-27982",
+            "package": [
+              "node@16.20.2"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-27982",
+            "package": [
+              "node"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2024-21890",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-21890",
+            "package": [
+              "node"
+            ],
+            "cvssv3_score": "5.0",
+            "severity": "medium",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-6237",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-6237",
+            "package": [
+              " pkg:apk/alpine/openssl@3.1.2-r0?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r4"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-6237",
+            "package": [
+              "openssl/libcrypto3@3.1.2-r0"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r4"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-6237",
+            "package": [
+              "apache/superset: libcrypto3@3.1.2-r0",
+              "apache/superset: libssl3@3.1.2-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r4"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-6237",
+            "package": [
+              "3.18:libssl3_3.1.2-r0",
+              "3.18:libcrypto3_3.1.2-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-6237",
+            "package": [
+              "libcrypto3",
+              "libssl3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r4"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2023-42364",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r2?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "busybox/busybox@1.36.1-r2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "apache/superset: busybox@1.36.1-r2",
+              "apache/superset: busybox-binsh@1.36.1-r2",
+              "apache/superset: ssl_client@1.36.1-r2"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "3.18:busybox-binsh_1.36.1-r2",
+              "3.18:busybox_1.36.1-r2",
+              "3.18:ssl_client_1.36.1-r2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2024-22019",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-22019",
+            "package": [
+              "node@16.20.2"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-22019",
+            "package": [
+              "node"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-42365",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r2?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "busybox/busybox@1.36.1-r2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "apache/superset: busybox@1.36.1-r2",
+              "apache/superset: busybox-binsh@1.36.1-r2",
+              "apache/superset: ssl_client@1.36.1-r2"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "3.18:busybox_1.36.1-r2",
+              "3.18:ssl_client_1.36.1-r2",
+              "3.18:busybox-binsh_1.36.1-r2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r7"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2024-28863",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-28863",
+            "package": [
+              " pkg:npm/tar@6.1.11"
+            ],
+            "cvssv3_score": "6.500000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "6.2.1"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-28863",
+            "package": [
+              "usr/local/lib/node_modules/npm/node_modules/tar/package.json: tar@6.1.11"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "6.2.1"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-28863",
+            "package": [
+              "tar_6.1.11"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2016-7798",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2016-7798",
+            "package": [
+              "3.18:libssl3_3.1.2-r0",
+              "3.18:libcrypto3_3.1.2-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-qrv4-fch7",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-qrv4-fch7",
+            "package": [
+              "39w7-superset-websocket"
+            ],
+            "cvssv3_score": "9.0",
+            "severity": "critical",
+            "type": "npm",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42282",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42282",
+            "package": [
+              " pkg:npm/ip@2.0.0"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.0.1"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42282",
+            "package": [
+              "usr/local/lib/node_modules/npm/node_modules/ip/package.json: ip@2.0.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.0.1, 1.1.9"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42282",
+            "package": [
+              "ip_2.0.0"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-24758",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-24758",
+            "package": [
+              "node@16.20.2"
+            ],
+            "cvssv3_score": "3.9",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-4603",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              " pkg:apk/alpine/openssl@3.1.2-r0?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.5-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "openssl/libcrypto3@3.1.2-r0"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto3@3.1.5-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "apache/superset: libcrypto3@3.1.2-r0",
+              "apache/superset: libssl3@3.1.2-r0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.5-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "3.18:libssl3_3.1.2-r0",
+              "3.18:libcrypto3_3.1.2-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "libcrypto3",
+              "libssl3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.1.5-r0"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2022-25883",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-25883",
+            "package": [
+              " pkg:npm/semver@7.3.7"
+            ],
+            "cvssv3_score": "5.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "7.5.2"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-25883",
+            "package": [
+              "usr/local/lib/node_modules/npm/node_modules/semver/package.json: semver@7.3.7"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "7.5.2, 6.3.1, 5.7.2"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-25883",
+            "package": [
+              "semver_7.3.7"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2009-3767",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2009-3767",
+            "package": [
+              "3.18:libssl3_3.1.2-r0",
+              "3.18:libcrypto3_3.1.2-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-f5x3-32g6",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-f5x3-32g6",
+            "package": [
+              "xq36-tar"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "npm",
+            "is_fixed": true,
+            "fixed_version": "6.2.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-4039",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-4039",
+            "package": [
+              "3.18:libstdc++_12.2.1_git20220924-r10",
+              "3.18:libgcc_12.2.1_git20220924-r10"
+            ],
+            "cvssv3_score": "4.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42366",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r2?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r6"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "busybox/busybox@1.36.1-r2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r6"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "apache/superset: busybox@1.36.1-r2",
+              "apache/superset: busybox-binsh@1.36.1-r2",
+              "apache/superset: ssl_client@1.36.1-r2"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r6"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "3.18:busybox_1.36.1-r2",
+              "3.18:ssl_client_1.36.1-r2",
+              "3.18:busybox-binsh_1.36.1-r2"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r6"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2024-29415",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-29415",
+            "package": [
+              " pkg:npm/ip@2.0.0"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-29415",
+            "package": [
+              "usr/local/lib/node_modules/npm/node_modules/ip/package.json: ip@2.0.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-29415",
+            "package": [
+              "ip_2.0.0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-46809",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-46809",
+            "package": [
+              "node@16.20.2"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-27980",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-27980",
+            "package": [
+              "node@16.20.2"
+            ],
+            "cvssv3_score": "7.2",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 32
+}

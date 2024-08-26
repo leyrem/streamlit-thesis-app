@@ -1,0 +1,1176 @@
+{
+  "image_scanned": "amazon/aws-otel-collector:v0.37.2",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-35255",
+          "package": [
+            "github.com/Azure/azure-sdk-for-go/sdk/azidentity@v1.4.0"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            "golang.org/x/net/http2@v0.20.0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-36129",
+          "package": [
+            "go.opentelemetry.io/collector/config/configgrpc@v0.92.0",
+            "go.opentelemetry.io/collector/config/confighttp@v0.92.0"
+          ],
+          "cvssv3_score": "8.2",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 3,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-36129"
+      ],
+      "relative_efficiency": 0.15789473
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24790",
+          "package": [
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-4v7x-pqxf",
+          "package": [
+            "cx7m-golang.org/x/net"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "0.23.0"
+        },
+        {
+          "cve_id": "GHSA-m5vv-6r4h",
+          "package": [
+            "3vj9-github.com/Azure/azure-sdk-for-go/sdk/azidentity"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "1.6.0"
+        },
+        {
+          "cve_id": "GHSA-xw73-rw38",
+          "package": [
+            "6vjc-github.com/docker/docker"
+          ],
+          "cvssv3_score": "6.9",
+          "severity": "medium",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "24.0.9"
+        },
+        {
+          "cve_id": "CVE-2024-24787",
+          "package": [
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24788",
+          "package": [
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24789",
+          "package": [
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-87m9-rv8p",
+          "package": [
+            "rgmg-github.com/mostynb/go-grpc-compression"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "1.2.3"
+        },
+        {
+          "cve_id": "GHSA-c74f-6mfw",
+          "package": [
+            "mm4v-go.opentelemetry.io/collector/config/configgrpc",
+            "mm4v-go.opentelemetry.io/collector/config/confighttp"
+          ],
+          "cvssv3_score": "8.2",
+          "severity": "high",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "0.102.1"
+        }
+      ],
+      "num_cves": 10,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-45288",
+        "CVE-2024-24787",
+        "CVE-2024-24788",
+        "CVE-2024-24789",
+        "CVE-2024-24790",
+        "GHSA-c74f-6mfw"
+      ],
+      "relative_efficiency": 0.5263158
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-24557",
+          "package": [
+            "github.com/docker/docker_24.0.7+incompatible"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.8"
+        },
+        {
+          "cve_id": "CVE-2024-36129",
+          "package": [
+            "github.com/mostynb/go-grpc-compression_1.2.2",
+            "go.opentelemetry.io/collector/config/confighttp_0.92.0",
+            "go.opentelemetry.io/collector/config/configgrpc_0.92.0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            "github.com/golang/go_1.22.1",
+            "github.com/golang/go_1.22.1",
+            "golang.org/x/net_0.20.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2024-35255",
+          "package": [
+            "github.com/Azure/azure-sdk-for-go/sdk/azidentity_1.4.0"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        }
+      ],
+      "num_cves": 4,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-36129",
+        "CVE-2023-45288"
+      ],
+      "relative_efficiency": 0.21052632
+    },
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-45286",
+          "package": [
+            " pkg:golang/github.com/go-resty/resty@2.7.0#v2"
+          ],
+          "cvssv3_score": "5.900000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-c5pj-mqfh-rvc3",
+          "package": [
+            " pkg:golang/github.com/opencontainers/runc@1.1.12"
+          ],
+          "cvssv3_score": "7.200000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.2.0-rc.1"
+        },
+        {
+          "cve_id": "GHSA-87m9-rv8p-rgmg",
+          "package": [
+            " pkg:golang/github.com/mostynb/go-grpc-compression@1.2.2"
+          ],
+          "cvssv3_score": "7.500000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.2.3"
+        },
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            " pkg:golang/golang.org/x/net@0.20.0 pkg:golang/stdlib@1.22.1",
+            " pkg:golang/golang.org/x/net@0.20.0 pkg:golang/stdlib@1.22.1"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.22.2"
+        },
+        {
+          "cve_id": "CVE-2024-24788",
+          "package": [
+            " pkg:golang/stdlib@1.22.1"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.22.3"
+        },
+        {
+          "cve_id": "CVE-2024-24790",
+          "package": [
+            " pkg:golang/stdlib@1.22.1"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.22.4"
+        },
+        {
+          "cve_id": "CVE-2024-35255",
+          "package": [
+            " pkg:golang/github.com/azure/azure-sdk-for-go@1.4.0#sdk/azidentity"
+          ],
+          "cvssv3_score": "5.500000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.6.0"
+        },
+        {
+          "cve_id": "CVE-2020-8911",
+          "package": [
+            " pkg:golang/github.com/aws/aws-sdk-go@1.49.17"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-36129",
+          "package": [
+            " pkg:golang/go.opentelemetry.io/collector/config@0.92.0#configgrpc pkg:golang/go.opentelemetry.io/collector/config@0.92.0#confighttp",
+            " pkg:golang/go.opentelemetry.io/collector/config@0.92.0#configgrpc pkg:golang/go.opentelemetry.io/collector/config@0.92.0#confighttp"
+          ],
+          "cvssv3_score": "8.200000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "0.102.1"
+        },
+        {
+          "cve_id": "CVE-2024-24789",
+          "package": [
+            " pkg:golang/stdlib@1.22.1"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.22.4"
+        },
+        {
+          "cve_id": "CVE-2020-8912",
+          "package": [
+            " pkg:golang/github.com/aws/aws-sdk-go@1.49.17"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24557",
+          "package": [
+            " pkg:golang/github.com/docker/docker@24.0.7%2Bincompatible"
+          ],
+          "cvssv3_score": "6.900000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "24.0.9"
+        },
+        {
+          "cve_id": "CVE-2024-3154",
+          "package": [
+            " pkg:golang/github.com/opencontainers/runc@1.1.12"
+          ],
+          "cvssv3_score": "7.200000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.2.0-rc.1"
+        }
+      ],
+      "num_cves": 13,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-45288",
+        "CVE-2024-36129"
+      ],
+      "relative_efficiency": 0.68421054
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-24788",
+          "package": [
+            "awscollector: stdlib@1.22.1",
+            "healthcheck: stdlib@1.22.1"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.22.3"
+        },
+        {
+          "cve_id": "CVE-2024-24789",
+          "package": [
+            "awscollector: stdlib@1.22.1",
+            "healthcheck: stdlib@1.22.1"
+          ],
+          "cvssv3_score": "",
+          "severity": "UNKNOWN",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.11, 1.22.4"
+        },
+        {
+          "cve_id": "CVE-2024-24790",
+          "package": [
+            "awscollector: stdlib@1.22.1",
+            "healthcheck: stdlib@1.22.1"
+          ],
+          "cvssv3_score": "",
+          "severity": "UNKNOWN",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.11, 1.22.4"
+        },
+        {
+          "cve_id": "CVE-2024-35255",
+          "package": [
+            "awscollector: github.com/Azure/azure-sdk-for-go/sdk/azidentity@v1.4.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.6.0"
+        },
+        {
+          "cve_id": "CVE-2024-24557",
+          "package": [
+            "awscollector: github.com/docker/docker@v24.0.7+incompatible"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "25.0.2, 24.0.9"
+        },
+        {
+          "cve_id": "GHSA-87m9-rv8p-rgmg",
+          "package": [
+            "awscollector: github.com/mostynb/go-grpc-compression@v1.2.2"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.2.3"
+        },
+        {
+          "cve_id": "CVE-2024-36129",
+          "package": [
+            "awscollector: go.opentelemetry.io/collector/config/configgrpc@v0.92.0",
+            "awscollector: go.opentelemetry.io/collector/config/confighttp@v0.92.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "0.102.0"
+        },
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            "awscollector: golang.org/x/net@v0.20.0",
+            "awscollector: stdlib@1.22.1",
+            "healthcheck: stdlib@1.22.1"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.9, 1.22.2"
+        }
+      ],
+      "num_cves": 8,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-36129",
+        "CVE-2023-45288",
+        "CVE-2024-24788",
+        "CVE-2024-24789",
+        "CVE-2024-24790"
+      ],
+      "relative_efficiency": 0.42105263
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2024-24790",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24790",
+            "package": [
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24790",
+            "package": [
+              " pkg:golang/stdlib@1.22.1"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.22.4"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24790",
+            "package": [
+              "awscollector: stdlib@1.22.1",
+              "healthcheck: stdlib@1.22.1"
+            ],
+            "cvssv3_score": "",
+            "severity": "UNKNOWN",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.11, 1.22.4"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "GHSA-m5vv-6r4h",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-m5vv-6r4h",
+            "package": [
+              "3vj9-github.com/Azure/azure-sdk-for-go/sdk/azidentity"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "1.6.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-87m9-rv8p-rgmg",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "GHSA-87m9-rv8p-rgmg",
+            "package": [
+              " pkg:golang/github.com/mostynb/go-grpc-compression@1.2.2"
+            ],
+            "cvssv3_score": "7.500000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.2.3"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "GHSA-87m9-rv8p-rgmg",
+            "package": [
+              "awscollector: github.com/mostynb/go-grpc-compression@v1.2.2"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.2.3"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2024-3154",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-3154",
+            "package": [
+              " pkg:golang/github.com/opencontainers/runc@1.1.12"
+            ],
+            "cvssv3_score": "7.200000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.2.0-rc.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-c74f-6mfw",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-c74f-6mfw",
+            "package": [
+              "mm4v-go.opentelemetry.io/collector/config/configgrpc",
+              "mm4v-go.opentelemetry.io/collector/config/confighttp"
+            ],
+            "cvssv3_score": "8.2",
+            "severity": "high",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "0.102.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-45286",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-45286",
+            "package": [
+              " pkg:golang/github.com/go-resty/resty@2.7.0#v2"
+            ],
+            "cvssv3_score": "5.900000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-c5pj-mqfh-rvc3",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "GHSA-c5pj-mqfh-rvc3",
+            "package": [
+              " pkg:golang/github.com/opencontainers/runc@1.1.12"
+            ],
+            "cvssv3_score": "7.200000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.2.0-rc.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-8912",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2020-8912",
+            "package": [
+              " pkg:golang/github.com/aws/aws-sdk-go@1.49.17"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-4v7x-pqxf",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-4v7x-pqxf",
+            "package": [
+              "cx7m-golang.org/x/net"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "0.23.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-xw73-rw38",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-xw73-rw38",
+            "package": [
+              "6vjc-github.com/docker/docker"
+            ],
+            "cvssv3_score": "6.9",
+            "severity": "medium",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "24.0.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-24787",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24787",
+            "package": [
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-24789",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24789",
+            "package": [
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24789",
+            "package": [
+              " pkg:golang/stdlib@1.22.1"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.22.4"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24789",
+            "package": [
+              "awscollector: stdlib@1.22.1",
+              "healthcheck: stdlib@1.22.1"
+            ],
+            "cvssv3_score": "",
+            "severity": "UNKNOWN",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.11, 1.22.4"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-45288",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              "golang.org/x/net/http2@v0.20.0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              "github.com/golang/go_1.22.1",
+              "github.com/golang/go_1.22.1",
+              "golang.org/x/net_0.20.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              " pkg:golang/golang.org/x/net@0.20.0 pkg:golang/stdlib@1.22.1",
+              " pkg:golang/golang.org/x/net@0.20.0 pkg:golang/stdlib@1.22.1"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.22.2"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              "awscollector: golang.org/x/net@v0.20.0",
+              "awscollector: stdlib@1.22.1",
+              "healthcheck: stdlib@1.22.1"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.9, 1.22.2"
+          }
+        }
+      ],
+      "detection_rate": 5
+    },
+    {
+      "cve_id": "CVE-2024-24788",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24788",
+            "package": [
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24788",
+            "package": [
+              " pkg:golang/stdlib@1.22.1"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.22.3"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24788",
+            "package": [
+              "awscollector: stdlib@1.22.1",
+              "healthcheck: stdlib@1.22.1"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.22.3"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-24557",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-24557",
+            "package": [
+              "github.com/docker/docker_24.0.7+incompatible"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.8"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24557",
+            "package": [
+              " pkg:golang/github.com/docker/docker@24.0.7%2Bincompatible"
+            ],
+            "cvssv3_score": "6.900000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "24.0.9"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24557",
+            "package": [
+              "awscollector: github.com/docker/docker@v24.0.7+incompatible"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "25.0.2, 24.0.9"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-35255",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-35255",
+            "package": [
+              "github.com/Azure/azure-sdk-for-go/sdk/azidentity@v1.4.0"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-35255",
+            "package": [
+              "github.com/Azure/azure-sdk-for-go/sdk/azidentity_1.4.0"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-35255",
+            "package": [
+              " pkg:golang/github.com/azure/azure-sdk-for-go@1.4.0#sdk/azidentity"
+            ],
+            "cvssv3_score": "5.500000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.6.0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-35255",
+            "package": [
+              "awscollector: github.com/Azure/azure-sdk-for-go/sdk/azidentity@v1.4.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.6.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-36129",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-36129",
+            "package": [
+              "go.opentelemetry.io/collector/config/configgrpc@v0.92.0",
+              "go.opentelemetry.io/collector/config/confighttp@v0.92.0"
+            ],
+            "cvssv3_score": "8.2",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-36129",
+            "package": [
+              "github.com/mostynb/go-grpc-compression_1.2.2",
+              "go.opentelemetry.io/collector/config/confighttp_0.92.0",
+              "go.opentelemetry.io/collector/config/configgrpc_0.92.0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-36129",
+            "package": [
+              " pkg:golang/go.opentelemetry.io/collector/config@0.92.0#configgrpc pkg:golang/go.opentelemetry.io/collector/config@0.92.0#confighttp",
+              " pkg:golang/go.opentelemetry.io/collector/config@0.92.0#configgrpc pkg:golang/go.opentelemetry.io/collector/config@0.92.0#confighttp"
+            ],
+            "cvssv3_score": "8.200000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "0.102.1"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-36129",
+            "package": [
+              "awscollector: go.opentelemetry.io/collector/config/configgrpc@v0.92.0",
+              "awscollector: go.opentelemetry.io/collector/config/confighttp@v0.92.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "0.102.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "GHSA-87m9-rv8p",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-87m9-rv8p",
+            "package": [
+              "rgmg-github.com/mostynb/go-grpc-compression"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "1.2.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-8911",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2020-8911",
+            "package": [
+              " pkg:golang/github.com/aws/aws-sdk-go@1.49.17"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 19
+}

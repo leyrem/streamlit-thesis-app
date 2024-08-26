@@ -1,0 +1,126 @@
+{
+
+    "image_name": "linuxserver/deluge:2.1.1",
+    "category": "sponsored",
+    "unique_cves": [
+        {
+            "cve_id": "CVE-2021-40839",
+            "detected_scanners": "DockerScout, JFrog, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-42364",
+            "detected_scanners": "Trivy, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-42365",
+            "detected_scanners": "Trivy, Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-46137",
+            "detected_scanners": "DockerScout, JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2015-7313",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-6277",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-42366",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2018-20225",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "pip is not installed",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "GHSA-xc8x-vp79",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-52356",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "GHSA-gh8j-2pgf",
+            "detected_scanners": "Grype",
+            "outcome": "Undetermined",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "XRAY-247686_",
+            "detected_scanners": "JFrog",
+            "outcome": "Undetermined",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-4030",
+            "detected_scanners": "Grype",
+            "outcome": "False Positive",
+            "reason": "only affects windows",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2023-6228",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2016-2781",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-48795",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "pkg not found",
+            "reason_keyword": "pkg-not-found"
+        },
+        {
+            "cve_id": "CVE-2023-42363",
+            "detected_scanners": "Grype",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        }
+    ]
+}

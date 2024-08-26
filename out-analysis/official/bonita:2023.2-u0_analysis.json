@@ -1,0 +1,3960 @@
+{
+  "image_scanned": "bonita:2023.2-u0",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-0853",
+          "package": [
+            " pkg:apk/alpine/curl@8.5.0-r0?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            " pkg:apk/alpine/openssl@3.1.4-r5?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.5-r0"
+        },
+        {
+          "cve_id": "CVE-2023-39017",
+          "package": [
+            " pkg:maven/org.quartz-scheduler/quartz@2.3.2"
+          ],
+          "cvssv3_score": "9.800000",
+          "severity": "CRITICAL",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-1597",
+          "package": [
+            " pkg:maven/org.postgresql/postgresql@42.4.3"
+          ],
+          "cvssv3_score": "10.000000",
+          "severity": "CRITICAL",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "42.4.4"
+        },
+        {
+          "cve_id": "CVE-2023-36479",
+          "package": [
+            " pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+            " pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+          ],
+          "cvssv3_score": "4.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "9.4.52.v20230823, 10.0.16, 11.0.16, 12.0.1"
+        },
+        {
+          "cve_id": "CVE-2023-41900",
+          "package": [
+            " pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+            " pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+            " pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+          ],
+          "cvssv3_score": "4.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "9.4.52.v20230823, 10.0.16, 11.0.16"
+        },
+        {
+          "cve_id": "CVE-2023-45648",
+          "package": [
+            " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81"
+          ],
+          "cvssv3_score": "5.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "8.5.94, 9.0.82, 10.1.15"
+        },
+        {
+          "cve_id": "CVE-2023-6378",
+          "package": [
+            " pkg:maven/ch.qos.logback/logback-classic@1.2.12 pkg:maven/ch.qos.logback/logback-core@1.2.12",
+            " pkg:maven/ch.qos.logback/logback-classic@1.2.12 pkg:maven/ch.qos.logback/logback-core@1.2.12"
+          ],
+          "cvssv3_score": "7.100000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.3.12"
+        },
+        {
+          "cve_id": "CVE-2023-6481",
+          "package": [
+            " pkg:maven/ch.qos.logback/logback-core@1.2.12"
+          ],
+          "cvssv3_score": "7.100000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.2.13"
+        },
+        {
+          "cve_id": "GHSA-xfg6-62px-cxc2",
+          "package": [
+            " pkg:maven/org.postgresql/postgresql@42.4.3"
+          ],
+          "cvssv3_score": "10.000000",
+          "severity": "CRITICAL",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "42.7.2, 42.6.1, 42.5.5, 42.4.4, 42.3.9, 42.2.8"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            " pkg:apk/alpine/openssl@3.1.4-r5?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r6"
+        },
+        {
+          "cve_id": "CVE-2023-26048",
+          "package": [
+            " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+            " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+            " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+            " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+          ],
+          "cvssv3_score": "5.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "9.4.51.v20230217, 10.0.14, 11.0.14"
+        },
+        {
+          "cve_id": "CVE-2023-34055",
+          "package": [
+            " pkg:maven/org.springframework.boot/spring-boot@2.7.12"
+          ],
+          "cvssv3_score": "6.500000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.7.18"
+        },
+        {
+          "cve_id": "CVE-2024-22262",
+          "package": [
+            " pkg:maven/org.springframework/spring-web@5.3.27"
+          ],
+          "cvssv3_score": "8.100000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "5.3.34"
+        },
+        {
+          "cve_id": "CVE-2021-42392",
+          "package": [
+            " pkg:maven/com.h2database/h2@1.4.199"
+          ],
+          "cvssv3_score": "9.800000",
+          "severity": "CRITICAL",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.0.206"
+        },
+        {
+          "cve_id": "GMS-2022-7",
+          "package": [
+            " pkg:maven/com.h2database/h2@1.4.199"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.0.206"
+        },
+        {
+          "cve_id": "CVE-2023-26049",
+          "package": [
+            " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+            " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+            " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+            " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+          ],
+          "cvssv3_score": "2.400000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "9.4.51.v20230217"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            " pkg:apk/alpine/busybox@1.36.1-r5?os_name=alpine\u0026os_version=3.18"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r6"
+        },
+        {
+          "cve_id": "CVE-2024-22243",
+          "package": [
+            " pkg:maven/org.springframework/spring-web@5.3.27"
+          ],
+          "cvssv3_score": "8.100000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "5.3.32"
+        },
+        {
+          "cve_id": "CVE-2022-23221",
+          "package": [
+            " pkg:maven/com.h2database/h2@1.4.199"
+          ],
+          "cvssv3_score": "9.800000",
+          "severity": "CRITICAL",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.1.210"
+        },
+        {
+          "cve_id": "CVE-2024-24549",
+          "package": [
+            " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81 pkg:maven/org.apache.tomcat/tomcat-coyote@9.0.81",
+            " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81 pkg:maven/org.apache.tomcat/tomcat-coyote@9.0.81"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "9.0.86"
+        },
+        {
+          "cve_id": "CVE-2023-46589",
+          "package": [
+            " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81 pkg:maven/org.apache.tomcat/tomcat-coyote@9.0.81 pkg:maven/org.apache.tomcat/tomcat-util@9.0.81",
+            " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81 pkg:maven/org.apache.tomcat/tomcat-coyote@9.0.81 pkg:maven/org.apache.tomcat/tomcat-util@9.0.81",
+            " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81 pkg:maven/org.apache.tomcat/tomcat-coyote@9.0.81 pkg:maven/org.apache.tomcat/tomcat-util@9.0.81"
+          ],
+          "cvssv3_score": "7.500000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "8.5.96, 9.0.83, 10.1.16"
+        },
+        {
+          "cve_id": "CVE-2021-23463",
+          "package": [
+            " pkg:maven/com.h2database/h2@1.4.199"
+          ],
+          "cvssv3_score": "8.100000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.0.202"
+        },
+        {
+          "cve_id": "CVE-2024-22259",
+          "package": [
+            " pkg:maven/org.springframework/spring-web@5.3.27"
+          ],
+          "cvssv3_score": "8.100000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "5.3.33"
+        },
+        {
+          "cve_id": "CVE-2016-1000027",
+          "package": [
+            " pkg:maven/org.springframework/spring-web@5.3.27"
+          ],
+          "cvssv3_score": "9.800000",
+          "severity": "CRITICAL",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "6.0.0"
+        },
+        {
+          "cve_id": "CVE-2024-23672",
+          "package": [
+            " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81 pkg:maven/org.apache.tomcat/tomcat-websocket@9.0.81",
+            " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81 pkg:maven/org.apache.tomcat/tomcat-websocket@9.0.81"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "11.0.0-M17, 10.1.19, 9.0.86, 8.5.99"
+        },
+        {
+          "cve_id": "CVE-2023-40167",
+          "package": [
+            " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+            " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+            " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+          ],
+          "cvssv3_score": "5.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "9.4.52.v20230823, 10.0.16, 11.0.16, 12.0.1"
+        },
+        {
+          "cve_id": "CVE-2023-42795",
+          "package": [
+            " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81"
+          ],
+          "cvssv3_score": "5.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "8.5.94, 9.0.82, 10.1.15"
+        },
+        {
+          "cve_id": "CVE-2022-45868",
+          "package": [
+            " pkg:maven/com.h2database/h2@1.4.199"
+          ],
+          "cvssv3_score": "7.800000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.2.220"
+        },
+        {
+          "cve_id": "CVE-2022-1471",
+          "package": [
+            " pkg:maven/org.yaml/snakeyaml@1.32"
+          ],
+          "cvssv3_score": "8.300000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.0"
+        }
+      ],
+      "num_cves": 30,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-23672",
+        "CVE-2024-24549",
+        "CVE-2023-36479",
+        "CVE-2023-41900",
+        "CVE-2023-26048",
+        "CVE-2023-26049",
+        "CVE-2023-40167",
+        "CVE-2023-6378",
+        "CVE-2023-46589"
+      ],
+      "relative_efficiency": 0.4477612
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "openssl/libcrypto3@3.1.4-r5"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto3@3.1.5-r0"
+        },
+        {
+          "cve_id": "CVE-2023-36478",
+          "package": [
+            "org.eclipse.jetty:jetty-http@9.4.48.v20220622"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-22243",
+          "package": [
+            "org.springframework:spring-web@5.3.27"
+          ],
+          "cvssv3_score": "7.1",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.springframework:spring-web@5.3.32"
+        },
+        {
+          "cve_id": "CVE-2023-26049",
+          "package": [
+            "org.eclipse.jetty:jetty-server@9.4.48.v20220622",
+            "org.eclipse.jetty:jetty-http@9.4.48.v20220622"
+          ],
+          "cvssv3_score": "2.4",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-46589",
+          "package": [
+            "org.apache.tomcat:tomcat-catalina@9.0.81",
+            "org.apache.tomcat.embed:tomcat-embed-core@9.0.81"
+          ],
+          "cvssv3_score": "8.6",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.apache.tomcat:tomcat-catalina@9.0.83"
+        },
+        {
+          "cve_id": "CVE-2024-24549",
+          "package": [
+            "org.apache.tomcat:tomcat-coyote@9.0.81",
+            "org.apache.tomcat.embed:tomcat-embed-core@9.0.81"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.apache.tomcat:tomcat-coyote@9.0.86"
+        },
+        {
+          "cve_id": "CVE-2024-23672",
+          "package": [
+            "org.apache.tomcat:tomcat-websocket@9.0.81"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.apache.tomcat:tomcat-websocket@9.0.86"
+        },
+        {
+          "cve_id": "CVE-2021-42392",
+          "package": [
+            "com.h2database:h2@1.4.199",
+            "com.h2database:h2@1.4.199"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to com.h2database:h2@2.0.206"
+        },
+        {
+          "cve_id": "CVE-2022-23221",
+          "package": [
+            "com.h2database:h2@1.4.199",
+            "com.h2database:h2@1.4.199"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "Critical",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to com.h2database:h2@2.1.210"
+        },
+        {
+          "cve_id": "CVE-2022-45868",
+          "package": [
+            "com.h2database:h2@1.4.199",
+            "com.h2database:h2@1.4.199"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to com.h2database:h2@2.2.220"
+        },
+        {
+          "cve_id": "CVE-2018-10054",
+          "package": [
+            "com.h2database:h2@1.4.199",
+            "com.h2database:h2@1.4.199"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "High",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "busybox/busybox@1.36.1-r5"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.36.1-r6"
+        },
+        {
+          "cve_id": "CVE-2024-28087",
+          "package": [
+            "org.bonitasoft.engine:bonita-common@9.0.0"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.bonitasoft.engine:bonita-common@10.1.0"
+        },
+        {
+          "cve_id": "CVE-2023-26048",
+          "package": [
+            "org.eclipse.jetty:jetty-server@9.4.48.v20220622"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-40167",
+          "package": [
+            "org.eclipse.jetty:jetty-http@9.4.48.v20220622"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-22262",
+          "package": [
+            "org.springframework:spring-web@5.3.27"
+          ],
+          "cvssv3_score": "5.4",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.springframework:spring-web@5.3.34"
+        },
+        {
+          "cve_id": "CVE-2023-6378",
+          "package": [
+            "ch.qos.logback:logback-classic@1.2.12",
+            "ch.qos.logback:logback-core@1.2.12"
+          ],
+          "cvssv3_score": "7.1",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to ch.qos.logback:logback-classic@1.2.13"
+        },
+        {
+          "cve_id": "CVE-2024-1597",
+          "package": [
+            "org.postgresql:postgresql@42.4.3"
+          ],
+          "cvssv3_score": "9",
+          "severity": "Critical",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.postgresql:postgresql@42.4.4"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "openssl/libcrypto3@3.1.4-r5"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r6"
+        },
+        {
+          "cve_id": "CVE-2021-23463",
+          "package": [
+            "com.h2database:h2@1.4.199",
+            "com.h2database:h2@1.4.199"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to com.h2database:h2@2.0.202"
+        },
+        {
+          "cve_id": "CVE-2024-27609",
+          "package": [
+            "org.bonitasoft.console:bonita-web-server@9.0.0"
+          ],
+          "cvssv3_score": "6.1",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.bonitasoft.console:bonita-web-server@10.1.0"
+        },
+        {
+          "cve_id": "CVE-2024-22259",
+          "package": [
+            "org.springframework:spring-web@5.3.27"
+          ],
+          "cvssv3_score": "7.1",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.springframework:spring-web@5.3.33"
+        },
+        {
+          "cve_id": "CVE-2022-1471",
+          "package": [
+            "org.yaml:snakeyaml@1.32",
+            "org.yaml:snakeyaml@1.32"
+          ],
+          "cvssv3_score": "6.6",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to org.yaml:snakeyaml@2.0"
+        },
+        {
+          "cve_id": "CVE-2023-6481",
+          "package": [
+            "ch.qos.logback:logback-classic@1.2.12",
+            "ch.qos.logback:logback-core@1.2.12"
+          ],
+          "cvssv3_score": "7.1",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to ch.qos.logback:logback-classic@1.2.13"
+        }
+      ],
+      "num_cves": 24,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-46589",
+        "CVE-2024-24549",
+        "CVE-2023-26049",
+        "CVE-2023-6378",
+        "CVE-2023-6481",
+        "CVE-2021-23463",
+        "CVE-2021-42392",
+        "CVE-2022-23221",
+        "CVE-2022-45868",
+        "CVE-2018-10054",
+        "CVE-2022-1471"
+      ],
+      "relative_efficiency": 0.35820895
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "GHSA-qw69-rqj8",
+          "package": [
+            "6qw8-jetty-server"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "9.4.51.v20230217"
+        },
+        {
+          "cve_id": "GHSA-vmq6-5m68",
+          "package": [
+            "f53m-logback-classic",
+            "f53m-logback-core"
+          ],
+          "cvssv3_score": "7.1",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.2.13"
+        },
+        {
+          "cve_id": "CVE-2022-3219",
+          "package": [
+            "gnupg",
+            "gnupg-dirmngr",
+            "gnupg-gpgconf",
+            "gnupg-keyboxd",
+            "gnupg-utils",
+            "gnupg-wks-client",
+            "gpg",
+            "gpg-agent",
+            "gpg-wks-server",
+            "gpgsm",
+            "gpgv"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-28182",
+          "package": [
+            "nghttp2-libs"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-24rp-q3w6",
+          "package": [
+            "vc56-postgresql"
+          ],
+          "cvssv3_score": "10.0",
+          "severity": "critical",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "42.4.4"
+        },
+        {
+          "cve_id": "GHSA-4wrc-f8pq",
+          "package": [
+            "fpqp-spring-web"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "6.0.0"
+        },
+        {
+          "cve_id": "GHSA-7w75-32cg",
+          "package": [
+            "r6g2-tomcat-coyote",
+            "r6g2-tomcat-embed-core"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "9.0.86"
+        },
+        {
+          "cve_id": "GHSA-ccgv-vj62",
+          "package": [
+            "xf9h-spring-web"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "5.3.32"
+        },
+        {
+          "cve_id": "GHSA-h376-j262",
+          "package": [
+            "vhq6-h2",
+            "vhq6-h2"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "2.0.206"
+        },
+        {
+          "cve_id": "GHSA-hmr7-m48g",
+          "package": [
+            "48f6-jetty-http"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "9.4.52"
+        },
+        {
+          "cve_id": "CVE-2024-0853",
+          "package": [
+            "curl"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2004",
+          "package": [
+            "curl"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2398",
+          "package": [
+            "curl"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-22wj-vf5f",
+          "package": [
+            "wrvj-h2",
+            "wrvj-h2"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "2.2.220"
+        },
+        {
+          "cve_id": "GHSA-45hx-wfhj",
+          "package": [
+            "473x-h2",
+            "473x-h2"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "2.1.210"
+        },
+        {
+          "cve_id": "GHSA-mjmj-j48q",
+          "package": [
+            "9wg2-snakeyaml",
+            "9wg2-snakeyaml"
+          ],
+          "cvssv3_score": "8.3",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "2.0"
+        },
+        {
+          "cve_id": "GHSA-v682-8vv8",
+          "package": [
+            "vpwr-tomcat-websocket"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "9.0.86"
+        },
+        {
+          "cve_id": "CVE-2024-2466",
+          "package": [
+            "curl"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-jjfh-589g",
+          "package": [
+            "3hjx-spring-boot",
+            "3hjx-spring-boot"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "2.7.18"
+        },
+        {
+          "cve_id": "GHSA-p26g-97m4",
+          "package": [
+            "6q7c-jetty-server"
+          ],
+          "cvssv3_score": "2.4",
+          "severity": "low",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "9.4.51.v20230217"
+        },
+        {
+          "cve_id": "GHSA-2wrp-6fg6",
+          "package": [
+            "hmc5-spring-web"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "5.3.34"
+        },
+        {
+          "cve_id": "GHSA-7rpj-hg47",
+          "package": [
+            "cx62-h2",
+            "cx62-h2"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "2.0.202"
+        },
+        {
+          "cve_id": "GHSA-fccv-jmmp",
+          "package": [
+            "qg76-tomcat-embed-core"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "9.0.83"
+        },
+        {
+          "cve_id": "GHSA-gm62-rw4g",
+          "package": [
+            "vrc4-logback-core"
+          ],
+          "cvssv3_score": "7.1",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "1.2.13"
+        },
+        {
+          "cve_id": "GHSA-hgjh-9rj2",
+          "package": [
+            "g67j-spring-web"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "high",
+          "type": "java-archive",
+          "is_fixed": true,
+          "fixed_version": "5.3.33"
+        }
+      ],
+      "num_cves": 25,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2022-3219",
+        "GHSA-22wj-vf5f",
+        "GHSA-45hx-wfhj",
+        "GHSA-7rpj-hg47",
+        "GHSA-7w75-32cg",
+        "GHSA-h376-j262",
+        "GHSA-jjfh-589g",
+        "GHSA-mjmj-j48q",
+        "GHSA-vmq6-5m68"
+      ],
+      "relative_efficiency": 0.37313432
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "library/bonita: libcrypto3@3.1.4-r5",
+            "library/bonita: libssl3@3.1.4-r5"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.4-r6"
+        },
+        {
+          "cve_id": "CVE-2023-46589",
+          "package": [
+            "opt/bonita/server/lib/bonita/tomcat-embed-core-9.0.81.jar: org.apache.tomcat.embed:tomcat-embed-core@9.0.81",
+            "opt/bonita/server/lib/catalina.jar: org.apache.tomcat:tomcat-catalina@9.0.81"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "11.0.0-M11, 10.1.16, 9.0.83, 8.5.96"
+        },
+        {
+          "cve_id": "CVE-2024-24549",
+          "package": [
+            "opt/bonita/server/lib/bonita/tomcat-embed-core-9.0.81.jar: org.apache.tomcat.embed:tomcat-embed-core@9.0.81",
+            "opt/bonita/server/lib/tomcat-coyote.jar: org.apache.tomcat:tomcat-coyote@9.0.81"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "11.0.0-M17, 10.1.19, 9.0.86, 8.5.99"
+        },
+        {
+          "cve_id": "CVE-2024-27609",
+          "package": [
+            "opt/bonita/server/webapps/bonita/WEB-INF/lib/bonita-web-server-9.0.0.jar: org.bonitasoft.console:bonita-web-server@9.0.0",
+            "opt/bonita/server/webapps/bonita/WEB-INF/lib/platform-resources-9.0.0.jar: org.bonitasoft.platform:platform-resources@9.0.0",
+            "opt/bonita/setup/lib/platform-resources-9.0.0.jar: org.bonitasoft.platform:platform-resources@9.0.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "10.1.0.W11"
+        },
+        {
+          "cve_id": "CVE-2023-26049",
+          "package": [
+            "opt/bonita/server/webapps/bonita/WEB-INF/lib/ehcache-2.10.10.12.7.jar: org.eclipse.jetty:jetty-server@9.4.48.v20220622"
+          ],
+          "cvssv3_score": "",
+          "severity": "LOW",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "9.4.51.v20230217, 10.0.14, 11.0.14, 12.0.0.beta0"
+        },
+        {
+          "cve_id": "CVE-2023-6378",
+          "package": [
+            "opt/bonita/setup/lib/logback-classic-1.2.12.jar: ch.qos.logback:logback-classic@1.2.12",
+            "opt/bonita/setup/lib/logback-core-1.2.12.jar: ch.qos.logback:logback-core@1.2.12"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.3.12, 1.4.12, 1.2.13"
+        },
+        {
+          "cve_id": "CVE-2021-23463",
+          "package": [
+            "opt/bonita/server/lib/bonita/h2-1.4.199.jar: com.h2database:h2@1.4.199",
+            "opt/bonita/setup/lib/h2-1.4.199.jar: com.h2database:h2@1.4.199"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.0.202"
+        },
+        {
+          "cve_id": "CVE-2024-23672",
+          "package": [
+            "opt/bonita/server/lib/tomcat-websocket.jar: org.apache.tomcat:tomcat-websocket@9.0.81"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "11.0.0-M17, 10.1.19, 9.0.86, 8.5.99"
+        },
+        {
+          "cve_id": "CVE-2024-1597",
+          "package": [
+            "opt/bonita/setup/lib/postgresql-42.4.3.jar: org.postgresql:postgresql@42.4.3"
+          ],
+          "cvssv3_score": "",
+          "severity": "CRITICAL",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "42.2.28, 42.3.9, 42.4.4, 42.5.5, 42.6.1, 42.7.2"
+        },
+        {
+          "cve_id": "CVE-2016-1000027",
+          "package": [
+            "opt/bonita/server/webapps/bonita/WEB-INF/lib/spring-web-5.3.27.jar: org.springframework:spring-web@5.3.27"
+          ],
+          "cvssv3_score": "",
+          "severity": "CRITICAL",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "6.0.0"
+        },
+        {
+          "cve_id": "CVE-2024-22243",
+          "package": [
+            "opt/bonita/server/webapps/bonita/WEB-INF/lib/spring-web-5.3.27.jar: org.springframework:spring-web@5.3.27"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "6.1.4, 6.0.17, 5.3.32"
+        },
+        {
+          "cve_id": "CVE-2024-22259",
+          "package": [
+            "opt/bonita/server/webapps/bonita/WEB-INF/lib/spring-web-5.3.27.jar: org.springframework:spring-web@5.3.27"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "6.1.5, 6.0.18, 5.3.33"
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "library/bonita: libcrypto3@3.1.4-r5",
+            "library/bonita: libssl3@3.1.4-r5"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.1.5-r0"
+        },
+        {
+          "cve_id": "CVE-2021-42392",
+          "package": [
+            "opt/bonita/server/lib/bonita/h2-1.4.199.jar: com.h2database:h2@1.4.199",
+            "opt/bonita/setup/lib/h2-1.4.199.jar: com.h2database:h2@1.4.199"
+          ],
+          "cvssv3_score": "",
+          "severity": "CRITICAL",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.0.206"
+        },
+        {
+          "cve_id": "CVE-2022-45868",
+          "package": [
+            "opt/bonita/server/lib/bonita/h2-1.4.199.jar: com.h2database:h2@1.4.199",
+            "opt/bonita/setup/lib/h2-1.4.199.jar: com.h2database:h2@1.4.199"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.2.220"
+        },
+        {
+          "cve_id": "CVE-2024-28087",
+          "package": [
+            "opt/bonita/server/webapps/bonita/WEB-INF/lib/bonita-server-9.0.0.jar: org.bonitasoft.engine:bonita-server@9.0.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "10.1.0.W11"
+        },
+        {
+          "cve_id": "CVE-2022-1471",
+          "package": [
+            "opt/bonita/server/webapps/bonita/WEB-INF/lib/snakeyaml-1.32.jar: org.yaml:snakeyaml@1.32",
+            "opt/bonita/setup/lib/snakeyaml-1.32.jar: org.yaml:snakeyaml@1.32"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.0"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "library/bonita: busybox@1.36.1-r5",
+            "library/bonita: busybox-binsh@1.36.1-r5",
+            "library/bonita: ssl_client@1.36.1-r5"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.36.1-r6"
+        },
+        {
+          "cve_id": "CVE-2023-6481",
+          "package": [
+            "opt/bonita/setup/lib/logback-core-1.2.12.jar: ch.qos.logback:logback-core@1.2.12"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.4.14, 1.3.14, 1.2.13"
+        },
+        {
+          "cve_id": "CVE-2022-23221",
+          "package": [
+            "opt/bonita/server/lib/bonita/h2-1.4.199.jar: com.h2database:h2@1.4.199",
+            "opt/bonita/setup/lib/h2-1.4.199.jar: com.h2database:h2@1.4.199"
+          ],
+          "cvssv3_score": "",
+          "severity": "CRITICAL",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.1.210"
+        },
+        {
+          "cve_id": "CVE-2023-40167",
+          "package": [
+            "opt/bonita/server/webapps/bonita/WEB-INF/lib/ehcache-2.10.10.12.7.jar: org.eclipse.jetty:jetty-http@9.4.48.v20220622"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "9.4.52, 10.0.16, 11.0.16, 12.0.1"
+        },
+        {
+          "cve_id": "CVE-2023-26048",
+          "package": [
+            "opt/bonita/server/webapps/bonita/WEB-INF/lib/ehcache-2.10.10.12.7.jar: org.eclipse.jetty:jetty-server@9.4.48.v20220622"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "9.4.51.v20230217, 10.0.14, 11.0.14"
+        },
+        {
+          "cve_id": "CVE-2023-34055",
+          "package": [
+            "opt/bonita/server/webapps/bonita/WEB-INF/lib/spring-boot-2.7.12.jar: org.springframework.boot:spring-boot@2.7.12",
+            "opt/bonita/setup/lib/spring-boot-2.7.12.jar: org.springframework.boot:spring-boot@2.7.12"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.7.18, 3.0.13, 3.1.6"
+        },
+        {
+          "cve_id": "CVE-2024-22262",
+          "package": [
+            "opt/bonita/server/webapps/bonita/WEB-INF/lib/spring-web-5.3.27.jar: org.springframework:spring-web@5.3.27"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "5.3.34, 6.0.19, 6.1.6"
+        }
+      ],
+      "num_cves": 24,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42366",
+        "CVE-2024-4603",
+        "CVE-2024-2511",
+        "CVE-2023-6378",
+        "CVE-2021-42392",
+        "CVE-2022-23221",
+        "CVE-2021-23463",
+        "CVE-2022-45868",
+        "CVE-2023-46589",
+        "CVE-2024-24549",
+        "CVE-2024-27609",
+        "CVE-2023-34055",
+        "CVE-2022-1471"
+      ],
+      "relative_efficiency": 0.35820895
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-6378",
+          "package": [
+            "ch.qos.logback:logback-classic_1.2.12",
+            "ch.qos.logback:logback-core_1.2.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2009-3767",
+          "package": [
+            "3.18:libssl3_3.1.4-r5",
+            "3.18:libcrypto3_3.1.4-r5"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-26049",
+          "package": [
+            "org.eclipse.jetty:jetty-server_9.4.48.v20220622"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2023-52071",
+          "package": [
+            "3.18:libcurl_8.5.0-r0",
+            "3.18:curl_8.5.0-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-22262",
+          "package": [
+            "org.springframework:spring-web_5.3.27"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "8.1"
+        },
+        {
+          "cve_id": "CVE-2022-1471",
+          "package": [
+            "org.yaml:snakeyaml_1.32"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2008-0888",
+          "package": [
+            "3.18:unzip_6.0-r14"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-40167",
+          "package": [
+            "org.eclipse.jetty:jetty-http_9.4.48.v20220622"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2021-42392",
+          "package": [
+            "com.h2database:h2_1.4.199"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2021-23463",
+          "package": [
+            "com.h2database:h2_1.4.199"
+          ],
+          "cvssv3_score": "9.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.1"
+        },
+        {
+          "cve_id": "CVE-2023-46589",
+          "package": [
+            "org.apache.tomcat:tomcat-catalina_9.0.81",
+            "org.apache.tomcat.embed:tomcat-embed-core_9.0.81"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-6481",
+          "package": [
+            "ch.qos.logback:logback-core_1.2.12"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2024-24549",
+          "package": [
+            "org.apache.tomcat:tomcat-coyote_9.0.81",
+            "org.apache.tomcat.embed:tomcat-embed-core_9.0.81"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-22243",
+          "package": [
+            "org.springframework:spring-web_5.3.27"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "8.1"
+        },
+        {
+          "cve_id": "CVE-2023-22102",
+          "package": [
+            "mysql:mysql-connector-java_8.0.29"
+          ],
+          "cvssv3_score": "8.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "8.3"
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "3.18:busybox_1.36.1-r5",
+            "3.18:busybox-binsh_1.36.1-r5",
+            "3.18:ssl_client_1.36.1-r5"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-26048",
+          "package": [
+            "org.eclipse.jetty:jetty-server_9.4.48.v20220622"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2024-28087",
+          "package": [
+            "org.bonitasoft.engine:bonita-server_9.0.0"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2024-1597",
+          "package": [
+            "org.postgresql:postgresql_42.4.3"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2016-1000027",
+          "package": [
+            "org.springframework:spring-web_5.3.27"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2022-45868",
+          "package": [
+            "com.h2database:h2_1.4.199"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.8"
+        },
+        {
+          "cve_id": "CVE-2023-35116",
+          "package": [
+            "com.fasterxml.jackson.core:jackson-databind_2.14.2",
+            "com.fasterxml.jackson.core:jackson-databind_2.13.4.2"
+          ],
+          "cvssv3_score": "4.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "4.7"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "3.18:ssl_client_1.36.1-r5",
+            "3.18:busybox-binsh_1.36.1-r5",
+            "3.18:busybox_1.36.1-r5"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "3.18:busybox_1.36.1-r5",
+            "3.18:ssl_client_1.36.1-r5",
+            "3.18:busybox-binsh_1.36.1-r5"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2022-23221",
+          "package": [
+            "com.h2database:h2_1.4.199"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "3.18:busybox-binsh_1.36.1-r5",
+            "3.18:busybox_1.36.1-r5",
+            "3.18:ssl_client_1.36.1-r5"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-34055",
+          "package": [
+            "org.springframework.boot:spring-boot_2.7.12"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "6.5"
+        },
+        {
+          "cve_id": "CVE-2021-4214",
+          "package": [
+            "3.18:libpng_1.6.39-r3"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2024-22259",
+          "package": [
+            "org.springframework:spring-web_5.3.27"
+          ],
+          "cvssv3_score": "8.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "8.1"
+        }
+      ],
+      "num_cves": 29,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-6378",
+        "CVE-2023-46589",
+        "CVE-2024-24549",
+        "CVE-2023-35116",
+        "CVE-2023-42364",
+        "CVE-2023-42366",
+        "CVE-2023-42365",
+        "CVE-2023-42363",
+        "CVE-2009-3767",
+        "CVE-2023-52071"
+      ],
+      "relative_efficiency": 0.43283582
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2021-23463",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2021-23463",
+            "package": [
+              " pkg:maven/com.h2database/h2@1.4.199"
+            ],
+            "cvssv3_score": "8.100000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.0.202"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-23463",
+            "package": [
+              "com.h2database:h2@1.4.199",
+              "com.h2database:h2@1.4.199"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to com.h2database:h2@2.0.202"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2021-23463",
+            "package": [
+              "opt/bonita/server/lib/bonita/h2-1.4.199.jar: com.h2database:h2@1.4.199",
+              "opt/bonita/setup/lib/h2-1.4.199.jar: com.h2database:h2@1.4.199"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.0.202"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-23463",
+            "package": [
+              "com.h2database:h2_1.4.199"
+            ],
+            "cvssv3_score": "9.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.1"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-42795",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42795",
+            "package": [
+              " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81"
+            ],
+            "cvssv3_score": "5.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "8.5.94, 9.0.82, 10.1.15"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-fccv-jmmp",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-fccv-jmmp",
+            "package": [
+              "qg76-tomcat-embed-core"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "9.0.83"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-23221",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-23221",
+            "package": [
+              " pkg:maven/com.h2database/h2@1.4.199"
+            ],
+            "cvssv3_score": "9.800000",
+            "severity": "CRITICAL",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.1.210"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-23221",
+            "package": [
+              "com.h2database:h2@1.4.199",
+              "com.h2database:h2@1.4.199"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "Critical",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to com.h2database:h2@2.1.210"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-23221",
+            "package": [
+              "opt/bonita/server/lib/bonita/h2-1.4.199.jar: com.h2database:h2@1.4.199",
+              "opt/bonita/setup/lib/h2-1.4.199.jar: com.h2database:h2@1.4.199"
+            ],
+            "cvssv3_score": "",
+            "severity": "CRITICAL",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.1.210"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-23221",
+            "package": [
+              "com.h2database:h2_1.4.199"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2022-1471",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-1471",
+            "package": [
+              " pkg:maven/org.yaml/snakeyaml@1.32"
+            ],
+            "cvssv3_score": "8.300000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-1471",
+            "package": [
+              "org.yaml:snakeyaml@1.32",
+              "org.yaml:snakeyaml@1.32"
+            ],
+            "cvssv3_score": "6.6",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.yaml:snakeyaml@2.0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-1471",
+            "package": [
+              "opt/bonita/server/webapps/bonita/WEB-INF/lib/snakeyaml-1.32.jar: org.yaml:snakeyaml@1.32",
+              "opt/bonita/setup/lib/snakeyaml-1.32.jar: org.yaml:snakeyaml@1.32"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-1471",
+            "package": [
+              "org.yaml:snakeyaml_1.32"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "GHSA-h376-j262",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-h376-j262",
+            "package": [
+              "vhq6-h2",
+              "vhq6-h2"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "2.0.206"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-52071",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-52071",
+            "package": [
+              "3.18:libcurl_8.5.0-r0",
+              "3.18:curl_8.5.0-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-1000027",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2016-1000027",
+            "package": [
+              " pkg:maven/org.springframework/spring-web@5.3.27"
+            ],
+            "cvssv3_score": "9.800000",
+            "severity": "CRITICAL",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "6.0.0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2016-1000027",
+            "package": [
+              "opt/bonita/server/webapps/bonita/WEB-INF/lib/spring-web-5.3.27.jar: org.springframework:spring-web@5.3.27"
+            ],
+            "cvssv3_score": "",
+            "severity": "CRITICAL",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "6.0.0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2016-1000027",
+            "package": [
+              "org.springframework:spring-web_5.3.27"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "GHSA-ccgv-vj62",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-ccgv-vj62",
+            "package": [
+              "xf9h-spring-web"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "5.3.32"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-4wrc-f8pq",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-4wrc-f8pq",
+            "package": [
+              "fpqp-spring-web"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "6.0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-p26g-97m4",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-p26g-97m4",
+            "package": [
+              "6q7c-jetty-server"
+            ],
+            "cvssv3_score": "2.4",
+            "severity": "low",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "9.4.51.v20230217"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42365",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "3.18:busybox-binsh_1.36.1-r5",
+              "3.18:busybox_1.36.1-r5",
+              "3.18:ssl_client_1.36.1-r5"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2466",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2466",
+            "package": [
+              "curl"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-qw69-rqj8",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-qw69-rqj8",
+            "package": [
+              "6qw8-jetty-server"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "9.4.51.v20230217"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-24rp-q3w6",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-24rp-q3w6",
+            "package": [
+              "vc56-postgresql"
+            ],
+            "cvssv3_score": "10.0",
+            "severity": "critical",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "42.4.4"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-hmr7-m48g",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-hmr7-m48g",
+            "package": [
+              "48f6-jetty-http"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "9.4.52"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2004",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2004",
+            "package": [
+              "curl"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2008-0888",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2008-0888",
+            "package": [
+              "3.18:unzip_6.0-r14"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-35116",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-35116",
+            "package": [
+              "com.fasterxml.jackson.core:jackson-databind_2.14.2",
+              "com.fasterxml.jackson.core:jackson-databind_2.13.4.2"
+            ],
+            "cvssv3_score": "4.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "4.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-39017",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-39017",
+            "package": [
+              " pkg:maven/org.quartz-scheduler/quartz@2.3.2"
+            ],
+            "cvssv3_score": "9.800000",
+            "severity": "CRITICAL",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-34055",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-34055",
+            "package": [
+              " pkg:maven/org.springframework.boot/spring-boot@2.7.12"
+            ],
+            "cvssv3_score": "6.500000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.7.18"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-34055",
+            "package": [
+              "opt/bonita/server/webapps/bonita/WEB-INF/lib/spring-boot-2.7.12.jar: org.springframework.boot:spring-boot@2.7.12",
+              "opt/bonita/setup/lib/spring-boot-2.7.12.jar: org.springframework.boot:spring-boot@2.7.12"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.7.18, 3.0.13, 3.1.6"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-34055",
+            "package": [
+              "org.springframework.boot:spring-boot_2.7.12"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-42366",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              " pkg:apk/alpine/busybox@1.36.1-r5?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r6"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "busybox/busybox@1.36.1-r5"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.36.1-r6"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "library/bonita: busybox@1.36.1-r5",
+              "library/bonita: busybox-binsh@1.36.1-r5",
+              "library/bonita: ssl_client@1.36.1-r5"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.36.1-r6"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "3.18:busybox_1.36.1-r5",
+              "3.18:ssl_client_1.36.1-r5",
+              "3.18:busybox-binsh_1.36.1-r5"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-36478",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-36478",
+            "package": [
+              "org.eclipse.jetty:jetty-http@9.4.48.v20220622"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-27609",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-27609",
+            "package": [
+              "org.bonitasoft.console:bonita-web-server@9.0.0"
+            ],
+            "cvssv3_score": "6.1",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.bonitasoft.console:bonita-web-server@10.1.0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-27609",
+            "package": [
+              "opt/bonita/server/webapps/bonita/WEB-INF/lib/bonita-web-server-9.0.0.jar: org.bonitasoft.console:bonita-web-server@9.0.0",
+              "opt/bonita/server/webapps/bonita/WEB-INF/lib/platform-resources-9.0.0.jar: org.bonitasoft.platform:platform-resources@9.0.0",
+              "opt/bonita/setup/lib/platform-resources-9.0.0.jar: org.bonitasoft.platform:platform-resources@9.0.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "10.1.0.W11"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "GHSA-xfg6-62px-cxc2",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "GHSA-xfg6-62px-cxc2",
+            "package": [
+              " pkg:maven/org.postgresql/postgresql@42.4.3"
+            ],
+            "cvssv3_score": "10.000000",
+            "severity": "CRITICAL",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "42.7.2, 42.6.1, 42.5.5, 42.4.4, 42.3.9, 42.2.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-24549",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24549",
+            "package": [
+              " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81 pkg:maven/org.apache.tomcat/tomcat-coyote@9.0.81",
+              " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81 pkg:maven/org.apache.tomcat/tomcat-coyote@9.0.81"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "9.0.86"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-24549",
+            "package": [
+              "org.apache.tomcat:tomcat-coyote@9.0.81",
+              "org.apache.tomcat.embed:tomcat-embed-core@9.0.81"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.apache.tomcat:tomcat-coyote@9.0.86"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24549",
+            "package": [
+              "opt/bonita/server/lib/bonita/tomcat-embed-core-9.0.81.jar: org.apache.tomcat.embed:tomcat-embed-core@9.0.81",
+              "opt/bonita/server/lib/tomcat-coyote.jar: org.apache.tomcat:tomcat-coyote@9.0.81"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "11.0.0-M17, 10.1.19, 9.0.86, 8.5.99"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-24549",
+            "package": [
+              "org.apache.tomcat:tomcat-coyote_9.0.81",
+              "org.apache.tomcat.embed:tomcat-embed-core_9.0.81"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-23672",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-23672",
+            "package": [
+              " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81 pkg:maven/org.apache.tomcat/tomcat-websocket@9.0.81",
+              " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81 pkg:maven/org.apache.tomcat/tomcat-websocket@9.0.81"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "11.0.0-M17, 10.1.19, 9.0.86, 8.5.99"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-23672",
+            "package": [
+              "org.apache.tomcat:tomcat-websocket@9.0.81"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.apache.tomcat:tomcat-websocket@9.0.86"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-23672",
+            "package": [
+              "opt/bonita/server/lib/tomcat-websocket.jar: org.apache.tomcat:tomcat-websocket@9.0.81"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "11.0.0-M17, 10.1.19, 9.0.86, 8.5.99"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "GHSA-45hx-wfhj",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-45hx-wfhj",
+            "package": [
+              "473x-h2",
+              "473x-h2"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "2.1.210"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-7rpj-hg47",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-7rpj-hg47",
+            "package": [
+              "cx62-h2",
+              "cx62-h2"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "2.0.202"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-6378",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-6378",
+            "package": [
+              " pkg:maven/ch.qos.logback/logback-classic@1.2.12 pkg:maven/ch.qos.logback/logback-core@1.2.12",
+              " pkg:maven/ch.qos.logback/logback-classic@1.2.12 pkg:maven/ch.qos.logback/logback-core@1.2.12"
+            ],
+            "cvssv3_score": "7.100000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.3.12"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-6378",
+            "package": [
+              "ch.qos.logback:logback-classic@1.2.12",
+              "ch.qos.logback:logback-core@1.2.12"
+            ],
+            "cvssv3_score": "7.1",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to ch.qos.logback:logback-classic@1.2.13"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-6378",
+            "package": [
+              "opt/bonita/setup/lib/logback-classic-1.2.12.jar: ch.qos.logback:logback-classic@1.2.12",
+              "opt/bonita/setup/lib/logback-core-1.2.12.jar: ch.qos.logback:logback-core@1.2.12"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.3.12, 1.4.12, 1.2.13"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-6378",
+            "package": [
+              "ch.qos.logback:logback-classic_1.2.12",
+              "ch.qos.logback:logback-core_1.2.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-2511",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              " pkg:apk/alpine/openssl@3.1.4-r5?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r6"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "openssl/libcrypto3@3.1.4-r5"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto3@3.1.4-r6"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "library/bonita: libcrypto3@3.1.4-r5",
+              "library/bonita: libssl3@3.1.4-r5"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.4-r6"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-26049",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-26049",
+            "package": [
+              " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+              " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+              " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+              " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+            ],
+            "cvssv3_score": "2.400000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "9.4.51.v20230217"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-26049",
+            "package": [
+              "org.eclipse.jetty:jetty-server@9.4.48.v20220622",
+              "org.eclipse.jetty:jetty-http@9.4.48.v20220622"
+            ],
+            "cvssv3_score": "2.4",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-26049",
+            "package": [
+              "opt/bonita/server/webapps/bonita/WEB-INF/lib/ehcache-2.10.10.12.7.jar: org.eclipse.jetty:jetty-server@9.4.48.v20220622"
+            ],
+            "cvssv3_score": "",
+            "severity": "LOW",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "9.4.51.v20230217, 10.0.14, 11.0.14, 12.0.0.beta0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-26049",
+            "package": [
+              "org.eclipse.jetty:jetty-server_9.4.48.v20220622"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-22259",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-22259",
+            "package": [
+              " pkg:maven/org.springframework/spring-web@5.3.27"
+            ],
+            "cvssv3_score": "8.100000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "5.3.33"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-22259",
+            "package": [
+              "org.springframework:spring-web@5.3.27"
+            ],
+            "cvssv3_score": "7.1",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.springframework:spring-web@5.3.33"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-22259",
+            "package": [
+              "opt/bonita/server/webapps/bonita/WEB-INF/lib/spring-web-5.3.27.jar: org.springframework:spring-web@5.3.27"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "6.1.5, 6.0.18, 5.3.33"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-22259",
+            "package": [
+              "org.springframework:spring-web_5.3.27"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "8.1"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-40167",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-40167",
+            "package": [
+              " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+              " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+              " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+            ],
+            "cvssv3_score": "5.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "9.4.52.v20230823, 10.0.16, 11.0.16, 12.0.1"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-40167",
+            "package": [
+              "org.eclipse.jetty:jetty-http@9.4.48.v20220622"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-40167",
+            "package": [
+              "opt/bonita/server/webapps/bonita/WEB-INF/lib/ehcache-2.10.10.12.7.jar: org.eclipse.jetty:jetty-http@9.4.48.v20220622"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "9.4.52, 10.0.16, 11.0.16, 12.0.1"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-40167",
+            "package": [
+              "org.eclipse.jetty:jetty-http_9.4.48.v20220622"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2022-45868",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-45868",
+            "package": [
+              " pkg:maven/com.h2database/h2@1.4.199"
+            ],
+            "cvssv3_score": "7.800000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.2.220"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2022-45868",
+            "package": [
+              "com.h2database:h2@1.4.199",
+              "com.h2database:h2@1.4.199"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to com.h2database:h2@2.2.220"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2022-45868",
+            "package": [
+              "opt/bonita/server/lib/bonita/h2-1.4.199.jar: com.h2database:h2@1.4.199",
+              "opt/bonita/setup/lib/h2-1.4.199.jar: com.h2database:h2@1.4.199"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.2.220"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-45868",
+            "package": [
+              "com.h2database:h2_1.4.199"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.8"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "GHSA-vmq6-5m68",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-vmq6-5m68",
+            "package": [
+              "f53m-logback-classic",
+              "f53m-logback-core"
+            ],
+            "cvssv3_score": "7.1",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.2.13"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-7w75-32cg",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-7w75-32cg",
+            "package": [
+              "r6g2-tomcat-coyote",
+              "r6g2-tomcat-embed-core"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "9.0.86"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-45648",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-45648",
+            "package": [
+              " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81"
+            ],
+            "cvssv3_score": "5.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "8.5.94, 9.0.82, 10.1.15"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-1597",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-1597",
+            "package": [
+              " pkg:maven/org.postgresql/postgresql@42.4.3"
+            ],
+            "cvssv3_score": "10.000000",
+            "severity": "CRITICAL",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "42.4.4"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-1597",
+            "package": [
+              "org.postgresql:postgresql@42.4.3"
+            ],
+            "cvssv3_score": "9",
+            "severity": "Critical",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.postgresql:postgresql@42.4.4"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-1597",
+            "package": [
+              "opt/bonita/setup/lib/postgresql-42.4.3.jar: org.postgresql:postgresql@42.4.3"
+            ],
+            "cvssv3_score": "",
+            "severity": "CRITICAL",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "42.2.28, 42.3.9, 42.4.4, 42.5.5, 42.6.1, 42.7.2"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-1597",
+            "package": [
+              "org.postgresql:postgresql_42.4.3"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-36479",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-36479",
+            "package": [
+              " pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+              " pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+            ],
+            "cvssv3_score": "4.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "9.4.52.v20230823, 10.0.16, 11.0.16, 12.0.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GMS-2022-7",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "GMS-2022-7",
+            "package": [
+              " pkg:maven/com.h2database/h2@1.4.199"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.0.206"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-28087",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-28087",
+            "package": [
+              "org.bonitasoft.engine:bonita-common@9.0.0"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.bonitasoft.engine:bonita-common@10.1.0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-28087",
+            "package": [
+              "opt/bonita/server/webapps/bonita/WEB-INF/lib/bonita-server-9.0.0.jar: org.bonitasoft.engine:bonita-server@9.0.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "10.1.0.W11"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-28087",
+            "package": [
+              "org.bonitasoft.engine:bonita-server_9.0.0"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "6.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "GHSA-mjmj-j48q",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-mjmj-j48q",
+            "package": [
+              "9wg2-snakeyaml",
+              "9wg2-snakeyaml"
+            ],
+            "cvssv3_score": "8.3",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "2.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-2wrp-6fg6",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-2wrp-6fg6",
+            "package": [
+              "hmc5-spring-web"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "5.3.34"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-hgjh-9rj2",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-hgjh-9rj2",
+            "package": [
+              "g67j-spring-web"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "5.3.33"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-0853",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-0853",
+            "package": [
+              " pkg:apk/alpine/curl@8.5.0-r0?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-0853",
+            "package": [
+              "curl"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-42364",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "3.18:ssl_client_1.36.1-r5",
+              "3.18:busybox-binsh_1.36.1-r5",
+              "3.18:busybox_1.36.1-r5"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-22102",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-22102",
+            "package": [
+              "mysql:mysql-connector-java_8.0.29"
+            ],
+            "cvssv3_score": "8.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "8.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-4214",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-4214",
+            "package": [
+              "3.18:libpng_1.6.39-r3"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-22243",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-22243",
+            "package": [
+              " pkg:maven/org.springframework/spring-web@5.3.27"
+            ],
+            "cvssv3_score": "8.100000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "5.3.32"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-22243",
+            "package": [
+              "org.springframework:spring-web@5.3.27"
+            ],
+            "cvssv3_score": "7.1",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.springframework:spring-web@5.3.32"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-22243",
+            "package": [
+              "opt/bonita/server/webapps/bonita/WEB-INF/lib/spring-web-5.3.27.jar: org.springframework:spring-web@5.3.27"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "6.1.4, 6.0.17, 5.3.32"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-22243",
+            "package": [
+              "org.springframework:spring-web_5.3.27"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "8.1"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-6481",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-6481",
+            "package": [
+              " pkg:maven/ch.qos.logback/logback-core@1.2.12"
+            ],
+            "cvssv3_score": "7.100000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.2.13"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-6481",
+            "package": [
+              "ch.qos.logback:logback-classic@1.2.12",
+              "ch.qos.logback:logback-core@1.2.12"
+            ],
+            "cvssv3_score": "7.1",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to ch.qos.logback:logback-classic@1.2.13"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-6481",
+            "package": [
+              "opt/bonita/setup/lib/logback-core-1.2.12.jar: ch.qos.logback:logback-core@1.2.12"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.4.14, 1.3.14, 1.2.13"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-6481",
+            "package": [
+              "ch.qos.logback:logback-core_1.2.12"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-2398",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2398",
+            "package": [
+              "curl"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-v682-8vv8",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-v682-8vv8",
+            "package": [
+              "vpwr-tomcat-websocket"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "9.0.86"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-gm62-rw4g",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-gm62-rw4g",
+            "package": [
+              "vrc4-logback-core"
+            ],
+            "cvssv3_score": "7.1",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "1.2.13"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2009-3767",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2009-3767",
+            "package": [
+              "3.18:libssl3_3.1.4-r5",
+              "3.18:libcrypto3_3.1.4-r5"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-4603",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              " pkg:apk/alpine/openssl@3.1.4-r5?os_name=alpine\u0026os_version=3.18"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.5-r0"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "openssl/libcrypto3@3.1.4-r5"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto3@3.1.5-r0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "library/bonita: libcrypto3@3.1.4-r5",
+              "library/bonita: libssl3@3.1.4-r5"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.1.5-r0"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-26048",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-26048",
+            "package": [
+              " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+              " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+              " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+              " pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+            ],
+            "cvssv3_score": "5.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "9.4.51.v20230217, 10.0.14, 11.0.14"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-26048",
+            "package": [
+              "org.eclipse.jetty:jetty-server@9.4.48.v20220622"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-26048",
+            "package": [
+              "opt/bonita/server/webapps/bonita/WEB-INF/lib/ehcache-2.10.10.12.7.jar: org.eclipse.jetty:jetty-server@9.4.48.v20220622"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "9.4.51.v20230217, 10.0.14, 11.0.14"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-26048",
+            "package": [
+              "org.eclipse.jetty:jetty-server_9.4.48.v20220622"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2021-42392",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2021-42392",
+            "package": [
+              " pkg:maven/com.h2database/h2@1.4.199"
+            ],
+            "cvssv3_score": "9.800000",
+            "severity": "CRITICAL",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.0.206"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2021-42392",
+            "package": [
+              "com.h2database:h2@1.4.199",
+              "com.h2database:h2@1.4.199"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to com.h2database:h2@2.0.206"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2021-42392",
+            "package": [
+              "opt/bonita/server/lib/bonita/h2-1.4.199.jar: com.h2database:h2@1.4.199",
+              "opt/bonita/setup/lib/h2-1.4.199.jar: com.h2database:h2@1.4.199"
+            ],
+            "cvssv3_score": "",
+            "severity": "CRITICAL",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.0.206"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-42392",
+            "package": [
+              "com.h2database:h2_1.4.199"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-46589",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-46589",
+            "package": [
+              " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81 pkg:maven/org.apache.tomcat/tomcat-coyote@9.0.81 pkg:maven/org.apache.tomcat/tomcat-util@9.0.81",
+              " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81 pkg:maven/org.apache.tomcat/tomcat-coyote@9.0.81 pkg:maven/org.apache.tomcat/tomcat-util@9.0.81",
+              " pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.81 pkg:maven/org.apache.tomcat/tomcat-coyote@9.0.81 pkg:maven/org.apache.tomcat/tomcat-util@9.0.81"
+            ],
+            "cvssv3_score": "7.500000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "8.5.96, 9.0.83, 10.1.16"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-46589",
+            "package": [
+              "org.apache.tomcat:tomcat-catalina@9.0.81",
+              "org.apache.tomcat.embed:tomcat-embed-core@9.0.81"
+            ],
+            "cvssv3_score": "8.6",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.apache.tomcat:tomcat-catalina@9.0.83"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-46589",
+            "package": [
+              "opt/bonita/server/lib/bonita/tomcat-embed-core-9.0.81.jar: org.apache.tomcat.embed:tomcat-embed-core@9.0.81",
+              "opt/bonita/server/lib/catalina.jar: org.apache.tomcat:tomcat-catalina@9.0.81"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "11.0.0-M11, 10.1.16, 9.0.83, 8.5.96"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-46589",
+            "package": [
+              "org.apache.tomcat:tomcat-catalina_9.0.81",
+              "org.apache.tomcat.embed:tomcat-embed-core_9.0.81"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2018-10054",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2018-10054",
+            "package": [
+              "com.h2database:h2@1.4.199",
+              "com.h2database:h2@1.4.199"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "High",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-28182",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-28182",
+            "package": [
+              "nghttp2-libs"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-22wj-vf5f",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-22wj-vf5f",
+            "package": [
+              "wrvj-h2",
+              "wrvj-h2"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "2.2.220"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-jjfh-589g",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-jjfh-589g",
+            "package": [
+              "3hjx-spring-boot",
+              "3hjx-spring-boot"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "java-archive",
+            "is_fixed": true,
+            "fixed_version": "2.7.18"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-41900",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-41900",
+            "package": [
+              " pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+              " pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622",
+              " pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-server@9.4.48.v20220622 pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622"
+            ],
+            "cvssv3_score": "4.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "9.4.52.v20230823, 10.0.16, 11.0.16"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42363",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "3.18:busybox_1.36.1-r5",
+              "3.18:busybox-binsh_1.36.1-r5",
+              "3.18:ssl_client_1.36.1-r5"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-22262",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-22262",
+            "package": [
+              " pkg:maven/org.springframework/spring-web@5.3.27"
+            ],
+            "cvssv3_score": "8.100000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "5.3.34"
+          }
+        },
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-22262",
+            "package": [
+              "org.springframework:spring-web@5.3.27"
+            ],
+            "cvssv3_score": "5.4",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to org.springframework:spring-web@5.3.34"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-22262",
+            "package": [
+              "opt/bonita/server/webapps/bonita/WEB-INF/lib/spring-web-5.3.27.jar: org.springframework:spring-web@5.3.27"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "5.3.34, 6.0.19, 6.1.6"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-22262",
+            "package": [
+              "org.springframework:spring-web_5.3.27"
+            ],
+            "cvssv3_score": "8.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "8.1"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2022-3219",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-3219",
+            "package": [
+              "gnupg",
+              "gnupg-dirmngr",
+              "gnupg-gpgconf",
+              "gnupg-keyboxd",
+              "gnupg-utils",
+              "gnupg-wks-client",
+              "gpg",
+              "gpg-agent",
+              "gpg-wks-server",
+              "gpgsm",
+              "gpgv"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 67
+}

@@ -1,0 +1,112 @@
+{
+
+    "image_name": "vaultwarden/server:alpine",
+    "category": "sponsored",
+    "unique_cves": [
+        {
+            "cve_id": "CVE-2024-2511",
+            "detected_scanners": "DockerScout, Snyk, Grype, Trivy, JFrog",
+            "outcome": "False Positive",
+            "reason": "version does not match",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2023-42363",
+            "detected_scanners": "DockerScout, Snyk, Grype, Trivy, JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-25629",
+            "detected_scanners": "DockerScout, Snyk, Grype, Trivy, JFrog",
+            "outcome": "False Positive",
+            "reason": "version does not match",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2023-42364",
+            "detected_scanners": "DockerScout, Snyk, Grype, Trivy, JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-4603",
+            "detected_scanners": "DockerScout, Snyk, Grype, Trivy, JFrog",
+            "outcome": "False Positive",
+            "reason": "version does not match",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2023-42365",
+            "detected_scanners": "DockerScout, Snyk, Grype, Trivy, JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2023-42366",
+            "detected_scanners": "DockerScout, Snyk, Grype, Trivy, JFrog",
+            "outcome": "True Positive",
+            "reason": "",
+            "reason_keyword": ""
+        },
+        {
+            "cve_id": "CVE-2024-0853",
+            "detected_scanners": "DockerScout, Grype, JFrog",
+            "outcome": "False Positive",
+            "reason": "version does not match",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2024-2398",
+            "detected_scanners": "Grype, JFrog",
+            "outcome": "False Positive",
+            "reason": "version does not match",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2024-2004",
+            "detected_scanners": "Grype, JFrog",
+            "outcome": "False Positive",
+            "reason": "version does not match",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2024-2466",
+            "detected_scanners": "Grype, JFrog",
+            "outcome": "False Positive",
+            "reason": "version does not match",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2024-28182",
+            "detected_scanners": "Grype",
+            "outcome": "False Positive",
+            "reason": "version does not match",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2024-2379",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "version does not match",
+            "reason_keyword": "pkg-versions-dont-match"
+        },
+        {
+            "cve_id": "CVE-2023-52071",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "cve rejected",
+            "reason_keyword": "cve-rejected"
+        },
+        {
+            "cve_id": "CVE-2009-3767",
+            "detected_scanners": "JFrog",
+            "outcome": "False Positive",
+            "reason": "pkg not found",
+            "reason_keyword": "pkg-not-found"
+        }
+    ]
+}

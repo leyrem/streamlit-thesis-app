@@ -1,0 +1,1171 @@
+{
+  "image_scanned": "amazonlinux:2023.4.20240416.0",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "ALAS-2024-592",
+          "package": [
+            "libnghttp2"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "high",
+          "type": "rpm",
+          "is_fixed": true,
+          "fixed_version": "1.59.0-3.amzn2023.0.1"
+        },
+        {
+          "cve_id": "ALAS-2024-596",
+          "package": [
+            "curl-minimal",
+            "libcurl-minimal"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "rpm",
+          "is_fixed": true,
+          "fixed_version": "8.5.0-1.amzn2023.0.4"
+        },
+        {
+          "cve_id": "ALAS-2024-605",
+          "package": [
+            "python3",
+            "python3-libs"
+          ],
+          "cvssv3_score": "6.2",
+          "severity": "medium",
+          "type": "rpm",
+          "is_fixed": true,
+          "fixed_version": "3.9.16-1.amzn2023.0.7"
+        },
+        {
+          "cve_id": "ALAS-2024-616",
+          "package": [
+            "python3",
+            "python3-libs"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "rpm",
+          "is_fixed": true,
+          "fixed_version": "3.9.16-1.amzn2023.0.8"
+        },
+        {
+          "cve_id": "ALAS-2024-640",
+          "package": [
+            "openssl-libs"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "rpm",
+          "is_fixed": true,
+          "fixed_version": "3.0.8-1.amzn2023.0.12"
+        },
+        {
+          "cve_id": "ALAS-2024-589",
+          "package": [
+            "glibc",
+            "glibc-common",
+            "glibc-minimal-langpack"
+          ],
+          "cvssv3_score": "7.0",
+          "severity": "high",
+          "type": "rpm",
+          "is_fixed": true,
+          "fixed_version": "2.34-52.amzn2023.0.10"
+        }
+      ],
+      "num_cves": 6,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "ALAS-2024-589",
+        "ALAS-2024-596",
+        "ALAS-2024-605",
+        "ALAS-2024-616"
+      ],
+      "relative_efficiency": 0.375
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "openssl-libs@1:3.0.8-1.amzn2023.0.11"
+          ],
+          "cvssv3_score": "3.7",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl-libs@1:3.0.8-1.amzn2023.0.12"
+        },
+        {
+          "cve_id": "CVE-2024-0450",
+          "package": [
+            "python3@3.9.16-1.amzn2023.0.6",
+            "python3-libs@3.9.16-1.amzn2023.0.6"
+          ],
+          "cvssv3_score": "6.2",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to python3@0:3.9.16-1.amzn2023.0.7"
+        },
+        {
+          "cve_id": "CVE-2023-6597",
+          "package": [
+            "python3@3.9.16-1.amzn2023.0.6",
+            "python3-libs@3.9.16-1.amzn2023.0.6"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to python3@0:3.9.16-1.amzn2023.0.8"
+        },
+        {
+          "cve_id": "CVE-2024-2398",
+          "package": [
+            "curl-minimal@8.5.0-1.amzn2023.0.3",
+            "libcurl-minimal@8.5.0-1.amzn2023.0.3"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to curl-minimal@0:8.5.0-1.amzn2023.0.4"
+        },
+        {
+          "cve_id": "CVE-2024-2004",
+          "package": [
+            "curl-minimal@8.5.0-1.amzn2023.0.3",
+            "libcurl-minimal@8.5.0-1.amzn2023.0.3"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to curl-minimal@0:8.5.0-1.amzn2023.0.4"
+        },
+        {
+          "cve_id": "CVE-2024-2961",
+          "package": [
+            "glibc@2.34-52.amzn2023.0.9",
+            "glibc-common@2.34-52.amzn2023.0.9",
+            "glibc-minimal-langpack@2.34-52.amzn2023.0.9"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to glibc@0:2.34-52.amzn2023.0.10"
+        },
+        {
+          "cve_id": "CVE-2024-28182",
+          "package": [
+            "libnghttp2@1.57.0-1.amzn2023.0.1"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "High",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to libnghttp2@0:1.59.0-3.amzn2023.0.1"
+        }
+      ],
+      "num_cves": 7,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-2961",
+        "CVE-2024-2398",
+        "CVE-2024-2004",
+        "CVE-2024-0450",
+        "CVE-2023-6597"
+      ],
+      "relative_efficiency": 0.4375
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2022-40897",
+          "package": [
+            "setuptools_59.6.0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[65.5.1]"
+        },
+        {
+          "cve_id": "CVE-2023-5752",
+          "package": [
+            "pip_21.3.1"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[23.3]"
+        },
+        {
+          "cve_id": "CVE-2024-0450",
+          "package": [
+            "python3-libs_0:3.9.16-1.amzn2023.0.6",
+            "python3_0:3.9.16-1.amzn2023.0.6"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[0:3.9.16-1.amzn2023.0.7]"
+        },
+        {
+          "cve_id": "CVE-2023-6597",
+          "package": [
+            "python3_0:3.9.16-1.amzn2023.0.6",
+            "python3-libs_0:3.9.16-1.amzn2023.0.6"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[0:3.9.16-1.amzn2023.0.8]"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "openssl-libs_1:3.0.8-1.amzn2023.0.11"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[1:3.0.8-1.amzn2023.0.12]"
+        },
+        {
+          "cve_id": "CVE-2024-28182",
+          "package": [
+            "libnghttp2_0:1.57.0-1.amzn2023.0.1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[0:1.59.0-3.amzn2023.0.1]"
+        },
+        {
+          "cve_id": "CVE-2018-20225",
+          "package": [
+            "pip_21.3.1"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-2004",
+          "package": [
+            "libcurl-minimal_0:8.5.0-1.amzn2023.0.3",
+            "curl-minimal_0:8.5.0-1.amzn2023.0.3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[0:8.5.0-1.amzn2023.0.4]"
+        },
+        {
+          "cve_id": "CVE-2024-2961",
+          "package": [
+            "glibc-common_0:2.34-52.amzn2023.0.9",
+            "glibc-minimal-langpack_0:2.34-52.amzn2023.0.9",
+            "glibc_0:2.34-52.amzn2023.0.9"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[0:2.34-52.amzn2023.0.10]"
+        },
+        {
+          "cve_id": "CVE-2024-2398",
+          "package": [
+            "libcurl-minimal_0:8.5.0-1.amzn2023.0.3",
+            "curl-minimal_0:8.5.0-1.amzn2023.0.3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[0:8.5.0-1.amzn2023.0.4]"
+        }
+      ],
+      "num_cves": 10,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-0450",
+        "CVE-2024-2004",
+        "CVE-2024-2398",
+        "CVE-2024-2961",
+        "CVE-2023-6597"
+      ],
+      "relative_efficiency": 0.625
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-2004",
+          "package": [
+            "library/amazonlinux: curl-minimal@8.5.0-1.amzn2023.0.3",
+            "library/amazonlinux: libcurl-minimal@8.5.0-1.amzn2023.0.3"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "8.5.0-1.amzn2023.0.4"
+        },
+        {
+          "cve_id": "CVE-2024-2398",
+          "package": [
+            "library/amazonlinux: curl-minimal@8.5.0-1.amzn2023.0.3",
+            "library/amazonlinux: libcurl-minimal@8.5.0-1.amzn2023.0.3"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "8.5.0-1.amzn2023.0.4"
+        },
+        {
+          "cve_id": "CVE-2024-2961",
+          "package": [
+            "library/amazonlinux: glibc@2.34-52.amzn2023.0.9",
+            "library/amazonlinux: glibc-common@2.34-52.amzn2023.0.9",
+            "library/amazonlinux: glibc-minimal-langpack@2.34-52.amzn2023.0.9"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.34-52.amzn2023.0.10"
+        },
+        {
+          "cve_id": "CVE-2024-28182",
+          "package": [
+            "library/amazonlinux: libnghttp2@1.57.0-1.amzn2023.0.1"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.59.0-3.amzn2023.0.1"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "library/amazonlinux: openssl-libs@1:3.0.8-1.amzn2023.0.11"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1:3.0.8-1.amzn2023.0.12"
+        },
+        {
+          "cve_id": "CVE-2023-6597",
+          "package": [
+            "library/amazonlinux: python3@3.9.16-1.amzn2023.0.6",
+            "library/amazonlinux: python3-libs@3.9.16-1.amzn2023.0.6"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.9.16-1.amzn2023.0.8"
+        },
+        {
+          "cve_id": "CVE-2024-0450",
+          "package": [
+            "library/amazonlinux: python3@3.9.16-1.amzn2023.0.6",
+            "library/amazonlinux: python3-libs@3.9.16-1.amzn2023.0.6"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.9.16-1.amzn2023.0.7"
+        }
+      ],
+      "num_cves": 7,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-2961",
+        "CVE-2024-2004",
+        "CVE-2024-2398",
+        "CVE-2023-6597",
+        "CVE-2024-0450"
+      ],
+      "relative_efficiency": 0.4375
+    },
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-0450",
+          "package": [
+            " pkg:rpm/amazonlinux/python3-libs@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/python3@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023",
+            " pkg:rpm/amazonlinux/python3-libs@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/python3@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.9.16-1.amzn2023.0.7"
+        },
+        {
+          "cve_id": "CVE-2024-2004",
+          "package": [
+            " pkg:rpm/amazonlinux/curl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/curl@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/libcurl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023",
+            " pkg:rpm/amazonlinux/curl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/curl@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/libcurl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023",
+            " pkg:rpm/amazonlinux/curl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/curl@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/libcurl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "8.5.0-1.amzn2023.0.4"
+        },
+        {
+          "cve_id": "CVE-2024-2398",
+          "package": [
+            " pkg:rpm/amazonlinux/curl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/curl@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/libcurl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023",
+            " pkg:rpm/amazonlinux/curl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/curl@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/libcurl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023",
+            " pkg:rpm/amazonlinux/curl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/curl@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/libcurl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "8.5.0-1.amzn2023.0.4"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            " pkg:rpm/amazonlinux/openssl-libs@1:3.0.8-1.amzn2023.0.11?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/openssl@1:3.0.8-1.amzn2023.0.11?os_name=amazonlinux\u0026os_version=2023",
+            " pkg:rpm/amazonlinux/openssl-libs@1:3.0.8-1.amzn2023.0.11?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/openssl@1:3.0.8-1.amzn2023.0.11?os_name=amazonlinux\u0026os_version=2023"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.0.8-1.amzn2023.0.12"
+        },
+        {
+          "cve_id": "CVE-2023-6597",
+          "package": [
+            " pkg:rpm/amazonlinux/python3-libs@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/python3@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023",
+            " pkg:rpm/amazonlinux/python3-libs@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/python3@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.9.16-1.amzn2023.0.8"
+        },
+        {
+          "cve_id": "CVE-2024-28182",
+          "package": [
+            " pkg:rpm/amazonlinux/libnghttp2@1.57.0-1.amzn2023.0.1?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/nghttp2@1.57.0-1.amzn2023.0.1?os_name=amazonlinux\u0026os_version=2023",
+            " pkg:rpm/amazonlinux/libnghttp2@1.57.0-1.amzn2023.0.1?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/nghttp2@1.57.0-1.amzn2023.0.1?os_name=amazonlinux\u0026os_version=2023"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.59.0-3.amzn2023.0.1"
+        },
+        {
+          "cve_id": "CVE-2024-2961",
+          "package": [
+            " pkg:rpm/amazonlinux/glibc-common@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/glibc-minimal-langpack@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/glibc@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023",
+            " pkg:rpm/amazonlinux/glibc-common@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/glibc-minimal-langpack@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/glibc@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023",
+            " pkg:rpm/amazonlinux/glibc-common@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/glibc-minimal-langpack@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/glibc@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.34-52.amzn2023.0.10"
+        }
+      ],
+      "num_cves": 7,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-0450",
+        "CVE-2024-2004",
+        "CVE-2024-2398",
+        "CVE-2024-2511",
+        "CVE-2023-6597",
+        "CVE-2024-28182",
+        "CVE-2024-2961"
+      ],
+      "relative_efficiency": 0.4375
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "ALAS-2024-592",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "ALAS-2024-592",
+            "package": [
+              "libnghttp2"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "high",
+            "type": "rpm",
+            "is_fixed": true,
+            "fixed_version": "1.59.0-3.amzn2023.0.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "ALAS-2024-640",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "ALAS-2024-640",
+            "package": [
+              "openssl-libs"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "rpm",
+            "is_fixed": true,
+            "fixed_version": "3.0.8-1.amzn2023.0.12"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2398",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-2398",
+            "package": [
+              "curl-minimal@8.5.0-1.amzn2023.0.3",
+              "libcurl-minimal@8.5.0-1.amzn2023.0.3"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to curl-minimal@0:8.5.0-1.amzn2023.0.4"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2398",
+            "package": [
+              "libcurl-minimal_0:8.5.0-1.amzn2023.0.3",
+              "curl-minimal_0:8.5.0-1.amzn2023.0.3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[0:8.5.0-1.amzn2023.0.4]"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-2398",
+            "package": [
+              "library/amazonlinux: curl-minimal@8.5.0-1.amzn2023.0.3",
+              "library/amazonlinux: libcurl-minimal@8.5.0-1.amzn2023.0.3"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "8.5.0-1.amzn2023.0.4"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-2398",
+            "package": [
+              " pkg:rpm/amazonlinux/curl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/curl@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/libcurl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023",
+              " pkg:rpm/amazonlinux/curl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/curl@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/libcurl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023",
+              " pkg:rpm/amazonlinux/curl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/curl@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/libcurl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "8.5.0-1.amzn2023.0.4"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-2961",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-2961",
+            "package": [
+              "glibc@2.34-52.amzn2023.0.9",
+              "glibc-common@2.34-52.amzn2023.0.9",
+              "glibc-minimal-langpack@2.34-52.amzn2023.0.9"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to glibc@0:2.34-52.amzn2023.0.10"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2961",
+            "package": [
+              "glibc-common_0:2.34-52.amzn2023.0.9",
+              "glibc-minimal-langpack_0:2.34-52.amzn2023.0.9",
+              "glibc_0:2.34-52.amzn2023.0.9"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[0:2.34-52.amzn2023.0.10]"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-2961",
+            "package": [
+              "library/amazonlinux: glibc@2.34-52.amzn2023.0.9",
+              "library/amazonlinux: glibc-common@2.34-52.amzn2023.0.9",
+              "library/amazonlinux: glibc-minimal-langpack@2.34-52.amzn2023.0.9"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.34-52.amzn2023.0.10"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-2961",
+            "package": [
+              " pkg:rpm/amazonlinux/glibc-common@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/glibc-minimal-langpack@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/glibc@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023",
+              " pkg:rpm/amazonlinux/glibc-common@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/glibc-minimal-langpack@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/glibc@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023",
+              " pkg:rpm/amazonlinux/glibc-common@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/glibc-minimal-langpack@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/glibc@2.34-52.amzn2023.0.9?os_name=amazonlinux\u0026os_version=2023"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.34-52.amzn2023.0.10"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-28182",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-28182",
+            "package": [
+              "libnghttp2@1.57.0-1.amzn2023.0.1"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to libnghttp2@0:1.59.0-3.amzn2023.0.1"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-28182",
+            "package": [
+              "libnghttp2_0:1.57.0-1.amzn2023.0.1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[0:1.59.0-3.amzn2023.0.1]"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-28182",
+            "package": [
+              "library/amazonlinux: libnghttp2@1.57.0-1.amzn2023.0.1"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.59.0-3.amzn2023.0.1"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-28182",
+            "package": [
+              " pkg:rpm/amazonlinux/libnghttp2@1.57.0-1.amzn2023.0.1?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/nghttp2@1.57.0-1.amzn2023.0.1?os_name=amazonlinux\u0026os_version=2023",
+              " pkg:rpm/amazonlinux/libnghttp2@1.57.0-1.amzn2023.0.1?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/nghttp2@1.57.0-1.amzn2023.0.1?os_name=amazonlinux\u0026os_version=2023"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.59.0-3.amzn2023.0.1"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2023-5752",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-5752",
+            "package": [
+              "pip_21.3.1"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[23.3]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "ALAS-2024-605",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "ALAS-2024-605",
+            "package": [
+              "python3",
+              "python3-libs"
+            ],
+            "cvssv3_score": "6.2",
+            "severity": "medium",
+            "type": "rpm",
+            "is_fixed": true,
+            "fixed_version": "3.9.16-1.amzn2023.0.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "ALAS-2024-589",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "ALAS-2024-589",
+            "package": [
+              "glibc",
+              "glibc-common",
+              "glibc-minimal-langpack"
+            ],
+            "cvssv3_score": "7.0",
+            "severity": "high",
+            "type": "rpm",
+            "is_fixed": true,
+            "fixed_version": "2.34-52.amzn2023.0.10"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-20225",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-20225",
+            "package": [
+              "pip_21.3.1"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "ALAS-2024-616",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "ALAS-2024-616",
+            "package": [
+              "python3",
+              "python3-libs"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "rpm",
+            "is_fixed": true,
+            "fixed_version": "3.9.16-1.amzn2023.0.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-6597",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-6597",
+            "package": [
+              "python3@3.9.16-1.amzn2023.0.6",
+              "python3-libs@3.9.16-1.amzn2023.0.6"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "High",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to python3@0:3.9.16-1.amzn2023.0.8"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-6597",
+            "package": [
+              "python3_0:3.9.16-1.amzn2023.0.6",
+              "python3-libs_0:3.9.16-1.amzn2023.0.6"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[0:3.9.16-1.amzn2023.0.8]"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-6597",
+            "package": [
+              "library/amazonlinux: python3@3.9.16-1.amzn2023.0.6",
+              "library/amazonlinux: python3-libs@3.9.16-1.amzn2023.0.6"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.9.16-1.amzn2023.0.8"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-6597",
+            "package": [
+              " pkg:rpm/amazonlinux/python3-libs@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/python3@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023",
+              " pkg:rpm/amazonlinux/python3-libs@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/python3@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.9.16-1.amzn2023.0.8"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-2004",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-2004",
+            "package": [
+              "curl-minimal@8.5.0-1.amzn2023.0.3",
+              "libcurl-minimal@8.5.0-1.amzn2023.0.3"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to curl-minimal@0:8.5.0-1.amzn2023.0.4"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2004",
+            "package": [
+              "libcurl-minimal_0:8.5.0-1.amzn2023.0.3",
+              "curl-minimal_0:8.5.0-1.amzn2023.0.3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[0:8.5.0-1.amzn2023.0.4]"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-2004",
+            "package": [
+              "library/amazonlinux: curl-minimal@8.5.0-1.amzn2023.0.3",
+              "library/amazonlinux: libcurl-minimal@8.5.0-1.amzn2023.0.3"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "8.5.0-1.amzn2023.0.4"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-2004",
+            "package": [
+              " pkg:rpm/amazonlinux/curl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/curl@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/libcurl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023",
+              " pkg:rpm/amazonlinux/curl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/curl@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/libcurl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023",
+              " pkg:rpm/amazonlinux/curl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/curl@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/libcurl-minimal@8.5.0-1.amzn2023.0.3?os_name=amazonlinux\u0026os_version=2023"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "8.5.0-1.amzn2023.0.4"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "ALAS-2024-596",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "ALAS-2024-596",
+            "package": [
+              "curl-minimal",
+              "libcurl-minimal"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "rpm",
+            "is_fixed": true,
+            "fixed_version": "8.5.0-1.amzn2023.0.4"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-2511",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "openssl-libs@1:3.0.8-1.amzn2023.0.11"
+            ],
+            "cvssv3_score": "3.7",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl-libs@1:3.0.8-1.amzn2023.0.12"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "openssl-libs_1:3.0.8-1.amzn2023.0.11"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[1:3.0.8-1.amzn2023.0.12]"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "library/amazonlinux: openssl-libs@1:3.0.8-1.amzn2023.0.11"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1:3.0.8-1.amzn2023.0.12"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              " pkg:rpm/amazonlinux/openssl-libs@1:3.0.8-1.amzn2023.0.11?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/openssl@1:3.0.8-1.amzn2023.0.11?os_name=amazonlinux\u0026os_version=2023",
+              " pkg:rpm/amazonlinux/openssl-libs@1:3.0.8-1.amzn2023.0.11?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/openssl@1:3.0.8-1.amzn2023.0.11?os_name=amazonlinux\u0026os_version=2023"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.0.8-1.amzn2023.0.12"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2024-0450",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-0450",
+            "package": [
+              "python3@3.9.16-1.amzn2023.0.6",
+              "python3-libs@3.9.16-1.amzn2023.0.6"
+            ],
+            "cvssv3_score": "6.2",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to python3@0:3.9.16-1.amzn2023.0.7"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-0450",
+            "package": [
+              "python3-libs_0:3.9.16-1.amzn2023.0.6",
+              "python3_0:3.9.16-1.amzn2023.0.6"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[0:3.9.16-1.amzn2023.0.7]"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-0450",
+            "package": [
+              "library/amazonlinux: python3@3.9.16-1.amzn2023.0.6",
+              "library/amazonlinux: python3-libs@3.9.16-1.amzn2023.0.6"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.9.16-1.amzn2023.0.7"
+          }
+        },
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-0450",
+            "package": [
+              " pkg:rpm/amazonlinux/python3-libs@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/python3@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023",
+              " pkg:rpm/amazonlinux/python3-libs@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023 pkg:rpm/amazonlinux/python3@3.9.16-1.amzn2023.0.6?os_name=amazonlinux\u0026os_version=2023"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.9.16-1.amzn2023.0.7"
+          }
+        }
+      ],
+      "detection_rate": 4
+    },
+    {
+      "cve_id": "CVE-2022-40897",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-40897",
+            "package": [
+              "setuptools_59.6.0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[65.5.1]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 16
+}

@@ -1,0 +1,672 @@
+{
+  "image_scanned": "amazoncorretto:8u412-al2-native-jdk",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "Snyk",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2014-3146",
+          "package": [
+            " pkg:pypi/lxml@3.2.1"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.3.5"
+        },
+        {
+          "cve_id": "CVE-2022-2309",
+          "package": [
+            " pkg:pypi/lxml@3.2.1"
+          ],
+          "cvssv3_score": "5.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.9.1"
+        },
+        {
+          "cve_id": "CVE-2018-19787",
+          "package": [
+            " pkg:pypi/lxml@3.2.1"
+          ],
+          "cvssv3_score": "6.100000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.2.5"
+        },
+        {
+          "cve_id": "CVE-2020-27783",
+          "package": [
+            " pkg:pypi/lxml@3.2.1"
+          ],
+          "cvssv3_score": "6.100000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.6.2"
+        },
+        {
+          "cve_id": "CVE-2021-28957",
+          "package": [
+            " pkg:pypi/lxml@3.2.1"
+          ],
+          "cvssv3_score": "6.100000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.6.3"
+        },
+        {
+          "cve_id": "CVE-2021-43818",
+          "package": [
+            " pkg:pypi/lxml@3.2.1"
+          ],
+          "cvssv3_score": "8.200000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "4.6.5"
+        }
+      ],
+      "num_cves": 6,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.375
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "GHSA-55x5-fj6c",
+          "package": [
+            "h6m8-lxml"
+          ],
+          "cvssv3_score": "8.2",
+          "severity": "high",
+          "type": "python",
+          "is_fixed": true,
+          "fixed_version": "4.6.5"
+        },
+        {
+          "cve_id": "GHSA-57qw-cc2g",
+          "package": [
+            "pv5p-lxml"
+          ],
+          "cvssv3_score": "4.3",
+          "severity": "medium",
+          "type": "python",
+          "is_fixed": true,
+          "fixed_version": "3.3.5"
+        },
+        {
+          "cve_id": "GHSA-jq4v-f5q6",
+          "package": [
+            "mjqq-lxml"
+          ],
+          "cvssv3_score": "6.1",
+          "severity": "medium",
+          "type": "python",
+          "is_fixed": true,
+          "fixed_version": "4.6.3"
+        },
+        {
+          "cve_id": "GHSA-pgww-xf46",
+          "package": [
+            "h92r-lxml"
+          ],
+          "cvssv3_score": "6.1",
+          "severity": "medium",
+          "type": "python",
+          "is_fixed": true,
+          "fixed_version": "4.6.2"
+        },
+        {
+          "cve_id": "GHSA-wrxv-2j5q",
+          "package": [
+            "m38w-lxml"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "python",
+          "is_fixed": true,
+          "fixed_version": "4.9.1"
+        },
+        {
+          "cve_id": "GHSA-xp26-p53h",
+          "package": [
+            "6h2p-lxml"
+          ],
+          "cvssv3_score": "6.1",
+          "severity": "medium",
+          "type": "python",
+          "is_fixed": true,
+          "fixed_version": "4.2.5"
+        }
+      ],
+      "num_cves": 6,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.375
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2021-43818",
+          "package": [
+            "lxml_3.2.1"
+          ],
+          "cvssv3_score": "7.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[4.6.5]"
+        },
+        {
+          "cve_id": "CVE-2018-20225",
+          "package": [
+            "pip_19.2.3"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2020-27783",
+          "package": [
+            "lxml_3.2.1"
+          ],
+          "cvssv3_score": "6.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[4.6.2]"
+        },
+        {
+          "cve_id": "CVE-2021-28957",
+          "package": [
+            "lxml_3.2.1"
+          ],
+          "cvssv3_score": "6.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[4.6.3]"
+        },
+        {
+          "cve_id": "CVE-2022-40897",
+          "package": [
+            "setuptools_41.2.0"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[65.5.1]"
+        },
+        {
+          "cve_id": "CVE-2014-3146",
+          "package": [
+            "lxml_3.2.1"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[3.3.5]"
+        },
+        {
+          "cve_id": "CVE-2021-3572",
+          "package": [
+            "pip_19.2.3"
+          ],
+          "cvssv3_score": "5.7",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[21.1]"
+        },
+        {
+          "cve_id": "CVE-2018-19787",
+          "package": [
+            "lxml_3.2.1"
+          ],
+          "cvssv3_score": "6.1",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[4.2.5]"
+        },
+        {
+          "cve_id": "CVE-2023-5752",
+          "package": [
+            "pip_19.2.3"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "[23.3]"
+        }
+      ],
+      "num_cves": 9,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.5625
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "GHSA-57qw-cc2g",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-57qw-cc2g",
+            "package": [
+              "pv5p-lxml"
+            ],
+            "cvssv3_score": "4.3",
+            "severity": "medium",
+            "type": "python",
+            "is_fixed": true,
+            "fixed_version": "3.3.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-20225",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-20225",
+            "package": [
+              "pip_19.2.3"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-19787",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2018-19787",
+            "package": [
+              " pkg:pypi/lxml@3.2.1"
+            ],
+            "cvssv3_score": "6.100000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.2.5"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-19787",
+            "package": [
+              "lxml_3.2.1"
+            ],
+            "cvssv3_score": "6.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[4.2.5]"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-43818",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2021-43818",
+            "package": [
+              " pkg:pypi/lxml@3.2.1"
+            ],
+            "cvssv3_score": "8.200000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.6.5"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-43818",
+            "package": [
+              "lxml_3.2.1"
+            ],
+            "cvssv3_score": "7.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[4.6.5]"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "GHSA-55x5-fj6c",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-55x5-fj6c",
+            "package": [
+              "h6m8-lxml"
+            ],
+            "cvssv3_score": "8.2",
+            "severity": "high",
+            "type": "python",
+            "is_fixed": true,
+            "fixed_version": "4.6.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-jq4v-f5q6",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-jq4v-f5q6",
+            "package": [
+              "mjqq-lxml"
+            ],
+            "cvssv3_score": "6.1",
+            "severity": "medium",
+            "type": "python",
+            "is_fixed": true,
+            "fixed_version": "4.6.3"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-40897",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-40897",
+            "package": [
+              "setuptools_41.2.0"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[65.5.1]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-2309",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-2309",
+            "package": [
+              " pkg:pypi/lxml@3.2.1"
+            ],
+            "cvssv3_score": "5.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.9.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-27783",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2020-27783",
+            "package": [
+              " pkg:pypi/lxml@3.2.1"
+            ],
+            "cvssv3_score": "6.100000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.6.2"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2020-27783",
+            "package": [
+              "lxml_3.2.1"
+            ],
+            "cvssv3_score": "6.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[4.6.2]"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2021-28957",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2021-28957",
+            "package": [
+              " pkg:pypi/lxml@3.2.1"
+            ],
+            "cvssv3_score": "6.100000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "4.6.3"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-28957",
+            "package": [
+              "lxml_3.2.1"
+            ],
+            "cvssv3_score": "6.1",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[4.6.3]"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "GHSA-pgww-xf46",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-pgww-xf46",
+            "package": [
+              "h92r-lxml"
+            ],
+            "cvssv3_score": "6.1",
+            "severity": "medium",
+            "type": "python",
+            "is_fixed": true,
+            "fixed_version": "4.6.2"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-3146",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2014-3146",
+            "package": [
+              " pkg:pypi/lxml@3.2.1"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.3.5"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2014-3146",
+            "package": [
+              "lxml_3.2.1"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[3.3.5]"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "GHSA-wrxv-2j5q",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-wrxv-2j5q",
+            "package": [
+              "m38w-lxml"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "python",
+            "is_fixed": true,
+            "fixed_version": "4.9.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-xp26-p53h",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-xp26-p53h",
+            "package": [
+              "6h2p-lxml"
+            ],
+            "cvssv3_score": "6.1",
+            "severity": "medium",
+            "type": "python",
+            "is_fixed": true,
+            "fixed_version": "4.2.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-3572",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2021-3572",
+            "package": [
+              "pip_19.2.3"
+            ],
+            "cvssv3_score": "5.7",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[21.1]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-5752",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-5752",
+            "package": [
+              "pip_19.2.3"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "[23.3]"
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 16
+}

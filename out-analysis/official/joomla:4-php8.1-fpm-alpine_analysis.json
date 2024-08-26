@@ -1,0 +1,4120 @@
+{
+  "image_scanned": "joomla:4-php8.1-fpm-alpine",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "Snyk",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2022-31109",
+          "package": [
+            " pkg:composer/laminas/laminas-diactoros@2.4.1"
+          ],
+          "cvssv3_score": "6.100000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.11.1"
+        },
+        {
+          "cve_id": "CVE-2023-29530",
+          "package": [
+            " pkg:composer/laminas/laminas-diactoros@2.4.1"
+          ],
+          "cvssv3_score": "7.500000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "2.18.1"
+        }
+      ],
+      "num_cves": 2,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.018867925
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "3.20:ssl_client_1.36.1-r28",
+            "3.20:busybox_1.36.1-r28",
+            "3.20:busybox-binsh_1.36.1-r28"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "3.20:busybox-binsh_1.36.1-r28",
+            "3.20:ssl_client_1.36.1-r28",
+            "3.20:busybox_1.36.1-r28"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2024-35235",
+          "package": [
+            "3.20:cups-libs_2.4.8-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-52722",
+          "package": [
+            "3.20:ghostscript_10.02.1-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        }
+      ],
+      "num_cves": 4,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42365",
+        "CVE-2023-42364"
+      ],
+      "relative_efficiency": 0.03773585
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2015-3211",
+          "package": [
+            "php-fpm"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-10062",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9815",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9824",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7514",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7519",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7521",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7523",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-31294",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "5.9",
+          "severity": "medium",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-32762",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "9.0",
+          "severity": "high",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9809",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9823",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-24735",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-10145",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7525",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7527",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7533",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-45145",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "3.6",
+          "severity": "low",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-6228",
+          "package": [
+            "tiff"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2007-1667",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "9.3",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9816",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7538",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9852",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9853",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9848",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-5118",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "10.0",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-5506",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-25155",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-28856",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2007-2728",
+          "package": [
+            "php-cli",
+            "php-fpm"
+          ],
+          "cvssv3_score": "5.0",
+          "severity": "medium",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9807",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7529",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-5509",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-5511",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2018-6553",
+          "package": [
+            "cups-libs"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-24736",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7517",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7518",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9812",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7524",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7526",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7532",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-32687",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-24834",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "high",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-4900",
+          "package": [
+            "php-cli",
+            "php-fpm"
+          ],
+          "cvssv3_score": "6.2",
+          "severity": "medium",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-8274-h5jp",
+          "package": [
+            "97vr-laminas/laminas-diactoros"
+          ],
+          "cvssv3_score": "6.1",
+          "severity": "medium",
+          "type": "php-composer",
+          "is_fixed": true,
+          "fixed_version": "2.11.1"
+        },
+        {
+          "cve_id": "CVE-2014-9808",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9822",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7534",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7537",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-32628",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9827",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7515",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9820",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9907",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2015-7313",
+          "package": [
+            "tiff"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7516",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7530",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-38560",
+          "package": [
+            "ghostscript"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9811",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9819",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9828",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9829",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9854",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7520",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2017-5510",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-32672",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9810",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9818",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9813",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9817",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9821",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9830",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-10146",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7522",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2007-4596",
+          "package": [
+            "php-cli",
+            "php-fpm"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9805",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-52356",
+          "package": [
+            "tiff"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9804",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-32627",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9831",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7528",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7531",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-35977",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-36021",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9806",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9825",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "high",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-10144",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7535",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7536",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2023-6277",
+          "package": [
+            "tiff"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-xv3h-4844",
+          "package": [
+            "9h36-laminas/laminas-diactoros"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "php-composer",
+          "is_fixed": true,
+          "fixed_version": "2.18.1"
+        },
+        {
+          "cve_id": "CVE-2014-9814",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2014-9826",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "critical",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-32626",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "8.8",
+          "severity": "high",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-32675",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2021-41099",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "high",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-3647",
+          "package": [
+            "redis"
+          ],
+          "cvssv3_score": "3.3",
+          "severity": "low",
+          "type": "php-pecl",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2007-3205",
+          "package": [
+            "php-cli",
+            "php-fpm"
+          ],
+          "cvssv3_score": "5.0",
+          "severity": "medium",
+          "type": "binary",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2016-7513",
+          "package": [
+            "imagemagick",
+            "imagemagick-jpeg",
+            "imagemagick-libs",
+            "imagemagick-pdf",
+            "imagemagick-tiff",
+            "imagemagick-webp"
+          ],
+          "cvssv3_score": "6.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 100,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2007-1667",
+        "CVE-2007-2728",
+        "CVE-2007-3205",
+        "CVE-2007-4596",
+        "CVE-2014-9804",
+        "CVE-2014-9805",
+        "CVE-2014-9806",
+        "CVE-2014-9807",
+        "CVE-2014-9808",
+        "CVE-2014-9809",
+        "CVE-2014-9810",
+        "CVE-2014-9811",
+        "CVE-2014-9812",
+        "CVE-2014-9813",
+        "CVE-2014-9814",
+        "CVE-2014-9815",
+        "CVE-2014-9816",
+        "CVE-2014-9817",
+        "CVE-2014-9818",
+        "CVE-2014-9819",
+        "CVE-2014-9820",
+        "CVE-2014-9821",
+        "CVE-2014-9822",
+        "CVE-2014-9823",
+        "CVE-2014-9824",
+        "CVE-2014-9825",
+        "CVE-2014-9826",
+        "CVE-2014-9827",
+        "CVE-2014-9828",
+        "CVE-2014-9829",
+        "CVE-2014-9830",
+        "CVE-2014-9831",
+        "CVE-2014-9848",
+        "CVE-2014-9852",
+        "CVE-2014-9853",
+        "CVE-2014-9854",
+        "CVE-2014-9907",
+        "CVE-2016-10062",
+        "CVE-2016-10144",
+        "CVE-2016-10145",
+        "CVE-2016-10146",
+        "CVE-2016-5118",
+        "CVE-2016-7513",
+        "CVE-2016-7514",
+        "CVE-2016-7515",
+        "CVE-2016-7516",
+        "CVE-2016-7517",
+        "CVE-2016-7518",
+        "CVE-2016-7519",
+        "CVE-2016-7520",
+        "CVE-2016-7521",
+        "CVE-2016-7522",
+        "CVE-2016-7523",
+        "CVE-2016-7524",
+        "CVE-2016-7525",
+        "CVE-2016-7526",
+        "CVE-2016-7527",
+        "CVE-2016-7528",
+        "CVE-2016-7529",
+        "CVE-2016-7530",
+        "CVE-2016-7531",
+        "CVE-2016-7532",
+        "CVE-2016-7533",
+        "CVE-2016-7534",
+        "CVE-2016-7535",
+        "CVE-2016-7536",
+        "CVE-2016-7537",
+        "CVE-2016-7538",
+        "CVE-2017-5506",
+        "CVE-2017-5509",
+        "CVE-2017-5510",
+        "CVE-2017-5511",
+        "CVE-2022-4900"
+      ],
+      "relative_efficiency": 0.9433962
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "GHSA-8274-h5jp",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-8274-h5jp",
+            "package": [
+              "97vr-laminas/laminas-diactoros"
+            ],
+            "cvssv3_score": "6.1",
+            "severity": "medium",
+            "type": "php-composer",
+            "is_fixed": true,
+            "fixed_version": "2.11.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-xv3h-4844",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-xv3h-4844",
+            "package": [
+              "9h36-laminas/laminas-diactoros"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "php-composer",
+            "is_fixed": true,
+            "fixed_version": "2.18.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42365",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "3.20:busybox-binsh_1.36.1-r28",
+              "3.20:ssl_client_1.36.1-r28",
+              "3.20:busybox_1.36.1-r28"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7514",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7514",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7523",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7523",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7527",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7527",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7533",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7533",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9807",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9807",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2017-5511",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2017-5511",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-29530",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-29530",
+            "package": [
+              " pkg:composer/laminas/laminas-diactoros@2.4.1"
+            ],
+            "cvssv3_score": "7.500000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.18.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9821",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9821",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2007-4596",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2007-4596",
+            "package": [
+              "php-cli",
+              "php-fpm"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7531",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7531",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-41099",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-41099",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2015-3211",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2015-3211",
+            "package": [
+              "php-fpm"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-32762",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-32762",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "9.0",
+            "severity": "high",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7530",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7530",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9817",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9817",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7522",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7522",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9823",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9823",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7529",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7529",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9829",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9829",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-31294",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-31294",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "5.9",
+            "severity": "medium",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-4900",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-4900",
+            "package": [
+              "php-cli",
+              "php-fpm"
+            ],
+            "cvssv3_score": "6.2",
+            "severity": "medium",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2007-2728",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2007-2728",
+            "package": [
+              "php-cli",
+              "php-fpm"
+            ],
+            "cvssv3_score": "5.0",
+            "severity": "medium",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2018-6553",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2018-6553",
+            "package": [
+              "cups-libs"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9812",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9812",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7532",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7532",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7534",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7534",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7519",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7519",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9814",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9814",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2017-5506",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2017-5506",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-32628",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-32628",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9804",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9804",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-32626",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-32626",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "high",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7538",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7538",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7518",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7518",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7521",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7521",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2007-1667",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2007-1667",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "9.3",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9827",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9827",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-52356",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-52356",
+            "package": [
+              "tiff"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-36021",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-36021",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9824",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9824",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7517",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7517",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9822",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9822",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7536",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7536",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-6277",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-6277",
+            "package": [
+              "tiff"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9809",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9809",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7526",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7526",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2015-7313",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2015-7313",
+            "package": [
+              "tiff"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7516",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7516",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9819",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9819",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9831",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9831",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-24736",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-24736",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-10146",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-10146",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2007-3205",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2007-3205",
+            "package": [
+              "php-cli",
+              "php-fpm"
+            ],
+            "cvssv3_score": "5.0",
+            "severity": "medium",
+            "type": "binary",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-10062",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-10062",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-45145",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-45145",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "3.6",
+            "severity": "low",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9816",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9816",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7537",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7537",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7520",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7520",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-10144",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-10144",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-35235",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-35235",
+            "package": [
+              "3.20:cups-libs_2.4.8-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-10145",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-10145",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-24735",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-24735",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9808",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9808",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9854",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9854",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-5118",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-5118",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "10.0",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9828",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9828",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-3647",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-3647",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "3.3",
+            "severity": "low",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-52722",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-52722",
+            "package": [
+              "3.20:ghostscript_10.02.1-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9811",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9811",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9848",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9848",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2017-5509",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2017-5509",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42364",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "3.20:ssl_client_1.36.1-r28",
+              "3.20:busybox_1.36.1-r28",
+              "3.20:busybox-binsh_1.36.1-r28"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7535",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7535",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7524",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7524",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9805",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9805",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9852",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9852",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-24834",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-24834",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "high",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9820",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9820",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-28856",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-28856",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9810",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9810",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9806",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9806",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-25155",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-25155",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-32687",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-32687",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7528",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7528",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-38560",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-38560",
+            "package": [
+              "ghostscript"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9818",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9818",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9813",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9813",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-35977",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2022-35977",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9825",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9825",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7513",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7513",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-6228",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-6228",
+            "package": [
+              "tiff"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9907",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9907",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2017-5510",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2017-5510",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-32675",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-32675",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-31109",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-31109",
+            "package": [
+              " pkg:composer/laminas/laminas-diactoros@2.4.1"
+            ],
+            "cvssv3_score": "6.100000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "2.11.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7525",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7525",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9853",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9853",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2016-7515",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2016-7515",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "6.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-32672",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-32672",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2021-32627",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2021-32627",
+            "package": [
+              "redis"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "high",
+            "type": "php-pecl",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9830",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9830",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "8.8",
+            "severity": "high",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9826",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9826",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "critical",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2014-9815",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2014-9815",
+            "package": [
+              "imagemagick",
+              "imagemagick-jpeg",
+              "imagemagick-libs",
+              "imagemagick-pdf",
+              "imagemagick-tiff",
+              "imagemagick-webp"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 106
+}

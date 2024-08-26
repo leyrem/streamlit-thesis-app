@@ -1,0 +1,895 @@
+{
+  "image_scanned": "fluentd:v1.16.2-1.1",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-35176",
+          "package": [
+            " pkg:gem/rexml@3.2.6"
+          ],
+          "cvssv3_score": "5.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "3.2.7"
+        }
+      ],
+      "num_cves": 1,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.055555556
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-35176",
+          "package": [
+            "usr/lib/ruby/gems/3.1.0/specifications/rexml-3.2.6.gemspec: rexml@3.2.6"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "\u003e= 3.2.7"
+        }
+      ],
+      "num_cves": 1,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.055555556
+    },
+    {
+      "scanner_name": "Snyk",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "busybox/busybox@1.35.0-r29"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "Medium",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to busybox/busybox@1.35.0-r30"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "openssl/libcrypto3@3.0.12-r4"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto3@3.0.12-r5"
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "openssl/libcrypto3@3.0.12-r4"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to openssl/libcrypto3@3.0.13-r0"
+        },
+        {
+          "cve_id": "CVE-2024-27282",
+          "package": [
+            "ruby/ruby@3.1.4-r0"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to ruby/ruby@3.1.5-r0"
+        },
+        {
+          "cve_id": "CVE-2024-27281",
+          "package": [
+            "ruby/ruby@3.1.4-r0"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to ruby/ruby@3.1.5-r0"
+        },
+        {
+          "cve_id": "CVE-2024-27280",
+          "package": [
+            "ruby/ruby@3.1.4-r0"
+          ],
+          "cvssv3_score": "0",
+          "severity": "Low",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "Upgrade to ruby/ruby@3.1.5-r0"
+        }
+      ],
+      "num_cves": 6,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0.33333334
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "GHSA-vg3r-rm7w",
+          "package": [
+            "2xgh-rexml"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "gem",
+          "is_fixed": true,
+          "fixed_version": "3.2.7"
+        },
+        {
+          "cve_id": "CVE-2008-1145",
+          "package": [
+            "ruby-webrick"
+          ],
+          "cvssv3_score": "5.0",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-hww2-5g85",
+          "package": [
+            "429m-uri"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "gem",
+          "is_fixed": true,
+          "fixed_version": "0.12.2"
+        },
+        {
+          "cve_id": "CVE-2024-27280",
+          "package": [
+            "ruby",
+            "ruby-libs"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.1.5-r0"
+        },
+        {
+          "cve_id": "CVE-2024-27281",
+          "package": [
+            "ruby",
+            "ruby-libs"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.1.5-r0"
+        },
+        {
+          "cve_id": "CVE-2024-27282",
+          "package": [
+            "ruby",
+            "ruby-libs"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.1.5-r0"
+        },
+        {
+          "cve_id": "CVE-2024-4603",
+          "package": [
+            "libcrypto3",
+            "libssl3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.0.13-r0"
+        },
+        {
+          "cve_id": "GHSA-v5h6-c2hv",
+          "package": [
+            "hv3r-stringio"
+          ],
+          "cvssv3_score": "7.0",
+          "severity": "high",
+          "type": "gem",
+          "is_fixed": true,
+          "fixed_version": "3.0.1.1"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "busybox",
+            "busybox-binsh",
+            "ssl_client"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "medium",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "1.35.0-r30"
+        },
+        {
+          "cve_id": "CVE-2024-2511",
+          "package": [
+            "libcrypto3",
+            "libssl3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": true,
+          "fixed_version": "3.0.12-r5"
+        }
+      ],
+      "num_cves": 10,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-42366",
+        "CVE-2024-2511",
+        "CVE-2024-27280",
+        "CVE-2024-27281",
+        "CVE-2024-27282",
+        "CVE-2024-4603"
+      ],
+      "relative_efficiency": 0.5555556
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2022-48174",
+          "package": [
+            "3.17:busybox_1.35.0-r29",
+            "3.17:ssl_client_1.35.0-r29",
+            "3.17:busybox-binsh_1.35.0-r29"
+          ],
+          "cvssv3_score": "9.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "9.8"
+        },
+        {
+          "cve_id": "CVE-2023-22795",
+          "package": [
+            "3.17:ruby-libs_3.1.4-r0",
+            "3.17:ruby_3.1.4-r0"
+          ],
+          "cvssv3_score": "7.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.5"
+        },
+        {
+          "cve_id": "CVE-2023-42363",
+          "package": [
+            "3.17:ssl_client_1.35.0-r29",
+            "3.17:busybox_1.35.0-r29",
+            "3.17:busybox-binsh_1.35.0-r29"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42366",
+          "package": [
+            "3.17:busybox_1.35.0-r29",
+            "3.17:ssl_client_1.35.0-r29",
+            "3.17:busybox-binsh_1.35.0-r29"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2023-42365",
+          "package": [
+            "3.17:ssl_client_1.35.0-r29",
+            "3.17:busybox_1.35.0-r29",
+            "3.17:busybox-binsh_1.35.0-r29"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2009-3767",
+          "package": [
+            "3.17:libcrypto3_3.0.12-r4",
+            "3.17:libssl3_3.0.12-r4"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2023-42364",
+          "package": [
+            "3.17:busybox_1.35.0-r29",
+            "3.17:busybox-binsh_1.35.0-r29",
+            "3.17:ssl_client_1.35.0-r29"
+          ],
+          "cvssv3_score": "5.5",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.5"
+        },
+        {
+          "cve_id": "CVE-2013-0233",
+          "package": [
+            "3.17:ruby-libs_3.1.4-r0",
+            "3.17:ruby_3.1.4-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-27282",
+          "package": [
+            "3.17:ruby_3.1.4-r0",
+            "3.17:ruby-libs_3.1.4-r0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        }
+      ],
+      "num_cves": 9,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2022-48174",
+        "CVE-2023-22795",
+        "CVE-2023-42363",
+        "CVE-2023-42364",
+        "CVE-2023-42366",
+        "CVE-2023-42365",
+        "CVE-2009-3767",
+        "CVE-2013-0233",
+        "CVE-2024-27282"
+      ],
+      "relative_efficiency": 0.5
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2008-1145",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2008-1145",
+            "package": [
+              "ruby-webrick"
+            ],
+            "cvssv3_score": "5.0",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-v5h6-c2hv",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-v5h6-c2hv",
+            "package": [
+              "hv3r-stringio"
+            ],
+            "cvssv3_score": "7.0",
+            "severity": "high",
+            "type": "gem",
+            "is_fixed": true,
+            "fixed_version": "3.0.1.1"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-35176",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-35176",
+            "package": [
+              " pkg:gem/rexml@3.2.6"
+            ],
+            "cvssv3_score": "5.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "3.2.7"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-35176",
+            "package": [
+              "usr/lib/ruby/gems/3.1.0/specifications/rexml-3.2.6.gemspec: rexml@3.2.6"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "\u003e= 3.2.7"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2023-42366",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "busybox/busybox@1.35.0-r29"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "Medium",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to busybox/busybox@1.35.0-r30"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "busybox",
+              "busybox-binsh",
+              "ssl_client"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "medium",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "1.35.0-r30"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42366",
+            "package": [
+              "3.17:busybox_1.35.0-r29",
+              "3.17:ssl_client_1.35.0-r29",
+              "3.17:busybox-binsh_1.35.0-r29"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-2511",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "openssl/libcrypto3@3.0.12-r4"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto3@3.0.12-r5"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-2511",
+            "package": [
+              "libcrypto3",
+              "libssl3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.0.12-r5"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "GHSA-vg3r-rm7w",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-vg3r-rm7w",
+            "package": [
+              "2xgh-rexml"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "gem",
+            "is_fixed": true,
+            "fixed_version": "3.2.7"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-27282",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-27282",
+            "package": [
+              "ruby/ruby@3.1.4-r0"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to ruby/ruby@3.1.5-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-27282",
+            "package": [
+              "ruby",
+              "ruby-libs"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.1.5-r0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-27282",
+            "package": [
+              "3.17:ruby_3.1.4-r0",
+              "3.17:ruby-libs_3.1.4-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2009-3767",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2009-3767",
+            "package": [
+              "3.17:libcrypto3_3.0.12-r4",
+              "3.17:libssl3_3.0.12-r4"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42364",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42364",
+            "package": [
+              "3.17:busybox_1.35.0-r29",
+              "3.17:busybox-binsh_1.35.0-r29",
+              "3.17:ssl_client_1.35.0-r29"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2013-0233",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2013-0233",
+            "package": [
+              "3.17:ruby-libs_3.1.4-r0",
+              "3.17:ruby_3.1.4-r0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42365",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42365",
+            "package": [
+              "3.17:ssl_client_1.35.0-r29",
+              "3.17:busybox_1.35.0-r29",
+              "3.17:busybox-binsh_1.35.0-r29"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-4603",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "openssl/libcrypto3@3.0.12-r4"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to openssl/libcrypto3@3.0.13-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-4603",
+            "package": [
+              "libcrypto3",
+              "libssl3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.0.13-r0"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2024-27281",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-27281",
+            "package": [
+              "ruby/ruby@3.1.4-r0"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to ruby/ruby@3.1.5-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-27281",
+            "package": [
+              "ruby",
+              "ruby-libs"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.1.5-r0"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "CVE-2024-27280",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Snyk",
+          "cve_info": {
+            "cve_id": "CVE-2024-27280",
+            "package": [
+              "ruby/ruby@3.1.4-r0"
+            ],
+            "cvssv3_score": "0",
+            "severity": "Low",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "Upgrade to ruby/ruby@3.1.5-r0"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-27280",
+            "package": [
+              "ruby",
+              "ruby-libs"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": true,
+            "fixed_version": "3.1.5-r0"
+          }
+        }
+      ],
+      "detection_rate": 2
+    },
+    {
+      "cve_id": "GHSA-hww2-5g85",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-hww2-5g85",
+            "package": [
+              "429m-uri"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "gem",
+            "is_fixed": true,
+            "fixed_version": "0.12.2"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2022-48174",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2022-48174",
+            "package": [
+              "3.17:busybox_1.35.0-r29",
+              "3.17:ssl_client_1.35.0-r29",
+              "3.17:busybox-binsh_1.35.0-r29"
+            ],
+            "cvssv3_score": "9.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "9.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-22795",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-22795",
+            "package": [
+              "3.17:ruby-libs_3.1.4-r0",
+              "3.17:ruby_3.1.4-r0"
+            ],
+            "cvssv3_score": "7.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2023-42363",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-42363",
+            "package": [
+              "3.17:ssl_client_1.35.0-r29",
+              "3.17:busybox_1.35.0-r29",
+              "3.17:busybox-binsh_1.35.0-r29"
+            ],
+            "cvssv3_score": "5.5",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.5"
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 18
+}

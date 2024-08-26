@@ -1,0 +1,10 @@
+Image,Category
+arangodb:3.12.0.2,Official
+ubuntu:18.10,Official
+nginx:stable-alpine-otel,Official
+opensearchproject_opensearch:2,Verified
+newrelic_infrastructure:1.53.0,Verified
+hashicorp_consul:1.18.2,Verified
+curlimages_curl:8.4.0,Sponsored
+linuxserver_deluge:2.1.1,Sponsored
+vaultwarden_server:alpine,Sponsored

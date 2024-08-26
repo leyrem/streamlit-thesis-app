@@ -1,0 +1,1046 @@
+{
+  "image_scanned": "newrelic/infrastructure-bundle:nightly",
+  "cves_detected_all_scanners": [
+    {
+      "scanner_name": "Snyk",
+      "cves": [],
+      "num_cves": 0,
+      "has_duplicates": false,
+      "duplicates_list": null,
+      "relative_efficiency": 0
+    },
+    {
+      "scanner_name": "DockerScout",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-24789",
+          "package": [
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.22.2 pkg:golang/stdlib@1.22.3",
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.22.2 pkg:golang/stdlib@1.22.3",
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.22.2 pkg:golang/stdlib@1.22.3"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.11"
+        },
+        {
+          "cve_id": "CVE-2024-24786",
+          "package": [
+            " pkg:golang/google.golang.org/protobuf@1.30.0 pkg:golang/google.golang.org/protobuf@1.31.0",
+            " pkg:golang/google.golang.org/protobuf@1.30.0 pkg:golang/google.golang.org/protobuf@1.31.0"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.33.0"
+        },
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            " pkg:golang/golang.org/x/net@0.17.0 pkg:golang/golang.org/x/net@0.19.0",
+            " pkg:golang/golang.org/x/net@0.17.0 pkg:golang/golang.org/x/net@0.19.0"
+          ],
+          "cvssv3_score": "5.300000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "0.23.0"
+        },
+        {
+          "cve_id": "CVE-2020-8911",
+          "package": [
+            " pkg:golang/github.com/aws/aws-sdk-go@1.44.69 pkg:golang/github.com/aws/aws-sdk-go@1.51.25",
+            " pkg:golang/github.com/aws/aws-sdk-go@1.44.69 pkg:golang/github.com/aws/aws-sdk-go@1.51.25"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2022-29583",
+          "package": [
+            " pkg:golang/github.com/kardianos/service@1.2.1"
+          ],
+          "cvssv3_score": "7.800000",
+          "severity": "HIGH",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24788",
+          "package": [
+            " pkg:golang/stdlib@1.22.2"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.22.3"
+        },
+        {
+          "cve_id": "CVE-2020-8912",
+          "package": [
+            " pkg:golang/github.com/aws/aws-sdk-go@1.44.69 pkg:golang/github.com/aws/aws-sdk-go@1.51.25",
+            " pkg:golang/github.com/aws/aws-sdk-go@1.44.69 pkg:golang/github.com/aws/aws-sdk-go@1.51.25"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "LOW",
+          "type": "OsPackageVulnerability",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24557",
+          "package": [
+            " pkg:golang/github.com/docker/docker@23.0.11%2Bincompatible"
+          ],
+          "cvssv3_score": "6.900000",
+          "severity": "MEDIUM",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "24.0.9"
+        },
+        {
+          "cve_id": "CVE-2024-24790",
+          "package": [
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.22.2 pkg:golang/stdlib@1.22.3",
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.22.2 pkg:golang/stdlib@1.22.3",
+            " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.22.2 pkg:golang/stdlib@1.22.3"
+          ],
+          "cvssv3_score": "0.000000",
+          "severity": "UNSPECIFIED",
+          "type": "OsPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.22.4"
+        }
+      ],
+      "num_cves": 9,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-24789",
+        "CVE-2024-24790",
+        "CVE-2020-8912",
+        "CVE-2024-24786",
+        "CVE-2023-45288",
+        "CVE-2020-8911"
+      ],
+      "relative_efficiency": 0.6
+    },
+    {
+      "scanner_name": "JFrog",
+      "cves": [
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            "golang.org/x/net_0.19.0",
+            "golang.org/x/net_0.17.0"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "5.3"
+        },
+        {
+          "cve_id": "CVE-2024-24786",
+          "package": [
+            "google.golang.org/protobuf_1.31.0",
+            "google.golang.org/protobuf_1.30.0"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "0.0"
+        },
+        {
+          "cve_id": "CVE-2024-24557",
+          "package": [
+            "github.com/docker/docker_23.0.11+incompatible"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.8"
+        },
+        {
+          "cve_id": "CVE-2018-20225",
+          "package": [
+            "pip_24.0"
+          ],
+          "cvssv3_score": "7.8",
+          "severity": "",
+          "type": "",
+          "is_fixed": true,
+          "fixed_version": "7.8"
+        }
+      ],
+      "num_cves": 4,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2023-45288",
+        "CVE-2024-24786"
+      ],
+      "relative_efficiency": 0.26666668
+    },
+    {
+      "scanner_name": "Grype",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-24788",
+          "package": [
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24789",
+          "package": [
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-24790",
+          "package": [
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "CVE-2024-4030",
+          "package": [
+            "python3"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "apk",
+          "is_fixed": false,
+          "fixed_version": ""
+        },
+        {
+          "cve_id": "GHSA-4v7x-pqxf",
+          "package": [
+            "cx7m-golang.org/x/net",
+            "cx7m-golang.org/x/net",
+            "cx7m-golang.org/x/net"
+          ],
+          "cvssv3_score": "5.3",
+          "severity": "medium",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "0.23.0"
+        },
+        {
+          "cve_id": "GHSA-8r3f-844c",
+          "package": [
+            "mc37-google.golang.org/protobuf",
+            "mc37-google.golang.org/protobuf"
+          ],
+          "cvssv3_score": "4.0",
+          "severity": "medium",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "1.33.0"
+        },
+        {
+          "cve_id": "GHSA-xw73-rw38",
+          "package": [
+            "6vjc-github.com/docker/docker"
+          ],
+          "cvssv3_score": "6.9",
+          "severity": "medium",
+          "type": "go-module",
+          "is_fixed": true,
+          "fixed_version": "24.0.9"
+        },
+        {
+          "cve_id": "CVE-2024-24787",
+          "package": [
+            "stdlib",
+            "stdlib"
+          ],
+          "cvssv3_score": "0.0",
+          "severity": "low",
+          "type": "go-module",
+          "is_fixed": false,
+          "fixed_version": ""
+        }
+      ],
+      "num_cves": 8,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-24787",
+        "CVE-2024-24788",
+        "CVE-2024-24789",
+        "CVE-2024-24790",
+        "GHSA-4v7x-pqxf",
+        "GHSA-8r3f-844c"
+      ],
+      "relative_efficiency": 0.53333336
+    },
+    {
+      "scanner_name": "Trivy",
+      "cves": [
+        {
+          "cve_id": "CVE-2024-24790",
+          "package": [
+            "opt/newrelic-infra/newrelic-integrations/bin/nri-jmx: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-apache: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-cassandra: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-consul: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-couchbase: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-docker: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-elasticsearch: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-f5: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-flex: stdlib@1.21.10",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-haproxy: stdlib@1.22.2",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-kafka: stdlib@1.22.2",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-memcached: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-mongodb: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-mssql: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-mysql: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-nagios: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-nginx: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-postgresql: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-prometheus: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-rabbitmq: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-redis: stdlib@1.22.3",
+            "var/db/newrelic-infra/nri-discovery-kubernetes: stdlib@1.22.3"
+          ],
+          "cvssv3_score": "",
+          "severity": "UNKNOWN",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.11, 1.22.4"
+        },
+        {
+          "cve_id": "CVE-2023-45288",
+          "package": [
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-docker: golang.org/x/net@v0.19.0",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-kafka: golang.org/x/net@v0.17.0",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-prometheus: golang.org/x/net@v0.19.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "0.23.0"
+        },
+        {
+          "cve_id": "CVE-2024-24557",
+          "package": [
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-flex: github.com/docker/docker@v23.0.11+incompatible"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "25.0.2, 24.0.9"
+        },
+        {
+          "cve_id": "CVE-2024-24786",
+          "package": [
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-flex: google.golang.org/protobuf@v1.30.0",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-prometheus: google.golang.org/protobuf@v1.31.0"
+          ],
+          "cvssv3_score": "",
+          "severity": "MEDIUM",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.33.0"
+        },
+        {
+          "cve_id": "CVE-2024-24788",
+          "package": [
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-haproxy: stdlib@1.22.2",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-kafka: stdlib@1.22.2"
+          ],
+          "cvssv3_score": "",
+          "severity": "HIGH",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.22.3"
+        },
+        {
+          "cve_id": "CVE-2024-24789",
+          "package": [
+            "opt/newrelic-infra/newrelic-integrations/bin/nri-jmx: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-apache: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-cassandra: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-consul: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-couchbase: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-docker: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-elasticsearch: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-f5: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-flex: stdlib@1.21.10",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-haproxy: stdlib@1.22.2",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-kafka: stdlib@1.22.2",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-memcached: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-mongodb: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-mssql: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-mysql: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-nagios: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-nginx: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-postgresql: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-prometheus: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-rabbitmq: stdlib@1.22.3",
+            "var/db/newrelic-infra/newrelic-integrations/bin/nri-redis: stdlib@1.22.3",
+            "var/db/newrelic-infra/nri-discovery-kubernetes: stdlib@1.22.3"
+          ],
+          "cvssv3_score": "",
+          "severity": "UNKNOWN",
+          "type": "LanguageSpecificPackageVulnerability",
+          "is_fixed": true,
+          "fixed_version": "1.21.11, 1.22.4"
+        }
+      ],
+      "num_cves": 6,
+      "has_duplicates": true,
+      "duplicates_list": [
+        "CVE-2024-24789",
+        "CVE-2024-24790",
+        "CVE-2023-45288",
+        "CVE-2024-24788",
+        "CVE-2024-24786"
+      ],
+      "relative_efficiency": 0.4
+    }
+  ],
+  "unique_cves": [
+    {
+      "cve_id": "CVE-2020-8911",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2020-8911",
+            "package": [
+              " pkg:golang/github.com/aws/aws-sdk-go@1.44.69 pkg:golang/github.com/aws/aws-sdk-go@1.51.25",
+              " pkg:golang/github.com/aws/aws-sdk-go@1.44.69 pkg:golang/github.com/aws/aws-sdk-go@1.51.25"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-4030",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-4030",
+            "package": [
+              "python3"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "apk",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-4v7x-pqxf",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-4v7x-pqxf",
+            "package": [
+              "cx7m-golang.org/x/net",
+              "cx7m-golang.org/x/net",
+              "cx7m-golang.org/x/net"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "medium",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "0.23.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "GHSA-xw73-rw38",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-xw73-rw38",
+            "package": [
+              "6vjc-github.com/docker/docker"
+            ],
+            "cvssv3_score": "6.9",
+            "severity": "medium",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "24.0.9"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2020-8912",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2020-8912",
+            "package": [
+              " pkg:golang/github.com/aws/aws-sdk-go@1.44.69 pkg:golang/github.com/aws/aws-sdk-go@1.51.25",
+              " pkg:golang/github.com/aws/aws-sdk-go@1.44.69 pkg:golang/github.com/aws/aws-sdk-go@1.51.25"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "LOW",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-24790",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24790",
+            "package": [
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.22.2 pkg:golang/stdlib@1.22.3",
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.22.2 pkg:golang/stdlib@1.22.3",
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.22.2 pkg:golang/stdlib@1.22.3"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.22.4"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24790",
+            "package": [
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24790",
+            "package": [
+              "opt/newrelic-infra/newrelic-integrations/bin/nri-jmx: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-apache: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-cassandra: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-consul: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-couchbase: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-docker: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-elasticsearch: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-f5: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-flex: stdlib@1.21.10",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-haproxy: stdlib@1.22.2",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-kafka: stdlib@1.22.2",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-memcached: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-mongodb: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-mssql: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-mysql: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-nagios: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-nginx: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-postgresql: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-prometheus: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-rabbitmq: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-redis: stdlib@1.22.3",
+              "var/db/newrelic-infra/nri-discovery-kubernetes: stdlib@1.22.3"
+            ],
+            "cvssv3_score": "",
+            "severity": "UNKNOWN",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.11, 1.22.4"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "GHSA-8r3f-844c",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "GHSA-8r3f-844c",
+            "package": [
+              "mc37-google.golang.org/protobuf",
+              "mc37-google.golang.org/protobuf"
+            ],
+            "cvssv3_score": "4.0",
+            "severity": "medium",
+            "type": "go-module",
+            "is_fixed": true,
+            "fixed_version": "1.33.0"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-24787",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24787",
+            "package": [
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-24788",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24788",
+            "package": [
+              " pkg:golang/stdlib@1.22.2"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.22.3"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24788",
+            "package": [
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24788",
+            "package": [
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-haproxy: stdlib@1.22.2",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-kafka: stdlib@1.22.2"
+            ],
+            "cvssv3_score": "",
+            "severity": "HIGH",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.22.3"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-24557",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24557",
+            "package": [
+              " pkg:golang/github.com/docker/docker@23.0.11%2Bincompatible"
+            ],
+            "cvssv3_score": "6.900000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "24.0.9"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-24557",
+            "package": [
+              "github.com/docker/docker_23.0.11+incompatible"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.8"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24557",
+            "package": [
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-flex: github.com/docker/docker@v23.0.11+incompatible"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "25.0.2, 24.0.9"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2018-20225",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2018-20225",
+            "package": [
+              "pip_24.0"
+            ],
+            "cvssv3_score": "7.8",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "7.8"
+          }
+        }
+      ],
+      "detection_rate": 1
+    },
+    {
+      "cve_id": "CVE-2024-24789",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24789",
+            "package": [
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.22.2 pkg:golang/stdlib@1.22.3",
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.22.2 pkg:golang/stdlib@1.22.3",
+              " pkg:golang/stdlib@1.21.10 pkg:golang/stdlib@1.22.2 pkg:golang/stdlib@1.22.3"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "UNSPECIFIED",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.11"
+          }
+        },
+        {
+          "scanner_name": "Grype",
+          "cve_info": {
+            "cve_id": "CVE-2024-24789",
+            "package": [
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib",
+              "stdlib"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "low",
+            "type": "go-module",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24789",
+            "package": [
+              "opt/newrelic-infra/newrelic-integrations/bin/nri-jmx: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-apache: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-cassandra: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-consul: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-couchbase: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-docker: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-elasticsearch: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-f5: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-flex: stdlib@1.21.10",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-haproxy: stdlib@1.22.2",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-kafka: stdlib@1.22.2",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-memcached: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-mongodb: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-mssql: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-mysql: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-nagios: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-nginx: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-postgresql: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-prometheus: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-rabbitmq: stdlib@1.22.3",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-redis: stdlib@1.22.3",
+              "var/db/newrelic-infra/nri-discovery-kubernetes: stdlib@1.22.3"
+            ],
+            "cvssv3_score": "",
+            "severity": "UNKNOWN",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.21.11, 1.22.4"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2024-24786",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2024-24786",
+            "package": [
+              " pkg:golang/google.golang.org/protobuf@1.30.0 pkg:golang/google.golang.org/protobuf@1.31.0",
+              " pkg:golang/google.golang.org/protobuf@1.30.0 pkg:golang/google.golang.org/protobuf@1.31.0"
+            ],
+            "cvssv3_score": "0.000000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.33.0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2024-24786",
+            "package": [
+              "google.golang.org/protobuf_1.31.0",
+              "google.golang.org/protobuf_1.30.0"
+            ],
+            "cvssv3_score": "0.0",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "0.0"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2024-24786",
+            "package": [
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-flex: google.golang.org/protobuf@v1.30.0",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-prometheus: google.golang.org/protobuf@v1.31.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "1.33.0"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2023-45288",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              " pkg:golang/golang.org/x/net@0.17.0 pkg:golang/golang.org/x/net@0.19.0",
+              " pkg:golang/golang.org/x/net@0.17.0 pkg:golang/golang.org/x/net@0.19.0"
+            ],
+            "cvssv3_score": "5.300000",
+            "severity": "MEDIUM",
+            "type": "OsPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "0.23.0"
+          }
+        },
+        {
+          "scanner_name": "JFrog",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              "golang.org/x/net_0.19.0",
+              "golang.org/x/net_0.17.0"
+            ],
+            "cvssv3_score": "5.3",
+            "severity": "",
+            "type": "",
+            "is_fixed": true,
+            "fixed_version": "5.3"
+          }
+        },
+        {
+          "scanner_name": "Trivy",
+          "cve_info": {
+            "cve_id": "CVE-2023-45288",
+            "package": [
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-docker: golang.org/x/net@v0.19.0",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-kafka: golang.org/x/net@v0.17.0",
+              "var/db/newrelic-infra/newrelic-integrations/bin/nri-prometheus: golang.org/x/net@v0.19.0"
+            ],
+            "cvssv3_score": "",
+            "severity": "MEDIUM",
+            "type": "LanguageSpecificPackageVulnerability",
+            "is_fixed": true,
+            "fixed_version": "0.23.0"
+          }
+        }
+      ],
+      "detection_rate": 3
+    },
+    {
+      "cve_id": "CVE-2022-29583",
+      "scanner_cve_info": [
+        {
+          "scanner_name": "DockerScout",
+          "cve_info": {
+            "cve_id": "CVE-2022-29583",
+            "package": [
+              " pkg:golang/github.com/kardianos/service@1.2.1"
+            ],
+            "cvssv3_score": "7.800000",
+            "severity": "HIGH",
+            "type": "OsPackageVulnerability",
+            "is_fixed": false,
+            "fixed_version": ""
+          }
+        }
+      ],
+      "detection_rate": 1
+    }
+  ],
+  "num_unique_cves": 15
+}
